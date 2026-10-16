@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:small_800v_tungsten_heating_element"
+    }
+  },
+  "result": {
+    "item": "eln:800v_tungsten_heating_element",
+    "count": 1
+  }
+}

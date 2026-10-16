@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "iii",
+    " m "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "m": {
+      "item": "eln:machine_block"
+    }
+  },
+  "result": {
+    "item": "eln:joint",
+    "count": 1
+  }
+}

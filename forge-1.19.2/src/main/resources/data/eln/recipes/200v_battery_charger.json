@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "ICI",
+    "RcR"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:medium_voltage_cable"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:200v_battery_charger",
+    "count": 1
+  }
+}

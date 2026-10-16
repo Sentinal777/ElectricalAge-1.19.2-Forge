@@ -1,0 +1,25 @@
+> Task :prepareRunGameTestServer
+> Task :prepareRunGameTestServerCompile
+> Task :runGameTestServer
+> Task :runGameTestServer
+[13:42:34] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[13:42:34] [Server thread/INFO] [minecraft/GameTestBatchRunner]: Running test batch 'defaultBatch:1' (15 tests)...
+[13:42:34] [Server thread/INFO] [minecraft/GameTestServer]: 15 tests are now running!
+[13:42:34] [Server thread/INFO] [minecraft/GameTestServer]: [_______________]
+[13:42:35] [Server thread/INFO] [minecraft/GameTestServer]: [_____________+_]
+[13:42:36] [Server thread/INFO] [minecraft/GameTestServer]: [+_+++_+_+____+_]
+[13:42:37] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_+___++_]
+[13:42:38] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_+___++_]
+[13:42:39] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_+++_++_]
+[13:42:40] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_+++_++_]
+[13:42:41] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_+++_++_]
+[13:42:42] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_++++++_]
+[13:42:43] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++_]
+[13:42:44] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++_]
+[13:42:45] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++_]
+[13:42:46] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++_]
+[13:42:47] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++]
+[13:42:47] [Server thread/INFO] [minecraft/GameTestServer]: ========= 15 GAME TESTS COMPLETE ======================
+[13:42:47] [Server thread/INFO] [minecraft/GameTestServer]: All 15 required tests passed :)
+[13:42:47] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[13:42:48] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " R ",
+    "I I"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:electrical_anemometer_sensor",
+    "count": 1
+  }
+}

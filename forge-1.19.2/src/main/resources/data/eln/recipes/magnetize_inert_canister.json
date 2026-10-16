@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MAGNETIZER",
+  "ingredient": {
+    "item": "eln:inert_canister"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  },
+  "joules": 150000
+}

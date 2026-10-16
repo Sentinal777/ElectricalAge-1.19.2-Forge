@@ -1,0 +1,30 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "source": [
+    "sixnode/thermalsensor/ThermalSensorProcess.java",
+    "modern/thermal/ThermalRuntime.kt",
+    "modern/lighting/LightSpot.kt"
+  ],
+  "thermalMeasurement": "Original ThermalSensorProcess measures relative thermal delta plus the sensor own local ambient. Adjacent blocks can use different biome profiles; stored normal-world evidence records different ambient values. The settling fixture now compares the actual coupled thermal deltas with the same 0.6 K tolerance, while retaining independent loaded current, finite thermal response, real signal voltage and invalid-hardware checks. Runtime thermal equations were not changed.",
+  "thermalSavedWorldEvidence": "temperature-probe-saved-world-inspection.json",
+  "projectedLight": "The five-tick lease still expires independently of normal block/entity ticking. The fixture now asserts zero-emission block removal by ten ticks, unchanged forced-chunk set and a genuinely loaded non-ticking chunk. It then waits for actual threaded light propagation to reach zero with a bounded 120-tick deadline, matching the activation readiness bound. It does not infer brightness from a block emission property. Runtime lighting code was not changed.",
+  "measuredFocusedZeroLightDelayTicks": 10,
+  "focusedLog": "release-light-thermal-focused-validation-01.log",
+  "focusedMinecraftCases": 2,
+  "unitTests": 207,
+  "historicalFailures": [
+    "release-bcce-cc-cover-full-validation-02.log: one absolute-temperature fixture assertion failed; original sensor uses local ambient.",
+    "release-native-full-validation-01.log: one fixed-tick light-field assertion failed while Minecraft still had queued light work; block was already air with emission zero."
+  ],
+  "scope": "This is executed focused evidence. Full release claims require the subsequent complete combined/native logs and normal installed-JAR profiles.",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Two focused actual Minecraft checks passed; final combined/native profiles are running."
+}

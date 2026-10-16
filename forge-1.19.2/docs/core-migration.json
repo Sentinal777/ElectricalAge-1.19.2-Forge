@@ -1,0 +1,572 @@
+[
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\DiodeProcess.java",
+    "sha256": "689bda2557ebfa3e557ec1f120c2d5628b0060556692c8781034c166bad0b20c",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\DiodeProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ElectricalConnection.java",
+    "sha256": "0854836bf9d295e092152a8cdae43b03a79cb06c00e871646e8873ce799ef3ab",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ElectricalConnection.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ElectricalLoad.java",
+    "sha256": "22793e04be35982a73a71a934248b050a6c50279852bad42b769cad2be8c0dde",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ElectricalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ElectricalResistorHeatThermalLoad.java",
+    "sha256": "be02a8ab224871f0e1ba2f1efe7aee92e86ade234990f0adc2dfc251b9490605",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ElectricalResistorHeatThermalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\FurnaceProcess.java",
+    "sha256": "8ac84ce4fefbd4752ebb32a6b30ae74aaf37a30b66507166336ae75d15b8ff56",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\FurnaceProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\IProcess.java",
+    "sha256": "8192210cf692cc17a0086db3b07378f25c7a106b343f3642ecbf54b44746736b",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\IProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ITimeRemoverObserver.java",
+    "sha256": "796b7128b32afc609ec91a980b5118701fe4bc4736f3bf4eb82ac1682aec90a0",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ITimeRemoverObserver.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Bipole.java",
+    "sha256": "e32737fe33bf4ce712ebc70d546499272c4f1ad7e5a424e2ba57dadfe7a50888",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Bipole.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Capacitor.java",
+    "sha256": "6f0d680a2c751b109410d81716a71c717720434643f9bde0dce32923de9eb12c",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Capacitor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Component.java",
+    "sha256": "9deef09d4ca87cb9c2f1f56429e6167a71b03d18174d41727860e32a5bfdfe19",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Component.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\CurrentSource.java",
+    "sha256": "677f07f53233053ea98a2b44b13fffe0bc3d45080da5cbbf382f97ecb48a1b47",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\CurrentSource.java",
+    "migration": "NBT API and platform boundary only; retain/clear subsystem ownership for source removal and topology changes"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Delay.java",
+    "sha256": "9c57fa74fece5d039fcd5072d647562562de95b0ae9b97956359333c646c689c",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Delay.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\IAbstractor.java",
+    "sha256": "84f51e747a985c67334313adc42390d8aad8453e009fd90586f8b4d8558e03ca",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\IAbstractor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Inductor.java",
+    "sha256": "31e2c676858128de6d1b0fbd48da7a8eb2d42ad450c29850c14376060c9020c9",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Inductor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\InterSystem.java",
+    "sha256": "8a5c588961a663830d3dfdc6a795d72cdd33d686bf647e88ff75491c6e359104",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\InterSystem.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\InterSystemAbstraction.java",
+    "sha256": "cf5e97777fafc24c030a7eb4a4264ebc32685c444497ebf2099b074c03d6ebe1",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\InterSystemAbstraction.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Line.java",
+    "sha256": "94a639ead3726e1f7c9bc860f76f8bb02a187d247e6eeb87e13510be24bf7506",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Line.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Monopole.java",
+    "sha256": "14e2a6d3c5132b3da0cfc2bff82b7c2a050f86c49bbec5e4102abc55b14f5d9f",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Monopole.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\PowerSource.java",
+    "sha256": "3f0e26934a15a46df8141394054750f7101351c77b763baa37bb676692a1e95c",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\PowerSource.java",
+    "migration": "NBT API and platform boundary only; remove duplicate inherited RHS callback registration"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Resistor.java",
+    "sha256": "40e32864352c626aa5cf5cd59b64b749a0e556b2e42ba0f284abaef165e57164",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Resistor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\ResistorSwitch.java",
+    "sha256": "9647955d6fef8b78770faf721f567a30bb830de0c5ec3cbd3fb4618338e6aa89",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\ResistorSwitch.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Transformer.java",
+    "sha256": "4afecc16548444e864a26da2361b79d3fd4d7954edfcde726c75ee10695dbf0e",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\Transformer.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\VoltageSource.java",
+    "sha256": "0a54a2a00ff7f58b880d4fbc96991558677d7debd5f3c501384cf24342f20bfc",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\component\\VoltageSource.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\IDestructor.java",
+    "sha256": "bedb27612da6d478395c711e70df3cbed975908ed8625dc94462105f5b7f3b01",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\IDestructor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\IRootSystemPreStepProcess.java",
+    "sha256": "303fef7900f82c340734c5833e6e2dd9af57730131b72ff2459c9477a0be22fa",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\IRootSystemPreStepProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\ISubSystemProcessFlush.java",
+    "sha256": "445b9a6d887982eb5f06de4bbb0d4afb278ad41c2276d1da0a97db1fb6b31e2d",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\ISubSystemProcessFlush.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\ISubSystemProcessI.java",
+    "sha256": "d5f11b5f833f47322f24a60e7c7aebacbb91515236bb1f5efe6ca948077c7850",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\ISubSystemProcessI.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\MnaConst.java",
+    "sha256": "9868fb07ab81388e87665269eb03e3edb97f6b65799439248bc8a348aca869be",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\misc\\MnaConst.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\MnaStepMetricsAccumulator.java",
+    "sha256": "99d813b87035ce21261b32c360ebd94236421202b028cd4fe3fb51f0b9e1781b",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\MnaStepMetricsAccumulator.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\process\\PowerSourceBipole.java",
+    "sha256": "0890b9ad7bfc0926ca30e2e01e960830871c354769d343de994b324c76b64ecd",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\process\\PowerSourceBipole.java",
+    "migration": "NBT API and platform boundary only; converge coupled source commands when the current limit is active"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\process\\TransformerInterSystemProcess.java",
+    "sha256": "cde23a4b34a0dd1fbc40d621ab0735d1c36dde0404a163529f9674afbe1a2858",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\process\\TransformerInterSystemProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\RootSystem.java",
+    "sha256": "9b0f6cf5be1a3a9956f9460acdee9ef6c13be9943e8341528532db3c5d6728de",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\RootSystem.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\CurrentState.java",
+    "sha256": "61ec29f067efc541e9760d1bd649ea4ec81aa90cc9c7b5440aaab8aee9211b02",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\CurrentState.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\State.java",
+    "sha256": "b04ad9c677b9ff36aa78e66279e3713c25a45668db53939227c5100930e14708",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\State.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\VoltageState.java",
+    "sha256": "22197e51da1cf2f42002dbcf5d54e72079e45c4dcce150545bc523054c4d89f8",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\VoltageState.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\VoltageStateLineReady.java",
+    "sha256": "d5aa1479cc187a86eeadf84fbdf32386a57cee358e07fe9ae1ff46a3a9457141",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\state\\VoltageStateLineReady.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\SubSystem.java",
+    "sha256": "97bab5d93c56f13f82929c9ef7299501aa46b78cb559c9d0d1462ac09b9a2963",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\SubSystem.java",
+    "migration": "NBT API and platform boundary only; fix upstream RHS overwrite so parallel currents and series solar sources sum correctly; restore the probed source setting rather than the previous state voltage"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\mna\\SubSystemDebugSnapshot.java",
+    "sha256": "11ea26ed7ea5b69ab89d5d7c43241fd406ec28c46844abb6392b15bab01a88a5",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\mna\\SubSystemDebugSnapshot.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateInput.java",
+    "sha256": "32ff981386ff3350466356ccff2ea6015c1246389925895b8de7e63ac9b89f2e",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateInput.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateInputOutput.java",
+    "sha256": "c711e022e31b7fc6e4b48608589b204756d1d2afa0b0906d3009a3fe55440689",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateInputOutput.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateOutput.java",
+    "sha256": "ccbaab81beb61824db1f795101b320ae435982b49981c3df23987e13f8027b4a",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateOutput.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateOutputProcess.java",
+    "sha256": "9ad47fe2063ddafbf53cb925717a2d4e5894b2fcac9b365c3be42cd84f33d2c7",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalGateOutputProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalLoad.java",
+    "sha256": "1b4244167c1c2a22ff64237fe0811c97ce9a55f2abde122a4a5a36b6ac9ca9f4",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtElectricalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtFurnaceProcess.java",
+    "sha256": "3c2505be4c7975899f99e477f1dced685f5c34ac58423faaebd5e8265de41829",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtFurnaceProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtResistor.java",
+    "sha256": "6aa0036c4ec1462f3b1f544189381a23460c9eeba8ee4d7863dbae60b84530aa",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtResistor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtThermalLoad.java",
+    "sha256": "daa3f59741cae37b04df948aa98047f41f79813e185e029a4d3f62088668ddf9",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\nbt\\NbtThermalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\NodeElectricalGateInputHysteresisProcess.java",
+    "sha256": "8f6dfe83682ef561cda5a5f08534d48b45a05f18c8d3e04a61df8f94e4737927",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\NodeElectricalGateInputHysteresisProcess.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\NodeVoltageState.java",
+    "sha256": "fcc6cf881393de6c7fc4fe2087441ddea86ef878c80da8843064aa4974dbf859",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\NodeVoltageState.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\PhysicalConstant.java",
+    "sha256": "e9e58ca208cdb8afc1855647418f90361a4f71b379f80edc953773535815407d",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\PhysicalConstant.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\process\\heater\\DiodeHeatThermalLoad.java",
+    "sha256": "bed22014bfa1b1b5a64fc7a595dd44f928a770368d64cdf914041fc56f224bfc",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\process\\heater\\DiodeHeatThermalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\process\\heater\\ResistorHeatThermalLoad.java",
+    "sha256": "b3651872cdcdbccf97650abcd09120f43f2a6e11750c86b9f1a09400f40d22a4",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\process\\heater\\ResistorHeatThermalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\SignalRp.java",
+    "sha256": "914337c7caf554d4af07c88a1045da80e23a23b7186c2f027eb2af1858b38893",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\SignalRp.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ThermalConnection.java",
+    "sha256": "37d321cab1f5fe6e4db5ea9a6d51535bd7e5979d7aff4bba12b03d21033e4d08",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ThermalConnection.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ThermalLoad.java",
+    "sha256": "22fa190716a37bd1ac307d609160a052b7c0832800fac43aed168ffe70b41877",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ThermalLoad.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\java\\mods\\eln\\sim\\ThermalResistor.java",
+    "sha256": "1578675df8fdc2236cecfabd82dd359c70081b618d03fb1533fa5a9c069fe3ef",
+    "destination": "src\\main\\java\\mods\\eln\\sim\\ThermalResistor.java",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\ElectricalSafety.kt",
+    "sha256": "e6c465f12eb1d73de09ad252de630d920c3fb25fe1f794960b81967ef9b24406",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\ElectricalSafety.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\FunctionTable.kt",
+    "sha256": "7e970233f7a70095962a4a4e7b9c5142f4233d63149244b1d51d7f4d6609c277",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\FunctionTable.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\FunctionTableYProtect.kt",
+    "sha256": "6dbddda0e7e570199729d1e5585f8398f6e243760595c8e12a7ae97b85c6cff2",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\FunctionTableYProtect.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\HSLColor.kt",
+    "sha256": "8617225c463d099fcd3cdb063266a334f048d44ba7feb0260daab66e9fdfcbf5",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\HSLColor.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\IFunction.kt",
+    "sha256": "1107649204b7e8593b39fd7c08fb5347d29f73aeffc5da507efb21ad1d2af0d9",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\IFunction.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\INBTTReady.kt",
+    "sha256": "10579dd7d39996b7e0ad272786d1688405f7b68161c6bb22a2ec57385d81380e",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\INBTTReady.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\LinearFunction.kt",
+    "sha256": "8a7ca7e3ce9ae2669893c72a3f28e61d0ac5b5013a05bc5c7b7f9493176a3e8a",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\LinearFunction.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\NominalVoltage.kt",
+    "sha256": "ddc97a1d4fadab32a71ebebb1732de4a088cdbb6b2db71a1589ec08389848db3",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\NominalVoltage.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\PhysicalInterpolator.kt",
+    "sha256": "b00c9109b30fdb2835805633d62cf01dcbc1d250beac770628c86c3bdf6a40ca",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\PhysicalInterpolator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\PhysicalInterpolatorNoRebound.kt",
+    "sha256": "13e6bc8c75d257059c5b87f2ba3e62622d5e1030abcf2a927e9221f8f58aaa3a",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\PhysicalInterpolatorNoRebound.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\Profiler.kt",
+    "sha256": "619b6c449d48e6db7f44110940af9e5e67245c4c7e7ecb5b6843b6c729576f7e",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\Profiler.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\RcInterpolator.kt",
+    "sha256": "1d87c6d99fb394c9e200ad4f602a50a2446f0adb0afe217e411d1520b212ab36",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\RcInterpolator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\RcRcInterpolator.kt",
+    "sha256": "e065b5324dfb7c1f6c10d18f375be9a8d9d0ef27d6d86c38bfd72006cb430cce",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\RcRcInterpolator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\SeriesFunction.kt",
+    "sha256": "6f4ea1ad2e7dff1b5a7dc8f044944c6aef593b43793c448bf13bc3324820882a",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\SeriesFunction.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\SlewLimiter.kt",
+    "sha256": "4d3977acd9732a9e8ab17bbef2d93195864526ae7fb36c5e13bc37f48b775dbb",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\SlewLimiter.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\ThermalParameters.kt",
+    "sha256": "c89ac75f3c254a52d2c35c241897c8fae58b1481c25306e5b54bf5c30597c551",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\ThermalParameters.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\misc\\WindProcess.kt",
+    "sha256": "afed572bcfbdf16d049209d922afc69840f28151c6a63e61ee4ca627bd1e4e35",
+    "destination": "src\\main\\kotlin\\mods\\eln\\misc\\WindProcess.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\BatteryProcess.kt",
+    "sha256": "36197e03cbdcc6a60d624e00fb98a3fb19ba18987a4fe69030b0063b564c1243",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\BatteryProcess.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\BatterySlowProcess.kt",
+    "sha256": "be30b8b88f7f5caee8ef701fe96b4dae8672f9fd32a0e36352ed475cca654eb5",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\BatterySlowProcess.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\Differentiator.kt",
+    "sha256": "b8c07fcabe96159432dc860c2625e8c0a4aa3fb03c1a0d4456f049283a0adaed",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\Differentiator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\CompositeState.kt",
+    "sha256": "98da87164b77998048b5d3ff2260d021c8393b52a481e59d4cc57bce4a96f29e",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\CompositeState.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\State.kt",
+    "sha256": "e7d7c396416006211a37f2d8ec15637e1ebe57a6a308e2beaf04dc8c5d8d1624",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\State.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\StateMachine.kt",
+    "sha256": "9090d36663d1b49cccf5b28283ccc447e7150fc923d2e92f1d197edae9393bf5",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\fsm\\StateMachine.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\Integrator.kt",
+    "sha256": "a41a8081cc23fff71607fb82f42f781bb4b4558e3486ca06e5ff3cf0183d6ce4",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\Integrator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\nbt\\NbtBatteryProcess.kt",
+    "sha256": "39eafd06f58f242d4954200a88004b3c3765626826a3b9f228d0f0df8be37aa9",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\nbt\\NbtBatteryProcess.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\process\\destruct\\IDestructible.kt",
+    "sha256": "741c45d33ff8c9cc8b1d6ccee6b4348e71b3ca21afe2ac05e89deb879cefb2d1",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\process\\destruct\\IDestructible.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\process\\heater\\ElectricalLoadHeatThermalLoad.kt",
+    "sha256": "e1c5da6937222c770abaf184c69c9521ad9445f5a669f5d69bf56b85dfeac253",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\process\\heater\\ElectricalLoadHeatThermalLoad.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\sim\\SignalLoadSupport.kt",
+    "sha256": "e8e71afa476b0a7645e7fad968fd240f5a3a270be0c6f24cc6869dda61a07612",
+    "destination": "src\\main\\kotlin\\mods\\eln\\sim\\SignalLoadSupport.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\Constant.kt",
+    "sha256": "17e7a633d9c924b8d1bf616bf8b4141280d6626928bd61c1ef6fb1e7ca9cb0e3",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\Constant.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\ConstSymbole.kt",
+    "sha256": "d8bdbf9b80e13c75d4ea202a0ca38c1fec61c8d953a9e9ed877396013dd449c3",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\ConstSymbole.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\Equation.kt",
+    "sha256": "2088b1914e01c50af08a93dc4819e7ee1703a250fc2b552e815ef2833f11e448",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\Equation.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\IOperator.kt",
+    "sha256": "b268e0a6bf278be51b9d1fd9c15df4977a8747f2516e60a0e8a8f35150b8824d",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\IOperator.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\IOperatorMapper.kt",
+    "sha256": "7f1c277ff8969dfe295517ee6c7fcadbafa4b7aac3741b4410fb0eb13049880d",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\IOperatorMapper.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\ISymbole.kt",
+    "sha256": "85b41935cfde832157dbd304c9c62b650e3ba22d5de674aabe8af194843e36c2",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\ISymbole.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\IValue.kt",
+    "sha256": "0d42553bf5735ec50a9380f3d2e3023a2e36770776444ff5f85d615e4cf35170",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\IValue.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorAB.kt",
+    "sha256": "411048281a134a32fdbc06893abc425339f32d194133053f39d26284be3bd9f5",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorAB.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperA.kt",
+    "sha256": "2e14b08fa7f2f5ead1251ab5cbfced8951538ee1bfdfbbc05ce82f83a0cb570b",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperA.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperAB.kt",
+    "sha256": "7835e01c2c43c75b7ad8ddce0ff6718842bff849ebc7bfe4be0543cb60c84388",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperAB.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperBracket.kt",
+    "sha256": "7a7fbbfc6deb5b4002d65d25b2e20dbda15ade3f9c6c8324c74142f232ab17d3",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperBracket.kt",
+    "migration": "NBT API and platform boundary only"
+  },
+  {
+    "source": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperFunc.kt",
+    "sha256": "6a27f77802f5d82c99309b94f2870df2cff3e131f1ab1045b919ad82b1601916",
+    "destination": "src\\main\\kotlin\\mods\\eln\\solver\\OperatorMapperFunc.kt",
+    "migration": "NBT API and platform boundary only"
+  }
+]

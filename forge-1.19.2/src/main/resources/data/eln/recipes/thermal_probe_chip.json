@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "RIR",
+    " C "
+  ],
+  "key": {
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:thermal_probe_chip",
+    "count": 1
+  }
+}

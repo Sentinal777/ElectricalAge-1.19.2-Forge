@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "eln:tungsten_dust"
+    },
+    {
+      "item": "eln:tungsten_dust"
+    },
+    {
+      "item": "eln:tungsten_dust"
+    },
+    {
+      "item": "eln:tungsten_dust"
+    }
+  ],
+  "result": {
+    "item": "eln:alloy_dust",
+    "count": 6
+  }
+}

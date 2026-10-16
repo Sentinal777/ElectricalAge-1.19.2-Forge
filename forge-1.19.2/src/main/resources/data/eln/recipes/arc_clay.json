@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "ARC_FURNACE",
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "input_count": 2,
+  "result": {
+    "item": "eln:arc_clay_ingot",
+    "count": 1
+  },
+  "joules": 400000
+}

@@ -1,0 +1,25 @@
+{
+  "baseline": "1.24.6",
+  "status": "Focused actual Minecraft and reviewed live-client verification passed.",
+  "source": [
+    "sixnode/diode/DiodeElement.java",
+    "sixnode/diode/DiodeDescriptor.java",
+    "sim/DiodeProcess.java",
+    "sim/process/heater/DiodeHeatThermalLoad.java",
+    "registration/SixNodeRegistration.kt:655"
+  ],
+  "implementation": "All three source diode variants use the original delayed ideal switching process, with forward resistances0.1ohm/0.04ohm/10ohm. Low-voltage power cable terminals retain0.0125ohm; Signal Diode uses0.05ohm and actual signal connections. Only opposite anode/cathode ports connect. Saved conduction survives circuit rebuild and NBT reload. Thermal load uses original30s heating/1000s conduction initializer and1.2-times rated1V-forward-power calibration; real resistor work heats it, with the original skipped transition heat sample and actual thermal failure.",
+  "verification": "Actual loaded forward current versus independent circuit resistance for all three, reverse blocking, forward recovery, actual reload, heat capacity and positive measured temperature, actual failure of all three overheated devices. Original world/held models and live heat/current checked in the graphical singleplayer client; screenshots reviewed.",
+  "log": "original-diode-bcce-factory-validation-02.log",
+  "focusedMinecraftCases": 5,
+  "unitTests": 207,
+  "bcceActualSprites": 254,
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

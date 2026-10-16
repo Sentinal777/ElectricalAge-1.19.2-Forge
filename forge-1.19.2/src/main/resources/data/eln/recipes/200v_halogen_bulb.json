@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "CTC",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "eln:medium_voltage_cable"
+    },
+    "T": {
+      "item": "eln:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "eln:200v_halogen_bulb",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="LGPL-3.0-only; assets CC-BY-NC-SA-3.0"
+[[mods]]
+modId="eln"
+version="1.19.2-0.4.0-port"
+displayName="Electrical Age — 1.19.2 Port"
+authors="Electrical Age contributors; 1.19.2 Forge adaptation"
+description="Electrical Age 1.24.6 port for Minecraft 1.19.2 Forge. Original electrical simulation, machines and automation; see the included coverage and verification reports."
+[[dependencies.eln]]
+modId="forge"
+mandatory=true
+versionRange="[43.5.0]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.eln]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2]"
+ordering="NONE"
+side="BOTH"

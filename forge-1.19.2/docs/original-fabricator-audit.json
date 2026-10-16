@@ -1,0 +1,56 @@
+{
+  "baseline": "Electrical Age 1.24.6, transparentnode/Fabricator.kt",
+  "legacy_id": 4480,
+  "registration": "Original creative machine; the baseline has no survival crafting recipe.",
+  "electrical": "Original absolute north floor terminal, 0.0125 ohm connection resistance, 40 ohm working resistor and 4000 joules per batch. All work comes from the numerical circuit.",
+  "inputs": "One original silicon wafer and one copper plate per batch, including a failed 50 percent ALU batch.",
+  "operations": [
+    "16 transistors",
+    "4 D flip-flops",
+    "4 JK flip-flops",
+    "2 ALUs at 50 percent yield",
+    "4 PALs",
+    "4 oscillators",
+    "4 opamps",
+    "4 PID regulators",
+    "4 sawtooth VCOs",
+    "4 sine VCOs",
+    "4 amplifiers",
+    "4 voltage-controlled amplifiers",
+    "4 configurable summing units",
+    "4 sample-and-hold circuits",
+    "4 lowpass filters"
+  ],
+  "automation": "Three original slots exposed on every side: output 0, wafer 1 and copper 2. Automation inserts only valid ingredients and extracts only output.",
+  "persistence": "Operation, partially paid work, inventories, local random stream and batch/energy ledgers survive circuit rebuilds and saves. Selecting any operation discards paid progress, matching the source.",
+  "visuals": "Original body and both running etcher groups, original fixed orientation and fully 3D inventory/held rendering. Fifteen icon buttons retain the original five-column, three-row order.",
+  "intentional_corrections": [
+    "Use the actual registered ingredient items rather than mismatched unlocalized-name comparisons.",
+    "Never consume ingredients when output is blocked or exceeds its legal stack size.",
+    "Debit 4000 joules for failed ALU batches as well as successful batches; the source retained that work on failure."
+  ],
+  "verification": {
+    "focused_minecraft_cases": 3,
+    "focused_log": "original-fabricator-focused-validation-02.log",
+    "unit_tests": 200,
+    "first_live_log": "original-fabricator-client-bcce-01.log",
+    "final_live_status": "Passed; corrected GUI/world/held screenshots reviewed.",
+    "live_log": "original-fabricator-client-bcce-02.log",
+    "full_regression": "218/219 passed in original-fabricator-full-validation-01.log; the unrelated lamp readiness fixture failed while vanilla lighting was pending. Bounded readiness now requires actual brightness and actual dark expiry; it passed its first focused run."
+  },
+  "fullRegression": {
+    "log": "original-turret-full-validation-01.log",
+    "minecraftTests": 236,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed. Includes Fabricator, Auto Miner, Transporter, Turret and bounded actual lighting/antenna/fuse readiness. Later Replicator/shared-tool additions require subsequent focused and full verification."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

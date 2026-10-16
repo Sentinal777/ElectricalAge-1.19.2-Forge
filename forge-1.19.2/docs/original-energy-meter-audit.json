@@ -1,0 +1,35 @@
+{
+  "baseline": "1.24.6",
+  "ids": {
+    "energy_meter": 6276,
+    "advanced_energy_meter": 6277
+  },
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "hardware": "One actual fitted voltage/signal cable, no current cable; front/back electrical ports exist only when fitted. Original 0.0125 ohm switched shunt and fitted serial resistance, real terminal-voltage watchdogs and original disabled default.",
+  "measurement": "Signed real shunt current times input voltage integrates joules. Prepay subtracts actual signed work, cuts off at negative credit on the next original controller step, permits reverse flow and refilling. The displayed counter is never a source of physical energy. Saved time advances by the original 72x calibration.",
+  "controls": "Real server-validated controls for switch, counter/prepay, finite counter setting, time reset, advanced energy/time units and password. Salted password hash is saved server-side; all protected commands require authentication. Menus enforce distance/permission and current block identity.",
+  "rendering": "Original basic/advanced meshes, original power disk and all sign/unit/number wheels with original cubic and 27th-power carry interpolation; actual fitted cable texture/width and red/blue terminals. Flat inventory icons and original held examples. GUI and all four basic world views, advanced world view and held view reviewed.",
+  "verification": {
+    "focused": "original-energy-meter-focused-validation-01.log",
+    "live": "original-energy-meter-client-bcce-01.log",
+    "unitTests": 200,
+    "bcceActualSprites": 254,
+    "full": "All 249 previous cases passed before meter restoration; full 254 next."
+  },
+  "fullRegression": {
+    "log": "original-signal-devices-full-validation-01.log",
+    "minecraftTests": 259,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed, including both restored inline meters, original processor and three vuMeters, and actual exchanger readiness. This run preceded the new MQTT installation."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Implemented; all five focused Minecraft tests, 200 unit tests and actual client controls/rendering passed. Full 254-case regression is next."
+}

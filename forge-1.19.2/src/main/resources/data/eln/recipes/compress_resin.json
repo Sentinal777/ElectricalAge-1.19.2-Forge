@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "COMPRESSOR",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:tree_resin",
+    "count": 1
+  },
+  "joules": 3000
+}

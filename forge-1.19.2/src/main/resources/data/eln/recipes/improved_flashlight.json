@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GLG",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "L": {
+      "item": "eln:50v_led_bulb"
+    },
+    "B": {
+      "item": "eln:portable_battery_pack"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eln:improved_flashlight",
+    "count": 1
+  }
+}

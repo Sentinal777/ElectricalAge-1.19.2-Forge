@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RGR",
+    "RER"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "eln:signal_antenna"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:wireless_analyser",
+    "count": 1
+  }
+}

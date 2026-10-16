@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "PLATE_MACHINE",
+  "ingredient": {
+    "item": "eln:silicon_ingot"
+  },
+  "input_count": 4,
+  "result": {
+    "item": "eln:silicon_plate",
+    "count": 1
+  },
+  "joules": 10000
+}

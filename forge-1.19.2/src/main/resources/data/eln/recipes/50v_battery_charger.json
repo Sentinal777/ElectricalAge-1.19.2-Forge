@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "ICI",
+    "RcR"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "c": {
+      "item": "eln:low_voltage_cable"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:50v_battery_charger",
+    "count": 1
+  }
+}

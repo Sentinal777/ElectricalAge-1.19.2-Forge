@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c I",
+    "CI ",
+    "c I"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:cheap_chip"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "eln:medium_power_transmitter_antenna",
+    "count": 1
+  }
+}

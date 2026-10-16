@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "M": {
+      "item": "eln:30a_electrical_breaker"
+    }
+  },
+  "result": {
+    "item": "eln:40a_electrical_breaker",
+    "count": 1
+  }
+}

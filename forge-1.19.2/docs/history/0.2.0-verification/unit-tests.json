@@ -1,0 +1,290 @@
+{
+  "version": "0.2.0",
+  "date": "2026-09-13",
+  "tests": 168,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suites": [
+    {
+      "name": "mods.eln.sim.mna.SubSystemProcessTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.InductorTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ResistorTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.MonopoleTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.CurrentSourceTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.state.StateComponentListTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.process.PowerSourceBipoleTest",
+      "tests": 5
+    },
+    {
+      "name": "mods.eln.sim.mna.component.BipoleToStringTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.LineBehaviorTest",
+      "tests": 5
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ResistorSwitchTest",
+      "tests": 4
+    },
+    {
+      "name": "mods.eln.modern.NativeStateTest",
+      "tests": 4
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ResistorSwitchNbtEdgeTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ComponentBaseTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.process.TransformerInterSystemProcessTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.component.TransformerRatioTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.solver.EquationProcessListTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.InductorUtilityTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemFlushProcessTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemCopperPrecisionTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.transparentnode.solarpanel.SolarPanelPowerProcessTest",
+      "tests": 6
+    },
+    {
+      "name": "mods.eln.modern.VisualGeometryTest",
+      "tests": 7
+    },
+    {
+      "name": "mods.eln.sim.mna.RootSystemUtilityTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.DifferentiatorTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemDebugSnapshotAccessorsTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemBreakSystemTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.fsm.StateMachineTest",
+      "tests": 4
+    },
+    {
+      "name": "mods.eln.sim.mna.component.PowerSourceTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.CapacitorTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.CurrentSourceMainExampleTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.RootSystemCoverageTest",
+      "tests": 9
+    },
+    {
+      "name": "mods.eln.solver.EquationSignalFunctionsTest",
+      "tests": 6
+    },
+    {
+      "name": "mods.eln.solver.EquationOperatorTest",
+      "tests": 5
+    },
+    {
+      "name": "mods.eln.sim.BatterySlowProcessTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.TransformerTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ResistorUtilityTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.solver.EquationProcessOperatorsTest",
+      "tests": 8
+    },
+    {
+      "name": "mods.eln.sim.mna.component.VoltageSourceNbtTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.solver.EquationAdditionalFunctionsTest",
+      "tests": 4
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemMainExampleTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.LineAndInterSystemTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.InterSystemAbstractionBehaviorTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.state.StateTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.component.CurrentSourceNbtTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.ComponentBasicsTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.RootSystemProcessTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.BipoleTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.mna.MainEntryPointTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.state.VoltageStateLineReadyTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.CurrentSourceUtilityTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.modern.SharedCurrentRegressionTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.RootSystemLifecycleTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemMatrixTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.solver.BatteryChargeOperatorTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.PowerSourceNbtTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.solver.EquationParsingTest",
+      "tests": 4
+    },
+    {
+      "name": "mods.eln.sim.mna.component.VoltageSourceTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.RootSystemMainExampleTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.state.CurrentStateTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemUtilityTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.PowerSourceUtilityTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.DelayTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.BatteryProcessTest",
+      "tests": 3
+    },
+    {
+      "name": "mods.eln.sim.nbt.NbtBatteryProcessTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.solver.OperatorMapperTest",
+      "tests": 5
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemDebugSnapshotTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.CapacitorUtilityTest",
+      "tests": 2
+    },
+    {
+      "name": "mods.eln.sim.mna.component.InterSystemAbstractionTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.state.VoltageStateTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.component.DelayUtilityTest",
+      "tests": 1
+    },
+    {
+      "name": "mods.eln.sim.mna.SubSystemTheveninTest",
+      "tests": 3
+    }
+  ]
+}

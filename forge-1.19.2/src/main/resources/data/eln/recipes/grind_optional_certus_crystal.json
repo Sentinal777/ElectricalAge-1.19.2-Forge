@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "result": {
+    "tag": "forge:dusts/certus_quartz",
+    "count": 1
+  },
+  "joules": 6000
+}

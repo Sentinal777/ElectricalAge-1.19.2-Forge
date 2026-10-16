@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "SSS",
+    " C "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "eln:silicon_ingot"
+    },
+    "C": {
+      "item": "eln:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:200v_led_bulb",
+    "count": 2
+  }
+}

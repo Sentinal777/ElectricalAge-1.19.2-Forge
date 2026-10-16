@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "CSC",
+    "III"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/silicon"
+    },
+    "L": {
+      "item": "eln:lapis_dust"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "eln:low_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:small_solar_panel",
+    "count": 1
+  }
+}

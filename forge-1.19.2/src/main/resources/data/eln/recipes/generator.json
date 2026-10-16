@@ -1,0 +1,76 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "mmm",
+          "ama",
+          " ME"
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          },
+          "a": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "E": {
+            "item": "eln:high_voltage_cable"
+          }
+        },
+        "result": {
+          "item": "eln:generator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "mmm",
+          "ama",
+          " ME"
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          },
+          "a": {
+            "tag": "forge:ingots/iron"
+          },
+          "E": {
+            "item": "eln:high_voltage_cable"
+          }
+        },
+        "result": {
+          "item": "eln:generator",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

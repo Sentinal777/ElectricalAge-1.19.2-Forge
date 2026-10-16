@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    " D ",
+    " d "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "D": {
+      "item": "eln:cheap_electrical_drill"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "eln:average_electrical_drill",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IcI",
+    "cCc",
+    "IcI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "eln:signal_cable"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    }
+  },
+  "result": {
+    "item": "eln:signal_processor",
+    "count": 1
+  }
+}

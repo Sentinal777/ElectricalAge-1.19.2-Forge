@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m",
+    "c",
+    "m"
+  ],
+  "key": {
+    "m": {
+      "item": "eln:electrical_motor"
+    },
+    "c": {
+      "item": "eln:advanced_chip"
+    }
+  },
+  "result": {
+    "item": "eln:machine_booster",
+    "count": 1
+  }
+}

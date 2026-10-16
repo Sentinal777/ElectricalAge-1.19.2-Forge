@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbc",
+    " l ",
+    " g "
+  ],
+  "key": {
+    "c": {
+      "item": "eln:medium_voltage_cable"
+    },
+    "b": {
+      "item": "eln:portable_battery_pack"
+    },
+    "l": {
+      "item": "eln:200v_led_bulb"
+    },
+    "g": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "eln:200v_emergency_lamp",
+    "count": 1
+  }
+}

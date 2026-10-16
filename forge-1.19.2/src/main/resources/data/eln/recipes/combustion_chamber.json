@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "L L",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "eln:combustion_chamber",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 1
+  },
+  "joules": 4000
+}

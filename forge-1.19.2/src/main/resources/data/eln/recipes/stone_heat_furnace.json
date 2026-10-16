@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BIB",
+    "BiB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stone"
+    },
+    "i": {
+      "item": "eln:copper_thermal_cable"
+    },
+    "I": {
+      "item": "eln:combustion_chamber"
+    }
+  },
+  "result": {
+    "item": "eln:stone_heat_furnace",
+    "count": 1
+  }
+}

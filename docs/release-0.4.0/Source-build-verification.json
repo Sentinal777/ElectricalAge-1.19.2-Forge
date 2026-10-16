@@ -1,0 +1,12 @@
+{
+  "sourceArchiveSha256": "ac576764495755bcffcf81c786fa77348f91b24b0640aea54b15de060cc7e6a8",
+  "sourceManifestEntries": 7855,
+  "sourceManifestVerified": true,
+  "extractedSourceManifestVerified": true,
+  "jarSha256": "0b56e357cd76cb3f665576a20cce4b8b356e574747175c0d7614bdb4606c6ac1",
+  "independentlyBuiltJarSha256": "257cfa56f50647c3a510d954dd287582af6be0ff2ed1b7688706954330d119f9",
+  "runtimePayloadSha256": "db4405a0e3b88c6e077a936f185a4d3c798437ba15be01ff0bb74831b52bbc0b",
+  "runtimePayloadMatches": true,
+  "tests": 210,
+  "method": "Fresh extraction, normal offline Gradle build/test with Java 17; SHA-256 of every sorted JAR entry excluding docs and ZIP metadata matches the delivered normal runtime."
+}

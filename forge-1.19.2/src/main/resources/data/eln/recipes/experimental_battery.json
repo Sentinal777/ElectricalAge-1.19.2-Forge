@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "LDV",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "eln:capacity_oriented_battery"
+    },
+    "L": {
+      "item": "eln:life_oriented_battery"
+    },
+    "V": {
+      "item": "eln:voltage_oriented_battery"
+    },
+    "C": {
+      "item": "eln:current_oriented_battery"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "eln:experimental_battery",
+    "count": 1
+  }
+}

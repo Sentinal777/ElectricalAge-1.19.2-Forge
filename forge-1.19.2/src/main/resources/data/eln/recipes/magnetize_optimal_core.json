@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MAGNETIZER",
+  "ingredient": {
+    "item": "eln:basic_magnet"
+  },
+  "input_count": 3,
+  "result": {
+    "item": "eln:optimal_ferromagnetic_core",
+    "count": 1
+  },
+  "joules": 5000
+}

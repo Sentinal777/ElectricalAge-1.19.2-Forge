@@ -1,0 +1,11 @@
+{
+  "type": "eln:processing",
+  "machine": "PLATE_MACHINE",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "eln:iron_plate"
+  },
+  "joules": 10000
+}

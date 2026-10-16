@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "cCR",
+    "III"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:high_voltage_cable"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "eln:energy_converter",
+    "count": 1
+  }
+}

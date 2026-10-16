@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "III",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:charcoal"
+    },
+    "I": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "eln:single_use_battery",
+    "count": 1
+  }
+}

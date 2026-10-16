@@ -1,0 +1,130 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "TTT",
+          "RMR",
+          "SAS"
+        ],
+        "key": {
+          "T": {
+            "item": "eln:turbine_blade_set"
+          },
+          "R": {
+            "item": "eln:reinforced_shaft"
+          },
+          "M": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "S": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:large_steam_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "TTT",
+          "RMR",
+          "SAS"
+        ],
+        "key": {
+          "T": {
+            "item": "eln:turbine_blade_set"
+          },
+          "R": {
+            "item": "eln:reinforced_shaft"
+          },
+          "M": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:large_steam_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "TTT",
+          "RMR",
+          "SAS"
+        ],
+        "key": {
+          "T": {
+            "item": "eln:turbine_blade_set"
+          },
+          "R": {
+            "item": "eln:reinforced_shaft"
+          },
+          "M": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "S": {
+            "tag": "forge:ingots/iron"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:large_steam_turbine",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

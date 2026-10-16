@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eln:synthetic_diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 2
+  }
+}

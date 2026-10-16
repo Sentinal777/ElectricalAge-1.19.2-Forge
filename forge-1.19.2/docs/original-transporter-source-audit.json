@@ -1,0 +1,48 @@
+{
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "baseline": "Electrical Age 1.24.6, transparentnode/teleporter, registration 65:0",
+  "legacy_id": 4160,
+  "electrical": "800 V original high-voltage cable load, private subsystem, root horizontal floor contacts plus two ghost power nodes at (-1,0,+1) and (-1,0,-1). Each ghost accepts all four horizontal floor directions. Working resistor 800 squared divided by configured charging watts. Default 2000 W, original GUI range 2000\u201320000 W; idle high impedance. Original voltage watchdog and strength-three machine failure.",
+  "names": "Default source and destination names are both Unnamed. Destination matching is exact and dimension-local across loaded devices. Same name, missing destination, ambiguous name and unavailable/busy destination are distinct errors. Name, destination and power settings may change only while idle.",
+  "chamber": "Original chamber is (-1,0,0), one block square and two blocks high. Its base reservation uses GhostBlock.tFloor, whose actual collision height is 1/16 block. Arrival preserves each entity's offset, rotation and motion by applying the difference between chamber origins.",
+  "reservation": "A destination reserves only from idle with at least 640 V. The master refreshes its paired door state and progress on every 20 Hz step. Missing master refresh releases the reservation/open door. Target matching and ownership must survive circuit rebuilding without stale callbacks binding a replaced machine.",
+  "states": [
+    "0 Idle: a one-shot Start request validates exact target count, different name and both supplies, reserves the target and enters Start.",
+    "1 Start: require at least one entity continuously in the source chamber for more than two seconds; empty chamber resets that timer.",
+    "2 Close: close/reserve door immediately, wait more than three seconds, then enter Charge or return to the slave Reserved state.",
+    "3 Charge: play original transporter sound every 18 source steps, reject missing/ambiguous/same-name target and unstable power; add actual resistor work until the current required energy is paid.",
+    "4 Teleport: apply the saved destination displacement to all current chamber entities on the next positive-time step, then open.",
+    "5 Open: wait more than three seconds, then idle or slave reserved.",
+    "6 Reserved: mirror master doors/progress while refreshed; otherwise reopen or idle.",
+    "7 Reset: original reload resets an interrupted transport; no unfinished reservation should survive without its actual partner."
+  ],
+  "required_joules": "(10000 + 40000*players + 5000*otherLivingEntities + 5000*itemEntities) * (1 + sqrt(chamberDistance/250)). Recomputed from actual current source occupants. The master's finite paid charge is consumed/discarded when it leaves Charge; slave display does not create electrical energy.",
+  "source_hazard": "During Charge, voltage below 640 V randomly relocates chamber occupants by up to 1000 blocks and opens. The legacy path queries arbitrary chunks and uses an unbounded vertical loop; a native adaptation must bound lookup and stay within loaded valid columns rather than hang or load an arbitrary background region.",
+  "reservations_geometry": "Base side walls: x -2..0, y 0..1, z +/-1; rear side walls x -3, y 0..1,z +/-1; roof x -4..-1,y2,z0; root upper cell; chamber floor x-1,y0,z0. Open door roof cells x-4..-3,y2,z0 overlap base roof, and closed door is x-2,y0..1,z0. Original transitions briefly reserve both while doors move.",
+  "visuals": "Transporter OBJ, original translation (-1,0,0), main/control/power housings, -90-degree opening doors around their Z pivots, gyro spinning on original (-.11746,.04275,0) axis with both pivots from the model metadata, orange charge glow, ten status LEDs, six screen glyph groups, white/blue charging blur. Held model is 3D, inventory is the original flat sprite. Original door PhysicalInterpolator(.2,8,5,0), maximum speed .3; charge-ratio RC1, blue-opacity RC.5.",
+  "crafting": "Original pattern RMR/RMR/ R , Advanced Machine Block M and Advanced Chip R. Original includes an unused High Voltage Cable C mapping; native recipe restoration must omit that unused key to satisfy the modern serializer.",
+  "verification": {
+    "focused": "Five real Minecraft cases passed in original-transporter-focused-validation-02.log. Unique fixture name prefixes preserve the actual global exact-name routing and duplicate-name rejection across saved test worlds.",
+    "actual_lamp_and_antenna_readiness": "Both passed in original-transporter-focused-validation-01.log, retaining actual brightness/dark expiry, 200 versus 201 block range, actual delivered work and no additional forced chunks.",
+    "live": "original-transporter-client-bcce-02.log",
+    "live_review": "Actual name/destination/power/Start packets, physical paired doors, 20 kW paid charging, actual player plus unpickable item arrival, reservation release and original open-door/gyro/status/held routes passed; screenshots reviewed.",
+    "unit_tests": 200,
+    "full_status": "Last full attempt before transporter: 224/225 passed; distant antenna fixed-time readiness failed. It now waits a bounded interval for actual participating chunks and a beam scan, with explicit clear weather and detailed state diagnostics. Full 230-case regression is next."
+  },
+  "fullRegression": {
+    "log": "original-turret-full-validation-01.log",
+    "minecraftTests": 236,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed. Includes Fabricator, Auto Miner, Transporter, Turret and bounded actual lighting/antenna/fuse readiness. Later Replicator/shared-tool additions require subsequent focused and full verification."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Native simulation, controls, entities, geometry, original model and focused/live verification implemented; next full regression pending."
+}

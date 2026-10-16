@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "COMPRESSOR",
+  "ingredient": {
+    "item": "eln:coal_dust"
+  },
+  "input_count": 4,
+  "result": {
+    "item": "eln:coal_plate",
+    "count": 1
+  },
+  "joules": 40000
+}

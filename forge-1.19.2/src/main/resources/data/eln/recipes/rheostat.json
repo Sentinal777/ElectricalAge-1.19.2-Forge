@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " MS",
+    "cmc"
+  ],
+  "key": {
+    "R": {
+      "item": "eln:power_resistor"
+    },
+    "c": {
+      "item": "eln:copper_cable"
+    },
+    "m": {
+      "item": "eln:machine_block"
+    },
+    "M": {
+      "item": "eln:electrical_motor"
+    },
+    "S": {
+      "item": "eln:signal_cable"
+    }
+  },
+  "result": {
+    "item": "eln:rheostat",
+    "count": 1
+  }
+}

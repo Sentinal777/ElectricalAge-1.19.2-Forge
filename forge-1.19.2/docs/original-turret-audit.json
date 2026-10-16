@@ -1,0 +1,38 @@
+{
+  "baseline": "1.24.6",
+  "legacyId": 4224,
+  "nativeId": "800v_defence_turret",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "physics": "800 V rear terminal, original high-voltage cable Rs, 25 W seeking plus 100\u20135000 W recharge, true resistor work, saved 1000 J buffer, exactly 1000 J per attempted 5-damage shot including Forge-cancelled damage, accounted excess dissipation; saved motion/state/buffer cannot replay a shot after reload.",
+  "controls": "Real one-item player/animal/monster filter, actual held swap and all six automation sides, Attack/Do not attack inversion and secure live power controls; empty Attack filter attacks nothing.",
+  "targeting": "Original 12-block acquisition box, 15-degree acquisition cone, 70-degree front yaw limits, 40/70 degree/s seeking/aiming, loaded-only opaque-block visibility, original gun/elevation motion interlock; glass permits sight.",
+  "protection": "660 V arm, 540 V hold, five-second post-disarm delay and immediate 1050 V overvoltage destruction.",
+  "visuals": "Original Holder/Joint/Turret/Gun/Sensor groups, aiming/gun movement, filter colors, original firing/activation audio and light pulse, original held mesh and flat inventory icon.",
+  "corrections": [
+    "Debit the shot when damage is attempted, preventing the upstream delayed state-exit debit from permitting a reload replay.",
+    "Continue past spared entities instead of allowing one non-target to shield all later targets.",
+    "Clamp original invalid level-25 muzzle light to Minecraft level 15."
+  ],
+  "verification": {
+    "focused": "All six cases passed across original-turret-focused-validation-01.log and -02.log; first run had three QA cow-health assumptions corrected from 20 to actual 10 HP.",
+    "live": "original-turret-client-bcce-02.log",
+    "unitTests": 200,
+    "screenshots": "Actual filter quick-move, 500/2000 W packets, spare toggle, real cow damage, original world aiming model, disarmed GUI and held model passed; screenshots reviewed."
+  },
+  "fullRegression": {
+    "log": "original-turret-full-validation-01.log",
+    "minecraftTests": 236,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed. Includes Fabricator, Auto Miner, Transporter, Turret and bounded actual lighting/antenna/fuse readiness. Later Replicator/shared-tool additions require subsequent focused and full verification."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Implemented and focused/live verified; full regression running."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    "rCc",
+    " r "
+  ],
+  "key": {
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "eln:copper_cable"
+    }
+  },
+  "result": {
+    "item": "eln:nor_chip",
+    "count": 1
+  }
+}

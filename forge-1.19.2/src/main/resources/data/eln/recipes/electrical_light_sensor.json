@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:daylight_detector"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "eln:redstone_to_voltage_converter"
+    }
+  ],
+  "result": {
+    "item": "eln:electrical_light_sensor",
+    "count": 1
+  }
+}

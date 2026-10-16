@@ -1,0 +1,11 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": {
+    "item": "eln:iron_dust"
+  },
+  "joules": 2000
+}

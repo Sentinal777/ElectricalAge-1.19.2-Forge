@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "DMD",
+    "IcI"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:advanced_machine_block"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "D": {
+      "tag": "forge:plates/alloy"
+    },
+    "I": {
+      "tag": "forge:ingots/alloy"
+    }
+  },
+  "result": {
+    "item": "eln:240v_compressor",
+    "count": 1
+  }
+}

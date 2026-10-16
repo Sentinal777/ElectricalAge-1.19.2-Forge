@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MAGNETIZER",
+  "ingredient": {
+    "item": "eln:copper_dust"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 1
+  },
+  "joules": 5000
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " q ",
+    "rRr",
+    " r "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "r": {
+      "tag": "forge:rubber"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "eln:thermometer_sensor",
+    "count": 1
+  }
+}

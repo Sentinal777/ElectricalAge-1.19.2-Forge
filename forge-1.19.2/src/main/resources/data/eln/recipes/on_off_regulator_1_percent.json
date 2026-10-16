@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    " I "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:on_off_regulator_1_percent",
+    "count": 1
+  }
+}

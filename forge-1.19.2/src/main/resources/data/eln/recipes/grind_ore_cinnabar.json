@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:ores/cinnabar"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:cinnabar_dust",
+    "count": 1
+  },
+  "joules": 8000
+}

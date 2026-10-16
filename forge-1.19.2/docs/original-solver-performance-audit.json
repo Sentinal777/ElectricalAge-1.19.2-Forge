@@ -1,0 +1,68 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "before": {
+    "firstProfileTicksPerSecond": 4.26,
+    "savedWorldSteadyTicksPerSecond": 4.13,
+    "serverExecutionSamples": 1665,
+    "hotMethod": "SubSystem.solve",
+    "hotMethodTopSamples": 1487,
+    "recording": "release-native-mesh-runtime.jfr",
+    "analysis": "release-native-mesh-hotspots.json"
+  },
+  "implementation": [
+    "Ordered double-double matrix-vector arithmetic retains high/low components, uses Java 17 FMA product residuals and the Commons Numbers two-sum normalization. Exact zero terms are skipped only after inverse-row safety is validated. Extreme/nonfinite values retain the original DD implementation. Matrix inversion remains unchanged.",
+    "Known exact base linear RHS stamp classes use the cached inverse diagonal for Thevenin source sensitivity. Both original RHS stamp callbacks still execute. Stateful, unknown, subclass and exceptional cases retain the original two-solve path. Source settings are restored and metadata invalidates on process changes.",
+    "Only hardware-independent cable/thermal-cable/bus voxel geometry is cached. Keys retain face, rotation, legacy orientation version, connection mask and actual dimensions. The cache is bounded and uses immutable geometry snapshots. The carrier remains dynamic to preserve initially missing block-entity data.",
+    "Electrical subdivision count, controller iterations, physical time, conductor losses, current/voltage ratings, finite energy and original equipment functions were not reduced."
+  ],
+  "independentValidation": [
+    "Exact BigDecimal reference over 80 mixed-scale cancellation vectors",
+    "Original high-precision 100-state copper ladder",
+    "NaN/Infinity/MAX/MIN exceptional-value compatibility",
+    "Analytical Thevenin resistor network, real resistance invalidation, source-setting restoration and unknown callback retention"
+  ],
+  "numericalUnitTests": 210,
+  "normalRuntimeJarSha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+  "productionProfiles": [
+    {
+      "directory": "production-0.4-native-geometry-01",
+      "meshCableNodes": 256,
+      "measuredTicksPerSecond": 18.3,
+      "actualRestart": true,
+      "coverRestart": true,
+      "actualCurrentSourceA": 0.999999999705315,
+      "batteryChargeDrift": -6.727951529228449e-13
+    },
+    {
+      "directory": "production-0.4-bcce-geometry-01",
+      "meshCableNodes": 256,
+      "measuredTicksPerSecond": 21.58,
+      "actualRestart": true,
+      "coverRestart": true,
+      "actualCurrentSourceA": 0.999999999705315,
+      "batteryChargeDrift": -1.7952306308188781e-12
+    },
+    {
+      "directory": "production-0.4-bcce-cc-geometry-01",
+      "meshCableNodes": 256,
+      "measuredTicksPerSecond": 20.79,
+      "actualRestart": true,
+      "coverRestart": true,
+      "actualCurrentSourceA": 0.999999999705315,
+      "batteryChargeDrift": -1.8318679906315083e-12
+    }
+  ],
+  "timingScope": "Actual 15-second server tick-profile windows on this host. Nominal Minecraft time remains 20 Hz; short samples above 20 include catch-up ticks and are not a higher simulation setting or a hardware-independent guarantee.",
+  "batteryScope": "Disabled batteries retain the original finite 1e12-ohm off branch. The check measures off current below 1e-8 A, reports the minute charge drift across continued ticks/restart and limits it to 1e-10 charge fraction. The stopped FE buffer must restore exactly.",
+  "finalRegressionScope": "The earlier complete 286/271 profiles preceded these optimizations. They are being repeated; final release reports are guarded by actual subsequent pass logs and matching normal runtime payloads.",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Normal installed-JAR performance and restart checks passed; final post-optimization full regressions are running."
+}

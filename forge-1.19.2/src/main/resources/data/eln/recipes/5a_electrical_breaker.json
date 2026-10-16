@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "crC"
+  ],
+  "key": {
+    "c": {
+      "item": "eln:overvoltage_protection"
+    },
+    "C": {
+      "item": "eln:overheating_protection"
+    },
+    "r": {
+      "item": "eln:high_voltage_relay"
+    }
+  },
+  "result": {
+    "item": "eln:5a_electrical_breaker",
+    "count": 1
+  }
+}

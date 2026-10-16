@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RsR",
+    "rRr",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "eln:signal_cable"
+    },
+    "r": {
+      "tag": "forge:rubber"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:signal_trimmer",
+    "count": 1
+  }
+}

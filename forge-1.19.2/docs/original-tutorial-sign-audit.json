@@ -1,0 +1,22 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "implementation": "Original hidden Tutorial Sign7496, original TutoPlate mesh/light/halo and inventory/held sprite. Actual world EA/tutorialSign.txt #beacon#text# records, CRLF/LF handling, saved beacon name and transmitted bounded text. Key is never a filename. Missing-text message translated on client. Nearby three-by-three-by-three beacon search selects closest, original blue-to-green 0.4s RC indicator and half-size multiline HUD text. Secure real menu packet validates node/distance/permission/key. Server-stop cache reset; no electrical or thermal ports.",
+  "verification": {
+    "focused": "original-computer-probe-focused-validation-05.log",
+    "focusedMinecraftCases": 7,
+    "unitTests": 207,
+    "client": "original-probe-tutorial-client-bcce-02.log",
+    "bcceActualSprites": 254,
+    "screenshotsReviewed": true
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Focused real map file and actual client GUI/overlay verified; full regression next."
+}

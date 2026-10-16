@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "eln:voltage_oriented_battery"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:lead_dust",
+    "count": 6
+  },
+  "joules": 50000
+}

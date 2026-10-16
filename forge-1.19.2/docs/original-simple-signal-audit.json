@@ -1,0 +1,28 @@
+{
+  "baseline": "1.24.6",
+  "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "status": "Focused actual Minecraft, reviewed singleplayer client and final full/native regressions passed.",
+  "terminals": "Ordinary trimmer/switch/button one front terminal; redstone input/output and daylight/light/weather one front.right terminal. All six mounting faces and four rotations checked on actual connected nodes. Creative Signal Source retains original four shared edges and ideal voltage source. Version8 migration preserves saved previews with four joined terminals.",
+  "controls": "Original 0.05-ohm signal resistance and 0.1 A current-limited ordinary outputs. Trimmer starts at0V, secure finite0..5V setting, no unrelated enable toggle. Switch/button start off, actual click toggles; button auto-resets after0.21s and click cancels an active pulse. Saved remaining time survives actual reload without restarting. Original randomized0.3..0.6 click volume.",
+  "sensors": "Original0.2s light/weather sample phase saved. Light uses skyDarken subtraction,20-percent celestial-angle bias and rounded cosine; ordinary light also takes real block light. Weather retains original3s float RC advanced0.05s per sample, original clear/rain/thunder targets0/.5/1, saved filter history. Redstone input retains random0.15..0.30s countdown, source-compatible neighbor reads and0..15 conversion; output uses nearest integer with original0.2s change cooldown and real neighbor notifications.",
+  "artwork": "Original trimmer150 to-150-degree pointer and0.3s RC; original illuminated button0.04 travel and0.11s RC, original red/green LEDs and halos. Separate flat inventory and3D held models; held controls show the source off position. Actual trimmer GUI, invalid setting rejection, loaded output, switch lights and button pulse were checked on client and server; screenshots reviewed.",
+  "otherCorrections": "Logic/analog/display gate input resistance restored to original0.05ohm. Solar sources retain both independently floating terminal voltages across dimension-wide circuit rebuilds instead of restarting controller output at zero.",
+  "intentionalModernCorrection": "In dimensions without skylight, the ordinary light sensor samples current block light rather than retaining the source implementation's sticky previous maximum.",
+  "verification": {
+    "focused": "original-simple-signals-focused-validation-02.log",
+    "minecraftCases": 10,
+    "unitTests": 207,
+    "client": "original-simple-signals-client-bcce-01.log",
+    "actualBcceSprites": 254,
+    "screenshotsReviewed": true
+  },
+  "fullRegressionNote": "Final 286-case BCCE/CC profile and 271-case standalone native profile passed, including corrected original switch/source fixtures, light-engine readiness and original CC receiver discovery timing.",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/coal"
+    },
+    "C": {
+      "item": "eln:portable_condensator"
+    }
+  },
+  "result": {
+    "item": "eln:e_coal_chestplate",
+    "count": 1
+  }
+}

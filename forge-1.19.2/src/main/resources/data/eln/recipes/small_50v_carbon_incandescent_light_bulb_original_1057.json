@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GFG",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:charcoal"
+    },
+    "S": {
+      "item": "eln:copper_cable"
+    }
+  },
+  "result": {
+    "item": "eln:small_50v_carbon_incandescent_light_bulb",
+    "count": 4
+  }
+}

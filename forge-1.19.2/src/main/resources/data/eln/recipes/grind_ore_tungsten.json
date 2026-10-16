@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:ores/tungsten"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:tungsten_dust",
+    "count": 2
+  },
+  "joules": 8000
+}

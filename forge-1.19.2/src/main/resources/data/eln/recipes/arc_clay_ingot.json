@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "eln:arc_clay_block"
+    }
+  },
+  "result": {
+    "item": "eln:arc_clay_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cIw",
+    "ICI",
+    "WIc"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:signal_cable"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "w": {
+      "item": "eln:wireless_signal_receiver"
+    },
+    "W": {
+      "item": "eln:wireless_signal_transmitter"
+    }
+  },
+  "result": {
+    "item": "eln:computer_probe",
+    "count": 1
+  }
+}

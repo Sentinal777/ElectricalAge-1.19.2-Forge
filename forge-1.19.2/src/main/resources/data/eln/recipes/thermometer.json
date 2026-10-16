@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "RER",
+    "RCR"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "eln:thermal_probe_chip"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:thermometer",
+    "count": 1
+  }
+}

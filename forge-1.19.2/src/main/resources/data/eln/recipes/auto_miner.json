@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MCM",
+    "BOB",
+    " P "
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "O": {
+      "item": "eln:ore_scanner"
+    },
+    "B": {
+      "item": "eln:advanced_machine_block"
+    },
+    "M": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "P": {
+      "item": "eln:mining_pipe"
+    }
+  },
+  "result": {
+    "item": "eln:auto_miner",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "particle": "eln:items/yellowbrush"
+  },
+  "base": {
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "eln:items/yellowbrush"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "builtin/entity"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented and verified: all 184 Minecraft / 200 unit cases and actual protection client controls/model routes passed",
+  "original_breaker": {
+    "legacyId": 6272,
+    "nativeIdCurrently": "5a_electrical_breaker",
+    "warning": "A matched legacy ID does not establish source behavior. Restore the original fitted-cable voltage-window/thermal breaker while preserving saved preview adapters.",
+    "inventory": "One ElectricalCableDescriptor, including signal cable but excluding separate CurrentCableDescriptor types",
+    "terminals": "Front and opposite, both electrical-all masks; no connections when no cable is fitted",
+    "resistance": "Fitted cable resistance on each terminal and closed switch branch; open branch 1e9 ohms",
+    "default": "Open, lower voltage 0 V, upper voltage 5 V",
+    "thermal": "At each physical electrical step, T += (I\u00b2*2R - .9*T/Rp)*dt/C. Trip above .8*the fitted cable's thermalWarmLimit, when A voltage >= maximum or when A voltage < minimum.",
+    "persistence": "Save switch state, voltage window and virtual thermal history. Physical cable inventory changes open the switch; unrelated circuit rebuilds must preserve it.",
+    "source": "src/main/java/mods/eln/sixnode/electricalbreaker/"
+  },
+  "fuse_holder": {
+    "legacyId": 6278,
+    "front": "Original descriptor inverse placement, power pins front/opposite, electrical-all masks, no thermal ports",
+    "terminalResistance": 0.06666666666666667,
+    "branch": "Fitted fuse's voltage-cable resistance, or 1e9 ohms for empty/blown",
+    "thermal": "T += (I\u00b2*2R - .9*T/Rp)*dt/C at each physical electrical step. Actual Kotlin precedence trips at the cable thermalWarmLimit; do not silently substitute the apparent intended .8 multiplier.",
+    "interaction": "A held fuse replaces the installed fuse and drops the old one; empty hand removes it. Melting leaves one blown fuse and interrupts the branch.",
+    "fuseItems": [
+      {
+        "legacyId": 6279,
+        "name": "Lead Fuse for low voltage cables",
+        "cable": "low_voltage_cable"
+      },
+      {
+        "legacyId": 6280,
+        "name": "Lead Fuse for medium voltage cables",
+        "cable": "medium_voltage_cable"
+      },
+      {
+        "legacyId": 6281,
+        "name": "Lead Fuse for high voltage cables",
+        "cable": "high_voltage_cable"
+      },
+      {
+        "legacyId": 6282,
+        "name": "Lead Fuse for very high voltage cables",
+        "cable": "very_high_voltage_cable"
+      },
+      {
+        "legacyId": 6283,
+        "name": "Blown Lead Fuse",
+        "hidden": true
+      }
+    ],
+    "visuals": "Original electricalfuse model Case, Fuse, FuseType and FuseOk groups; source fuse item held 3D artwork with flat inventory icon",
+    "recipes": "Holder uses iron cable in top/bottom with blank middle row. Four fuses use rubber/corresponding cable/rubber; source findItemStack(itemRubber) needs the existing rubber alias.",
+    "source": "src/main/kotlin/mods/eln/sixnode/ElectricalFuse.kt"
+  },
+  "protection_resources": [
+    {
+      "legacyId": 320,
+      "name": "Overheating Protection",
+      "sourceBehavior": "Resource/upgrade descriptor with tooltip; source battery has no protection inventory. Used as an ingredient in original Electrical Breaker crafting."
+    },
+    {
+      "legacyId": 321,
+      "name": "Overvoltage Protection",
+      "sourceBehavior": "Resource/upgrade descriptor with tooltip; source battery has no protection inventory. Used as an ingredient in original Electrical Breaker crafting."
+    }
+  ],
+  "nativeLog": "original-fuse-breaker-validation-01.log",
+  "clientLog": "original-fuse-breaker-client-bcce-03.log",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

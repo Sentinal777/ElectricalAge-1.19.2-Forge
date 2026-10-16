@@ -1,0 +1,7688 @@
+[
+  {
+    "item": "ground_cable",
+    "icon": "blocks/groundcable",
+    "icon_sha256": "29551c043102819d5fdb5764d6040edee3605031542a76c6e2e53a0b2379b315",
+    "model": "groundcable",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "hub",
+    "icon": "blocks/hub",
+    "icon_sha256": "2fa5f05cee58bd11aa907a87b8c538532c8dab2b474559b1e8b6232f20773b03",
+    "model": "hub",
+    "groups": [
+      "main",
+      "con0",
+      "con1",
+      "con2",
+      "con3",
+      "con4",
+      "con5"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        0.132774,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_source",
+    "icon": "blocks/electricalsource",
+    "icon_sha256": "23caeb71b40c81c6b624b3495c5456c00e58f4a6231f38ea24496a95c44ddc38",
+    "model": "voltagesource",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_source",
+    "icon": "blocks/signalsource",
+    "icon_sha256": "d02490c2b8f010a4e7e7977e614f11d595b59a007fd26e7afa299f4d20617b17",
+    "model": "signalsource",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.126019,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "current_source",
+    "icon": "blocks/currentsource",
+    "icon_sha256": "9ada8960f719028a5cab0a1aad002ba720265b4ffdcea6171d2d998affb26f1d",
+    "model": "currentsource",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_cable",
+    "icon": "blocks/signalcable",
+    "icon_sha256": "36d9494f10805bcbb5975c4164f61be85392b153fc117eedfb3359b36746b125",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.4703125,
+        0.0,
+        0.4703125,
+        0.5296875,
+        0.059375,
+        0.5296875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_voltage_cable",
+    "icon": "blocks/lowvoltagecable",
+    "icon_sha256": "3eebfda72649b34217907f9cdfa72d4b0b9d5218af6f74f3bd395d9dd236301e",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.4390625,
+        0.0,
+        0.4390625,
+        0.5609375,
+        0.059375,
+        0.5609375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_voltage_cable",
+    "icon": "blocks/mediumvoltagecable",
+    "icon_sha256": "7368dbe6726019eb1b9764fa13f8dcc1f6bd8a3fe48c54db4867682a60f5b8b8",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.4078125,
+        0.0,
+        0.4078125,
+        0.5921875,
+        0.059375,
+        0.5921875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.184375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_voltage_cable",
+    "icon": "blocks/highvoltagecable",
+    "icon_sha256": "e6279585bf1055143b3030f133aeb4244ab1eba94bd67898e9d9a4b626bad60c",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3765625,
+        0.0,
+        0.3765625,
+        0.6234375,
+        0.121875,
+        0.6234375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.246875,
+      "cableHeight": 0.121875,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "very_high_voltage_cable",
+    "icon": "blocks/veryhighvoltagecable",
+    "icon_sha256": "46d21997ab7532266dfdf0725b08bfec4a38b1c5466ddf145d15085e0ccce098",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3765625,
+        0.0,
+        0.3765625,
+        0.6234375,
+        0.121875,
+        0.6234375
+      ],
+      "cableTexture": "sprites/cablevhv.png",
+      "cableWidth": 0.246875,
+      "cableHeight": 0.121875,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "creative_cable",
+    "icon": "blocks/creativecable",
+    "icon_sha256": "eea416e05d7c571ed621d821854692d1918d5be9a5ff60480ca0e0b83f5a8fb5",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.25,
+        0.75,
+        0.25,
+        0.75
+      ],
+      "cableTexture": "sprites/cablecreative.png",
+      "cableWidth": 0.5,
+      "cableHeight": 0.25,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_current_cable",
+    "icon": "blocks/lowcurrentcable",
+    "icon_sha256": "af62e52ba3d72a9fa10036e97e1563b5b2c0da567a20f932eb91f4fcbbc9471f",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.440625,
+        0.0,
+        0.440625,
+        0.559375,
+        0.05625,
+        0.559375
+      ],
+      "cableTexture": "sprites/currentcable.png",
+      "cableWidth": 0.11875,
+      "cableHeight": 0.05625,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_current_cable",
+    "icon": "blocks/mediumcurrentcable",
+    "icon_sha256": "352c995b0ad68880dd7247b801c9b7fb90b3fe9e3d8ad7e8736a1dd70ab2d07a",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.409375,
+        0.0,
+        0.409375,
+        0.590625,
+        0.11875,
+        0.590625
+      ],
+      "cableTexture": "sprites/currentcable.png",
+      "cableWidth": 0.18125,
+      "cableHeight": 0.11875,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_current_cable",
+    "icon": "blocks/highcurrentcable",
+    "icon_sha256": "190b148e7e78505a2c482a50cd0e9be65afe78dbe1abeca356b34edc9ecd0530",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.378125,
+        0.0,
+        0.378125,
+        0.621875,
+        0.11875,
+        0.621875
+      ],
+      "cableTexture": "sprites/currentcable.png",
+      "cableWidth": 0.24375,
+      "cableHeight": 0.11875,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_bus_cable",
+    "icon": "blocks/signalbuscable",
+    "icon_sha256": "f548f5b6c2f819b79d942097616525091e71bedc09df1d76bb654daf1a9672c1",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3765625,
+        0.0,
+        0.3765625,
+        0.6234375,
+        0.246875,
+        0.6234375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.246875,
+      "cableHeight": 0.246875,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "type_j_socket",
+    "icon": "blocks/typejsocket",
+    "icon_sha256": "7d623632c15444d056e8ef7f03c9b435013e131e0fcfe0cee7fb636bf7c0047a",
+    "model": "powersocket",
+    "groups": [
+      "SocketBase",
+      "Socket50V"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.34375,
+        0.65625,
+        0.03125,
+        0.65625
+      ],
+      "cableTexture": "sprites/currentcable.png",
+      "cableWidth": 0.11875,
+      "cableHeight": 0.05625,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "type_e_socket",
+    "icon": "blocks/typeesocket",
+    "icon_sha256": "76d15d5b0d0bbea0e895fba82e3270d049ee8857d0ecc95b1e15da7bfdaa76ed",
+    "model": "powersocket",
+    "groups": [
+      "SocketBase",
+      "Socket200V"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.34375,
+        0.65625,
+        0.03125,
+        0.65625
+      ],
+      "cableTexture": "sprites/currentcable.png",
+      "cableWidth": 0.11875,
+      "cableHeight": 0.05625,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "scanner",
+    "icon": "blocks/scanner",
+    "icon_sha256": "aba86776861e16ba7f97840a5b82272fac74f329d10cb441f731dcdc615655bc",
+    "model": "scanner",
+    "groups": [
+      "main",
+      "LED_0",
+      "LED_1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.06510700000000003,
+        -0.001659,
+        0.17120999999999997,
+        0.82674,
+        0.14099,
+        0.828789
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_power_transmitter_antenna",
+    "icon": "blocks/electricalantennatx",
+    "icon_sha256": "e6e18ed7e1b12c5cc6e371e2d62ef3f62fb9992d6a7d0526a821ca44bc3b9f45",
+    "model": "lowpowertransmitterantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_power_receiver_antenna",
+    "icon": "blocks/electricalantennarx",
+    "icon_sha256": "0168dfbd68ca168e7c8d1b0a32adddef3ed49c8a63c1738f0aae107f2cc736e4",
+    "model": "lowpowerreceiverantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_power_transmitter_antenna",
+    "icon": "blocks/electricalantennatx",
+    "icon_sha256": "e6e18ed7e1b12c5cc6e371e2d62ef3f62fb9992d6a7d0526a821ca44bc3b9f45",
+    "model": "lowpowertransmitterantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_power_receiver_antenna",
+    "icon": "blocks/electricalantennarx",
+    "icon_sha256": "0168dfbd68ca168e7c8d1b0a32adddef3ed49c8a63c1738f0aae107f2cc736e4",
+    "model": "lowpowerreceiverantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_power_transmitter_antenna",
+    "icon": "blocks/electricalantennatx",
+    "icon_sha256": "e6e18ed7e1b12c5cc6e371e2d62ef3f62fb9992d6a7d0526a821ca44bc3b9f45",
+    "model": "lowpowertransmitterantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_power_receiver_antenna",
+    "icon": "blocks/electricalantennarx",
+    "icon_sha256": "0168dfbd68ca168e7c8d1b0a32adddef3ed49c8a63c1738f0aae107f2cc736e4",
+    "model": "lowpowerreceiverantenna",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0048559999999999715,
+        0.0,
+        -0.0048559999999999715,
+        1.004856,
+        0.585574,
+        1.004856
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "overhead_lines",
+    "icon": "blocks/overheadlines",
+    "icon_sha256": "e194b21fea09bb96f7496b0a30b7888964e42a0d64a781d5d6924f42367513f8",
+    "model": "overheadgantry",
+    "groups": [
+      "OverheadGantry"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "copper_thermal_cable",
+    "icon": "blocks/copperthermalcable",
+    "icon_sha256": "7abad83ff370359ed2862f5a154b2183b08d87d8c8138aa130db05a167f000df",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        0.25,
+        0.625
+      ],
+      "cableTexture": "sprites/tex_thermalcablebase.png",
+      "cableWidth": 0.25,
+      "cableHeight": 0.25,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "humidity_sensor",
+    "icon": "blocks/humiditysensor",
+    "icon_sha256": "2254db85971448ffe0b1953d9d07f2b5945ab2ba318a1c963c63e5bf2c2dfed4",
+    "model": "electricalweathersensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_anemometer_sensor",
+    "icon": "blocks/electricalanemometersensor",
+    "icon_sha256": "2ad5f55f2dad4b2bae693dcd82a00a3e3634838dd9c588db2c1779609da1c51e",
+    "model": "anemometer",
+    "groups": [
+      "base_wall",
+      "anemometer"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.355704,
+        0.0,
+        0.279667,
+        0.681275,
+        0.684844,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_entity_sensor",
+    "icon": "blocks/electricalentitysensor",
+    "icon_sha256": "fb4f0a9d6f36d9c6e801add43cbe27a28a2fd1642d4d07348390dd042fb267e7",
+    "model": "proximitysensor",
+    "groups": [
+      "Detector",
+      "HaloMask"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.312914,
+        0.0,
+        0.312914,
+        0.687086,
+        0.128906,
+        0.687086
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_fire_detector",
+    "icon": "blocks/electricalfiredetector",
+    "icon_sha256": "c7b6936701b66d9a21008470e9a4e8eda9e26bf8fde866685922b5b3040dac3e",
+    "model": "firedetector",
+    "groups": [
+      "Detector",
+      "Led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.312914,
+        0.0,
+        0.312914,
+        0.687086,
+        0.16693,
+        0.687086
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_fire_buzzer",
+    "icon": "blocks/electricalfirebuzzer",
+    "icon_sha256": "8acda2da3bdb5dc6df1c3c9ed5fed9f91b875062798395220f39fd1a26345ab1",
+    "model": "firedetector",
+    "groups": [
+      "Detector",
+      "Led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.312914,
+        0.0,
+        0.312914,
+        0.687086,
+        0.16693,
+        0.687086
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "analog_watch",
+    "icon": "blocks/analogwatch",
+    "icon_sha256": "ea4716d43db4269bf9fc5aeb0750d0810648fdbd7d4d1a4d09e0b6f071f43c59",
+    "model": "wallclock",
+    "groups": [
+      "base",
+      "cHour",
+      "cMin"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.1875,
+        0.75,
+        0.09375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "digital_watch",
+    "icon": "blocks/digitalwatch",
+    "icon_sha256": "bd50c867c5abb3441ba7545d6cd0b63dd35ca3a43aa52efe1649689ba8113204",
+    "model": "digitalwallclock",
+    "groups": [
+      "base",
+      "glass",
+      "digitDot",
+      "digit0",
+      "digit1",
+      "digit2",
+      "digit3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.125,
+        0.0,
+        0.3125,
+        0.875,
+        0.0625,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_timer",
+    "icon": "blocks/electricaltimer",
+    "icon_sha256": "eeaf7dfc0787b5f76f530d0a3f45d8d4e6c8e77dc73728a45f24048e62368816",
+    "model": "electricaltimer",
+    "groups": [
+      "main",
+      "rot",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.3125,
+        0.75,
+        0.147,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "nuclear_alarm",
+    "icon": "blocks/electricalalarm",
+    "icon_sha256": "b529614d5a76993352a479593ee71630184881a3258c74b585d1c9afed847c7b",
+    "model": "alarmmedium",
+    "groups": [
+      "main",
+      "rot",
+      "light"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.24999900000000003,
+        0.0,
+        0.1875,
+        0.7500009999999999,
+        0.5,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "standard_alarm",
+    "icon": "blocks/electricalalarm",
+    "icon_sha256": "b529614d5a76993352a479593ee71630184881a3258c74b585d1c9afed847c7b",
+    "model": "alarmmedium",
+    "groups": [
+      "main",
+      "rot",
+      "light"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.24999900000000003,
+        0.0,
+        0.1875,
+        0.7500009999999999,
+        0.5,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "10a_diode",
+    "icon": "blocks/10adiode",
+    "icon_sha256": "463a257c78ae79f4ebdef79e7e1b0eec2f324583d9eac8375d1c8c56f988e8cb",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "DiodeCore",
+      "DiodeCables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.3125,
+        1.0,
+        0.3745,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "25a_diode",
+    "icon": "blocks/25adiode",
+    "icon_sha256": "3a551afee0ccd52e3cd6464a71dbbd2f35009bfed2b3f0da408d095e07cd2489",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "DiodeCore",
+      "DiodeCables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.3125,
+        1.0,
+        0.3745,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_diode",
+    "icon": "blocks/signaldiode",
+    "icon_sha256": "2ee8f15fed1e651c9c6ecfe38d30d85a2e05a247027a617cff0ec00dcb679eca",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "DiodeCore",
+      "DiodeCables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.3125,
+        1.0,
+        0.3745,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "power_resistor",
+    "icon": "blocks/powerresistor",
+    "icon_sha256": "f7a2c9b125b8c0b2c432d9c7812d923c529033ed9f6092e7138739f23a090046",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "ResistorCore",
+      "CapacitorCables",
+      "ResistorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "rheostat",
+    "icon": "blocks/rheostat",
+    "icon_sha256": "9e34044adeb069ac64409b9cad0e9361f077881c67532e7cef7e6362af06a677",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "ResistorCore",
+      "CapacitorCables",
+      "ResistorBaseExtention",
+      "ResistorTrack",
+      "ResistorWiper"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.38823,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "thermistor",
+    "icon": "blocks/thermistor",
+    "icon_sha256": "6b9ae0eaf752285a37dc1cb622e2911c6c8c88a4591311bd6d807081445ea798",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "ResistorCore",
+      "CapacitorCables",
+      "ResistorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "creative_power_resistor",
+    "icon": "blocks/powerresistor",
+    "icon_sha256": "f7a2c9b125b8c0b2c432d9c7812d923c529033ed9f6092e7138739f23a090046",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "ResistorCore",
+      "CapacitorCables",
+      "ResistorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "power_capacitor",
+    "icon": "blocks/powercapacitor",
+    "icon_sha256": "8adea02fc9f5bac2ed6dd3f3a5b0476c8e218fc30dad06b45cbdbf13e35879d5",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "CapacitorCore",
+      "CapacitorCables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.3125,
+        1.0,
+        0.3745,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "creative_power_capacitor",
+    "icon": "blocks/powercapacitor",
+    "icon_sha256": "8adea02fc9f5bac2ed6dd3f3a5b0476c8e218fc30dad06b45cbdbf13e35879d5",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "CapacitorCore",
+      "CapacitorCables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.3125,
+        1.0,
+        0.3745,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "power_inductor",
+    "icon": "blocks/powerinductor",
+    "icon_sha256": "fb5f70fda48e48107fceb825b617169b13594811b91ac061acf4712f3338eced",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "InductorCore",
+      "InductorCables",
+      "InductorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.4375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "variable_inductor",
+    "icon": "blocks/variableinductor",
+    "icon_sha256": "1dacd4257643153098d49fd432f76a2d3a38e44596e1e385c5122d0a88013996",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "InductorCore",
+      "InductorCables",
+      "InductorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.4375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "creative_power_inductor",
+    "icon": "blocks/powerinductor",
+    "icon_sha256": "fb5f70fda48e48107fceb825b617169b13594811b91ac061acf4712f3338eced",
+    "model": "powerelectricprimitives",
+    "groups": [
+      "Base",
+      "InductorCore",
+      "InductorCables",
+      "InductorBaseExtention"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.1875,
+        1.0,
+        0.4375,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "large_rheostat",
+    "icon": "blocks/largerheostat",
+    "icon_sha256": "0a67de4ff715abef0bcfa2c5e57d57418ffdadda2ca4b179f9cb3752e793315d",
+    "model": "largerheostat",
+    "groups": [
+      "main",
+      "wiper"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.6875,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "nixie_tube",
+    "icon": "blocks/nixietube",
+    "icon_sha256": "96bd91910b5653c647b7ddee6a4ce59a60524677614a0f870c247224e1c7c912",
+    "model": "nixietube",
+    "groups": [
+      "base",
+      "display",
+      "tube"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.18,
+        0.0,
+        0.18,
+        0.8200000000000001,
+        0.8561110000000001,
+        0.8200000000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "5a_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "lowvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.33499999999999996,
+        0.0,
+        0.36,
+        0.665,
+        0.1819915,
+        0.64
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "20a_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "lowvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.33499999999999996,
+        0.0,
+        0.36,
+        0.665,
+        0.1819915,
+        0.64
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50a_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "highvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.13983299999999999,
+        0.002446,
+        0.27,
+        0.8253010000000001,
+        0.6330146110295719,
+        0.73
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "100a_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "highvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.13983299999999999,
+        0.002446,
+        0.27,
+        0.8253010000000001,
+        0.6330146110295719,
+        0.73
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "5a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "10a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "15a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "20a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "30a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "40a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "60a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "100a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "125a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "400a_electrical_breaker",
+    "icon": "blocks/electricalbreaker",
+    "icon_sha256": "b7fc11163b0c50a8f96813dfa8855c4d1c33f47a899fb3bf45551d5ec5776306",
+    "model": "electricalbreaker",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1653,
+        0.002446,
+        0.37,
+        0.8253010000000001,
+        0.277372,
+        0.63
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_fuse_holder",
+    "icon": "blocks/electricalfuseholder",
+    "icon_sha256": "30582df85419350d07d470374afe7dac492b9ccbfc2e79e1aa7717d74bc2c44c",
+    "model": "electricalfuse",
+    "groups": [
+      "Case",
+      "Fuse",
+      "FuseType",
+      "FuseOk"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.002446,
+        0.32,
+        1.0,
+        0.344452,
+        0.6799999999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "5v_control_relay_10a",
+    "icon": "blocks/lowvoltagerelay",
+    "icon_sha256": "c9e32e75c9394e277b803c766e8016c07375c5a989d6f3588fd03a65dd7e4755",
+    "model": "relaysmall",
+    "groups": [
+      "backplate",
+      "relay0",
+      "relay1",
+      "main"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.21875,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "12v_control_relay_20a",
+    "icon": "blocks/mediumvoltagerelay",
+    "icon_sha256": "8c738593a447ca107578dcadd3cca6456ecdaa19734eb765552a88a6ab3a242a",
+    "model": "relaybig",
+    "groups": [
+      "backplate",
+      "relay0",
+      "relay1",
+      "main"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "12v_control_relay_50a",
+    "icon": "blocks/highvoltagerelay",
+    "icon_sha256": "eb9def3ac1eef9a13841d793a336b210f55092af6656c91a829cdc005d728971",
+    "model": "relay800",
+    "groups": [
+      "backplate",
+      "relay0",
+      "relay1",
+      "main"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "12v_control_relay_100a",
+    "icon": "blocks/veryhighvoltagerelay",
+    "icon_sha256": "658ed385d2f7b39de533fe8635e8bab72bb8369e9426643eaa578f16016a69cf",
+    "model": "relay800",
+    "groups": [
+      "backplate",
+      "relay0",
+      "relay1",
+      "main"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_voltage_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "lowvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.33499999999999996,
+        0.0,
+        0.36,
+        0.665,
+        0.1819915,
+        0.64
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_voltage_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "lowvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.33499999999999996,
+        0.0,
+        0.36,
+        0.665,
+        0.1819915,
+        0.64
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_voltage_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "highvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.13983299999999999,
+        0.002446,
+        0.27,
+        0.8253010000000001,
+        0.6330146110295719,
+        0.73
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "very_high_voltage_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "highvoltageswitch",
+    "groups": [
+      "case",
+      "lever"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.13983299999999999,
+        0.002446,
+        0.27,
+        0.8253010000000001,
+        0.6330146110295719,
+        0.73
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_voltage_relay",
+    "icon": "blocks/lowvoltagerelay",
+    "icon_sha256": "c9e32e75c9394e277b803c766e8016c07375c5a989d6f3588fd03a65dd7e4755",
+    "model": "relaybig",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_voltage_relay",
+    "icon": "blocks/mediumvoltagerelay",
+    "icon_sha256": "8c738593a447ca107578dcadd3cca6456ecdaa19734eb765552a88a6ab3a242a",
+    "model": "relaybig",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_voltage_relay",
+    "icon": "blocks/highvoltagerelay",
+    "icon_sha256": "eb9def3ac1eef9a13841d793a336b210f55092af6656c91a829cdc005d728971",
+    "model": "relay800",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "very_high_voltage_relay",
+    "icon": "blocks/veryhighvoltagerelay",
+    "icon_sha256": "658ed385d2f7b39de533fe8635e8bab72bb8369e9426643eaa578f16016a69cf",
+    "model": "relay800",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_relay",
+    "icon": "blocks/signalrelay",
+    "icon_sha256": "a63d1280537de00bb3c4eea00deeae025fe3fa60a3e3b1e3b949cabb667ee467",
+    "model": "relaysmall",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.21875,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "low_current_relay",
+    "icon": "blocks/lowcurrentrelay",
+    "icon_sha256": "4511223d24befc2308b0ed5b18011e11a1f652178e86d46394cce3ce362478ce",
+    "model": "relaybig",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "medium_current_relay",
+    "icon": "blocks/mediumcurrentrelay",
+    "icon_sha256": "4511223d24befc2308b0ed5b18011e11a1f652178e86d46394cce3ce362478ce",
+    "model": "relay800",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "high_current_relay",
+    "icon": "blocks/highcurrentrelay",
+    "icon_sha256": "4511223d24befc2308b0ed5b18011e11a1f652178e86d46394cce3ce362478ce",
+    "model": "relay800",
+    "groups": [
+      "main",
+      "relay0",
+      "relay1",
+      "backplate"
+    ],
+    "visual": {
+      "scale": 0.5,
+      "bounds": [
+        0.34375,
+        0.0,
+        0.25,
+        0.65625,
+        0.4375,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_probe",
+    "icon": "blocks/voltageprobe",
+    "icon_sha256": "891f5e4b922a22c59d61044ec1931a27b59fb378c4c017dec8c2e6313a4c7f20",
+    "model": "voltagesensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.375,
+        0.8125,
+        0.125,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_probe",
+    "icon": "blocks/electricalprobe",
+    "icon_sha256": "d0a04f12e6a788b2983ac1935a0a95cd001f89042ca78f87df097ae890ddaa34",
+    "model": "electricalsensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.25,
+        0.75,
+        0.125,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "analog_vumeter",
+    "icon": "blocks/analogvumeter",
+    "icon_sha256": "64fc7e8b911bdfb1ab94d730c6c8830e7fc6fab036c8b8e0bf688aea3be1689a",
+    "model": "vumeter",
+    "groups": [
+      "Vumeter",
+      "Pointer"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0625,
+        0.0,
+        0.0625,
+        0.9375,
+        0.125,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "led_vumeter",
+    "icon": "blocks/ledvumeter",
+    "icon_sha256": "b6bd124ab175d5ccf350181789c5d34b7b3f46ef86ff81bf7d46debad9c2d65d",
+    "model": "led",
+    "groups": [
+      "main",
+      "Led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375208,
+        0.000417,
+        0.375,
+        0.625208,
+        0.12625,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "multicolor_led_vumeter",
+    "icon": "blocks/multicolorledvumeter",
+    "icon_sha256": "e9ecdf4b67a578e84045a452de77a4657ae08ee739c865f4c0a89fb636db8fde",
+    "model": "led",
+    "groups": [
+      "main",
+      "Led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375208,
+        0.000417,
+        0.375,
+        0.625208,
+        0.12625,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "digital_display",
+    "icon": "blocks/digitaldisplay",
+    "icon_sha256": "25a9ae2b4803006bd1132cd9cc09b6331268fd3be24cc050eccfdf0b63de05ab",
+    "model": "digitaldisplay",
+    "groups": [
+      "base",
+      "glass",
+      "digit0",
+      "digit1",
+      "digit2",
+      "digit3",
+      "dot0",
+      "dot1",
+      "dot2",
+      "dot3",
+      "dot4",
+      "colon1",
+      "colon2",
+      "colon3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.125,
+        -0.000325,
+        0.334107,
+        0.875,
+        0.062175,
+        0.7091069999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "energy_meter",
+    "icon": "blocks/energymeter",
+    "icon_sha256": "77f3c367d23faab275b1e70208aac693e0d5353c17aedca783346cb7c353c129",
+    "model": "energymeter",
+    "groups": [
+      "EnergySignWheel",
+      "EnergyNumberWheel0",
+      "EnergyNumberWheel1",
+      "EnergyNumberWheel2",
+      "EnergyNumberWheel3",
+      "EnergyNumberWheel4",
+      "EnergyNumberWheel5",
+      "EnergyNumberWheel6",
+      "PowerDisk",
+      "EnergyNumberWheel7",
+      "Base"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.1875,
+        0.75,
+        0.3,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "advanced_energy_meter",
+    "icon": "blocks/advancedenergymeter",
+    "icon_sha256": "97dcd75fae8c84fd0a125ddc4400ce2517b53fb58a66d49decc7d72e159908f4",
+    "model": "advancedenergymeter",
+    "groups": [
+      "TimeNumberWheel0",
+      "TimeNumberWheel7",
+      "TimeNumberWheel6",
+      "TimeNumberWheel5",
+      "TimeNumberWheel4",
+      "TimeNumberWheel3",
+      "TimeNumberWheel2",
+      "TimeNumberWheel1",
+      "TimeUnitWheel",
+      "EnergyUnitWheel",
+      "EnergySignWheel",
+      "EnergyNumberWheel0",
+      "EnergyNumberWheel1",
+      "EnergyNumberWheel2",
+      "EnergyNumberWheel3",
+      "EnergyNumberWheel4",
+      "EnergyNumberWheel5",
+      "EnergyNumberWheel6",
+      "PowerDisk",
+      "Base"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.1875,
+        0.75,
+        0.3,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "mqtt_energy_meter",
+    "icon": "blocks/mqttenergymeter",
+    "icon_sha256": "139fa7c39bf0c7b467cb475504f9d029e19698dc8c17111194b404e8ed16e808",
+    "model": "mqttenergymeter",
+    "groups": [
+      "EnergySignWheel",
+      "EnergyNumberWheel0",
+      "EnergyNumberWheel1",
+      "EnergyNumberWheel2",
+      "EnergyNumberWheel3",
+      "EnergyNumberWheel4",
+      "EnergyNumberWheel5",
+      "EnergyNumberWheel6",
+      "PowerDisk",
+      "EnergyNumberWheel7",
+      "Base"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.1875,
+        0.75,
+        0.3,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "mqtt_signal_controller",
+    "icon": "blocks/mqttsignalcontroller",
+    "icon_sha256": "4dacb8aac9aca16dfffa69603dc58514df80b361ad4233dd143334eda75eea98",
+    "model": "mqttsignalcontroller",
+    "groups": [
+      "led6",
+      "led7",
+      "led3",
+      "led2",
+      "led1",
+      "led5",
+      "led4",
+      "led0",
+      "door",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.11875000000000002,
+        0.0,
+        0.125,
+        0.8125,
+        0.9375,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "modbus_rtu",
+    "icon": "blocks/modbusrtu",
+    "icon_sha256": "381384d550f10fc9e7c56fc2fca1a2b6d1c5bd4253827df6b8bb566ca67daeb5",
+    "model": "rtu",
+    "groups": [
+      "led-error",
+      "display",
+      "led-power",
+      "led-activity",
+      "door",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.18608599999999997,
+        0.0,
+        0.1875,
+        0.810257,
+        0.9375,
+        0.88125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "tutorial_sign",
+    "icon": "blocks/tutorialsign",
+    "icon_sha256": "d23916661829ff3f0d1fbf1773f7dc5729205bc546032f472159aba14ba9531e",
+    "model": "tutoplate",
+    "groups": [
+      "light",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.06186999999999998,
+        0.0,
+        0.06186999999999998,
+        0.93813,
+        0.066406,
+        0.93813
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "computer_probe",
+    "icon": "blocks/computerprobe_xn",
+    "icon_sha256": "6951f7474c4de31f52d1b3107114112744314bda3b6dbc6206d535a282ff3e81",
+    "model": "",
+    "rendering": "original six-face cube",
+    "cubeTextures": [
+      "textures/blocks/computerprobe_xn.png",
+      "textures/blocks/computerprobe_xp.png",
+      "textures/blocks/computerprobe_yn.png",
+      "textures/blocks/computerprobe_yp.png",
+      "textures/blocks/computerprobe_zn.png",
+      "textures/blocks/computerprobe_zp.png"
+    ],
+    "groups": [],
+    "visual": {
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale": 1.0,
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": true
+    }
+  },
+  {
+    "item": "thermal_probe",
+    "icon": "blocks/thermalprobe",
+    "icon_sha256": "c478967040e45d7e23ddbaa8c6ef44b17d50584eda3aa9eb9b056e32ac219b68",
+    "model": "thermalsensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.375,
+        0.8125,
+        0.3125,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "temperature_probe",
+    "icon": "blocks/temperatureprobe",
+    "icon_sha256": "c2d00ef2487cf1769eb13ddbca3f8f811195e66f430204666bd017d873f0acc6",
+    "model": "temperaturesensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.3125,
+        0.75,
+        0.3125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "thermometer_sensor",
+    "icon": "blocks/thermometersensor",
+    "icon_sha256": "2254db85971448ffe0b1953d9d07f2b5945ab2ba318a1c963c63e5bf2c2dfed4",
+    "model": "electricalweathersensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "redstone_to_voltage_converter",
+    "icon": "blocks/redstone-to-voltageconverter",
+    "icon_sha256": "60c1c2c358b316dc6df493cd1f815163ab6bdd1dc15a6844f0082101e765ad85",
+    "model": "redtoele",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.1285,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_to_redstone_converter",
+    "icon": "blocks/voltage-to-redstoneconverter",
+    "icon_sha256": "2c097dcf1920387f1e7e02bba98914c8fabc85085af56b8d0c2ec32f6f2cc845",
+    "model": "eletored",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.375,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_daylight_sensor",
+    "icon": "blocks/electricaldaylightsensor",
+    "icon_sha256": "afddd1c71a7f6b85f9eb610240c64dba385d4b9d526dbccebeed750444f259d0",
+    "model": "daylightsensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.072602,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_light_sensor",
+    "icon": "blocks/electricallightsensor",
+    "icon_sha256": "c6e7b88b1e0ac0bce7b328d01f171dcdaffc1318965d4faefa8f2815cb721adc",
+    "model": "lightsensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.072602,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_weather_sensor",
+    "icon": "blocks/electricalweathersensor",
+    "icon_sha256": "2254db85971448ffe0b1953d9d07f2b5945ab2ba318a1c963c63e5bf2c2dfed4",
+    "model": "electricalweathersensor",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.125,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_trimmer",
+    "icon": "blocks/trimmer",
+    "icon_sha256": "3b066831ee83f52f0ef8e60462fe7ae9e1030a2fc4723e6795f4a2dfee7b7cd7",
+    "model": "signalsourcepot",
+    "groups": [
+      "main",
+      "rot"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.1875,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_switch",
+    "icon": "blocks/switch",
+    "icon_sha256": "da867fb42c2b61b8a1eff24224d4439dc54fb4ce3b3dbc7f2fab13196d965d6c",
+    "model": "ledswitch",
+    "groups": [
+      "main",
+      "button",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.126,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_button",
+    "icon": "blocks/button",
+    "icon_sha256": "1e41e1a1e4a0a2fa3ae2c50aeec02b5c49d5ddc359823eba4cd16fd3834b10b0",
+    "model": "ledswitch",
+    "groups": [
+      "main",
+      "button",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.126,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wireless_signal_transmitter",
+    "icon": "blocks/wirelesssignaltransmitter",
+    "icon_sha256": "a0eba79a8faf10bc5f81972941894d9a91c66785c0433e5f54ace5639c26884a",
+    "model": "wirelesssignaltx",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        0.3125,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wireless_signal_receiver",
+    "icon": "blocks/wirelesssignalreceiver",
+    "icon_sha256": "fc2f270f1d2f8e502ee3046deae6e543eeaac9ff0b5ce7d3a0f88a7f0e185c2a",
+    "model": "wirelesssignalrx",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        0.3125,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "signal_processor",
+    "icon": "blocks/signalprocessor",
+    "icon_sha256": "e1c2e59cf7bae47dd5a4c2febecee6a3dd05282cdb2438298347a78b339cd683",
+    "model": "plc",
+    "groups": [
+      "led6",
+      "led7",
+      "led3",
+      "led2",
+      "led1",
+      "led5",
+      "led4",
+      "led0",
+      "door",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.11875000000000002,
+        0.0,
+        0.125,
+        0.8125,
+        0.9375,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "data_logger",
+    "icon": "blocks/datalogger",
+    "icon_sha256": "c9f39ed9b275489301537c7b36ed975ad91e14234270308b2e86a422f925f9be",
+    "model": "dataloggercrtfloor",
+    "groups": [
+      "main",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0625,
+        0.0,
+        0.0625,
+        0.9475,
+        0.875,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "modern_data_logger",
+    "icon": "blocks/moderndatalogger",
+    "icon_sha256": "d8f58e46fd1bfee3c8b7c0ee5133a7b727490018669ecc497f716785519f78c2",
+    "model": "flatscreenmonitor",
+    "groups": [
+      "main",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.25,
+        0.0,
+        0.09999999999999998,
+        0.75,
+        0.909292,
+        0.9
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "industrial_data_logger",
+    "icon": "blocks/industrialdatalogger",
+    "icon_sha256": "d0b4c7251c33fed762562b90b359b0b0ae1dd19e7254d6375b0c2777a3707dae",
+    "model": "industrialpanel",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.143598,
+        -4.6e-05,
+        0.09999999999999998,
+        0.884513,
+        0.074478,
+        0.9
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "not_chip",
+    "icon": "blocks/notchip",
+    "icon_sha256": "175d656651263a218abdd9a9a4e5cb3666d974aa5becab355cfe45b439360d30",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "NOT",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "and_chip",
+    "icon": "blocks/andchip",
+    "icon_sha256": "308a588b865b0581ce5def1cf245e936cfee0eb987fdd4c580fe0ed16f060e99",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "AND",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "nand_chip",
+    "icon": "blocks/nandchip",
+    "icon_sha256": "ad9be28c6bc5c826ecae793533577e1ce55551fa5de2b4d15d1db007726099f2",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "NAND",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "or_chip",
+    "icon": "blocks/orchip",
+    "icon_sha256": "0b1999c82eebfae3a45b74d752df716490340e5a83509867eae82e5f2699d18e",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "OR",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "nor_chip",
+    "icon": "blocks/norchip",
+    "icon_sha256": "bb2bc7da9035ba3f41083b46e21183a43d0ffc8888f20fe5489876c48ceae2b5",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "NOR",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "xor_chip",
+    "icon": "blocks/xorchip",
+    "icon_sha256": "ae41a232c932b0cd0d4561f5a8b9ee844551c08e0b0c8a45c64e3a6dc35a063c",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "XOR",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "xnor_chip",
+    "icon": "blocks/xnorchip",
+    "icon_sha256": "c589b55b6bebb1b9eb4ee771124327c591b142beb1876fc7b21143625ab91dce",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "XNOR",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "pal_chip",
+    "icon": "blocks/palchip",
+    "icon_sha256": "22506f7e2ae5f270e25b2d96c23c784912828e3aeaf8b476f864e742e7b29e40",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "PAL",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "schmitt_trigger_chip",
+    "icon": "blocks/schmitttriggerchip",
+    "icon_sha256": "d765d51f52db63a218b43d35b6f78a4f703302de8ded38dd20bb0e807bf3f16e",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "SCHMITT",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "d_flip_flop_chip",
+    "icon": "blocks/dflipflopchip",
+    "icon_sha256": "b0dc1e12b95ff01471554acdc7a79df574f5cd4583af7525d14c1e97961af62e",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "DFF",
+      "Input1",
+      "Input2"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "oscillator_chip",
+    "icon": "blocks/oscillatorchip",
+    "icon_sha256": "60b9e9b524fb2cbfafe2fc82ff1aa79764eca2b7d7efac4b81387cec0ad5c58f",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "OSC",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "jk_flip_flop_chip",
+    "icon": "blocks/jkflipflopchip",
+    "icon_sha256": "8e722bde142c9d610fb0b285e883b0053353b14054f4e017ba2656f2ddd8b289",
+    "model": "logicgates",
+    "groups": [
+      "Case",
+      "Output",
+      "JKFF",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wireless_signal_repeater",
+    "icon": "blocks/wirelesssignalrepeater",
+    "icon_sha256": "ddcc7011d9f2ef6a0c8242505fd72e6278ca512329febac13cf383287a8a212f",
+    "model": "wirelesssignalrepeater",
+    "groups": [
+      "led",
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        0.3125,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wireless_button",
+    "icon": "blocks/wirelessbutton",
+    "icon_sha256": "2c1095170842c39b1392b88874a5e81e3da0405e5a66509f882b115d1eb5df7b",
+    "model": "ledswitch",
+    "groups": [
+      "main",
+      "button",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.126,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wireless_switch",
+    "icon": "blocks/wirelessswitch",
+    "icon_sha256": "47ac528a1b4bec7d26875ac983d542ab7dd1471a799d0d8c82f6220728207a0d",
+    "model": "ledswitch",
+    "groups": [
+      "main",
+      "button",
+      "led"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.3125,
+        0.6875,
+        0.126,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "classic_lamp_socket",
+    "icon": "blocks/classiclampsocket",
+    "icon_sha256": "a0b8ab427864afa967781419e7eae57b858d639b813a8683dff3ae0e99f5bb2c",
+    "model": "classiclampsocket",
+    "groups": [
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "lamp_socket_b_projector",
+    "icon": "blocks/spotlampsocket",
+    "icon_sha256": "a0b8ab427864afa967781419e7eae57b858d639b813a8683dff3ae0e99f5bb2c",
+    "model": "classiclampsocket",
+    "groups": [
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "robust_lamp_socket",
+    "icon": "blocks/robustlampsocket",
+    "icon_sha256": "f79e89c2c336df2ebe0a59d89d463deb0f1cbb5aa1b12b7b94f4f788252c179c",
+    "model": "robustlamp",
+    "groups": [
+      "lightAlphaNoDepth",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.3125,
+        0.625,
+        0.1875,
+        0.6875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "flat_lamp_socket",
+    "icon": "blocks/flatlampsocket",
+    "icon_sha256": "b2d41a7fc360e5fd1407468da19e9ee46a2829478cda9ff43070570bc76eb970",
+    "model": "flatlamp",
+    "groups": [
+      "socket_lightable",
+      "socket_unlightable"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0625,
+        0.0,
+        0.0625,
+        0.9375,
+        0.074219,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "simple_lamp_socket",
+    "icon": "blocks/simplelampsocket",
+    "icon_sha256": "b7d59a33d180025c2112a1447dca57e347855a102f9f2ae8d9c453737778e1d6",
+    "model": "simplelamp",
+    "groups": [
+      "lightAlphaNoDepth",
+      "socket_lightable",
+      "socket_unlightable"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.24609399999999998,
+        0.0,
+        0.24609399999999998,
+        0.753906,
+        0.253906,
+        0.753906
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "fluorescent_lamp_socket",
+    "icon": "blocks/fluorescentlampsocket",
+    "icon_sha256": "24d0e924e32c5393647c10027e8715e08bc309511e35a2c6bed7fd236a53f092",
+    "model": "fluorescentlamp",
+    "groups": [
+      "lampOff",
+      "socket_unlightable",
+      "lampOn",
+      "socket_lightable"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.0,
+        0.6875,
+        0.1875,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "street_light",
+    "icon": "blocks/streetlight",
+    "icon_sha256": "1dcc2349374238d7e6950d6eb1f50c7e16b65976623cb41658229ed766d2194d",
+    "model": "streetlight",
+    "groups": [
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1875,
+        0.0,
+        0.1875,
+        0.8125,
+        3.0,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "sconce_lamp_socket",
+    "icon": "blocks/sconcelampsocket",
+    "icon_sha256": "644047d20d9ad839bdd2f4789d5013fffdc9146fa2ac309658a1013f4c1ef73f",
+    "model": "sconcelamp",
+    "groups": [
+      "lightAlphaNoDepth",
+      "lightAlpha",
+      "lamp",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1875,
+        0.0,
+        0.25,
+        0.6875,
+        0.25,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "suspended_lamp_socket",
+    "icon": "blocks/suspendedlampsocket",
+    "icon_sha256": "0915474545c813f2713a3fedfd73e63d54f994e422b7908975807c06dba08ce6",
+    "model": "robustlampsuspended",
+    "groups": [
+      "lightAlphaNoDepth",
+      "chain",
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.08403991610812728,
+        -0.03235238063781509,
+        0.08403991610812728,
+        0.9159600838918727,
+        1.2031399999999999,
+        0.9159600838918727
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "long_suspended_lamp_socket",
+    "icon": "blocks/longsuspendedlampsocket",
+    "icon_sha256": "2844de2a494124c7b13ea0e624d3fb8dd93af8b6b78d974bdeccb3d5f462a5a4",
+    "model": "robustlampsuspended",
+    "groups": [
+      "lightAlphaNoDepth",
+      "chain",
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.19096049569420304,
+        -0.03235238063781509,
+        -0.19096049569420304,
+        1.190960495694203,
+        2.2656599999999996,
+        1.190960495694203
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "suspended_lamp_socket_no_swing",
+    "icon": "blocks/suspendedlampsocket_noswing_",
+    "icon_sha256": "c104028215847217f1e8d991032f9761bf467250756edc8934a2b2424178f4d7",
+    "model": "robustlampsuspended",
+    "groups": [
+      "lightAlphaNoDepth",
+      "chain",
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        1.2031399999999999,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "long_suspended_lamp_socket_no_swing",
+    "icon": "blocks/longsuspendedlampsocket_noswing_",
+    "icon_sha256": "ad06de9c83881959c31e33aabf6fa532c945e467e32f1178716ea7f96d97cbf7",
+    "model": "robustlampsuspended",
+    "groups": [
+      "lightAlphaNoDepth",
+      "chain",
+      "base",
+      "socket"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.375,
+        0.0,
+        0.375,
+        0.625,
+        2.2656599999999996,
+        0.625
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50v_emergency_lamp",
+    "icon": "blocks/emergencylamp",
+    "icon_sha256": "34e169fd9b5070c919fb8b434ba81303e78d3d4efb36844a46d3d3b033993fd0",
+    "model": "emergencyexitlighting",
+    "groups": [
+      "coreCeil",
+      "panelCeil",
+      "lightCeil",
+      "coreWall",
+      "coreWallR",
+      "coreWallL",
+      "lightWall"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200v_emergency_lamp",
+    "icon": "blocks/emergencylamp",
+    "icon_sha256": "34e169fd9b5070c919fb8b434ba81303e78d3d4efb36844a46d3d3b033993fd0",
+    "model": "emergencyexitlighting",
+    "groups": [
+      "coreCeil",
+      "panelCeil",
+      "lightCeil",
+      "coreWall",
+      "coreWallR",
+      "coreWallL",
+      "lightWall"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "basic_floodlight",
+    "icon": "blocks/basicfloodlight",
+    "icon_sha256": "4abf5d21ffaf6598072ece624db71308c168339077f8b655392b5b4d5ec98236",
+    "model": "floodlight",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.11854805605061935,
+        -0.11854805605061935,
+        -0.11854805605061935,
+        1.1185480560506194,
+        1.1185480560506194,
+        1.1185480560506194
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "motorized_floodlight",
+    "icon": "blocks/motorizedfloodlight",
+    "icon_sha256": "3becb3f7770e8573f6cc1bbaf08341b910f321492dfedf5827e65fdb5d8c0872",
+    "model": "floodlightmotor",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.11854805605061935,
+        -0.11854805605061935,
+        -0.11854805605061935,
+        1.1185480560506194,
+        1.1185480560506194,
+        1.1185480560506194
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "christmas_tree",
+    "icon": "blocks/christmastree",
+    "icon_sha256": "555fb0d65aabfd940f35049e240702e81b20c9e3ab966365b55d460329ec01e0",
+    "model": "christmas_tree",
+    "groups": [
+      "StarOn_Star.002",
+      "Strip1_Star.000",
+      "Strip2_Star.001",
+      "Tree_Cone.006"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.7636609999999999,
+        -0.013496999999999981,
+        0.19625400000000004,
+        1.730569,
+        3.966799,
+        2.6724699999999997
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 90.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "holiday_candle",
+    "icon": "blocks/holidaycandle",
+    "icon_sha256": "5b4965f487c0897aa2301a3ee7eb6c0af65cd8b6d4f361d8aba5cc2d57af96e7",
+    "model": "candle_light",
+    "groups": [
+      "CandleLamp_Cylinder.001",
+      "Glass_Cylinder.000",
+      "LampOn_Cylinder.002"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.223124,
+        -0.0004370000000000207,
+        0.20887599999999995,
+        0.776876,
+        0.978935,
+        0.7911239999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 90.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "string_lights",
+    "icon": "blocks/stringlights",
+    "icon_sha256": "70c532ff0948558f9a69c56b7a476df98dc99fae11b313dec719c7e380e9fc00",
+    "model": "christmas_lights",
+    "groups": [
+      "Lights_Cube.009",
+      "LightOn_Cube.002"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.00617600000000007,
+        0.703769,
+        0.956854,
+        1.007143,
+        0.99968,
+        1.002282
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "modelYaw": 270.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "800v_defence_turret",
+    "icon": "blocks/800vdefenceturret",
+    "icon_sha256": "596fcc46c298b8df2c2d26ae5fb62f603ab7d0a02f4face7a88491527b296340",
+    "model": "turret",
+    "groups": [
+      "Turret",
+      "Holder",
+      "Joint",
+      "LeftGun",
+      "RightGun",
+      "Sensor",
+      "Fire"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.21805703702457402,
+        0.0,
+        -0.21805703702457413,
+        1.218057037024574,
+        1.1753045191088654,
+        1.061652983947698
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "experimental_transporter",
+    "icon": "blocks/experimentaltransporter",
+    "icon_sha256": "45cdfe54d59376f4d8aeb7b8dcbf12e48aaf577ef8a8b2b317dbb2c76201e9ba",
+    "model": "transporter",
+    "groups": [
+      "main",
+      "ext_control",
+      "ext_power",
+      "door_out",
+      "door_in",
+      "door_in_charge",
+      "indoor_open",
+      "indoor_closed",
+      "gyro",
+      "gyro_alpha",
+      "whiteblur",
+      "outlampline0_alpha",
+      "outlampline0",
+      "scr0_electrictity",
+      "scr1_cables",
+      "scr2_transporter",
+      "scr3_userin",
+      "scr5_dooropen",
+      "src4_doorclosed",
+      "led0",
+      "led1",
+      "led2",
+      "led3",
+      "led4",
+      "led5",
+      "led6",
+      "led7",
+      "led8",
+      "led9"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.0,
+        0.0,
+        -4.0,
+        2.0,
+        2.299038105676658,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "auto_miner",
+    "icon": "blocks/autominer",
+    "icon_sha256": "a0ef74feaf06719bfdaa0574d9ea0eb4b4da9c742538448400525ffaa0cc0b41",
+    "model": "autominer",
+    "groups": [
+      "AutominerCore",
+      "AutominerGUI",
+      "LampSocket",
+      "LampOff",
+      "LampOn",
+      "MinerHead",
+      "MinerPipe",
+      "ButtonsFixed",
+      "Button0",
+      "Button1",
+      "Button2",
+      "Button3",
+      "Button4",
+      "ledA0",
+      "ledA1",
+      "ledA2",
+      "ledA4",
+      "ledA5",
+      "ledA6",
+      "ledA7",
+      "ledA8",
+      "ledA9",
+      "ledA10",
+      "ledP0",
+      "ledP1",
+      "ledP2",
+      "ledP3",
+      "ledP4",
+      "ledP5",
+      "ledP6",
+      "ledP7"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.0000000000000002,
+        -1.0,
+        -2.0000000000000004,
+        2.0000000000000004,
+        1.625,
+        2.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "modelYaw": 270.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "fabricator",
+    "icon": "",
+    "icon_sha256": null,
+    "model": "fabricator",
+    "groups": [
+      "Cube.002_Cube.013",
+      "Cube.003_Cube.012",
+      "Cube.001_Cube.010"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.8125,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 90.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50v_egg_incubator",
+    "icon": "blocks/50veggincubator",
+    "icon_sha256": "8a14d025ef80ac9f071616109b511a999cc803c22c876242cd10777bef79fdf0",
+    "model": "eggincubator",
+    "groups": [
+      "main",
+      "lamp",
+      "lampf"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.125,
+        0.0,
+        0.1875,
+        0.875,
+        0.5,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "tree_resin_collector",
+    "icon": "blocks/treeresincollector",
+    "icon_sha256": "f86870510faaa6ef11ff36528d173de7f62394cb66a9faf068a613c6fb03ccbd",
+    "model": "treeresincolector",
+    "groups": [
+      "main",
+      "fill"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.25,
+        0.6875,
+        0.25,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "lamp_supply",
+    "icon": "blocks/lampsupply",
+    "icon_sha256": "23911955fd15e2a9de6adbe688486a7f880c98d24279d86e1d9b54bf587809a2",
+    "model": "distributionboard",
+    "groups": [
+      "base",
+      "window"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.125,
+        0.0,
+        0.1875,
+        0.875,
+        0.803005,
+        0.930099
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "opamp",
+    "icon": "blocks/opamp",
+    "icon_sha256": "bc50f464ff396bdbee386e813a79177a4137d43228b0bada27cdfb8e141c129c",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "OP",
+      "Input1",
+      "Input2"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "pid_regulator",
+    "icon": "blocks/pidregulator",
+    "icon_sha256": "7ab0069b73f33cba41bb3e24098c540b1288118ad5362aaa9b34fe5b8d550a5f",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "PID",
+      "Input1",
+      "Input2"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_controlled_sawtooth_oscillator",
+    "icon": "blocks/voltagecontrolledsawtoothoscillator",
+    "icon_sha256": "246be83507959fddc8bf632597b7c0935b1e20de99a2e45a3228d143c3a62936",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "VCO-SAW",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_controlled_sine_oscillator",
+    "icon": "blocks/voltagecontrolledsineoscillator",
+    "icon_sha256": "5b0e4b21398896e238d8337c82614e1746b5854fe8539a9f18fd26f0cafeffab",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "VCO-SIN",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "amplifier",
+    "icon": "blocks/amplifier",
+    "icon_sha256": "b480e44c096e36542d6aabe6d9296e624a46441ebd06e3a2b24b06c51de1b181",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "AMP",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_controlled_amplifier",
+    "icon": "blocks/voltagecontrolledamplifier",
+    "icon_sha256": "4146940e44fcb280581be5fdd07fb2f4e5d0f9f9ff9b1f3d6077f6fe1c9dad5d",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "VCA",
+      "Input1",
+      "Input2"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "configurable_summing_unit",
+    "icon": "blocks/configurablesummingunit",
+    "icon_sha256": "4d4d265a0e8af1f013f5516e2c505b1a5d7e55e6cef369626cbb20c072427ad3",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "SUM",
+      "Input1",
+      "Input2",
+      "Input3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.171419,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "sample_and_hold",
+    "icon": "blocks/sampleandhold",
+    "icon_sha256": "414d1a783f857555516a0ea2d2bf1b913de26ac8f4345680f2332996b0ac59aa",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "SAH",
+      "Input1",
+      "Input2"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.828581
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "lowpass_filter",
+    "icon": "blocks/lowpassfilter",
+    "icon_sha256": "e63fe6f45cb5e810d4ec690848d4323a8ab070524fc386ae370fdb1487d680da",
+    "model": "analogchips",
+    "groups": [
+      "Case",
+      "Output",
+      "LPF",
+      "Input1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.171419,
+        0.0,
+        0.25,
+        0.828581,
+        0.133971,
+        0.75
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.059375,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "small_solar_panel",
+    "icon": "blocks/smallsolarpanel",
+    "icon_sha256": "ed2f975777020efea0196501378fa01696c63a29fc7377745a3075aeabdda15a",
+    "model": "smallsolarpannel",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.125,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "small_rotating_solar_panel",
+    "icon": "blocks/smallrotatingsolarpanel",
+    "icon_sha256": "4f72f705e325790b2e50dbe2efd0196734bd2476d6917f4fb07b005188a5dc32",
+    "model": "smallsolarpannelrot",
+    "groups": [
+      "main",
+      "panel"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.03316210771208783,
+        0.0,
+        -0.03316210771208783,
+        1.0331621077120878,
+        0.9845138091097095,
+        1.0331621077120878
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "2x3_solar_panel",
+    "icon": "blocks/2x3solarpanel",
+    "icon_sha256": "550ae8a6cce77fdbf90bb8c70f73388c873c2cdc107baeae923317e6a33464f3",
+    "model": "bigsolarpanel",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.001963,
+        -0.0020820000000000283,
+        -1.0,
+        1.0034429999999999,
+        0.15106199999999997,
+        2.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "2x3_rotating_solar_panel",
+    "icon": "blocks/2x3rotatingsolarpanel",
+    "icon_sha256": "2082d6041fba4bbd710de6d28591ec7c00a4b8874a3693153a0f92f54c466791",
+    "model": "bigsolarpanelrot",
+    "groups": [
+      "main",
+      "panel"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.5044457785820615,
+        -0.003750000000000031,
+        -1.0044457785820617,
+        1.5044457785820617,
+        1.569568916213036,
+        2.0044457785820615
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "cost_oriented_battery",
+    "icon": "blocks/costorientedbattery",
+    "icon_sha256": "8d78be851784a35b27a5516c43e4a5e962f2c85b6d54c15f4a626a346a18be9d",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_lowcost"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "capacity_oriented_battery",
+    "icon": "blocks/capacityorientedbattery",
+    "icon_sha256": "dd2e68f823e2c40c9af6d8444573ea9703fe125862907b4e054dc618fd3fd98e",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_capacity"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "voltage_oriented_battery",
+    "icon": "blocks/voltageorientedbattery",
+    "icon_sha256": "0d2af1dd1dd481af8bb005640cd9ce55c2c60a2e245648594b7a2c208c9aee39",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_highvoltage"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "current_oriented_battery",
+    "icon": "blocks/currentorientedbattery",
+    "icon_sha256": "73cd7bede325b3dd188153f261b0c4ca37c11091524a41a161b1a9ce453e57bc",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_current"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5625,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "life_oriented_battery",
+    "icon": "blocks/lifeorientedbattery",
+    "icon_sha256": "71dd999952fc897bf5f639bcddcf1563dd6ed2fcc23377035e630eb191fc391c",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_life"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "single_use_battery",
+    "icon": "blocks/single-usebattery",
+    "icon_sha256": "25b6b309d5ab481e9e9c9c8bb6fff095afade008ae1b662d8904634b3f5174ad",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_coal"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.78125,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "experimental_battery",
+    "icon": "blocks/experimentalbattery",
+    "icon_sha256": "6b1d959343e7cd866820750cb2528a08364b00bee310590e1bb276d88c197c1e",
+    "model": "batterybig",
+    "groups": [
+      "main",
+      "plugPlus",
+      "plugMinus",
+      "battery_highvoltage"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "dc_dc_converter",
+    "icon": "blocks/dc-dcconverter",
+    "icon_sha256": "e65270a627defac552bec64fd97948124d42eac1fe8625614ba310285149d760",
+    "model": "transformator",
+    "groups": [
+      "main",
+      "sbire"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.014027000000000012,
+        0.0,
+        -0.378914,
+        1.0030124359575816,
+        1.082903,
+        0.878348
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "variable_dc_dc_converter",
+    "icon": "blocks/variabledc-dcconverter",
+    "icon_sha256": "e4f09e083a3b85377efcb3eda1c8523f8a5665006521d072ee72e810962e7fce",
+    "model": "variabledcdc",
+    "groups": [
+      "main",
+      "sbire"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.014027000000000012,
+        0.0,
+        -0.378914,
+        1.0030124359575816,
+        1.082903,
+        0.878348
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "electrical_furnace",
+    "icon": "blocks/electricalfurnace",
+    "icon_sha256": "81303fd4aeca3e6d951425281602bfd651c45f82946314bfb9ef1e0cb184209f",
+    "model": "electricfurnace",
+    "groups": [
+      "furnace"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.0000000000287557e-06,
+        0.0,
+        -1.0000000000287557e-06,
+        1.0000010000000001,
+        1.0,
+        1.0000010000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "48v_macerator",
+    "icon": "blocks/50vmacerator",
+    "icon_sha256": "e62e8135a0c8ec83cc3e37ab780648b5fc275368490cd74abccecef08bbcc833",
+    "model": "maceratora",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.25,
+        1.0,
+        0.9375,
+        0.750003
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "240v_macerator",
+    "icon": "blocks/200vmacerator",
+    "icon_sha256": "c36a8741820aa3521771c28d38db1d334ddb2bce29a7fc81209e4fac1f8f8660",
+    "model": "maceratorb",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.25,
+        1.0,
+        0.9375,
+        0.750003
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "48v_plate_machine",
+    "icon": "blocks/50vplatemachine",
+    "icon_sha256": "f82d7d42a3c9247eae2206971f788eb7399204cdc1766368d743b744be631e8f",
+    "model": "platemachinea",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        0.9375,
+        0.875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "240v_plate_machine",
+    "icon": "blocks/200vplatemachine",
+    "icon_sha256": "5ad505c18d4788d559f3be39059c69e17d60b9da1edd189618d93663c0c709d3",
+    "model": "platemachineb",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        0.9375,
+        0.875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "48v_compressor",
+    "icon": "blocks/50vcompressor",
+    "icon_sha256": "1c01a81faf2f0fbc7bf8303e9c9db71d731e5c05b46336b54905f9781c0b7c1f",
+    "model": "compressora",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        0.9375,
+        0.875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "240v_compressor",
+    "icon": "blocks/200vcompressor",
+    "icon_sha256": "86629d2762a7a267ec11f529095058638f5b1ec03d84c184890319792875fd95",
+    "model": "compressorb",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        0.9375,
+        0.875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50v_magnetizer",
+    "icon": "blocks/50vmagnetizer",
+    "icon_sha256": "59dd414010bde50e8466eb796020e8d796429ebd88fc346e0e92724ce0deb887",
+    "model": "magnetizera",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.26563000000000003,
+        0.0,
+        0.265625,
+        0.73438,
+        0.984375,
+        0.734375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200v_magnetizer",
+    "icon": "blocks/200vmagnetizer",
+    "icon_sha256": "224b80687d752864d08f445f5deefadc2987296537eaa2db45fa4b6ddc22cde7",
+    "model": "magnetizerb",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.26563000000000003,
+        0.0,
+        0.265625,
+        0.73438,
+        0.984375,
+        0.734375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "old_800v_arc_furnace",
+    "icon": "blocks/old800varcfurnace",
+    "icon_sha256": "0554bd247fe4960e6fea3312009315c8b9ffe53d8efa5007f65de8715e26b846",
+    "model": "arcfurnaceold",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        0.9375,
+        0.875
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "energy_converter",
+    "icon": "blocks/elntoic2lvu_side",
+    "icon_sha256": "30f4ad7c3d619e0a617f91e5b7b41a2c4f22883f7695e17622aca3b892544689",
+    "model": "",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "textures/blocks/elntoic2lvu_side.png",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "joint",
+    "icon": "blocks/joint",
+    "icon_sha256": "97ae2e56fa729229cdb1141691f698fd59e6f6980286973904e3b75ea5839dea",
+    "model": "straightjoint",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.0009250000000000091,
+        0.6875,
+        0.59375,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "joint_hub",
+    "icon": "blocks/jointhub",
+    "icon_sha256": "34361398824449d8004531cdf8caac94bd57072067a11d09adc0d09bad37e66f",
+    "model": "verticalhub",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "flywheel",
+    "icon": "blocks/flywheel",
+    "icon_sha256": "28b008641c49402a7f4bc3a3441fcf13136f96de22d41f541893b9035698e9f3",
+    "model": "flywheel",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.09999999999999998,
+        0.0,
+        0.0009250000000000091,
+        0.9,
+        0.9,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "clutch",
+    "icon": "blocks/clutch",
+    "icon_sha256": "a432658b562656b9ce531f93ee2c69d6f1226313cde597e73b68afd3df33838a",
+    "model": "clutch",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.26419899999999996,
+        0.0,
+        0.0009239999999999804,
+        0.735801,
+        0.735801,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "shaft_motor",
+    "icon": "blocks/shaftmotor",
+    "icon_sha256": "9b4aff665fdbf0821b8a0f79b01af134fc18787b43554cb18a181f3e4101bed5",
+    "model": "motor",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.19408999999999998,
+        -0.0007110000000000172,
+        0.0016700000000000048,
+        0.80663,
+        0.80627,
+        1.000359
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "generator",
+    "icon": "blocks/generator",
+    "icon_sha256": "459fcf9ec88c9f4e4b7f6e75da75b7c409cce255f1b216118d8ed3085860271e",
+    "model": "generator",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.19408999999999998,
+        -0.0007110000000000172,
+        0.0016700000000000048,
+        0.80663,
+        0.80627,
+        1.000359
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "gas_turbine",
+    "icon": "blocks/gasturbine",
+    "icon_sha256": "dc4fcabbb6a1f38c5aa1176835bf0cc4f504a407191403e10449005ff8c32b6f",
+    "model": "gasturbine",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.0009240000000000359,
+        0.00046200000000001795,
+        0.0009250000000000091,
+        1.000924,
+        0.8312550000000001,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "steam_turbine",
+    "icon": "blocks/steamturbine",
+    "icon_sha256": "2bc9b9d8ede4ad29bacd68a2b00dcb7c66a26e869bbea61d6c476ed45da25cfe",
+    "model": "turbine",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.18506,
+        0.00046200000000001795,
+        0.0009250000000000091,
+        0.81494,
+        0.81494,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "rolling_shaft",
+    "icon": "blocks/rollingshaftmachine",
+    "icon_sha256": "f82d7d42a3c9247eae2206971f788eb7399204cdc1766368d743b744be631e8f",
+    "model": "platemachinea",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.125,
+        0.0,
+        0.0,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "large_steam_turbine",
+    "icon": "blocks/largesteamturbine",
+    "icon_sha256": "a3fd00628cb360c665e7919240f6ebe46ae63a6b07e5ee6a76d76c0568f49f3e",
+    "model": "turbine",
+    "groups": [],
+    "visual": {
+      "scale": 3.0,
+      "bounds": [
+        -0.44482,
+        0.0013860000000001094,
+        -0.997225,
+        1.44482,
+        2.44482,
+        1.997228
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 1.0
+    }
+  },
+  {
+    "item": "large_gas_turbine",
+    "icon": "blocks/largegasturbine",
+    "icon_sha256": "32331f19a444de18262312bdd7c806b6ebe1f96d5a8585f6f73e83c95487e41d",
+    "model": "gasturbine",
+    "groups": [],
+    "visual": {
+      "scale": 3.0,
+      "bounds": [
+        -1.0027720000000002,
+        0.0013860000000001094,
+        -0.997225,
+        2.002772,
+        2.493765,
+        1.997228
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 1.0
+    }
+  },
+  {
+    "item": "large_generator",
+    "icon": "blocks/largegenerator",
+    "icon_sha256": "11476a39f9af0665fb482aa351c52acebf2e9662bd776cf9bc88adf8b43592cc",
+    "model": "generator",
+    "groups": [],
+    "visual": {
+      "scale": 3.0,
+      "bounds": [
+        -0.41773000000000005,
+        -0.0021330000000001625,
+        -0.99499,
+        1.41989,
+        2.4188099999999997,
+        2.001077
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 1.0
+    }
+  },
+  {
+    "item": "large_shaft_motor",
+    "icon": "blocks/largeshaftmotor",
+    "icon_sha256": "d1d5181c445404b1e9d3ec9576c4bc851e583e0e8012bd0b76567b34e4cabdb5",
+    "model": "motor",
+    "groups": [],
+    "visual": {
+      "scale": 3.0,
+      "bounds": [
+        -0.41773000000000005,
+        -0.0021330000000001625,
+        -0.99499,
+        1.41989,
+        2.4188099999999997,
+        2.001077
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 1.0
+    }
+  },
+  {
+    "item": "polarized_shaft_generator",
+    "icon": "blocks/polarizedshaftgenerator",
+    "icon_sha256": "d617cbdf59c6b393638f855557bfc011f1190d3bd8dc3413897b65755adf967d",
+    "model": "polarizedshaftgenerator",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.19408999999999998,
+        -0.0007110000000000172,
+        0.0016700000000000048,
+        0.80663,
+        0.80627,
+        1.000359
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "polarized_shaft_motor",
+    "icon": "blocks/polarizedshaftmotor",
+    "icon_sha256": "a8cbfacf1b24aad13ead75fd4db9685be7707f854d0383f3a7d2cefdd6a7cff5",
+    "model": "polarizedshaftmotor",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.19408999999999998,
+        -0.0007110000000000172,
+        0.0016700000000000048,
+        0.80663,
+        0.80627,
+        1.000359
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "radial_motor",
+    "icon": "blocks/radialmotor",
+    "icon_sha256": "4ef0c8a245d7ed8da6fb80012f7dd7dc0389885ee311d2e6e6d8bf7b110ff95c",
+    "model": "starter_motor",
+    "groups": [],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.0,
+        -1.0,
+        -2.075314,
+        2.0,
+        1.8775849999999998,
+        1.0004279999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -1.5,
+        0.5
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "tachometer",
+    "icon": "blocks/tachometer",
+    "icon_sha256": "9dd465e7e7e5ec7dcbda668985ec1d64e39764856522743c8473858b8137fea3",
+    "model": "tachometer",
+    "groups": [
+      "Stand",
+      "Cowl",
+      "Shaft"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.2625,
+        0.0,
+        0.0009250000000000091,
+        0.7375,
+        0.616614,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "fixed_shaft",
+    "icon": "blocks/fixedshaft",
+    "icon_sha256": "f73fec0cc95d16392f2782550ccf8fd5f3f7a348a5ebd97d89e18efec60d9c06",
+    "model": "fixedshaft",
+    "groups": [
+      "Stand",
+      "Shaft"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.0009250000000000091,
+        0.6875,
+        0.542395,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "crank_shaft",
+    "icon": "blocks/crankshaft",
+    "icon_sha256": "1967a957e8f8e31fcc0575305f24b4395ed98ba54df816cc6a4a112f7522ced4",
+    "model": "straightjoint",
+    "groups": [
+      "Stand",
+      "Cowl",
+      "Shaft"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.3125,
+        0.0,
+        0.0009250000000000091,
+        0.6875,
+        0.59375,
+        0.9990760000000001
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "weak_50v_battery_charger",
+    "icon": "blocks/batterycharger",
+    "icon_sha256": "5762abe6440dd26287ddf99cf0de0d617bab2bd6fc270f6c64fb90ea7efc2237",
+    "model": "batterychargera",
+    "groups": [
+      "main",
+      "led0",
+      "led1",
+      "led2",
+      "led3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1875,
+        0.0,
+        0.1875,
+        0.8125,
+        0.190006,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50v_battery_charger",
+    "icon": "blocks/batterycharger",
+    "icon_sha256": "5762abe6440dd26287ddf99cf0de0d617bab2bd6fc270f6c64fb90ea7efc2237",
+    "model": "batterychargera",
+    "groups": [
+      "main",
+      "led0",
+      "led1",
+      "led2",
+      "led3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1875,
+        0.0,
+        0.1875,
+        0.8125,
+        0.190006,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200v_battery_charger",
+    "icon": "blocks/batterycharger",
+    "icon_sha256": "5762abe6440dd26287ddf99cf0de0d617bab2bd6fc270f6c64fb90ea7efc2237",
+    "model": "batterychargera",
+    "groups": [
+      "main",
+      "led0",
+      "led1",
+      "led2",
+      "led3"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.1875,
+        0.0,
+        0.1875,
+        0.8125,
+        0.190006,
+        0.8125
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "wind_turbine",
+    "icon": "blocks/windturbine",
+    "icon_sha256": "6a17cdc268fc148771edf52c56eafc8b55233e5ebd2af29ec92d7c76f4e65d48",
+    "model": "windturbinemini",
+    "groups": [
+      "main",
+      "rot",
+      "halo"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -1.0114971220507627,
+        0.0,
+        0.25,
+        2.0114971220507627,
+        4.511497122050763,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "water_turbine",
+    "icon": "blocks/waterturbine",
+    "icon_sha256": "0542852b9d4e1f9e7d0c9f7b44f5b387974ce772c3164274535bb3ff7a7504c6",
+    "model": "smallwaterwheel",
+    "groups": [
+      "Support",
+      "Generator",
+      "Wheel"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.9377180776537855,
+        -0.9377180776537855,
+        0.0,
+        1.9377180776537855,
+        1.9377180776537855,
+        2.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "48v_fuel_generator",
+    "icon": "blocks/50vfuelgenerator",
+    "icon_sha256": "db75fe28d725e294de8cb9afd1fe4b8108e3011f8f7a7146218f99bfce43ecdb",
+    "model": "fuelgenerator50v",
+    "groups": [
+      "main",
+      "switch"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.09999999999999998,
+        0.0,
+        0.0,
+        0.909227,
+        0.9,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "240v_fuel_generator",
+    "icon": "blocks/200vfuelgenerator",
+    "icon_sha256": "7c84d7ee959db46a7351e4ee97f5707561f5d53c345b297130628e0ad2417be2",
+    "model": "fuelgenerator200v",
+    "groups": [
+      "main",
+      "switch"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.09999999999999998,
+        0.0,
+        0.0,
+        0.909227,
+        0.9,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "small_passive_thermal_dissipator",
+    "icon": "blocks/smallpassivethermaldissipator",
+    "icon_sha256": "d5db04a46aac35ab7b909a8e3a70d5ba827172391daa7160b844b355a1d9819a",
+    "model": "passivethermaldissipatora",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.6875,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "small_active_thermal_dissipator",
+    "icon": "blocks/smallactivethermaldissipator",
+    "icon_sha256": "283c6f9074eb377787d6a7a4b7e7c58cf6e7c36f88edfff1c0272c34658c0433",
+    "model": "activethermaldissipatora",
+    "groups": [
+      "main",
+      "rot"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.9375,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200v_active_thermal_dissipator",
+    "icon": "blocks/200vactivethermaldissipator",
+    "icon_sha256": "3c4e883caf8fad6a62cec1d342f4a86a9ef817bb0755cd773778184dd749e23e",
+    "model": "200vactivethermaldissipatora",
+    "groups": [
+      "main",
+      "rot"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.9375,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "stone_heat_furnace",
+    "icon": "blocks/stoneheatfurnace",
+    "icon_sha256": "4f3561eb00adee8fbe0d9159db9e9c3231ce48c5a537a5711cbbc44eb81a07be",
+    "model": "stonefurnace",
+    "groups": [
+      "main",
+      "tiroir"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.18744,
+        1.0,
+        0.937417,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "fuel_heat_furnace",
+    "icon": "blocks/fuelheatfurnace",
+    "icon_sha256": "1c493bc46dca6eaa46a82a4c91723d6eb8e5c24df7926378db74d4c8d49382fa",
+    "model": "fuelheater",
+    "groups": [
+      "Main",
+      "BurnerA",
+      "BurnerB",
+      "BurnerC",
+      "PowerLED",
+      "HeatLED"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        -0.033394000000000035,
+        1.0,
+        0.948198,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "thermal_heat_exchanger",
+    "icon": "",
+    "icon_sha256": null,
+    "model": "thermal_heat_exchanger",
+    "groups": [
+      "Plane_Plane.001"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "50v_turbine",
+    "icon": "blocks/50vturbine",
+    "icon_sha256": "14156a1ac5a3666d2b27360dd63b09c143f6713ba65f7762557e7c17cb8fd788",
+    "model": "turbineb",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0625,
+        1.0,
+        0.9375009999999999,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "200v_turbine",
+    "icon": "blocks/200vturbine",
+    "icon_sha256": "481ef00c58b3ccbae652175cc1c9a1ed5c765de8b4fa6910753b7cdd0eff510e",
+    "model": "turbinebblue",
+    "groups": [
+      "main"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0625,
+        1.0,
+        0.9375009999999999,
+        0.9375
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": false,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "grid_dc_dc_converter",
+    "icon": "blocks/griddc-dcconverter",
+    "icon_sha256": "e42d0b7cb5620f61d5fe90103aa15543aea80b277c5710e736fc214844f5ab80",
+    "model": "gridconverter",
+    "groups": [
+      "main",
+      "p0",
+      "g0",
+      "g1",
+      "p1"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        0.004078999999999999,
+        0.007724000000000009,
+        -0.007248000000000032,
+        2.004079,
+        3.104674,
+        2.1772970000000003
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "utility_pole",
+    "icon": "blocks/utilitypole",
+    "icon_sha256": "8cf9015b2389030a2cb9bd8d4a326aed831b8a4cbb4d46c557a428334d775b6f",
+    "model": "utilitypole",
+    "groups": [
+      "main",
+      "p0",
+      "g0"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.6383270000000001,
+        -0.026976,
+        0.150862,
+        1.661673,
+        4.269985999999999,
+        0.650862
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        -0.1,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "utility_pole_w_dc_dc_converter",
+    "icon": "blocks/utilitypolewdc-dcconverter",
+    "icon_sha256": "0c1e61b169fb3a8431806d73096b9d6c3589bf32809dbbe967fb9a7af6811a62",
+    "model": "utilitypole",
+    "groups": [
+      "main",
+      "p0",
+      "g0",
+      "foot",
+      "transformer",
+      "cables"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.6383270000000001,
+        0.01270300000000002,
+        -0.03649999999999998,
+        1.661673,
+        4.369986,
+        0.8814379999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "transmission_tower",
+    "icon": "blocks/transmissiontower",
+    "icon_sha256": "50310d26267e9e5af27c604c8bc374804c601a0e388ce6db27b6a3bea46264c6",
+    "model": "transmissiontower",
+    "groups": [
+      "main",
+      "g0",
+      "p0",
+      "foot"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -3.585336,
+        -0.32494199999999995,
+        -1.013686,
+        4.585336,
+        9.724496,
+        2.013686
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "direct_utility_pole",
+    "icon": "blocks/utilitypole",
+    "icon_sha256": "8cf9015b2389030a2cb9bd8d4a326aed831b8a4cbb4d46c557a428334d775b6f",
+    "model": "utilitypole",
+    "groups": [
+      "main",
+      "p0",
+      "g0",
+      "foot"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -0.6383270000000001,
+        0.01270300000000002,
+        0.118562,
+        1.661673,
+        4.369986,
+        0.8814379999999999
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modelYaw": 0.0,
+      "modelLift": 0.0
+    }
+  },
+  {
+    "item": "grid_switch",
+    "icon": "blocks/griddc-dcconverter",
+    "icon_sha256": "e42d0b7cb5620f61d5fe90103aa15543aea80b277c5710e736fc214844f5ab80",
+    "model": "elngridswitch",
+    "groups": [
+      "Contact_M2_ContactMMesh_2.001",
+      "Contact_F2_ContactFMesh_2",
+      "Belt_pulley_2_BeltPulleyMesh_2",
+      "Belt_pulley_1_BeltPulleyMesh_1",
+      "Contact_M1_ContactMMesh_1",
+      "Contact_F1_ContactFMesh_1",
+      "Lid_1_LidMesh_1",
+      "Lid_2_LidMesh_2",
+      "SwitchBase_SwitchBaseMesh",
+      "Belt_1_BeltMesh_1",
+      "Belt_2_BeltMesh_2",
+      "Cube"
+    ],
+    "visual": {
+      "scale": 1.0,
+      "bounds": [
+        -2.0,
+        0.0,
+        -1.0,
+        3.0,
+        5.344501,
+        2.8008420000000003
+      ],
+      "cableTexture": "sprites/cable.png",
+      "cableWidth": 0.121875,
+      "cableHeight": 0.059375,
+      "floorOnly": true,
+      "cubeTexture": "",
+      "modelOffset": [
+        2.5,
+        -0.5,
+        1.5
+      ],
+      "modelYaw": 90.0,
+      "modelLift": 0.0
+    }
+  }
+]

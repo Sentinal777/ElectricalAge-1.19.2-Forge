@@ -1,0 +1,86 @@
+package mods.eln.transparentnode.powercapacitor;
+
+import mods.eln.Eln;
+import mods.eln.generic.GenericItemUsingDamageDescriptor;
+import mods.eln.item.DielectricItem;
+import mods.eln.misc.IFunction;
+import mods.eln.misc.Obj3D;
+import mods.eln.node.transparent.TransparentNodeDescriptor;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.item.ItemStack;
+
+public class PowerCapacitorDescriptor extends TransparentNodeDescriptor {
+
+    private Obj3D obj;
+
+    public PowerCapacitorDescriptor(
+        String name,
+        Obj3D obj,
+        IFunction serie,
+        double dischargeTao
+
+    ) {
+        super(name, PowerCapacitorElement.class, PowerCapacitorRender.class);
+        this.serie = serie;
+        this.dischargeTao = dischargeTao;
+        this.obj = obj;
+        if (obj != null) {
+
+        }
+
+    }
+
+    IFunction serie;
+    public double dischargeTao;
+
+    public double getCValue(int cableCount, double nominalDielVoltage) {
+        if (cableCount == 0) return 0;
+        double uTemp = nominalDielVoltage / Eln.LVU;
+        return serie.getValue(cableCount - 1) / uTemp / uTemp;
+    }
+
+    public double getCValue(IInventory inventory) {
+        ItemStack core = inventory.getStackInSlot(PowerCapacitorContainer.redId);
+        ItemStack diel = inventory.getStackInSlot(PowerCapacitorContainer.dielectricId);
+        if (core == null || diel == null)
+            return getCValue(0, 0);
+        else {
+            return getCValue(core.stackSize, getUNominalValue(inventory));
+        }
+    }
+
+    public double getUNominalValue(IInventory inventory) {
+        ItemStack diel = inventory.getStackInSlot(PowerCapacitorContainer.dielectricId);
+        if (diel == null)
+            return 10000;
+        else {
+            DielectricItem desc = (DielectricItem) GenericItemUsingDamageDescriptor.getDescriptor(diel, DielectricItem.class);
+            return desc == null ? 10000 : desc.uNominal * diel.stackSize;
+        }
+    }
+
+    public void setParent(net.minecraft.item.Item item, int damage) {
+        super.setParent(item, damage);
+        //Data.addEnergy(newItemStack());
+    }
+
+    void draw() {
+
+    }
+
+    @Override
+    public boolean shouldUseRenderHelper(ItemRenderType type, ItemStack item,
+                                         ItemRendererHelper helper) {
+        return true;
+    }
+
+    @Override
+    public boolean handleRenderType(ItemStack item, ItemRenderType type) {
+        return true;
+    }
+
+    @Override
+    public void renderItem(ItemRenderType type, ItemStack item, Object... data) {
+        draw();
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "eln:festive_season"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "eln:string_lights"
+          },
+          {
+            "item": "minecraft:spruce_sapling"
+          },
+          {
+            "item": "eln:string_lights"
+          }
+        ],
+        "result": {
+          "item": "eln:christmas_tree",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

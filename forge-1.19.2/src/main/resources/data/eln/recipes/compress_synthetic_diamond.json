@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "COMPRESSOR",
+  "ingredient": {
+    "item": "eln:4x_graphite_rods"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:synthetic_diamond",
+    "count": 1
+  },
+  "joules": 80000
+}

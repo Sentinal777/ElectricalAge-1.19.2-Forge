@@ -1,0 +1,177 @@
+{
+  "version": "1.19.2-0.4.0-port",
+  "status": "Executed final release validation",
+  "unit": {
+    "tests": 210,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "minecraftWithoutOptionalMods": {
+    "passed": 271,
+    "failed": 0,
+    "log": "release-native-full-validation-03.log"
+  },
+  "minecraftWithPublishedBcceAndCc": {
+    "passed": 286,
+    "failed": 0,
+    "log": "release-bcce-cc-cover-full-validation-04.log"
+  },
+  "overlappingProfilesAreNotSummed": true,
+  "productionProfiles": [
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051181,
+      "realTickProfile": "[16:59:58] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 14.98 seconds and 274 ticks (18.30 ticks per second)",
+      "measuredTicksPerSecond": 18.3,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.4990584600121335,
+      "batteryChargeDrift": -6.727951529228449e-13,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85441,
+          "eln:tungsten_ore": 13212,
+          "eln:lead_ore": 17584,
+          "eln:cinnabar_ore": 6664
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    },
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [
+        {
+          "name": "BCCE-8.0.23-1.19.2.jar",
+          "sha256": "7698df0b2f7bd61f903dda6793ff927fd5ae41c9c224937188440541075a96eb"
+        }
+      ],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "publishedBcceEngineA": 0.499979995800367,
+      "actualEngineLoadJ": 499.95999240104885,
+      "actualMjRoundTripRemainingFe": 0.9899080271178715,
+      "actualMjRoundTripExportJ": 9654.726218976237,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051180494,
+      "realTickProfile": "[17:03:54] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 14.97 seconds and 323 ticks (21.58 ticks per second)",
+      "measuredTicksPerSecond": 21.58,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.49905846001101106,
+      "batteryChargeDrift": -1.7952306308188781e-12,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85438,
+          "eln:cinnabar_ore": 6569,
+          "eln:lead_ore": 17508,
+          "eln:tungsten_ore": 13092
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    },
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [
+        {
+          "name": "BCCE-8.0.23-1.19.2.jar",
+          "sha256": "7698df0b2f7bd61f903dda6793ff927fd5ae41c9c224937188440541075a96eb"
+        },
+        {
+          "name": "CC-Tweaked-1.19.2-1.101.4.jar",
+          "sha256": "84962c691833ef6864cdde1e30609403ebb1448373a1863f1e980fb5d4028a2c"
+        }
+      ],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "publishedBcceEngineA": 0.499979995800367,
+      "actualEngineLoadJ": 499.95999240104885,
+      "actualMjRoundTripRemainingFe": 0.9899080271178715,
+      "actualMjRoundTripExportJ": 9654.726218976237,
+      "normalInstalledCcLuaAllNineMethods": true,
+      "actualProbeOutputV": 3.7499999996246722,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051181126,
+      "realTickProfile": "[17:07:20] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 15.01 seconds and 312 ticks (20.79 ticks per second)",
+      "measuredTicksPerSecond": 20.79,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.4990584600109744,
+      "batteryChargeDrift": -1.8318679906315083e-12,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85409,
+          "eln:cinnabar_ore": 6563,
+          "eln:lead_ore": 17512,
+          "eln:tungsten_ore": 13089
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    }
+  ],
+  "client": {
+    "actualIntegratedServer": true,
+    "automatedClientChecks": true,
+    "qaPacingAgentExcludedFromNormalJar": true,
+    "manualSurvivalCampaign": false,
+    "evidence": "Per-device original-*-audit.json files and recorded graphical logs."
+  },
+  "notClaimed": [
+    "Long manual survival playthrough",
+    "Broad multiplayer/modpack campaign",
+    "Every installation/calibration variant",
+    "Unverified optional-mod versions"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "R R",
+    "ICI"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "S": {
+      "item": "eln:signal_antenna"
+    }
+  },
+  "result": {
+    "item": "eln:wireless_signal_repeater",
+    "count": 1
+  }
+}

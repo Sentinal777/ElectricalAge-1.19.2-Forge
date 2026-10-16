@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "rCr",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "a": {
+      "item": "eln:signal_antenna"
+    },
+    "r": {
+      "tag": "forge:rubber"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:wireless_button",
+    "count": 3
+  }
+}

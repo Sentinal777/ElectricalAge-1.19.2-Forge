@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    "cDc",
+    " r "
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "eln:iron_cable"
+    },
+    "D": {
+      "item": "eln:dielectric"
+    }
+  },
+  "result": {
+    "item": "eln:portable_condensator",
+    "count": 1
+  }
+}

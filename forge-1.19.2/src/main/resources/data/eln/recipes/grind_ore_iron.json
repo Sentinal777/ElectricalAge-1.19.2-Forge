@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:ores/iron"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:iron_dust",
+    "count": 2
+  },
+  "joules": 6000
+}

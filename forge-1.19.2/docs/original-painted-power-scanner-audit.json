@@ -1,0 +1,71 @@
+{
+  "baseline": {
+    "tag": "1.24.6",
+    "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e"
+  },
+  "status": "Implemented and verified",
+  "sockets": {
+    "ids": [
+      4289,
+      4290
+    ],
+    "source": "src/main/kotlin/mods/eln/sixnode/powersocket",
+    "behavior": "Wall only; shared four-edge power load Rs=.1 ohm. Nearest in-range matching Lamp Supply profile wins even when disabled. Active profile connects the actual supply load through a symmetric .1 ohm resistor, permitting physical reverse power flow. Both types have the original 300 V nominal watchdog, 390 V limits, 75 V-second randomized tolerance and first-excursion joker. Configured base range plus cable count; no chunk forcing.",
+    "graphics": "Original PowerSocket SocketBase and type-specific Socket50V/Socket200V; original low-current cable texture/size and original dye palette, socket tint .7*color+.3. Upright wall frame. Flat original inventory sprites and held meshes."
+  },
+  "paint": {
+    "ids": [
+      7616,
+      7617,
+      7618,
+      7619,
+      7620,
+      7621,
+      7622,
+      7623,
+      7624,
+      7625,
+      7626,
+      7627,
+      7628,
+      7629,
+      7630,
+      7631
+    ],
+    "source": "src/main/kotlin/mods/eln/item/BrushDescriptor.kt",
+    "behavior": "Sixteen original metadata colors. 32 life per brush stack, only decrement on changed paint; dry survival brush does nothing, creative paint is infinite. Cable/socket color and cable color-care persisted. Wrench toggles cable/bus care. NodeBase compatibility requires equal colors only when both endpoints care. Neutral devices accept any color.",
+    "recipes": "craftBrush loops: wool of any color and Iron Cable produce one White Brush with life=0; dye and any White Brush NBT produce one fresh colored brush. No invented colored-brush refill route.",
+    "graphics": "Original icons; original .75*(1-life/32) inventory dry overlay, suppressed for creative. Exact original dye palette for wiring."
+  },
+  "bus": {
+    "id": 2068,
+    "source": "src/main/kotlin/mods/eln/sixnode/electricalcable/ElectricalSignalBusCableElement.kt",
+    "behavior": "16 independent loads, Rs=.05 ohm, shared across each edge. Bus-to-bus joins corresponding channels. Colored wire addresses its paint channel even with care off. Neutral devices address channel zero. Original no-care default. Saved 16 actual voltages, live 4x4 display and all-channel multimeter. Original parent bus watchdog follows a detached load; no invented per-channel destruction.",
+    "graphics": "Original cable.png, 3.95 by 3.95 px; source icon and dye tint.",
+    "correction": "Painting a bus changes its physical tint and optional color-care filter while bus-to-bus connections preserve corresponding channel indices. Original normal connection could cross-link a painted bus channel before appending channels 1 through 15; that accidental short is avoided."
+  },
+  "scanner": {
+    "id": 6671,
+    "source": "src/main/kotlin/mods/eln/sixnode/Scanner.kt",
+    "behavior": "Reads front block each original 20 Hz tick; one back signal output with 5 V/.1 A original NbtElectricalGateOutputProcess and Rs=.05 ohm. Fluid capability takes precedence over item capability, queried from the scanned side. Averages positive-capacity tank fill ratios. Inventory mode uses total items/slot capacity or fraction occupied. Comparator override precedes solid=1, air=0, other=1/3 fallback. Right-click toggles saved mode. No forced chunk reads. Original main/LED_0/LED_1 mesh, live multimeter and original comparator+Advanced Chip recipe.",
+    "modern_adapter": "Forge 1.19.2 sided capabilities replace legacy IFluidHandler/ISidedInventory and the optional 1.7.10 HBM reflection fallback. Zero visible capacity yields finite zero rather than NaN."
+  },
+  "test_sources": [
+    "PaintedPowerGameTests.kt",
+    "InventoryScannerGameTests.kt",
+    "OriginalCraftingGameTests.kt"
+  ],
+  "client_qa": "src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt",
+  "validatedMinecraftTests": 203,
+  "validatedUnitTests": 200,
+  "nativeLog": "original-power-antennas-validation-02.log",
+  "clientLog": "original-painted-power-scanner-client-bcce-01.log",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

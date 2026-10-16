@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R i",
+    "CI ",
+    "R i"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:low_power_transmitter_antenna",
+    "count": 1
+  }
+}

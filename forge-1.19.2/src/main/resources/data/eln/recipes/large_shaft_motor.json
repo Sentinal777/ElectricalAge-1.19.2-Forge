@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "RWR",
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:motor_cowling"
+    },
+    "H": {
+      "item": "eln:high_current_cable"
+    },
+    "R": {
+      "item": "eln:reinforced_shaft"
+    },
+    "W": {
+      "item": "eln:heavy_winding"
+    },
+    "M": {
+      "item": "eln:advanced_machine_block"
+    }
+  },
+  "result": {
+    "item": "eln:large_shaft_motor",
+    "count": 1
+  }
+}

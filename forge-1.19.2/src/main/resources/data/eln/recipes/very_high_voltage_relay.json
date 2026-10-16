@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "OIO",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "O": {
+      "item": "eln:iron_cable"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "eln:copper_cable"
+    },
+    "C": {
+      "item": "eln:very_high_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:very_high_voltage_relay",
+    "count": 1
+  }
+}

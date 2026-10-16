@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "CIC"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "C": {
+      "item": "eln:copper_thermal_cable"
+    }
+  },
+  "result": {
+    "item": "eln:small_passive_thermal_dissipator",
+    "count": 1
+  }
+}

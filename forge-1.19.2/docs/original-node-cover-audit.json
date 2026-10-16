@@ -1,0 +1,38 @@
+{
+  "baseline": "1.24.6",
+  "status": "Four actual Minecraft cases and reviewed integrated-client check passed.",
+  "source": [
+    "node/six/SixNode.kt",
+    "node/six/SixNodeBlock.kt",
+    "node/six/SixNodeEntity.kt",
+    "client/ClientKeyHandler.kt"
+  ],
+  "interaction": "Original configurable C modifier plus normal right-click consumes one supported block in survival. Creative placement is free. First real player break removes only the cover and refunds exactly one block in survival; internal components and their live circuit remain. Ordinary adjacent block placement remains available without C.",
+  "state": "Independent raw cover block-state/item NBT retains block properties and exact item metadata through node reload. Immutable covered/opacity block state gives collision and light queries safe access without worker-thread block-entity reads. Cover emission joins actual component light. Logs retain axis; glass retains transparency; biome-tinted leaves use real block colors. Drawn parts remain inside transparent covers.",
+  "protection": "Actual Forge placement cancellation, interaction restrictions, loaded entity identity, survival consumption and creative no-drop rules checked. Unknown-mod cover data survives with a stone visual fallback; survival peeling cannot silently destroy an unavailable item.",
+  "limits": "Only full collision-cube block models are accepted. Block entities, fluids and partial collision shapes are excluded. No arbitrary external block behavior is executed inside a cover.",
+  "minecraftCases": 4,
+  "focusedLog": "release-covers-focused-validation-01.log",
+  "clientLog": "release-node-covers-client-validation-01.log",
+  "screenshotsReviewed": true,
+  "clientChecks": [
+    "actual C key-state network packet",
+    "actual survival right-click and one-block consumption",
+    "live 50 V circuit under opaque cover",
+    "actual client mining peels only cover",
+    "exact inventory plus dropped item count",
+    "log axis, glass, leaf tint and glowstone models",
+    "actual night-time block-light field"
+  ],
+  "otherPersistenceRegression": "Actual wrench pickup and replacement preserves the preview legacy four-pin signal mode and configured 3.25 V value.",
+  "postOptimizationClientLog": "release-node-covers-client-validation-02.log",
+  "postOptimizationScreenshotsReviewed": true,
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

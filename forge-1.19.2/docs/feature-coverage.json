@@ -1,0 +1,4124 @@
+{
+  "version": "1.19.2-0.4.0-port",
+  "reference": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "designation": "Functional original Electrical Age port with explicit verification limits",
+  "native_parts": 227,
+  "native_materials": 172,
+  "tests": {
+    "unit": 210,
+    "withBcceAndCc": 286,
+    "withoutOptionalMods": 271,
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "nativeLog": "release-native-full-validation-03.log"
+  },
+  "classificationPolicy": "Implemented variants are not silently counted as individually exercised. Read verification_scope; a label is not a promise about every possible setup.",
+  "components": [
+    {
+      "native_id": "ground_cable",
+      "original_name": "Ground Cable",
+      "family": "six",
+      "legacy_id": 128,
+      "behavior": "GROUND",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FuelGeneratorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InventoryScannerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MachineLifecycleGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RenewableGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SolarGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/FuelGeneratorClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/NodeCoverClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PowerAntennaClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "hub",
+      "original_name": "Hub",
+      "family": "six",
+      "legacy_id": 136,
+      "behavior": "HUB",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_source",
+      "original_name": "Electrical Source",
+      "family": "six",
+      "legacy_id": 192,
+      "behavior": "VOLTAGE_SOURCE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/AutoMinerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/BatteryChargerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ClutchGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ElectricalFurnaceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FabricatorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FarmingLampGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/IncubatorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MachineLifecycleGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProcessingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RailChunkGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RailPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ReplicatorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TransporterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TurretGameTests.kt; src/qa/kotlin/mods/eln/modern/client/AutoMinerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ChargerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/FabricatorClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/NodeCoverClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PowerAntennaClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RailClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ReplicatorToolsClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TransporterClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TurretClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_source",
+      "original_name": "Signal Source",
+      "family": "six",
+      "legacy_id": 193,
+      "behavior": "SIGNAL_SOURCE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ClutchGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DataLoggerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HeatExchangerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TimerAlarmGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TurbineGameTests.kt; src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/DataLoggerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PowerAntennaClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TimerAlarmClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TurbineClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "current_source",
+      "original_name": "Current Source",
+      "family": "six",
+      "legacy_id": 194,
+      "behavior": "CURRENT_SOURCE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "tools/validate_production.py: actual installed JAR, 1 A source, 100 ohm load, disable and 256-node mesh"
+    },
+    {
+      "native_id": "signal_cable",
+      "original_name": "Signal Cable",
+      "family": "six",
+      "legacy_id": 2048,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InventoryScannerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ReplicatorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TimerAlarmGameTests.kt; src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/NodeCoverClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TimerAlarmClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "low_voltage_cable",
+      "original_name": "Low Voltage Cable",
+      "family": "six",
+      "legacy_id": 2052,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/NodeCoverClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt"
+    },
+    {
+      "native_id": "medium_voltage_cable",
+      "original_name": "Medium Voltage Cable",
+      "family": "six",
+      "legacy_id": 2056,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt"
+    },
+    {
+      "native_id": "high_voltage_cable",
+      "original_name": "High Voltage Cable",
+      "family": "six",
+      "legacy_id": 2060,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ReplicatorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ReplicatorToolsClientSmoke.kt"
+    },
+    {
+      "native_id": "very_high_voltage_cable",
+      "original_name": "Very High Voltage Cable",
+      "family": "six",
+      "legacy_id": 2064,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FarmingLampGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt"
+    },
+    {
+      "native_id": "creative_cable",
+      "original_name": "Creative Cable",
+      "family": "six",
+      "legacy_id": 2072,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; tools/validate_production.py: actual installed JAR, 1 A source, 100 ohm load, disable and 256-node mesh"
+    },
+    {
+      "native_id": "low_current_cable",
+      "original_name": "Low Current Cable",
+      "family": "six",
+      "legacy_id": 2112,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt"
+    },
+    {
+      "native_id": "medium_current_cable",
+      "original_name": "Medium Current Cable",
+      "family": "six",
+      "legacy_id": 2113,
+      "behavior": "CABLE",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "high_current_cable",
+      "original_name": "High Current Cable",
+      "family": "six",
+      "legacy_id": 2114,
+      "behavior": "CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt"
+    },
+    {
+      "native_id": "signal_bus_cable",
+      "original_name": "Signal Bus Cable",
+      "family": "six",
+      "legacy_id": 2068,
+      "behavior": "SIGNAL_BUS",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "type_j_socket",
+      "original_name": "Type J Socket",
+      "family": "six",
+      "legacy_id": 4289,
+      "behavior": "POWER_SOCKET",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "type_e_socket",
+      "original_name": "Type E Socket",
+      "family": "six",
+      "legacy_id": 4290,
+      "behavior": "POWER_SOCKET",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "scanner",
+      "original_name": "Scanner",
+      "family": "six",
+      "legacy_id": 6671,
+      "behavior": "INVENTORY_SCANNER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InventoryScannerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "low_power_transmitter_antenna",
+      "original_name": "Low Power Transmitter Antenna",
+      "family": "transparent",
+      "legacy_id": 448,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy; src/qa/kotlin/mods/eln/modern/client/PowerAntennaClientSmoke.kt"
+    },
+    {
+      "native_id": "low_power_receiver_antenna",
+      "original_name": "Low Power Receiver Antenna",
+      "family": "transparent",
+      "legacy_id": 449,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy"
+    },
+    {
+      "native_id": "medium_power_transmitter_antenna",
+      "original_name": "Medium Power Transmitter Antenna",
+      "family": "transparent",
+      "legacy_id": 450,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy"
+    },
+    {
+      "native_id": "medium_power_receiver_antenna",
+      "original_name": "Medium Power Receiver Antenna",
+      "family": "transparent",
+      "legacy_id": 451,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy"
+    },
+    {
+      "native_id": "high_power_transmitter_antenna",
+      "original_name": "High Power Transmitter Antenna",
+      "family": "transparent",
+      "legacy_id": 452,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy"
+    },
+    {
+      "native_id": "high_power_receiver_antenna",
+      "original_name": "High Power Receiver Antenna",
+      "family": "transparent",
+      "legacy_id": 453,
+      "behavior": "POWER_ANTENNA",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt: allSixAntennasUseActualCommandedInputIndependentFeedbackAndFiniteReceiverEnergy"
+    },
+    {
+      "native_id": "overhead_lines",
+      "original_name": "Overhead Lines",
+      "family": "transparent",
+      "legacy_id": 4544,
+      "behavior": "OVERHEAD_LINES",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RailChunkGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RailPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RailClientSmoke.kt"
+    },
+    {
+      "native_id": "copper_thermal_cable",
+      "original_name": "Copper Thermal Cable",
+      "family": "six",
+      "legacy_id": 3073,
+      "behavior": "THERMAL_CABLE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt"
+    },
+    {
+      "native_id": "humidity_sensor",
+      "original_name": "Humidity Sensor",
+      "family": "six",
+      "legacy_id": 6661,
+      "behavior": "ENVIRONMENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_anemometer_sensor",
+      "original_name": "Electrical Anemometer Sensor",
+      "family": "six",
+      "legacy_id": 6664,
+      "behavior": "ENVIRONMENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_entity_sensor",
+      "original_name": "Electrical Entity Sensor",
+      "family": "six",
+      "legacy_id": 6668,
+      "behavior": "ENVIRONMENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_fire_detector",
+      "original_name": "Electrical Fire Detector",
+      "family": "six",
+      "legacy_id": 6669,
+      "behavior": "ENVIRONMENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_fire_buzzer",
+      "original_name": "Electrical Fire Buzzer",
+      "family": "six",
+      "legacy_id": 6670,
+      "behavior": "ENVIRONMENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnvironmentSensorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnvironmentClientSmoke.kt"
+    },
+    {
+      "native_id": "analog_watch",
+      "original_name": "Analog Watch",
+      "family": "six",
+      "legacy_id": 7492,
+      "behavior": "WATCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/WatchGameTests.kt; src/qa/kotlin/mods/eln/modern/client/WatchClientSmoke.kt"
+    },
+    {
+      "native_id": "digital_watch",
+      "original_name": "Digital Watch",
+      "family": "six",
+      "legacy_id": 7493,
+      "behavior": "WATCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/WatchGameTests.kt; src/qa/kotlin/mods/eln/modern/client/WatchClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_timer",
+      "original_name": "Electrical Timer",
+      "family": "six",
+      "legacy_id": 6976,
+      "behavior": "TIMER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TimerAlarmGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TimerAlarmClientSmoke.kt"
+    },
+    {
+      "native_id": "nuclear_alarm",
+      "original_name": "Nuclear Alarm",
+      "family": "six",
+      "legacy_id": 6592,
+      "behavior": "ALARM",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TimerAlarmGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TimerAlarmClientSmoke.kt"
+    },
+    {
+      "native_id": "standard_alarm",
+      "original_name": "Standard Alarm",
+      "family": "six",
+      "legacy_id": 6593,
+      "behavior": "ALARM",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TimerAlarmGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TimerAlarmClientSmoke.kt"
+    },
+    {
+      "native_id": "10a_diode",
+      "original_name": "10A Diode",
+      "family": "six",
+      "legacy_id": 6144,
+      "behavior": "DIODE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt"
+    },
+    {
+      "native_id": "25a_diode",
+      "original_name": "25A Diode",
+      "family": "six",
+      "legacy_id": 6145,
+      "behavior": "DIODE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_diode",
+      "original_name": "Signal Diode",
+      "family": "six",
+      "legacy_id": 6152,
+      "behavior": "DIODE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt"
+    },
+    {
+      "native_id": "power_resistor",
+      "original_name": "Power Resistor",
+      "family": "six",
+      "legacy_id": 6180,
+      "behavior": "RESISTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "rheostat",
+      "original_name": "Rheostat",
+      "family": "six",
+      "legacy_id": 6181,
+      "behavior": "RESISTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "thermistor",
+      "original_name": "Thermistor",
+      "family": "six",
+      "legacy_id": 6182,
+      "behavior": "RESISTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "creative_power_resistor",
+      "original_name": "Creative Power Resistor",
+      "family": "six",
+      "legacy_id": 6185,
+      "behavior": "RESISTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FuelGeneratorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/main/kotlin/mods/eln/modern/testing/HubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MachineLifecycleGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PowerAntennaGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RenewableGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SolarGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/FuelGeneratorClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/HubClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/NodeCoverClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PowerAntennaClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "power_capacitor",
+      "original_name": "Power Capacitor",
+      "family": "six",
+      "legacy_id": 6176,
+      "behavior": "CAPACITOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "creative_power_capacitor",
+      "original_name": "Creative Power Capacitor",
+      "family": "six",
+      "legacy_id": 6183,
+      "behavior": "CAPACITOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "power_inductor",
+      "original_name": "Power Inductor",
+      "family": "six",
+      "legacy_id": 6178,
+      "behavior": "INDUCTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "variable_inductor",
+      "original_name": "Variable inductor",
+      "family": "six",
+      "legacy_id": 6179,
+      "behavior": "INDUCTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PassiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/PassiveClientSmoke.kt"
+    },
+    {
+      "native_id": "creative_power_inductor",
+      "original_name": "Creative Power Inductor",
+      "family": "six",
+      "legacy_id": 6184,
+      "behavior": "INDUCTOR",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "large_rheostat",
+      "original_name": "Large Rheostat",
+      "family": "transparent",
+      "legacy_id": 6183,
+      "behavior": "RESISTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt"
+    },
+    {
+      "native_id": "nixie_tube",
+      "original_name": "Nixie Tube",
+      "family": "transparent",
+      "legacy_id": 7495,
+      "behavior": "NIXIE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RheostatNixieGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RheostatNixieClientSmoke.kt"
+    },
+    {
+      "native_id": "5a_switch",
+      "original_name": "5A Switch",
+      "family": "six",
+      "legacy_id": 6213,
+      "behavior": "SWITCH",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "20a_switch",
+      "original_name": "20A Switch",
+      "family": "six",
+      "legacy_id": 6214,
+      "behavior": "SWITCH",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "50a_switch",
+      "original_name": "50A Switch",
+      "family": "six",
+      "legacy_id": 6215,
+      "behavior": "SWITCH",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "100a_switch",
+      "original_name": "100A Switch",
+      "family": "six",
+      "legacy_id": 6217,
+      "behavior": "SWITCH",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "5a_electrical_breaker",
+      "original_name": "Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6272,
+      "behavior": "BREAKER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt"
+    },
+    {
+      "native_id": "10a_electrical_breaker",
+      "original_name": "10A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6273,
+      "behavior": "BREAKER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "15a_electrical_breaker",
+      "original_name": "15A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6274,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "20a_electrical_breaker",
+      "original_name": "20A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6275,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "30a_electrical_breaker",
+      "original_name": "30A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6279,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "40a_electrical_breaker",
+      "original_name": "40A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6280,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "50a_electrical_breaker",
+      "original_name": "50A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6281,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "60a_electrical_breaker",
+      "original_name": "60A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6282,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "100a_electrical_breaker",
+      "original_name": "100A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6283,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "125a_electrical_breaker",
+      "original_name": "125A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6285,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "200a_electrical_breaker",
+      "original_name": "200A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6286,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "400a_electrical_breaker",
+      "original_name": "400A Electrical Breaker",
+      "family": "six",
+      "legacy_id": 6287,
+      "behavior": "BREAKER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "electrical_fuse_holder",
+      "original_name": "Electrical Fuse Holder",
+      "family": "six",
+      "legacy_id": 6278,
+      "behavior": "FUSE_HOLDER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InventoryScannerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ProtectionGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ProtectionClientSmoke.kt"
+    },
+    {
+      "native_id": "5v_control_relay_10a",
+      "original_name": "5V Control Relay 10A",
+      "family": "six",
+      "legacy_id": 6021,
+      "behavior": "RELAY",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "12v_control_relay_20a",
+      "original_name": "12V Control Relay 20A",
+      "family": "six",
+      "legacy_id": 6022,
+      "behavior": "RELAY",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "12v_control_relay_50a",
+      "original_name": "12V Control Relay 50A",
+      "family": "six",
+      "legacy_id": 6023,
+      "behavior": "RELAY",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "12v_control_relay_100a",
+      "original_name": "12V Control Relay 100A",
+      "family": "six",
+      "legacy_id": 6024,
+      "behavior": "RELAY",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "low_voltage_switch",
+      "original_name": "Low Voltage Switch",
+      "family": "six",
+      "legacy_id": 6209,
+      "behavior": "SWITCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "medium_voltage_switch",
+      "original_name": "Medium Voltage Switch",
+      "family": "six",
+      "legacy_id": 6210,
+      "behavior": "SWITCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "high_voltage_switch",
+      "original_name": "High Voltage Switch",
+      "family": "six",
+      "legacy_id": 6208,
+      "behavior": "SWITCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "very_high_voltage_switch",
+      "original_name": "Very High Voltage Switch",
+      "family": "six",
+      "legacy_id": 6212,
+      "behavior": "SWITCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "low_voltage_relay",
+      "original_name": "Low Voltage Relay",
+      "family": "six",
+      "legacy_id": 6016,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "medium_voltage_relay",
+      "original_name": "Medium Voltage Relay",
+      "family": "six",
+      "legacy_id": 6017,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "high_voltage_relay",
+      "original_name": "High Voltage Relay",
+      "family": "six",
+      "legacy_id": 6018,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "very_high_voltage_relay",
+      "original_name": "Very High Voltage Relay",
+      "family": "six",
+      "legacy_id": 6019,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_relay",
+      "original_name": "Signal Relay",
+      "family": "six",
+      "legacy_id": 6020,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "low_current_relay",
+      "original_name": "Low Current Relay",
+      "family": "six",
+      "legacy_id": 8064,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "medium_current_relay",
+      "original_name": "Medium Current Relay",
+      "family": "six",
+      "legacy_id": 8065,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "high_current_relay",
+      "original_name": "High Current Relay",
+      "family": "six",
+      "legacy_id": 8066,
+      "behavior": "RELAY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ContactGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ContactClientSmoke.kt"
+    },
+    {
+      "native_id": "voltage_probe",
+      "original_name": "Voltage Probe",
+      "family": "six",
+      "legacy_id": 6401,
+      "behavior": "SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "electrical_probe",
+      "original_name": "Electrical Probe",
+      "family": "six",
+      "legacy_id": 6400,
+      "behavior": "SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DataLoggerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/DiodeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "analog_vumeter",
+      "original_name": "Analog vuMeter",
+      "family": "six",
+      "legacy_id": 6528,
+      "behavior": "METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt"
+    },
+    {
+      "native_id": "led_vumeter",
+      "original_name": "LED vuMeter",
+      "family": "six",
+      "legacy_id": 6536,
+      "behavior": "METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt"
+    },
+    {
+      "native_id": "multicolor_led_vumeter",
+      "original_name": "Multicolor LED vuMeter",
+      "family": "six",
+      "legacy_id": 6537,
+      "behavior": "METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt"
+    },
+    {
+      "native_id": "digital_display",
+      "original_name": "Digital Display",
+      "family": "six",
+      "legacy_id": 7494,
+      "behavior": "METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "energy_meter",
+      "original_name": "Energy Meter",
+      "family": "six",
+      "legacy_id": 6276,
+      "behavior": "ENERGY_METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt"
+    },
+    {
+      "native_id": "advanced_energy_meter",
+      "original_name": "Advanced Energy Meter",
+      "family": "six",
+      "legacy_id": 6277,
+      "behavior": "ENERGY_METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/EnergyMeterGameTests.kt; src/qa/kotlin/mods/eln/modern/client/EnergyMeterClientSmoke.kt"
+    },
+    {
+      "native_id": "mqtt_energy_meter",
+      "original_name": "MQTT Energy Meter",
+      "family": "six",
+      "legacy_id": 6284,
+      "behavior": "ENERGY_METER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt"
+    },
+    {
+      "native_id": "mqtt_signal_controller",
+      "original_name": "MQTT Signal Controller",
+      "family": "six",
+      "legacy_id": 6981,
+      "behavior": "MQTT_CONTROLLER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/MqttGameTests.kt; src/qa/kotlin/mods/eln/modern/client/MqttClientSmoke.kt"
+    },
+    {
+      "native_id": "modbus_rtu",
+      "original_name": "Modbus RTU",
+      "family": "six",
+      "legacy_id": 7488,
+      "behavior": "MODBUS",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ModbusClientSmoke.kt"
+    },
+    {
+      "native_id": "tutorial_sign",
+      "original_name": "Tutorial Sign",
+      "family": "six",
+      "legacy_id": 7496,
+      "behavior": "TUTORIAL_SIGN",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TutorialSignGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt"
+    },
+    {
+      "native_id": "computer_probe",
+      "original_name": "Computer Probe",
+      "family": "computer_probe",
+      "legacy_id": 0,
+      "behavior": "COMPUTER_PROBE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ComputerProbeGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ProbeTutorialClientSmoke.kt"
+    },
+    {
+      "native_id": "thermal_probe",
+      "original_name": "Thermal Probe",
+      "family": "six",
+      "legacy_id": 6464,
+      "behavior": "THERMAL_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "temperature_probe",
+      "original_name": "Temperature Probe",
+      "family": "six",
+      "legacy_id": 6465,
+      "behavior": "THERMAL_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "thermometer_sensor",
+      "original_name": "Thermometer Sensor",
+      "family": "six",
+      "legacy_id": 6662,
+      "behavior": "AMBIENT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "redstone_to_voltage_converter",
+      "original_name": "Redstone-to-Voltage Converter",
+      "family": "six",
+      "legacy_id": 6912,
+      "behavior": "REDSTONE_INPUT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt"
+    },
+    {
+      "native_id": "voltage_to_redstone_converter",
+      "original_name": "Voltage-to-Redstone Converter",
+      "family": "six",
+      "legacy_id": 6913,
+      "behavior": "REDSTONE_OUTPUT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt"
+    },
+    {
+      "native_id": "electrical_daylight_sensor",
+      "original_name": "Electrical Daylight Sensor",
+      "family": "six",
+      "legacy_id": 6656,
+      "behavior": "DAYLIGHT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_light_sensor",
+      "original_name": "Electrical Light Sensor",
+      "family": "six",
+      "legacy_id": 6657,
+      "behavior": "LIGHT_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt"
+    },
+    {
+      "native_id": "electrical_weather_sensor",
+      "original_name": "Electrical Weather Sensor",
+      "family": "six",
+      "legacy_id": 6660,
+      "behavior": "WEATHER_SENSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt"
+    },
+    {
+      "native_id": "signal_trimmer",
+      "original_name": "Signal Trimmer",
+      "family": "six",
+      "legacy_id": 6080,
+      "behavior": "SIGNAL_SOURCE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/NodeCoverGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_switch",
+      "original_name": "Signal Switch",
+      "family": "six",
+      "legacy_id": 6081,
+      "behavior": "SIGNAL_SOURCE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_button",
+      "original_name": "Signal Button",
+      "family": "six",
+      "legacy_id": 6088,
+      "behavior": "BUTTON",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SimpleSignalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SimpleSignalClientSmoke.kt"
+    },
+    {
+      "native_id": "wireless_signal_transmitter",
+      "original_name": "Wireless Signal Transmitter",
+      "family": "six",
+      "legacy_id": 5896,
+      "behavior": "WIRELESS_TX",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "wireless_signal_receiver",
+      "original_name": "Wireless Signal Receiver",
+      "family": "six",
+      "legacy_id": 5888,
+      "behavior": "WIRELESS_RX",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ModbusClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "signal_processor",
+      "original_name": "Signal Processor",
+      "family": "six",
+      "legacy_id": 6980,
+      "behavior": "PROCESSOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SignalDeviceGameTests.kt; src/qa/kotlin/mods/eln/modern/client/SignalDeviceClientSmoke.kt"
+    },
+    {
+      "native_id": "data_logger",
+      "original_name": "Data Logger",
+      "family": "six",
+      "legacy_id": 5952,
+      "behavior": "LOGGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DataLoggerGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/qa/kotlin/mods/eln/modern/client/DataLoggerClientSmoke.kt"
+    },
+    {
+      "native_id": "modern_data_logger",
+      "original_name": "Modern Data Logger",
+      "family": "six",
+      "legacy_id": 5953,
+      "behavior": "LOGGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/DataLoggerClientSmoke.kt"
+    },
+    {
+      "native_id": "industrial_data_logger",
+      "original_name": "Industrial Data Logger",
+      "family": "six",
+      "legacy_id": 5954,
+      "behavior": "LOGGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/DataLoggerClientSmoke.kt"
+    },
+    {
+      "native_id": "not_chip",
+      "original_name": "NOT Chip",
+      "family": "six",
+      "legacy_id": 7552,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "and_chip",
+      "original_name": "AND Chip",
+      "family": "six",
+      "legacy_id": 7553,
+      "behavior": "LOGIC",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "nand_chip",
+      "original_name": "NAND Chip",
+      "family": "six",
+      "legacy_id": 7554,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "or_chip",
+      "original_name": "OR Chip",
+      "family": "six",
+      "legacy_id": 7555,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "nor_chip",
+      "original_name": "NOR Chip",
+      "family": "six",
+      "legacy_id": 7556,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "xor_chip",
+      "original_name": "XOR Chip",
+      "family": "six",
+      "legacy_id": 7557,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "xnor_chip",
+      "original_name": "XNOR Chip",
+      "family": "six",
+      "legacy_id": 7558,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "pal_chip",
+      "original_name": "PAL Chip",
+      "family": "six",
+      "legacy_id": 7559,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "schmitt_trigger_chip",
+      "original_name": "Schmitt Trigger Chip",
+      "family": "six",
+      "legacy_id": 7560,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "d_flip_flop_chip",
+      "original_name": "D Flip Flop Chip",
+      "family": "six",
+      "legacy_id": 7561,
+      "behavior": "LOGIC",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "oscillator_chip",
+      "original_name": "Oscillator Chip",
+      "family": "six",
+      "legacy_id": 7562,
+      "behavior": "LOGIC",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SensorGameTests.kt"
+    },
+    {
+      "native_id": "jk_flip_flop_chip",
+      "original_name": "JK Flip Flop Chip",
+      "family": "six",
+      "legacy_id": 7563,
+      "behavior": "LOGIC",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "wireless_signal_repeater",
+      "original_name": "Wireless Signal Repeater",
+      "family": "six",
+      "legacy_id": 5904,
+      "behavior": "WIRELESS_REPEATER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "wireless_button",
+      "original_name": "Wireless Button",
+      "family": "six",
+      "legacy_id": 6092,
+      "behavior": "WIRELESS_TX",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "wireless_switch",
+      "original_name": "Wireless Switch",
+      "family": "six",
+      "legacy_id": 6096,
+      "behavior": "WIRELESS_TX",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/ccTest/kotlin/mods/eln/modern/testing/CcProbeGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ModbusGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/main/kotlin/mods/eln/modern/testing/WirelessGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ModbusClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ReplicatorToolsClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/WirelessClientSmoke.kt"
+    },
+    {
+      "native_id": "classic_lamp_socket",
+      "original_name": "Lamp Socket A",
+      "family": "six",
+      "legacy_id": 4096,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FarmingLampGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "lamp_socket_b_projector",
+      "original_name": "Lamp Socket B Projector",
+      "family": "six",
+      "legacy_id": 4097,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "robust_lamp_socket",
+      "original_name": "Robust Lamp Socket",
+      "family": "six",
+      "legacy_id": 4100,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "flat_lamp_socket",
+      "original_name": "Flat Lamp Socket",
+      "family": "six",
+      "legacy_id": 4101,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "simple_lamp_socket",
+      "original_name": "Simple Lamp Socket",
+      "family": "six",
+      "legacy_id": 4102,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "fluorescent_lamp_socket",
+      "original_name": "Fluorescent Lamp Socket",
+      "family": "six",
+      "legacy_id": 4103,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "street_light",
+      "original_name": "Street Light",
+      "family": "six",
+      "legacy_id": 4104,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "sconce_lamp_socket",
+      "original_name": "Sconce Lamp Socket",
+      "family": "six",
+      "legacy_id": 4105,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "suspended_lamp_socket",
+      "original_name": "Suspended Lamp Socket",
+      "family": "six",
+      "legacy_id": 4108,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "long_suspended_lamp_socket",
+      "original_name": "Long Suspended Lamp Socket",
+      "family": "six",
+      "legacy_id": 4109,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "suspended_lamp_socket_no_swing",
+      "original_name": "Suspended Lamp Socket (No Swing)",
+      "family": "six",
+      "legacy_id": 4113,
+      "behavior": "LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "long_suspended_lamp_socket_no_swing",
+      "original_name": "Long Suspended Lamp Socket (No Swing)",
+      "family": "six",
+      "legacy_id": 4114,
+      "behavior": "LAMP",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "50v_emergency_lamp",
+      "original_name": "50V Emergency Lamp",
+      "family": "six",
+      "legacy_id": 4111,
+      "behavior": "EMERGENCY_LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "200v_emergency_lamp",
+      "original_name": "200V Emergency Lamp",
+      "family": "six",
+      "legacy_id": 4112,
+      "behavior": "EMERGENCY_LAMP",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt"
+    },
+    {
+      "native_id": "basic_floodlight",
+      "original_name": "Basic Floodlight",
+      "family": "transparent",
+      "legacy_id": 4352,
+      "behavior": "FLOODLIGHT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/SharedToolGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "motorized_floodlight",
+      "original_name": "Motorized Floodlight",
+      "family": "transparent",
+      "legacy_id": 4353,
+      "behavior": "FLOODLIGHT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "christmas_tree",
+      "original_name": "Christmas Tree",
+      "family": "transparent",
+      "legacy_id": 4416,
+      "behavior": "FESTIVE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt"
+    },
+    {
+      "native_id": "holiday_candle",
+      "original_name": "Holiday Candle",
+      "family": "transparent",
+      "legacy_id": 4417,
+      "behavior": "FESTIVE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt"
+    },
+    {
+      "native_id": "string_lights",
+      "original_name": "String Lights",
+      "family": "transparent",
+      "legacy_id": 4418,
+      "behavior": "FESTIVE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt"
+    },
+    {
+      "native_id": "800v_defence_turret",
+      "original_name": "800V Defence Turret",
+      "family": "transparent",
+      "legacy_id": 4224,
+      "behavior": "TURRET",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TurretGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TurretClientSmoke.kt"
+    },
+    {
+      "native_id": "experimental_transporter",
+      "original_name": "Experimental Transporter",
+      "family": "transparent",
+      "legacy_id": 4160,
+      "behavior": "TELEPORTER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TransporterGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TransporterClientSmoke.kt"
+    },
+    {
+      "native_id": "auto_miner",
+      "original_name": "Auto Miner",
+      "family": "transparent",
+      "legacy_id": 2688,
+      "behavior": "AUTO_MINER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/AutoMinerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/AutoMinerClientSmoke.kt"
+    },
+    {
+      "native_id": "fabricator",
+      "original_name": "Fabricator",
+      "family": "transparent",
+      "legacy_id": 4480,
+      "behavior": "FABRICATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FabricatorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FabricatorClientSmoke.kt"
+    },
+    {
+      "native_id": "50v_egg_incubator",
+      "original_name": "50V Egg Incubator",
+      "family": "transparent",
+      "legacy_id": 2624,
+      "behavior": "INCUBATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/IncubatorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt"
+    },
+    {
+      "native_id": "tree_resin_collector",
+      "original_name": "Tree Resin Collector",
+      "family": "six",
+      "legacy_id": 7424,
+      "behavior": "RESIN_COLLECTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ResinCollectorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "lamp_supply",
+      "original_name": "Lamp Supply",
+      "family": "six",
+      "legacy_id": 4160,
+      "behavior": "LAMP_SUPPLY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FestiveGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LightingGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PaintedPowerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/FestiveClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "opamp",
+      "original_name": "OpAmp",
+      "family": "six",
+      "legacy_id": 7936,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "pid_regulator",
+      "original_name": "PID Regulator",
+      "family": "six",
+      "legacy_id": 7937,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "voltage_controlled_sawtooth_oscillator",
+      "original_name": "Voltage controlled sawtooth oscillator",
+      "family": "six",
+      "legacy_id": 7938,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "voltage_controlled_sine_oscillator",
+      "original_name": "Voltage controlled sine oscillator",
+      "family": "six",
+      "legacy_id": 7939,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "amplifier",
+      "original_name": "Amplifier",
+      "family": "six",
+      "legacy_id": 7940,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "voltage_controlled_amplifier",
+      "original_name": "Voltage controlled amplifier",
+      "family": "six",
+      "legacy_id": 7941,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "configurable_summing_unit",
+      "original_name": "Configurable summing unit",
+      "family": "six",
+      "legacy_id": 7942,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "sample_and_hold",
+      "original_name": "Sample and hold",
+      "family": "six",
+      "legacy_id": 7943,
+      "behavior": "ANALOG",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "lowpass_filter",
+      "original_name": "Lowpass filter",
+      "family": "six",
+      "legacy_id": 7944,
+      "behavior": "ANALOG",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "small_solar_panel",
+      "original_name": "Small Solar Panel",
+      "family": "transparent",
+      "legacy_id": 3073,
+      "behavior": "SOLAR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "small_rotating_solar_panel",
+      "original_name": "Small Rotating Solar Panel",
+      "family": "transparent",
+      "legacy_id": 3074,
+      "behavior": "SOLAR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SolarGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "2x3_solar_panel",
+      "original_name": "2x3 Solar Panel",
+      "family": "transparent",
+      "legacy_id": 3075,
+      "behavior": "SOLAR",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "2x3_rotating_solar_panel",
+      "original_name": "2x3 Rotating Solar Panel",
+      "family": "transparent",
+      "legacy_id": 3076,
+      "behavior": "SOLAR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/SolarGameTests.kt"
+    },
+    {
+      "native_id": "cost_oriented_battery",
+      "original_name": "Cost Oriented Battery",
+      "family": "transparent",
+      "legacy_id": 1024,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "capacity_oriented_battery",
+      "original_name": "Capacity Oriented Battery",
+      "family": "transparent",
+      "legacy_id": 1025,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "voltage_oriented_battery",
+      "original_name": "Voltage Oriented Battery",
+      "family": "transparent",
+      "legacy_id": 1026,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "current_oriented_battery",
+      "original_name": "Current Oriented Battery",
+      "family": "transparent",
+      "legacy_id": 1027,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "life_oriented_battery",
+      "original_name": "Life Oriented Battery",
+      "family": "transparent",
+      "legacy_id": 1028,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "single_use_battery",
+      "original_name": "Single-use Battery",
+      "family": "transparent",
+      "legacy_id": 1029,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "experimental_battery",
+      "original_name": "Experimental Battery",
+      "family": "transparent",
+      "legacy_id": 1030,
+      "behavior": "BATTERY",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryVariantGameTests.kt"
+    },
+    {
+      "native_id": "dc_dc_converter",
+      "original_name": "DC-DC Converter",
+      "family": "transparent",
+      "legacy_id": 130,
+      "behavior": "TRANSFORMER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "variable_dc_dc_converter",
+      "original_name": "Variable DC-DC Converter",
+      "family": "transparent",
+      "legacy_id": 129,
+      "behavior": "TRANSFORMER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/DcDcGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "electrical_furnace",
+      "original_name": "Electrical Furnace",
+      "family": "transparent",
+      "legacy_id": 2048,
+      "behavior": "FURNACE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ElectricalFurnaceGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "48v_macerator",
+      "original_name": "50V Macerator",
+      "family": "transparent",
+      "legacy_id": 2112,
+      "behavior": "MACERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "240v_macerator",
+      "original_name": "200V Macerator",
+      "family": "transparent",
+      "legacy_id": 2116,
+      "behavior": "MACERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/PortGameTests.kt"
+    },
+    {
+      "native_id": "48v_plate_machine",
+      "original_name": "50V Plate Machine",
+      "family": "transparent",
+      "legacy_id": 2368,
+      "behavior": "PLATE_MACHINE",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "240v_plate_machine",
+      "original_name": "200V Plate Machine",
+      "family": "transparent",
+      "legacy_id": 2372,
+      "behavior": "PLATE_MACHINE",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "48v_compressor",
+      "original_name": "50V Compressor",
+      "family": "transparent",
+      "legacy_id": 2240,
+      "behavior": "COMPRESSOR",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "240v_compressor",
+      "original_name": "200V Compressor",
+      "family": "transparent",
+      "legacy_id": 2244,
+      "behavior": "COMPRESSOR",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "50v_magnetizer",
+      "original_name": "50V Magnetizer",
+      "family": "transparent",
+      "legacy_id": 2304,
+      "behavior": "MAGNETIZER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "200v_magnetizer",
+      "original_name": "200V Magnetizer",
+      "family": "transparent",
+      "legacy_id": 2308,
+      "behavior": "MAGNETIZER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ProcessingGameTests.kt"
+    },
+    {
+      "native_id": "old_800v_arc_furnace",
+      "original_name": "Old 800V Arc Furnace",
+      "family": "transparent",
+      "legacy_id": 2176,
+      "behavior": "ARC_FURNACE",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "energy_converter",
+      "original_name": "Energy Converter",
+      "family": "single",
+      "legacy_id": 0,
+      "behavior": "FE_CONVERTER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/qa/kotlin/mods/eln/modern/client/BcceFactoryClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "joint",
+      "original_name": "Joint",
+      "family": "transparent",
+      "legacy_id": 268,
+      "behavior": "SHAFT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftProtectionGameTests.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt"
+    },
+    {
+      "native_id": "joint_hub",
+      "original_name": "Joint hub",
+      "family": "transparent",
+      "legacy_id": 269,
+      "behavior": "SHAFT_HUB",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ShaftHubGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TurbineClientSmoke.kt"
+    },
+    {
+      "native_id": "flywheel",
+      "original_name": "Flywheel",
+      "family": "transparent",
+      "legacy_id": 270,
+      "behavior": "FLYWHEEL",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ClutchGameTests.kt; src/main/kotlin/mods/eln/modern/testing/CrankGameTests.kt; src/main/kotlin/mods/eln/modern/testing/FlywheelHazardGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftChunkGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RollingShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftHubGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftProtectionGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TurbineGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RollingClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/TurbineClientSmoke.kt"
+    },
+    {
+      "native_id": "clutch",
+      "original_name": "Clutch",
+      "family": "transparent",
+      "legacy_id": 273,
+      "behavior": "CLUTCH",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ClutchGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftProtectionGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "shaft_motor",
+      "original_name": "Shaft Motor",
+      "family": "transparent",
+      "legacy_id": 272,
+      "behavior": "SHAFT_MOTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ClutchGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt"
+    },
+    {
+      "native_id": "generator",
+      "original_name": "Generator",
+      "family": "transparent",
+      "legacy_id": 266,
+      "behavior": "SHAFT_GENERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/ShaftElectricalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ShaftElectricalClientSmoke.kt"
+    },
+    {
+      "native_id": "gas_turbine",
+      "original_name": "Gas Turbine",
+      "family": "transparent",
+      "legacy_id": 267,
+      "behavior": "GAS_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/TurbineGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TurbineClientSmoke.kt"
+    },
+    {
+      "native_id": "steam_turbine",
+      "original_name": "Steam Turbine",
+      "family": "transparent",
+      "legacy_id": 265,
+      "behavior": "STEAM_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/main/kotlin/mods/eln/modern/testing/MachinePickupGameTests.kt; src/main/kotlin/mods/eln/modern/testing/TurbineGameTests.kt; src/qa/kotlin/mods/eln/modern/client/TurbineClientSmoke.kt"
+    },
+    {
+      "native_id": "rolling_shaft",
+      "original_name": "Rolling Shaft Machine",
+      "family": "transparent",
+      "legacy_id": 277,
+      "behavior": "ROLLING_SHAFT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/InfrastructureGameTests.kt; src/main/kotlin/mods/eln/modern/testing/RollingShaftGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RollingClientSmoke.kt"
+    },
+    {
+      "native_id": "large_steam_turbine",
+      "original_name": "Large Steam Turbine",
+      "family": "transparent",
+      "legacy_id": 278,
+      "behavior": "STEAM_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LargeShaftChunkGameTests.kt; src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt"
+    },
+    {
+      "native_id": "large_gas_turbine",
+      "original_name": "Large Gas Turbine",
+      "family": "transparent",
+      "legacy_id": 279,
+      "behavior": "GAS_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt"
+    },
+    {
+      "native_id": "large_generator",
+      "original_name": "Large Generator",
+      "family": "transparent",
+      "legacy_id": 280,
+      "behavior": "SHAFT_GENERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt"
+    },
+    {
+      "native_id": "large_shaft_motor",
+      "original_name": "Large Shaft Motor",
+      "family": "transparent",
+      "legacy_id": 281,
+      "behavior": "SHAFT_MOTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt; src/qa/kotlin/mods/eln/modern/client/LargeShaftClientSmoke.kt"
+    },
+    {
+      "native_id": "polarized_shaft_generator",
+      "original_name": "Polarized Shaft Generator",
+      "family": "transparent",
+      "legacy_id": 282,
+      "behavior": "SHAFT_GENERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt"
+    },
+    {
+      "native_id": "polarized_shaft_motor",
+      "original_name": "Polarized Shaft Motor",
+      "family": "transparent",
+      "legacy_id": 283,
+      "behavior": "SHAFT_MOTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/LargeShaftGameTests.kt"
+    },
+    {
+      "native_id": "radial_motor",
+      "original_name": "Radial Motor",
+      "family": "transparent",
+      "legacy_id": 275,
+      "behavior": "RADIAL_MOTOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RadialMotorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "tachometer",
+      "original_name": "Tachometer",
+      "family": "transparent",
+      "legacy_id": 271,
+      "behavior": "TACHOMETER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt"
+    },
+    {
+      "native_id": "fixed_shaft",
+      "original_name": "Fixed Shaft",
+      "family": "transparent",
+      "legacy_id": 274,
+      "behavior": "FIXED_SHAFT",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ShaftInstrumentationGameTests.kt"
+    },
+    {
+      "native_id": "crank_shaft",
+      "original_name": "Crank Shaft",
+      "family": "transparent",
+      "legacy_id": 276,
+      "behavior": "CRANK",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/CrankGameTests.kt"
+    },
+    {
+      "native_id": "weak_50v_battery_charger",
+      "original_name": "Weak 50V Battery Charger",
+      "family": "six",
+      "legacy_id": 4224,
+      "behavior": "BATTERY_CHARGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryChargerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ChargerClientSmoke.kt"
+    },
+    {
+      "native_id": "50v_battery_charger",
+      "original_name": "50V Battery Charger",
+      "family": "six",
+      "legacy_id": 4225,
+      "behavior": "BATTERY_CHARGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryChargerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ChargerClientSmoke.kt"
+    },
+    {
+      "native_id": "200v_battery_charger",
+      "original_name": "200V Battery Charger",
+      "family": "six",
+      "legacy_id": 4228,
+      "behavior": "BATTERY_CHARGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/BatteryChargerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ChargerClientSmoke.kt"
+    },
+    {
+      "native_id": "wind_turbine",
+      "original_name": "Wind Turbine",
+      "family": "transparent",
+      "legacy_id": 3136,
+      "behavior": "WIND_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RenewableGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt"
+    },
+    {
+      "native_id": "water_turbine",
+      "original_name": "Water Turbine",
+      "family": "transparent",
+      "legacy_id": 3152,
+      "behavior": "WATER_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/RenewableGameTests.kt; src/qa/kotlin/mods/eln/modern/client/RenewableClientSmoke.kt"
+    },
+    {
+      "native_id": "48v_fuel_generator",
+      "original_name": "50V Fuel Generator",
+      "family": "transparent",
+      "legacy_id": 4289,
+      "behavior": "FUEL_GENERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FuelGeneratorGameTests.kt; src/main/kotlin/mods/eln/modern/testing/InventoryScannerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FuelGeneratorClientSmoke.kt; src/qa/kotlin/mods/eln/modern/client/PaintedPowerClientSmoke.kt"
+    },
+    {
+      "native_id": "240v_fuel_generator",
+      "original_name": "200V Fuel Generator",
+      "family": "transparent",
+      "legacy_id": 4290,
+      "behavior": "FUEL_GENERATOR",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/FuelGeneratorGameTests.kt; src/qa/kotlin/mods/eln/modern/client/FuelGeneratorClientSmoke.kt"
+    },
+    {
+      "native_id": "small_passive_thermal_dissipator",
+      "original_name": "Small Passive Thermal Dissipator",
+      "family": "transparent",
+      "legacy_id": 4096,
+      "behavior": "PASSIVE_COOLER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "small_active_thermal_dissipator",
+      "original_name": "Small Active Thermal Dissipator",
+      "family": "transparent",
+      "legacy_id": 4128,
+      "behavior": "ACTIVE_COOLER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "200v_active_thermal_dissipator",
+      "original_name": "200V Active Thermal Dissipator",
+      "family": "transparent",
+      "legacy_id": 4130,
+      "behavior": "ACTIVE_COOLER",
+      "classification": "Implemented but untested",
+      "verification_scope": "Original definition and shared runtime implemented; a separate operating fixture for this installation/calibration variant has not been established by literal test discovery.",
+      "evidence": ""
+    },
+    {
+      "native_id": "stone_heat_furnace",
+      "original_name": "Stone Heat Furnace",
+      "family": "transparent",
+      "legacy_id": 192,
+      "behavior": "HEAT_FURNACE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "fuel_heat_furnace",
+      "original_name": "Fuel Heat Furnace",
+      "family": "transparent",
+      "legacy_id": 193,
+      "behavior": "FUEL_HEAT_FURNACE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "thermal_heat_exchanger",
+      "original_name": "Thermal Heat Exchanger",
+      "family": "transparent",
+      "legacy_id": 4162,
+      "behavior": "HEAT_EXCHANGER",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/HeatExchangerGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "50v_turbine",
+      "original_name": "50V Turbine",
+      "family": "transparent",
+      "legacy_id": 257,
+      "behavior": "HEAT_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "200v_turbine",
+      "original_name": "200V Turbine",
+      "family": "transparent",
+      "legacy_id": 264,
+      "behavior": "HEAT_TURBINE",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/ThermalGameTests.kt"
+    },
+    {
+      "native_id": "grid_dc_dc_converter",
+      "original_name": "Grid DC-DC Converter",
+      "family": "transparent",
+      "legacy_id": 7875,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "utility_pole",
+      "original_name": "Utility Pole",
+      "family": "transparent",
+      "legacy_id": 7876,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "utility_pole_w_dc_dc_converter",
+      "original_name": "Utility Pole w/DC-DC Converter",
+      "family": "transparent",
+      "legacy_id": 7877,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "transmission_tower",
+      "original_name": "Transmission Tower",
+      "family": "transparent",
+      "legacy_id": 7878,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "direct_utility_pole",
+      "original_name": "Direct Utility Pole",
+      "family": "transparent",
+      "legacy_id": 7879,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    },
+    {
+      "native_id": "grid_switch",
+      "original_name": "Grid Switch",
+      "family": "transparent",
+      "legacy_id": 7880,
+      "behavior": "GRID",
+      "classification": "Fully functional and tested",
+      "verification_scope": "Named actual-world/client fixture; see referenced assertions and logs. This is not exhaustive testing of every configuration.",
+      "evidence": "src/main/kotlin/mods/eln/modern/testing/GridGameTests.kt; src/qa/kotlin/mods/eln/modern/client/ClientSmoke.kt"
+    }
+  ],
+  "baselineExceptions": [
+    {
+      "family": "six",
+      "group": 127,
+      "sub_id": 0,
+      "legacy_id": 8128,
+      "name": "Conduit",
+      "source": "SixNodeRegistration.kt",
+      "line": 363,
+      "native_id": null,
+      "registrationStatus": "excluded_development_prototype",
+      "classification": "Not technically practical to preserve as functional equipment",
+      "reason": "Baseline registers Conduit only during isDevelopmentRun; its original element exposes no electrical or thermal loads. No survival functionality exists to reproduce.",
+      "sourceEvidence": [
+        "SixNodeRegistration.kt:122",
+        "sixnode/ConduitCableDescriptor.kt"
+      ]
+    },
+    {
+      "family": "six",
+      "group": 125,
+      "sub_id": 0,
+      "legacy_id": 8000,
+      "name": "Portable NaN",
+      "source": "SixNodeRegistration.kt",
+      "line": 1595,
+      "native_id": null,
+      "registrationStatus": "diagnostic_replaced",
+      "classification": "Intentionally replaced by equivalent functionality",
+      "reason": "Original creative Portable NaN deliberately injects NaN resistance, temperature and heat into the simulation. Numerical fault-injection unit tests replace the world-corrupting debug item; it is not survival equipment.",
+      "sourceEvidence": [
+        "sixnode/PortableNaN.kt",
+        "SixNodeRegistration.kt:1589"
+      ],
+      "testEvidence": [
+        "src/test/kotlin/mods/eln/sim/mna/component/ComponentTypesTest.kt",
+        "src/test/kotlin/mods/eln/sim/mna/SubSystemMatrixTest.kt",
+        "src/test/kotlin/mods/eln/sim/mna/process/PowerSourceBipoleTest.kt"
+      ]
+    }
+  ],
+  "native_materials_detail": [
+    {
+      "id": "electric_minecart",
+      "name": "Electric Minecart",
+      "legacyId": 8128,
+      "icon": "items/electricminecart",
+      "kind": "ELECTRIC_MINECART"
+    },
+    {
+      "id": "black_brush",
+      "name": "Black Brush",
+      "legacyId": 7616,
+      "icon": "items/blackbrush",
+      "kind": "BRUSH",
+      "variant": 0
+    },
+    {
+      "id": "red_brush",
+      "name": "Red Brush",
+      "legacyId": 7617,
+      "icon": "items/redbrush",
+      "kind": "BRUSH",
+      "variant": 1
+    },
+    {
+      "id": "green_brush",
+      "name": "Green Brush",
+      "legacyId": 7618,
+      "icon": "items/greenbrush",
+      "kind": "BRUSH",
+      "variant": 2
+    },
+    {
+      "id": "brown_brush",
+      "name": "Brown Brush",
+      "legacyId": 7619,
+      "icon": "items/brownbrush",
+      "kind": "BRUSH",
+      "variant": 3
+    },
+    {
+      "id": "blue_brush",
+      "name": "Blue Brush",
+      "legacyId": 7620,
+      "icon": "items/bluebrush",
+      "kind": "BRUSH",
+      "variant": 4
+    },
+    {
+      "id": "purple_brush",
+      "name": "Purple Brush",
+      "legacyId": 7621,
+      "icon": "items/purplebrush",
+      "kind": "BRUSH",
+      "variant": 5
+    },
+    {
+      "id": "cyan_brush",
+      "name": "Cyan Brush",
+      "legacyId": 7622,
+      "icon": "items/cyanbrush",
+      "kind": "BRUSH",
+      "variant": 6
+    },
+    {
+      "id": "silver_brush",
+      "name": "Silver Brush",
+      "legacyId": 7623,
+      "icon": "items/silverbrush",
+      "kind": "BRUSH",
+      "variant": 7
+    },
+    {
+      "id": "gray_brush",
+      "name": "Gray Brush",
+      "legacyId": 7624,
+      "icon": "items/graybrush",
+      "kind": "BRUSH",
+      "variant": 8
+    },
+    {
+      "id": "pink_brush",
+      "name": "Pink Brush",
+      "legacyId": 7625,
+      "icon": "items/pinkbrush",
+      "kind": "BRUSH",
+      "variant": 9
+    },
+    {
+      "id": "lime_brush",
+      "name": "Lime Brush",
+      "legacyId": 7626,
+      "icon": "items/limebrush",
+      "kind": "BRUSH",
+      "variant": 10
+    },
+    {
+      "id": "yellow_brush",
+      "name": "Yellow Brush",
+      "legacyId": 7627,
+      "icon": "items/yellowbrush",
+      "kind": "BRUSH",
+      "variant": 11
+    },
+    {
+      "id": "light_blue_brush",
+      "name": "Light Blue Brush",
+      "legacyId": 7628,
+      "icon": "items/lightbluebrush",
+      "kind": "BRUSH",
+      "variant": 12
+    },
+    {
+      "id": "magenta_brush",
+      "name": "Magenta Brush",
+      "legacyId": 7629,
+      "icon": "items/magentabrush",
+      "kind": "BRUSH",
+      "variant": 13
+    },
+    {
+      "id": "orange_brush",
+      "name": "Orange Brush",
+      "legacyId": 7630,
+      "icon": "items/orangebrush",
+      "kind": "BRUSH",
+      "variant": 14
+    },
+    {
+      "id": "white_brush",
+      "name": "White Brush",
+      "legacyId": 7631,
+      "icon": "items/whitebrush",
+      "kind": "BRUSH",
+      "variant": 15
+    },
+    {
+      "id": "lead_fuse_for_low_voltage_cables",
+      "name": "Lead Fuse for low voltage cables",
+      "legacyId": 6279,
+      "icon": "items/electricalfuse",
+      "kind": "FUSE",
+      "fuseCable": "low_voltage_cable",
+      "hidden": false,
+      "heldModel": true
+    },
+    {
+      "id": "lead_fuse_for_medium_voltage_cables",
+      "name": "Lead Fuse for medium voltage cables",
+      "legacyId": 6280,
+      "icon": "items/electricalfuse",
+      "kind": "FUSE",
+      "fuseCable": "medium_voltage_cable",
+      "hidden": false,
+      "heldModel": true
+    },
+    {
+      "id": "lead_fuse_for_high_voltage_cables",
+      "name": "Lead Fuse for high voltage cables",
+      "legacyId": 6281,
+      "icon": "items/electricalfuse",
+      "kind": "FUSE",
+      "fuseCable": "high_voltage_cable",
+      "hidden": false,
+      "heldModel": true
+    },
+    {
+      "id": "lead_fuse_for_very_high_voltage_cables",
+      "name": "Lead Fuse for very high voltage cables",
+      "legacyId": 6282,
+      "icon": "items/electricalfuse",
+      "kind": "FUSE",
+      "fuseCable": "very_high_voltage_cable",
+      "hidden": false,
+      "heldModel": true
+    },
+    {
+      "id": "blown_lead_fuse",
+      "name": "Blown Lead Fuse",
+      "legacyId": 6283,
+      "icon": "items/blownelectricalfuse",
+      "kind": "FUSE",
+      "fuseCable": null,
+      "hidden": true,
+      "heldModel": true
+    },
+    {
+      "id": "overheating_protection",
+      "name": "Overheating Protection",
+      "legacyId": 320,
+      "icon": "items/overheatingprotection",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "overvoltage_protection",
+      "name": "Overvoltage Protection",
+      "legacyId": 321,
+      "icon": "items/overvoltageprotection",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "signal_antenna",
+      "name": "Signal Antenna",
+      "legacyId": 7713,
+      "icon": "items/signalantenna",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "silicon_wafer",
+      "name": "Silicon Wafer",
+      "legacyId": 8064,
+      "icon": "items/siliconwafer",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "transistor",
+      "name": "Transistor",
+      "legacyId": 8065,
+      "icon": "items/transistor",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "ntc_thermistor",
+      "name": "NTC Thermistor",
+      "legacyId": 8066,
+      "icon": "items/ntcthermistor",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "nibble_memory_chip",
+      "name": "Nibble Memory Chip",
+      "legacyId": 8067,
+      "icon": "items/nibblememorychip",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "arithmetic_logic_unit",
+      "name": "Arithmetic Logic Unit",
+      "legacyId": 8068,
+      "icon": "items/arithmeticlogicunit",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "data_logger_print",
+      "name": "Data Logger Print",
+      "legacyId": 7712,
+      "icon": "items/empty-texture",
+      "kind": "DATA_LOG_PRINT",
+      "hidden": true
+    },
+    {
+      "id": "allmeter",
+      "name": "AllMeter",
+      "legacyId": 898,
+      "icon": "items/allmeter",
+      "kind": "ALLMETER"
+    },
+    {
+      "id": "wireless_analyser",
+      "name": "Wireless Analyser",
+      "legacyId": 904,
+      "icon": "items/wirelessanalyser",
+      "kind": "WIRELESS_ANALYSER"
+    },
+    {
+      "id": "config_copy_tool",
+      "name": "Config Copy Tool",
+      "legacyId": 912,
+      "icon": "items/configcopytool",
+      "kind": "CONFIG_COPY"
+    },
+    {
+      "id": "unreleasedium",
+      "name": "unreleasedium",
+      "legacyId": 4421,
+      "icon": "items/unreleasedium",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "inert_canister",
+      "name": "Inert Canister",
+      "legacyId": 4424,
+      "icon": "items/inertcanister",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "canister_of_water",
+      "name": "Canister of Water",
+      "legacyId": 4427,
+      "icon": "items/canisterofwater",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "canister_of_arc_water",
+      "name": "Canister of Arc Water",
+      "legacyId": 4428,
+      "icon": "items/canisterofarcwater",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "copper_dust",
+      "name": "Copper Dust",
+      "legacyId": 577,
+      "icon": "items/copperdust"
+    },
+    {
+      "id": "iron_dust",
+      "name": "Iron Dust",
+      "legacyId": 578,
+      "icon": "items/irondust"
+    },
+    {
+      "id": "lapis_dust",
+      "name": "Lapis Dust",
+      "legacyId": 579,
+      "icon": "items/lapisdust"
+    },
+    {
+      "id": "diamond_dust",
+      "name": "Diamond Dust",
+      "legacyId": 580,
+      "icon": "items/diamonddust"
+    },
+    {
+      "id": "lead_dust",
+      "name": "Lead Dust",
+      "legacyId": 5,
+      "icon": "items/leaddust"
+    },
+    {
+      "id": "tungsten_dust",
+      "name": "Tungsten Dust",
+      "legacyId": 6,
+      "icon": "items/tungstendust"
+    },
+    {
+      "id": "gold_dust",
+      "name": "Gold Dust",
+      "legacyId": 7,
+      "icon": "items/golddust"
+    },
+    {
+      "id": "coal_dust",
+      "name": "Coal Dust",
+      "legacyId": 8,
+      "icon": "items/coaldust"
+    },
+    {
+      "id": "alloy_dust",
+      "name": "Alloy Dust",
+      "legacyId": 9,
+      "icon": "items/alloydust"
+    },
+    {
+      "id": "cinnabar_dust",
+      "name": "Cinnabar Dust",
+      "legacyId": 10,
+      "icon": "items/cinnabardust"
+    },
+    {
+      "id": "copper_ingot",
+      "name": "Copper Ingot",
+      "legacyId": 513,
+      "icon": "items/copperingot"
+    },
+    {
+      "id": "lead_ingot",
+      "name": "Lead Ingot",
+      "legacyId": 516,
+      "icon": "items/leadingot"
+    },
+    {
+      "id": "tungsten_ingot",
+      "name": "Tungsten Ingot",
+      "legacyId": 517,
+      "icon": "items/tungsteningot"
+    },
+    {
+      "id": "ferrite_ingot",
+      "name": "Ferrite Ingot",
+      "legacyId": 518,
+      "icon": "items/ferriteingot"
+    },
+    {
+      "id": "alloy_ingot",
+      "name": "Alloy Ingot",
+      "legacyId": 519,
+      "icon": "items/alloyingot"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "legacyId": 520,
+      "icon": "items/mercury"
+    },
+    {
+      "id": "copper_plate",
+      "name": "Copper Plate",
+      "legacyId": 7686,
+      "icon": "items/copperplate"
+    },
+    {
+      "id": "iron_plate",
+      "name": "Iron Plate",
+      "legacyId": 7687,
+      "icon": "items/ironplate"
+    },
+    {
+      "id": "gold_plate",
+      "name": "Gold Plate",
+      "legacyId": 7688,
+      "icon": "items/goldplate"
+    },
+    {
+      "id": "lead_plate",
+      "name": "Lead Plate",
+      "legacyId": 7689,
+      "icon": "items/leadplate"
+    },
+    {
+      "id": "silicon_plate",
+      "name": "Silicon Plate",
+      "legacyId": 7690,
+      "icon": "items/siliconplate"
+    },
+    {
+      "id": "alloy_plate",
+      "name": "Alloy Plate",
+      "legacyId": 7691,
+      "icon": "items/alloyplate"
+    },
+    {
+      "id": "coal_plate",
+      "name": "Coal Plate",
+      "legacyId": 7692,
+      "icon": "items/coalplate"
+    },
+    {
+      "id": "on_off_regulator_1_percent",
+      "name": "On/OFF Regulator 1 Percent",
+      "legacyId": 192,
+      "icon": "items/onoffregulator",
+      "kind": "ON_OFF_REGULATOR",
+      "value": 0.01,
+      "maximumTemperature": 0
+    },
+    {
+      "id": "on_off_regulator_10_percent",
+      "name": "On/OFF Regulator 10 Percent",
+      "legacyId": 193,
+      "icon": "items/onoffregulator",
+      "kind": "ON_OFF_REGULATOR",
+      "value": 0.1,
+      "maximumTemperature": 0
+    },
+    {
+      "id": "analogic_regulator",
+      "name": "Analogic Regulator",
+      "legacyId": 200,
+      "icon": "items/analogicregulator",
+      "kind": "ANALOG_REGULATOR",
+      "value": 0,
+      "maximumTemperature": 0
+    },
+    {
+      "id": "combustion_chamber",
+      "name": "Combustion Chamber",
+      "legacyId": 384,
+      "icon": "items/combustionchamber",
+      "kind": "COMBUSTION_CHAMBER",
+      "value": 500,
+      "maximumTemperature": 0
+    },
+    {
+      "id": "thermal_insulation",
+      "name": "Thermal Insulation",
+      "legacyId": 385,
+      "icon": "items/thermalinsulation",
+      "kind": "THERMAL_INSULATION",
+      "value": 0.5,
+      "maximumTemperature": 500
+    },
+    {
+      "id": "small_fuel_burner",
+      "name": "Small Fuel Burner",
+      "legacyId": 7936,
+      "icon": "items/smallfuelburner",
+      "kind": "FUEL_BURNER",
+      "value": 5000,
+      "variant": 2
+    },
+    {
+      "id": "medium_fuel_burner",
+      "name": "Medium Fuel Burner",
+      "legacyId": 7937,
+      "icon": "items/mediumfuelburner",
+      "kind": "FUEL_BURNER",
+      "value": 10000,
+      "variant": 1
+    },
+    {
+      "id": "big_fuel_burner",
+      "name": "Big Fuel Burner",
+      "legacyId": 7938,
+      "icon": "items/bigfuelburner",
+      "kind": "FUEL_BURNER",
+      "value": 25000,
+      "variant": 0
+    },
+    {
+      "id": "electrical_motor",
+      "name": "Electrical Motor",
+      "legacyId": 640,
+      "icon": "items/electricalmotor",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "advanced_electrical_motor",
+      "name": "Advanced Electrical Motor",
+      "legacyId": 641,
+      "icon": "items/advancedelectricalmotor",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "cheap_chip",
+      "name": "Cheap Chip",
+      "legacyId": 7680,
+      "icon": "items/cheapchip",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "advanced_chip",
+      "name": "Advanced Chip",
+      "legacyId": 7681,
+      "icon": "items/advancedchip",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "machine_block",
+      "name": "Machine Block",
+      "legacyId": 7682,
+      "icon": "items/machineblock",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "electrical_probe_chip",
+      "name": "Electrical Probe Chip",
+      "legacyId": 7683,
+      "icon": "items/electricalprobechip",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "thermal_probe_chip",
+      "name": "Thermal Probe Chip",
+      "legacyId": 7684,
+      "icon": "items/thermalprobechip",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "silicon_dust",
+      "name": "Silicon Dust",
+      "legacyId": 7696,
+      "icon": "items/silicondust",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "advanced_machine_block",
+      "name": "Advanced Machine Block",
+      "legacyId": 7703,
+      "icon": "items/advancedmachineblock",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "synthetic_diamond",
+      "name": "Synthetic Diamond",
+      "legacyId": 4420,
+      "icon": "items/syntheticdiamond",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "arc_clay_ingot",
+      "name": "Arc Clay Ingot",
+      "legacyId": 4422,
+      "icon": "items/arcclayingot",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "arc_metal_ingot",
+      "name": "Arc Metal Ingot",
+      "legacyId": 4423,
+      "icon": "items/arcmetalingot",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "motor_cowling",
+      "name": "Motor Cowling",
+      "legacyId": 7740,
+      "icon": "items/motorcowling",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "heavy_winding",
+      "name": "Heavy Winding",
+      "legacyId": 7741,
+      "icon": "items/heavywinding",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "reinforced_shaft",
+      "name": "Reinforced Shaft",
+      "legacyId": 7742,
+      "icon": "items/reinforcedshaft",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "turbine_blade_set",
+      "name": "Turbine Blade Set",
+      "legacyId": 7743,
+      "icon": "items/turbinebladeset",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "solar_tracker",
+      "name": "Solar Tracker",
+      "legacyId": 704,
+      "icon": "items/solartracker",
+      "kind": "SOLAR_TRACKER"
+    },
+    {
+      "id": "machine_booster",
+      "name": "Machine Booster",
+      "legacyId": 7702,
+      "icon": "items/machinebooster",
+      "kind": "MACHINE_BOOSTER"
+    },
+    {
+      "id": "silicon_ingot",
+      "name": "Silicon Ingot",
+      "legacyId": 7697,
+      "icon": "items/siliconingot",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "basic_magnet",
+      "name": "Basic Magnet",
+      "legacyId": 7708,
+      "icon": "items/basicmagnet",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "advanced_magnet",
+      "name": "Advanced Magnet",
+      "legacyId": 7709,
+      "icon": "items/advancedmagnet",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "dielectric",
+      "name": "Dielectric",
+      "legacyId": 7732,
+      "icon": "items/dielectric",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "tree_resin",
+      "name": "Tree Resin",
+      "legacyId": 4096,
+      "icon": "items/treeresin",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "rubber",
+      "name": "Rubber",
+      "legacyId": 4097,
+      "icon": "items/rubber",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "graphite_rod",
+      "name": "Graphite Rod",
+      "legacyId": 4416,
+      "icon": "items/graphiterod",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "2x_graphite_rods",
+      "name": "2x Graphite Rods",
+      "legacyId": 4417,
+      "icon": "items/2xgraphiterods",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "3x_graphite_rods",
+      "name": "3x Graphite Rods",
+      "legacyId": 4418,
+      "icon": "items/3xgraphiterods",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "4x_graphite_rods",
+      "name": "4x Graphite Rods",
+      "legacyId": 4419,
+      "icon": "items/4xgraphiterods",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "small_50v_copper_heating_element",
+      "name": "Small 50V Copper Heating Element",
+      "legacyId": 64,
+      "icon": "items/small50vcopperheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 150,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "50v_copper_heating_element",
+      "name": "50V Copper Heating Element",
+      "legacyId": 65,
+      "icon": "items/50vcopperheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 250,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "small_200v_copper_heating_element",
+      "name": "Small 200V Copper Heating Element",
+      "legacyId": 66,
+      "icon": "items/small200vcopperheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 400,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "200v_copper_heating_element",
+      "name": "200V Copper Heating Element",
+      "legacyId": 67,
+      "icon": "items/200vcopperheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 600,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "small_50v_iron_heating_element",
+      "name": "Small 50V Iron Heating Element",
+      "legacyId": 68,
+      "icon": "items/small50vironheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 180,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "50v_iron_heating_element",
+      "name": "50V Iron Heating Element",
+      "legacyId": 69,
+      "icon": "items/50vironheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 375,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "small_200v_iron_heating_element",
+      "name": "Small 200V Iron Heating Element",
+      "legacyId": 70,
+      "icon": "items/small200vironheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 600,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "200v_iron_heating_element",
+      "name": "200V Iron Heating Element",
+      "legacyId": 71,
+      "icon": "items/200vironheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 900,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "small_50v_tungsten_heating_element",
+      "name": "Small 50V Tungsten Heating Element",
+      "legacyId": 72,
+      "icon": "items/small50vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 240,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "50v_tungsten_heating_element",
+      "name": "50V Tungsten Heating Element",
+      "legacyId": 73,
+      "icon": "items/50vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 500,
+      "nominalVoltage": 50
+    },
+    {
+      "id": "small_200v_tungsten_heating_element",
+      "name": "Small 200V Tungsten Heating Element",
+      "legacyId": 74,
+      "icon": "items/small200vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 800,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "200v_tungsten_heating_element",
+      "name": "200V Tungsten Heating Element",
+      "legacyId": 75,
+      "icon": "items/200vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 1200,
+      "nominalVoltage": 200
+    },
+    {
+      "id": "small_800v_tungsten_heating_element",
+      "name": "Small 800V Tungsten Heating Element",
+      "legacyId": 76,
+      "icon": "items/small800vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 3600,
+      "nominalVoltage": 800
+    },
+    {
+      "id": "800v_tungsten_heating_element",
+      "name": "800V Tungsten Heating Element",
+      "legacyId": 77,
+      "icon": "items/800vtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 4812,
+      "nominalVoltage": 800
+    },
+    {
+      "id": "small_3_2kv_tungsten_heating_element",
+      "name": "Small 3.2kV Tungsten Heating Element",
+      "legacyId": 78,
+      "icon": "items/small3.2kvtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 4000,
+      "nominalVoltage": 3200
+    },
+    {
+      "id": "3_2kv_tungsten_heating_element",
+      "name": "3.2kV Tungsten Heating Element",
+      "legacyId": 79,
+      "icon": "items/3.2kvtungstenheatingelement",
+      "kind": "HEATING_ELEMENT",
+      "value": 12000,
+      "nominalVoltage": 3200
+    },
+    {
+      "id": "copper_cable",
+      "name": "Copper Cable",
+      "legacyId": 4160,
+      "icon": "items/coppercable",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "iron_cable",
+      "name": "Iron Cable",
+      "legacyId": 4161,
+      "icon": "items/ironcable",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "tungsten_cable",
+      "name": "Tungsten Cable",
+      "legacyId": 4162,
+      "icon": "items/tungstencable",
+      "kind": "RESOURCE"
+    },
+    {
+      "id": "cheap_ferromagnetic_core",
+      "name": "Cheap Ferromagnetic Core",
+      "legacyId": 448,
+      "icon": "items/cheapferromagneticcore",
+      "kind": "FERROMAGNETIC_CORE",
+      "value": 100
+    },
+    {
+      "id": "average_ferromagnetic_core",
+      "name": "Average Ferromagnetic Core",
+      "legacyId": 449,
+      "icon": "items/averageferromagneticcore",
+      "kind": "FERROMAGNETIC_CORE",
+      "value": 50
+    },
+    {
+      "id": "optimal_ferromagnetic_core",
+      "name": "Optimal Ferromagnetic Core",
+      "legacyId": 450,
+      "icon": "items/optimalferromagneticcore",
+      "kind": "FERROMAGNETIC_CORE",
+      "value": 1
+    },
+    {
+      "id": "iron_clutch_plate",
+      "name": "Iron Clutch Plate",
+      "legacyId": 7734,
+      "icon": "items/ironclutchplate",
+      "kind": "CLUTCH_PLATE",
+      "clutchPlate": {
+        "maximumStatic": 5120,
+        "minimumStatic": 640,
+        "maximumDynamic": 640,
+        "minimumDynamic": 160,
+        "wearSpeed": 0.0001,
+        "explodes": false
+      }
+    },
+    {
+      "id": "gold_clutch_plate",
+      "name": "Gold Clutch Plate",
+      "legacyId": 7736,
+      "icon": "items/goldclutchplate",
+      "kind": "CLUTCH_PLATE",
+      "clutchPlate": {
+        "maximumStatic": 10240,
+        "minimumStatic": 2048,
+        "maximumDynamic": 1024,
+        "minimumDynamic": 512,
+        "wearSpeed": 0.001,
+        "explodes": false
+      }
+    },
+    {
+      "id": "copper_clutch_plate",
+      "name": "Copper Clutch Plate",
+      "legacyId": 7737,
+      "icon": "items/copperclutchplate",
+      "kind": "CLUTCH_PLATE",
+      "clutchPlate": {
+        "maximumStatic": 8192,
+        "minimumStatic": 4096,
+        "maximumDynamic": 1024,
+        "minimumDynamic": 512,
+        "wearSpeed": 0.0003,
+        "explodes": false
+      }
+    },
+    {
+      "id": "lead_clutch_plate",
+      "name": "Lead Clutch Plate",
+      "legacyId": 7738,
+      "icon": "items/leadclutchplate",
+      "kind": "CLUTCH_PLATE",
+      "clutchPlate": {
+        "maximumStatic": 15360,
+        "minimumStatic": 1024,
+        "maximumDynamic": 1536,
+        "minimumDynamic": 768,
+        "wearSpeed": 0.0015,
+        "explodes": false
+      }
+    },
+    {
+      "id": "coal_clutch_plate",
+      "name": "Coal Clutch Plate",
+      "legacyId": 7739,
+      "icon": "items/coalclutchplate",
+      "kind": "CLUTCH_PLATE",
+      "clutchPlate": {
+        "maximumStatic": 1024,
+        "minimumStatic": 128,
+        "maximumDynamic": 128,
+        "minimumDynamic": 32,
+        "wearSpeed": 0.1,
+        "explodes": true
+      }
+    },
+    {
+      "id": "clutch_pin",
+      "name": "Clutch Pin",
+      "legacyId": 7735,
+      "icon": "items/clutchpin",
+      "kind": "CLUTCH_PIN"
+    },
+    {
+      "id": "casing",
+      "name": "Casing",
+      "legacyId": 7733,
+      "icon": "items/casing",
+      "kind": "CASING"
+    },
+    {
+      "id": "player_filter",
+      "name": "Player Filter",
+      "legacyId": 7720,
+      "icon": "items/playerfilter",
+      "kind": "ENTITY_FILTER",
+      "value": 65280
+    },
+    {
+      "id": "monster_filter",
+      "name": "Monster Filter",
+      "legacyId": 7721,
+      "icon": "items/monsterfilter",
+      "kind": "ENTITY_FILTER",
+      "value": 16711680
+    },
+    {
+      "id": "animal_filter",
+      "name": "Animal Filter",
+      "legacyId": 7722,
+      "icon": "items/animalfilter",
+      "kind": "ENTITY_FILTER",
+      "value": 5000447
+    },
+    {
+      "id": "portable_battery",
+      "name": "Portable Battery",
+      "legacyId": 7808,
+      "icon": "items/portablebattery",
+      "kind": "PORTABLE_BATTERY",
+      "electrical": {
+        "capacity": 40000,
+        "chargePower": 125,
+        "dischargePower": 250,
+        "priority": 2
+      }
+    },
+    {
+      "id": "portable_battery_pack",
+      "name": "Portable Battery Pack",
+      "legacyId": 7809,
+      "icon": "items/portablebatterypack",
+      "kind": "PORTABLE_BATTERY",
+      "electrical": {
+        "capacity": 160000,
+        "chargePower": 500,
+        "dischargePower": 1000,
+        "priority": 2
+      }
+    },
+    {
+      "id": "portable_condensator",
+      "name": "Portable Condensator",
+      "legacyId": 7824,
+      "icon": "items/portablecondensator",
+      "kind": "PORTABLE_BATTERY",
+      "electrical": {
+        "capacity": 4000,
+        "chargePower": 2000,
+        "dischargePower": 2000,
+        "priority": 1
+      }
+    },
+    {
+      "id": "portable_condensator_pack",
+      "name": "Portable Condensator Pack",
+      "legacyId": 7825,
+      "icon": "items/portablecondensatorpack",
+      "kind": "PORTABLE_BATTERY",
+      "electrical": {
+        "capacity": 16000,
+        "chargePower": 8000,
+        "dischargePower": 8000,
+        "priority": 1
+      }
+    },
+    {
+      "id": "small_flashlight",
+      "name": "Small Flashlight",
+      "legacyId": 7744,
+      "icon": "items/smallflashlightoff",
+      "kind": "ELECTRICAL_FLASHLIGHT",
+      "electrical": {
+        "capacity": 6000,
+        "chargePower": 100,
+        "dischargePower": 0,
+        "priority": 0,
+        "flashlight": {
+          "lightLow": 10,
+          "rangeLow": 6,
+          "wattsLow": 20,
+          "lightHigh": 12,
+          "rangeHigh": 9,
+          "wattsHigh": 50
+        }
+      }
+    },
+    {
+      "id": "improved_flashlight",
+      "name": "Improved Flashlight",
+      "legacyId": 7745,
+      "icon": "items/improvedflashlightoff",
+      "kind": "ELECTRICAL_FLASHLIGHT",
+      "electrical": {
+        "capacity": 24000,
+        "chargePower": 400,
+        "dischargePower": 0,
+        "priority": 0,
+        "flashlight": {
+          "lightLow": 15,
+          "rangeLow": 8,
+          "wattsLow": 20,
+          "lightHigh": 15,
+          "rangeHigh": 13,
+          "wattsHigh": 50
+        }
+      }
+    },
+    {
+      "id": "ore_scanner",
+      "name": "Ore Scanner",
+      "legacyId": 1024,
+      "icon": "items/orescanner",
+      "kind": "ORE_SCANNER_UPGRADE"
+    },
+    {
+      "id": "mining_pipe",
+      "name": "Mining Pipe",
+      "legacyId": 1088,
+      "icon": "items/miningpipe",
+      "kind": "MINING_PIPE"
+    },
+    {
+      "id": "x_ray_scanner",
+      "name": "X-Ray Scanner",
+      "legacyId": 7840,
+      "icon": "items/x-rayscanner",
+      "kind": "ELECTRICAL_SCANNER",
+      "heldModel": true,
+      "electrical": {
+        "capacity": 100000,
+        "chargePower": 400,
+        "dischargePower": 300,
+        "priority": 0,
+        "scanner": {
+          "watts": 300,
+          "width": 32,
+          "height": 20,
+          "fieldOfView": 1.5707963267948966
+        }
+      }
+    },
+    {
+      "id": "copper_sword",
+      "name": "Copper Sword",
+      "legacyId": -1,
+      "icon": "items/copper_sword",
+      "kind": "COPPER_TOOL"
+    },
+    {
+      "id": "copper_pickaxe",
+      "name": "Copper Pickaxe",
+      "legacyId": -1,
+      "icon": "items/copper_pickaxe",
+      "kind": "COPPER_TOOL"
+    },
+    {
+      "id": "copper_axe",
+      "name": "Copper Axe",
+      "legacyId": -1,
+      "icon": "items/copper_axe",
+      "kind": "COPPER_TOOL"
+    },
+    {
+      "id": "copper_shovel",
+      "name": "Copper Shovel",
+      "legacyId": -1,
+      "icon": "items/copper_shovel",
+      "kind": "COPPER_TOOL"
+    },
+    {
+      "id": "copper_hoe",
+      "name": "Copper Hoe",
+      "legacyId": -1,
+      "icon": "items/copper_hoe",
+      "kind": "COPPER_TOOL"
+    },
+    {
+      "id": "copper_helmet",
+      "name": "Copper Helmet",
+      "legacyId": -1,
+      "icon": "items/copper_helmet",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "HEAD",
+        "protection": 2
+      }
+    },
+    {
+      "id": "copper_chestplate",
+      "name": "Copper Chestplate",
+      "legacyId": -1,
+      "icon": "items/copper_chestplate",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "CHEST",
+        "protection": 6
+      }
+    },
+    {
+      "id": "copper_leggings",
+      "name": "Copper Leggings",
+      "legacyId": -1,
+      "icon": "items/copper_leggings",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "LEGS",
+        "protection": 5
+      }
+    },
+    {
+      "id": "copper_boots",
+      "name": "Copper Boots",
+      "legacyId": -1,
+      "icon": "items/copper_boots",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "FEET",
+        "protection": 2
+      }
+    },
+    {
+      "id": "e_coal_helmet",
+      "name": "E-Coal Helmet",
+      "legacyId": -1,
+      "icon": "items/ecoal_helmet",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "HEAD",
+        "protection": 3
+      },
+      "electrical": {
+        "capacity": 8000,
+        "chargePower": 2000,
+        "dischargePower": 0,
+        "priority": 0
+      }
+    },
+    {
+      "id": "e_coal_chestplate",
+      "name": "E-Coal Chestplate",
+      "legacyId": -1,
+      "icon": "items/ecoal_chestplate",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "CHEST",
+        "protection": 8
+      },
+      "electrical": {
+        "capacity": 8000,
+        "chargePower": 2000,
+        "dischargePower": 0,
+        "priority": 0
+      }
+    },
+    {
+      "id": "e_coal_leggings",
+      "name": "E-Coal Leggings",
+      "legacyId": -1,
+      "icon": "items/ecoal_leggings",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "LEGS",
+        "protection": 6
+      },
+      "electrical": {
+        "capacity": 8000,
+        "chargePower": 2000,
+        "dischargePower": 0,
+        "priority": 0
+      }
+    },
+    {
+      "id": "e_coal_boots",
+      "name": "E-Coal Boots",
+      "legacyId": -1,
+      "icon": "items/ecoal_boots",
+      "kind": "ARMOR",
+      "armor": {
+        "slot": "FEET",
+        "protection": 3
+      },
+      "electrical": {
+        "capacity": 8000,
+        "chargePower": 2000,
+        "dischargePower": 0,
+        "priority": 0
+      }
+    },
+    {
+      "id": "cheap_electrical_drill",
+      "name": "Cheap Electrical Drill",
+      "legacyId": 960,
+      "icon": "items/cheapelectricaldrill",
+      "kind": "ELECTRICAL_DRILL",
+      "drill": {
+        "operationTime": 8,
+        "operationEnergy": 4000
+      }
+    },
+    {
+      "id": "average_electrical_drill",
+      "name": "Average Electrical Drill",
+      "legacyId": 961,
+      "icon": "items/averageelectricaldrill",
+      "kind": "ELECTRICAL_DRILL",
+      "drill": {
+        "operationTime": 5,
+        "operationEnergy": 5000
+      }
+    },
+    {
+      "id": "fast_electrical_drill",
+      "name": "Fast Electrical Drill",
+      "legacyId": 962,
+      "icon": "items/fastelectricaldrill",
+      "kind": "ELECTRICAL_DRILL",
+      "drill": {
+        "operationTime": 3,
+        "operationEnergy": 6000
+      }
+    },
+    {
+      "id": "turbo_electrical_drill",
+      "name": "Turbo Electrical Drill",
+      "legacyId": 963,
+      "icon": "items/turboelectricaldrill",
+      "kind": "ELECTRICAL_DRILL",
+      "drill": {
+        "operationTime": 1,
+        "operationEnergy": 10000
+      }
+    },
+    {
+      "id": "irresponsible_electrical_drill",
+      "name": "Irresponsible Electrical Drill",
+      "legacyId": 964,
+      "icon": "items/irresponsibleelectricaldrill",
+      "kind": "ELECTRICAL_DRILL",
+      "drill": {
+        "operationTime": 0.1,
+        "operationEnergy": 20000
+      }
+    },
+    {
+      "id": "portable_electrical_mining_drill",
+      "name": "Portable Electrical Mining Drill",
+      "legacyId": 7752,
+      "icon": "items/portableelectricalminingdrill",
+      "kind": "ELECTRICAL_TOOL",
+      "electrical": {
+        "capacity": 120000,
+        "chargePower": 10000,
+        "dischargePower": 0,
+        "priority": 0,
+        "tool": {
+          "type": "DRILL",
+          "strengthOn": 22,
+          "strengthOff": 1,
+          "energyPerBlock": 200
+        }
+      }
+    },
+    {
+      "id": "portable_electrical_axe",
+      "name": "Portable Electrical Axe",
+      "legacyId": 7756,
+      "icon": "items/portableelectricalaxe",
+      "kind": "ELECTRICAL_TOOL",
+      "electrical": {
+        "capacity": 40000,
+        "chargePower": 10000,
+        "dischargePower": 0,
+        "priority": 0,
+        "tool": {
+          "type": "AXE",
+          "strengthOn": 22,
+          "strengthOff": 1,
+          "energyPerBlock": 200
+        }
+      }
+    },
+    {
+      "id": "small_50v_incandescent_light_bulb",
+      "name": "Small 50V Incandescent Light Bulb",
+      "legacyId": 256,
+      "icon": "items/incandescentironlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 20,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 0.8326666666666667,
+        "hours": 16,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_incandescent_light_bulb",
+      "name": "50V Incandescent Light Bulb",
+      "legacyId": 257,
+      "icon": "items/incandescentironlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 30,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 16,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "200v_incandescent_light_bulb",
+      "name": "200V Incandescent Light Bulb",
+      "legacyId": 258,
+      "icon": "items/incandescentironlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 200,
+      "value": 30,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 16,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "small_50v_carbon_incandescent_light_bulb",
+      "name": "Small 50V Carbon Incandescent Light Bulb",
+      "legacyId": 260,
+      "icon": "items/incandescentcarbonlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 15,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 0.766,
+        "hours": 6,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_carbon_incandescent_light_bulb",
+      "name": "50V Carbon Incandescent Light Bulb",
+      "legacyId": 261,
+      "icon": "items/incandescentcarbonlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 25,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 0.8993333333333333,
+        "hours": 6,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "small_50v_economic_light_bulb",
+      "name": "Small 50V Economic Light Bulb",
+      "legacyId": 272,
+      "icon": "items/fluorescentlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 10,
+      "bulb": {
+        "type": "ECO",
+        "socket": "DOUILLE",
+        "nominalLight": 0.8326666666666667,
+        "hours": 64,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_economic_light_bulb",
+      "name": "50V Economic Light Bulb",
+      "legacyId": 273,
+      "icon": "items/fluorescentlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 15,
+      "bulb": {
+        "type": "ECO",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 64,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "200v_economic_light_bulb",
+      "name": "200V Economic Light Bulb",
+      "legacyId": 274,
+      "icon": "items/fluorescentlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 200,
+      "value": 15,
+      "bulb": {
+        "type": "ECO",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 64,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_farming_lamp",
+      "name": "50V Farming Lamp",
+      "legacyId": 288,
+      "icon": "items/farminglamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 120,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 1.0326666666666666,
+        "hours": 16,
+        "growRate": 0.5,
+        "range": 0
+      }
+    },
+    {
+      "id": "200v_farming_lamp",
+      "name": "200V Farming Lamp",
+      "legacyId": 292,
+      "icon": "items/farminglamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 200,
+      "value": 120,
+      "bulb": {
+        "type": "INCANDESCENT",
+        "socket": "DOUILLE",
+        "nominalLight": 1.0326666666666666,
+        "hours": 16,
+        "growRate": 0.5,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_led_bulb",
+      "name": "50V LED Bulb",
+      "legacyId": 293,
+      "icon": "items/ledlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 15,
+      "bulb": {
+        "type": "LED",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 512,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "200v_led_bulb",
+      "name": "200V LED Bulb",
+      "legacyId": 294,
+      "icon": "items/ledlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 200,
+      "value": 15,
+      "bulb": {
+        "type": "LED",
+        "socket": "DOUILLE",
+        "nominalLight": 0.966,
+        "hours": 512,
+        "growRate": 0,
+        "range": 0
+      }
+    },
+    {
+      "id": "50v_halogen_bulb",
+      "name": "50V Halogen Bulb",
+      "legacyId": 300,
+      "icon": "items/halogenlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 50,
+      "value": 250,
+      "bulb": {
+        "type": "HALOGEN",
+        "socket": "TUBE",
+        "nominalLight": 1.0326666666666666,
+        "hours": 128,
+        "growRate": 0,
+        "range": 8
+      }
+    },
+    {
+      "id": "200v_halogen_bulb",
+      "name": "200V Halogen Bulb",
+      "legacyId": 301,
+      "icon": "items/halogenlamp",
+      "kind": "LIGHT_BULB",
+      "nominalVoltage": 200,
+      "value": 500,
+      "bulb": {
+        "type": "HALOGEN",
+        "socket": "TUBE",
+        "nominalLight": 1.0326666666666666,
+        "hours": 128,
+        "growRate": 0,
+        "range": 16
+      }
+    }
+  ],
+  "families": [
+    {
+      "family": "Electrical simulation and distribution",
+      "implementation": "Original MNA components, dynamic R/C/L, sources, separate terminals, loss/thermal failure, six-face multipart topology, original C-key covers with live internal circuits, actual overhead grids and transformer/pole/switch assemblies."
+    },
+    {
+      "family": "Generation and storage",
+      "implementation": "All seven source batteries; four solar variants and tracking/ghost terminals; wind/water, combustion, heat/steam/shaft generation and finite portable storage."
+    },
+    {
+      "family": "Machines, mechanical power and fluids",
+      "implementation": "Original processing inventories/boosters, furnaces, thermal networks and rooms, heat exchanger/steam, shafts/clutches/flywheels/large machines, engines, chargers, miners, replicator, incubator, transporter and turret."
+    },
+    {
+      "family": "Electronics and automation",
+      "implementation": "Original logic/analog/equations, sensors and controls, diodes/passives, fuse/breaker contacts, wireless/data loggers/meters/displays, MQTT, Modbus TCP and optional actual CC Lua peripheral."
+    },
+    {
+      "family": "Rendering and interaction",
+      "implementation": "Original OBJ/textures/icons, mounting frames, moving machinery/instruments, per-component screens and authoritative packets, lighting, audio and held models. Detailed per-family audits identify actual reviewed client runs."
+    },
+    {
+      "family": "Survival and resources",
+      "implementation": "Four original ores, original materials/tools/armor/resin/crops and contained hardware. 349 restored crafting variants with zero unresolved source crafting calls; 61 direct and 5 conditional processing operations independently checked."
+    },
+    {
+      "family": "BuildCraft interoperability",
+      "implementation": "Published BCCE engines, real item/fluid pipes, finite fuel/steam/shaft/electrical plant, bidirectional native MJ conversion and a real quarry constructing its frame and excavating iron ore from ELN electrical power."
+    }
+  ],
+  "limitations": [
+    "The original development-only Conduit has no implemented source electrical/thermal function. It is excluded from ordinary equipment; the original deliberate Portable NaN debug item is replaced by isolated numerical fault-injection tests.",
+    "Legacy OpenComputers 1.7 APIs and IC2-only integration are not advertised as modern tested runtimes. The ComputerCraft probe is restored through optional CC: Tweaked 1.101.4; FE and the pinned BCCE native MJ bridge provide the tested energy adapters.",
+    "Original C-key node covers accept full collision-cube block models, including logs, glass, leaves and light-emitting blocks. Block entities, fluids and partial collision shapes are excluded. An unavailable mod cover retains its raw saved state and item data with a stone visual fallback.",
+    "Source creative prototypes remain identified as such. Registration counts and source recipe counts are not independent proof of functional completeness.",
+    "BCCE native linkage is pinned to published 8.0.23. Other BCCE versions and every engine/gate/machine combination are unverified. BCCE is not modified or embedded.",
+    "Client verification used an isolated integrated server and a QA-only host pacing agent. The agent and QA sources are excluded from the normal installable JAR. This is automated client testing, not a long manual survival/multiplayer campaign.",
+    "The component matrix distinguishes individual operating fixtures from implemented variants that share a tested runtime but have not been separately exercised. Broad modpack compatibility and every original localization/configuration option are not asserted."
+  ],
+  "productionProfiles": [
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051181,
+      "realTickProfile": "[16:59:58] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 14.98 seconds and 274 ticks (18.30 ticks per second)",
+      "measuredTicksPerSecond": 18.3,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.4990584600121335,
+      "batteryChargeDrift": -6.727951529228449e-13,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85441,
+          "eln:tungsten_ore": 13212,
+          "eln:lead_ore": 17584,
+          "eln:cinnabar_ore": 6664
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    },
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [
+        {
+          "name": "BCCE-8.0.23-1.19.2.jar",
+          "sha256": "7698df0b2f7bd61f903dda6793ff927fd5ae41c9c224937188440541075a96eb"
+        }
+      ],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "publishedBcceEngineA": 0.499979995800367,
+      "actualEngineLoadJ": 499.95999240104885,
+      "actualMjRoundTripRemainingFe": 0.9899080271178715,
+      "actualMjRoundTripExportJ": 9654.726218976237,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051180494,
+      "realTickProfile": "[17:03:54] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 14.97 seconds and 323 ticks (21.58 ticks per second)",
+      "measuredTicksPerSecond": 21.58,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.49905846001101106,
+      "batteryChargeDrift": -1.7952306308188781e-12,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85438,
+          "eln:cinnabar_ore": 6569,
+          "eln:lead_ore": 17508,
+          "eln:tungsten_ore": 13092
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    },
+    {
+      "artifact": "electrical-age-1.19.2-0.4.0-port-all.jar",
+      "sha256": "b42240526def95dbc17617ef263c96ebe0844ec536f64c8098786e902ef0826b",
+      "forge": "43.5.0",
+      "minecraft": "1.19.2",
+      "java": 17,
+      "optionalMods": [
+        {
+          "name": "BCCE-8.0.23-1.19.2.jar",
+          "sha256": "7698df0b2f7bd61f903dda6793ff927fd5ae41c9c224937188440541075a96eb"
+        },
+        {
+          "name": "CC-Tweaked-1.19.2-1.101.4.jar",
+          "sha256": "84962c691833ef6864cdde1e30609403ebb1448373a1863f1e980fb5d4028a2c"
+        }
+      ],
+      "actualCurrentSourceA": 0.999999999705315,
+      "actualCurrentSourceLoadV": 99.99999997053149,
+      "actualCurrentSourceDisable": true,
+      "actualCreativeCable": true,
+      "publishedBcceEngineA": 0.499979995800367,
+      "actualEngineLoadJ": 499.95999240104885,
+      "actualMjRoundTripRemainingFe": 0.9899080271178715,
+      "actualMjRoundTripExportJ": 9654.726218976237,
+      "normalInstalledCcLuaAllNineMethods": true,
+      "actualProbeOutputV": 3.7499999996246722,
+      "analyticalCircuitA": 0.49984504303818456,
+      "disconnectedA": 0.0,
+      "savedFe": 4782.18476635461,
+      "savedBatteryCharge": 0.4990584600128063,
+      "stoppedBatteryCurrentA": 1.0123823074504716e-10,
+      "meshCableNodes": 256,
+      "meshLoadA": 0.49942237051181126,
+      "realTickProfile": "[17:07:20] [Server thread/INFO] [minecraft/MinecraftServer]: Stopped tick profiling after 15.01 seconds and 312 ticks (20.79 ticks per second)",
+      "measuredTicksPerSecond": 20.79,
+      "actualWorldRestart": true,
+      "restoredFe": 4782.18476635461,
+      "restoredBatteryCharge": 0.4990584600109744,
+      "batteryChargeDrift": -1.8318679906315083e-12,
+      "maximumPermittedChargeDrift": 1e-10,
+      "actualNodeCoverSaveRestart": true,
+      "coverRetainedBlockState": "minecraft:oak_log[axis=x]",
+      "coverRetainedItems": 1,
+      "worldGeneration": {
+        "chunksScanned": 2025,
+        "naturallyGeneratedOreBlocks": {
+          "eln:copper_ore": 85409,
+          "eln:cinnabar_ore": 6563,
+          "eln:lead_ore": 17512,
+          "eln:tungsten_ore": 13089
+        },
+        "method": "Read actual saved block-state palettes and packed indices; validation commands placed no ore blocks."
+      }
+    }
+  ]
+}

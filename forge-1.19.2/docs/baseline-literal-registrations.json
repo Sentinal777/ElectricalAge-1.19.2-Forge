@@ -1,0 +1,1777 @@
+{
+  "baseline": "1.24.6",
+  "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "note": "Comment-stripped literal component calls; loops and optional/inactive source branches require separate review.",
+  "entries": [
+    {
+      "family": "six",
+      "group": 2,
+      "sub_id": 0,
+      "legacy_id": 128,
+      "name": "Ground Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 157,
+      "native_id": "ground_cable"
+    },
+    {
+      "family": "six",
+      "group": 2,
+      "sub_id": 8,
+      "legacy_id": 136,
+      "name": "Hub",
+      "source": "SixNodeRegistration.kt",
+      "line": 163,
+      "native_id": "hub"
+    },
+    {
+      "family": "six",
+      "group": 3,
+      "sub_id": 0,
+      "legacy_id": 192,
+      "name": "Electrical Source",
+      "source": "SixNodeRegistration.kt",
+      "line": 174,
+      "native_id": "electrical_source"
+    },
+    {
+      "family": "six",
+      "group": 3,
+      "sub_id": 1,
+      "legacy_id": 193,
+      "name": "Signal Source",
+      "source": "SixNodeRegistration.kt",
+      "line": 181,
+      "native_id": "signal_source"
+    },
+    {
+      "family": "six",
+      "group": 3,
+      "sub_id": 2,
+      "legacy_id": 194,
+      "name": "Current Source",
+      "source": "SixNodeRegistration.kt",
+      "line": 188,
+      "native_id": "current_source"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 0,
+      "legacy_id": 2048,
+      "name": "Signal Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 201,
+      "native_id": "signal_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 4,
+      "legacy_id": 2052,
+      "name": "Low Voltage Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 214,
+      "native_id": "low_voltage_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 8,
+      "legacy_id": 2056,
+      "name": "Medium Voltage Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 232,
+      "native_id": "medium_voltage_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 12,
+      "legacy_id": 2060,
+      "name": "High Voltage Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 244,
+      "native_id": "high_voltage_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 16,
+      "legacy_id": 2064,
+      "name": "Very High Voltage Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 258,
+      "native_id": "very_high_voltage_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 24,
+      "legacy_id": 2072,
+      "name": "Creative Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 271,
+      "native_id": "creative_cable"
+    },
+    {
+      "family": "six",
+      "group": 32,
+      "sub_id": 20,
+      "legacy_id": 2068,
+      "name": "Signal Bus Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 288,
+      "native_id": "signal_bus_cable"
+    },
+    {
+      "family": "six",
+      "group": 33,
+      "sub_id": 0,
+      "legacy_id": 2112,
+      "name": "Low Current Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 307,
+      "native_id": "low_current_cable"
+    },
+    {
+      "family": "six",
+      "group": 33,
+      "sub_id": 1,
+      "legacy_id": 2113,
+      "name": "Medium Current Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 316,
+      "native_id": "medium_current_cable"
+    },
+    {
+      "family": "six",
+      "group": 33,
+      "sub_id": 2,
+      "legacy_id": 2114,
+      "name": "High Current Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 325,
+      "native_id": "high_current_cable"
+    },
+    {
+      "family": "six",
+      "group": 126,
+      "sub_id": 0,
+      "legacy_id": 8064,
+      "name": "Low Current Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 340,
+      "native_id": "low_current_relay"
+    },
+    {
+      "family": "six",
+      "group": 126,
+      "sub_id": 1,
+      "legacy_id": 8065,
+      "name": "Medium Current Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 347,
+      "native_id": "medium_current_relay"
+    },
+    {
+      "family": "six",
+      "group": 126,
+      "sub_id": 2,
+      "legacy_id": 8066,
+      "name": "High Current Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 354,
+      "native_id": "high_current_relay"
+    },
+    {
+      "family": "six",
+      "group": 127,
+      "sub_id": 0,
+      "legacy_id": 8128,
+      "name": "Conduit",
+      "source": "SixNodeRegistration.kt",
+      "line": 363,
+      "native_id": null
+    },
+    {
+      "family": "six",
+      "group": 48,
+      "sub_id": 1,
+      "legacy_id": 3073,
+      "name": "Copper Thermal Cable",
+      "source": "SixNodeRegistration.kt",
+      "line": 387,
+      "native_id": "copper_thermal_cable"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 0,
+      "legacy_id": 4096,
+      "name": "Lamp Socket A",
+      "source": "SixNodeRegistration.kt",
+      "line": 402,
+      "native_id": "classic_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 1,
+      "legacy_id": 4097,
+      "name": "Lamp Socket B Projector",
+      "source": "SixNodeRegistration.kt",
+      "line": 414,
+      "native_id": "lamp_socket_b_projector"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 4,
+      "legacy_id": 4100,
+      "name": "Robust Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 427,
+      "native_id": "robust_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 5,
+      "legacy_id": 4101,
+      "name": "Flat Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 440,
+      "native_id": "flat_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 6,
+      "legacy_id": 4102,
+      "name": "Simple Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 452,
+      "native_id": "simple_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 7,
+      "legacy_id": 4103,
+      "name": "Fluorescent Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 464,
+      "native_id": "fluorescent_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 8,
+      "legacy_id": 4104,
+      "name": "Street Light",
+      "source": "SixNodeRegistration.kt",
+      "line": 478,
+      "native_id": "street_light"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 9,
+      "legacy_id": 4105,
+      "name": "Sconce Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 498,
+      "native_id": "sconce_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 12,
+      "legacy_id": 4108,
+      "name": "Suspended Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 520,
+      "native_id": "suspended_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 13,
+      "legacy_id": 4109,
+      "name": "Long Suspended Lamp Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 535,
+      "native_id": "long_suspended_lamp_socket"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 17,
+      "legacy_id": 4113,
+      "name": "Suspended Lamp Socket (No Swing)",
+      "source": "SixNodeRegistration.kt",
+      "line": 573,
+      "native_id": "suspended_lamp_socket_no_swing"
+    },
+    {
+      "family": "six",
+      "group": 64,
+      "sub_id": 18,
+      "legacy_id": 4114,
+      "name": "Long Suspended Lamp Socket (No Swing)",
+      "source": "SixNodeRegistration.kt",
+      "line": 587,
+      "native_id": "long_suspended_lamp_socket_no_swing"
+    },
+    {
+      "family": "six",
+      "group": 65,
+      "sub_id": 0,
+      "legacy_id": 4160,
+      "name": "Lamp Supply",
+      "source": "SixNodeRegistration.kt",
+      "line": 606,
+      "native_id": "lamp_supply"
+    },
+    {
+      "family": "six",
+      "group": 67,
+      "sub_id": 1,
+      "legacy_id": 4289,
+      "name": "Type J Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 617,
+      "native_id": "type_j_socket"
+    },
+    {
+      "family": "six",
+      "group": 67,
+      "sub_id": 2,
+      "legacy_id": 4290,
+      "name": "Type E Socket",
+      "source": "SixNodeRegistration.kt",
+      "line": 631,
+      "native_id": "type_e_socket"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 0,
+      "legacy_id": 6144,
+      "name": "10A Diode",
+      "source": "SixNodeRegistration.kt",
+      "line": 658,
+      "native_id": "10a_diode"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 1,
+      "legacy_id": 6145,
+      "name": "25A Diode",
+      "source": "SixNodeRegistration.kt",
+      "line": 675,
+      "native_id": "25a_diode"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 8,
+      "legacy_id": 6152,
+      "name": "Signal Diode",
+      "source": "SixNodeRegistration.kt",
+      "line": 695,
+      "native_id": "signal_diode"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 32,
+      "legacy_id": 6176,
+      "name": "Power Capacitor",
+      "source": "SixNodeRegistration.kt",
+      "line": 720,
+      "native_id": "power_capacitor"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 34,
+      "legacy_id": 6178,
+      "name": "Power Inductor",
+      "source": "SixNodeRegistration.kt",
+      "line": 731,
+      "native_id": "power_inductor"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 35,
+      "legacy_id": 6179,
+      "name": "Variable inductor",
+      "source": "SixNodeRegistration.kt",
+      "line": 742,
+      "native_id": "variable_inductor"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 36,
+      "legacy_id": 6180,
+      "name": "Power Resistor",
+      "source": "SixNodeRegistration.kt",
+      "line": 754,
+      "native_id": "power_resistor"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 37,
+      "legacy_id": 6181,
+      "name": "Rheostat",
+      "source": "SixNodeRegistration.kt",
+      "line": 764,
+      "native_id": "rheostat"
+    },
+    {
+      "family": "six",
+      "group": 96,
+      "sub_id": 38,
+      "legacy_id": 6182,
+      "name": "Thermistor",
+      "source": "SixNodeRegistration.kt",
+      "line": 774,
+      "native_id": "thermistor"
+    },
+    {
+      "family": "six",
+      "group": 97,
+      "sub_id": 4,
+      "legacy_id": 6212,
+      "name": "Very High Voltage Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 792,
+      "native_id": "very_high_voltage_switch"
+    },
+    {
+      "family": "six",
+      "group": 97,
+      "sub_id": 0,
+      "legacy_id": 6208,
+      "name": "High Voltage Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 803,
+      "native_id": "high_voltage_switch"
+    },
+    {
+      "family": "six",
+      "group": 97,
+      "sub_id": 1,
+      "legacy_id": 6209,
+      "name": "Low Voltage Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 813,
+      "native_id": "low_voltage_switch"
+    },
+    {
+      "family": "six",
+      "group": 97,
+      "sub_id": 2,
+      "legacy_id": 6210,
+      "name": "Medium Voltage Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 830,
+      "native_id": "medium_voltage_switch"
+    },
+    {
+      "family": "six",
+      "group": 117,
+      "sub_id": 0,
+      "legacy_id": 7488,
+      "name": "Modbus RTU",
+      "source": "SixNodeRegistration.kt",
+      "line": 864,
+      "native_id": null
+    },
+    {
+      "family": "six",
+      "group": 117,
+      "sub_id": 4,
+      "legacy_id": 7492,
+      "name": "Analog Watch",
+      "source": "SixNodeRegistration.kt",
+      "line": 878,
+      "native_id": "analog_watch"
+    },
+    {
+      "family": "six",
+      "group": 117,
+      "sub_id": 5,
+      "legacy_id": 7493,
+      "name": "Digital Watch",
+      "source": "SixNodeRegistration.kt",
+      "line": 888,
+      "native_id": "digital_watch"
+    },
+    {
+      "family": "six",
+      "group": 117,
+      "sub_id": 6,
+      "legacy_id": 7494,
+      "name": "Digital Display",
+      "source": "SixNodeRegistration.kt",
+      "line": 898,
+      "native_id": "digital_display"
+    },
+    {
+      "family": "six",
+      "group": 117,
+      "sub_id": 8,
+      "legacy_id": 7496,
+      "name": "Tutorial Sign",
+      "source": "SixNodeRegistration.kt",
+      "line": 911,
+      "native_id": null
+    },
+    {
+      "family": "six",
+      "group": 98,
+      "sub_id": 0,
+      "legacy_id": 6272,
+      "name": "Electrical Breaker",
+      "source": "SixNodeRegistration.kt",
+      "line": 924,
+      "native_id": "5a_electrical_breaker"
+    },
+    {
+      "family": "six",
+      "group": 98,
+      "sub_id": 4,
+      "legacy_id": 6276,
+      "name": "Energy Meter",
+      "source": "SixNodeRegistration.kt",
+      "line": 930,
+      "native_id": "energy_meter"
+    },
+    {
+      "family": "six",
+      "group": 98,
+      "sub_id": 5,
+      "legacy_id": 6277,
+      "name": "Advanced Energy Meter",
+      "source": "SixNodeRegistration.kt",
+      "line": 936,
+      "native_id": "advanced_energy_meter"
+    },
+    {
+      "family": "six",
+      "group": 98,
+      "sub_id": 12,
+      "legacy_id": 6284,
+      "name": "MQTT Energy Meter",
+      "source": "SixNodeRegistration.kt",
+      "line": 942,
+      "native_id": null
+    },
+    {
+      "family": "six",
+      "group": 98,
+      "sub_id": 6,
+      "legacy_id": 6278,
+      "name": "Electrical Fuse Holder",
+      "source": "SixNodeRegistration.kt",
+      "line": 955,
+      "native_id": "electrical_fuse_holder"
+    },
+    {
+      "family": "six",
+      "group": 100,
+      "sub_id": 0,
+      "legacy_id": 6400,
+      "name": "Electrical Probe",
+      "source": "SixNodeRegistration.kt",
+      "line": 1016,
+      "native_id": "electrical_probe"
+    },
+    {
+      "family": "six",
+      "group": 100,
+      "sub_id": 1,
+      "legacy_id": 6401,
+      "name": "Voltage Probe",
+      "source": "SixNodeRegistration.kt",
+      "line": 1022,
+      "native_id": "voltage_probe"
+    },
+    {
+      "family": "six",
+      "group": 101,
+      "sub_id": 0,
+      "legacy_id": 6464,
+      "name": "Thermal Probe",
+      "source": "SixNodeRegistration.kt",
+      "line": 1035,
+      "native_id": "thermal_probe"
+    },
+    {
+      "family": "six",
+      "group": 101,
+      "sub_id": 1,
+      "legacy_id": 6465,
+      "name": "Temperature Probe",
+      "source": "SixNodeRegistration.kt",
+      "line": 1041,
+      "native_id": "temperature_probe"
+    },
+    {
+      "family": "six",
+      "group": 102,
+      "sub_id": 0,
+      "legacy_id": 6528,
+      "name": "Analog vuMeter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1053,
+      "native_id": "analog_vumeter"
+    },
+    {
+      "family": "six",
+      "group": 102,
+      "sub_id": 8,
+      "legacy_id": 6536,
+      "name": "LED vuMeter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1059,
+      "native_id": "led_vumeter"
+    },
+    {
+      "family": "six",
+      "group": 102,
+      "sub_id": 9,
+      "legacy_id": 6537,
+      "name": "Multicolor LED vuMeter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1065,
+      "native_id": "multicolor_led_vumeter"
+    },
+    {
+      "family": "six",
+      "group": 103,
+      "sub_id": 0,
+      "legacy_id": 6592,
+      "name": "Nuclear Alarm",
+      "source": "SixNodeRegistration.kt",
+      "line": 1077,
+      "native_id": "nuclear_alarm"
+    },
+    {
+      "family": "six",
+      "group": 103,
+      "sub_id": 1,
+      "legacy_id": 6593,
+      "name": "Standard Alarm",
+      "source": "SixNodeRegistration.kt",
+      "line": 1083,
+      "native_id": "standard_alarm"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 0,
+      "legacy_id": 6656,
+      "name": "Electrical Daylight Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1099,
+      "native_id": "electrical_daylight_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 1,
+      "legacy_id": 6657,
+      "name": "Electrical Light Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1105,
+      "native_id": "electrical_light_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 4,
+      "legacy_id": 6660,
+      "name": "Electrical Weather Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1114,
+      "native_id": "electrical_weather_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 5,
+      "legacy_id": 6661,
+      "name": "Humidity Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1123,
+      "native_id": "humidity_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 6,
+      "legacy_id": 6662,
+      "name": "Thermometer Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1132,
+      "native_id": "thermometer_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 8,
+      "legacy_id": 6664,
+      "name": "Electrical Anemometer Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1141,
+      "native_id": "electrical_anemometer_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 12,
+      "legacy_id": 6668,
+      "name": "Electrical Entity Sensor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1150,
+      "native_id": "electrical_entity_sensor"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 13,
+      "legacy_id": 6669,
+      "name": "Electrical Fire Detector",
+      "source": "SixNodeRegistration.kt",
+      "line": 1159,
+      "native_id": "electrical_fire_detector"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 14,
+      "legacy_id": 6670,
+      "name": "Electrical Fire Buzzer",
+      "source": "SixNodeRegistration.kt",
+      "line": 1168,
+      "native_id": "electrical_fire_buzzer"
+    },
+    {
+      "family": "six",
+      "group": 104,
+      "sub_id": 15,
+      "legacy_id": 6671,
+      "name": "Scanner",
+      "source": "SixNodeRegistration.kt",
+      "line": 1177,
+      "native_id": "scanner"
+    },
+    {
+      "family": "six",
+      "group": 108,
+      "sub_id": 0,
+      "legacy_id": 6912,
+      "name": "Redstone-to-Voltage Converter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1189,
+      "native_id": "redstone_to_voltage_converter"
+    },
+    {
+      "family": "six",
+      "group": 108,
+      "sub_id": 1,
+      "legacy_id": 6913,
+      "name": "Voltage-to-Redstone Converter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1196,
+      "native_id": "voltage_to_redstone_converter"
+    },
+    {
+      "family": "six",
+      "group": 109,
+      "sub_id": 0,
+      "legacy_id": 6976,
+      "name": "Electrical Timer",
+      "source": "SixNodeRegistration.kt",
+      "line": 1207,
+      "native_id": "electrical_timer"
+    },
+    {
+      "family": "six",
+      "group": 109,
+      "sub_id": 4,
+      "legacy_id": 6980,
+      "name": "Signal Processor",
+      "source": "SixNodeRegistration.kt",
+      "line": 1214,
+      "native_id": "signal_processor"
+    },
+    {
+      "family": "six",
+      "group": 109,
+      "sub_id": 5,
+      "legacy_id": 6981,
+      "name": "MQTT Signal Controller",
+      "source": "SixNodeRegistration.kt",
+      "line": 1220,
+      "native_id": null
+    },
+    {
+      "family": "six",
+      "group": 92,
+      "sub_id": 0,
+      "legacy_id": 5888,
+      "name": "Wireless Signal Receiver",
+      "source": "SixNodeRegistration.kt",
+      "line": 1232,
+      "native_id": "wireless_signal_receiver"
+    },
+    {
+      "family": "six",
+      "group": 92,
+      "sub_id": 8,
+      "legacy_id": 5896,
+      "name": "Wireless Signal Transmitter",
+      "source": "SixNodeRegistration.kt",
+      "line": 1239,
+      "native_id": "wireless_signal_transmitter"
+    },
+    {
+      "family": "six",
+      "group": 92,
+      "sub_id": 16,
+      "legacy_id": 5904,
+      "name": "Wireless Signal Repeater",
+      "source": "SixNodeRegistration.kt",
+      "line": 1247,
+      "native_id": "wireless_signal_repeater"
+    },
+    {
+      "family": "six",
+      "group": 93,
+      "sub_id": 0,
+      "legacy_id": 5952,
+      "name": "Data Logger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1259,
+      "native_id": "data_logger"
+    },
+    {
+      "family": "six",
+      "group": 93,
+      "sub_id": 1,
+      "legacy_id": 5953,
+      "name": "Modern Data Logger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1267,
+      "native_id": "modern_data_logger"
+    },
+    {
+      "family": "six",
+      "group": 93,
+      "sub_id": 2,
+      "legacy_id": 5954,
+      "name": "Industrial Data Logger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1275,
+      "native_id": "industrial_data_logger"
+    },
+    {
+      "family": "six",
+      "group": 94,
+      "sub_id": 0,
+      "legacy_id": 6016,
+      "name": "Low Voltage Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 1289,
+      "native_id": "low_voltage_relay"
+    },
+    {
+      "family": "six",
+      "group": 94,
+      "sub_id": 1,
+      "legacy_id": 6017,
+      "name": "Medium Voltage Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 1295,
+      "native_id": "medium_voltage_relay"
+    },
+    {
+      "family": "six",
+      "group": 94,
+      "sub_id": 2,
+      "legacy_id": 6018,
+      "name": "High Voltage Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 1301,
+      "native_id": "high_voltage_relay"
+    },
+    {
+      "family": "six",
+      "group": 94,
+      "sub_id": 3,
+      "legacy_id": 6019,
+      "name": "Very High Voltage Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 1307,
+      "native_id": "very_high_voltage_relay"
+    },
+    {
+      "family": "six",
+      "group": 94,
+      "sub_id": 4,
+      "legacy_id": 6020,
+      "name": "Signal Relay",
+      "source": "SixNodeRegistration.kt",
+      "line": 1314,
+      "native_id": "signal_relay"
+    },
+    {
+      "family": "six",
+      "group": 95,
+      "sub_id": 0,
+      "legacy_id": 6080,
+      "name": "Signal Trimmer",
+      "source": "SixNodeRegistration.kt",
+      "line": 1333,
+      "native_id": "signal_trimmer"
+    },
+    {
+      "family": "six",
+      "group": 95,
+      "sub_id": 1,
+      "legacy_id": 6081,
+      "name": "Signal Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 1342,
+      "native_id": "signal_switch"
+    },
+    {
+      "family": "six",
+      "group": 95,
+      "sub_id": 8,
+      "legacy_id": 6088,
+      "name": "Signal Button",
+      "source": "SixNodeRegistration.kt",
+      "line": 1351,
+      "native_id": "signal_button"
+    },
+    {
+      "family": "six",
+      "group": 95,
+      "sub_id": 12,
+      "legacy_id": 6092,
+      "name": "Wireless Button",
+      "source": "SixNodeRegistration.kt",
+      "line": 1358,
+      "native_id": "wireless_button"
+    },
+    {
+      "family": "six",
+      "group": 95,
+      "sub_id": 16,
+      "legacy_id": 6096,
+      "name": "Wireless Switch",
+      "source": "SixNodeRegistration.kt",
+      "line": 1367,
+      "native_id": "wireless_switch"
+    },
+    {
+      "family": "six",
+      "group": 66,
+      "sub_id": 0,
+      "legacy_id": 4224,
+      "name": "Weak 50V Battery Charger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1545,
+      "native_id": "weak_50v_battery_charger"
+    },
+    {
+      "family": "six",
+      "group": 66,
+      "sub_id": 1,
+      "legacy_id": 4225,
+      "name": "50V Battery Charger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1555,
+      "native_id": "50v_battery_charger"
+    },
+    {
+      "family": "six",
+      "group": 66,
+      "sub_id": 4,
+      "legacy_id": 4228,
+      "name": "200V Battery Charger",
+      "source": "SixNodeRegistration.kt",
+      "line": 1565,
+      "native_id": "200v_battery_charger"
+    },
+    {
+      "family": "six",
+      "group": 116,
+      "sub_id": 0,
+      "legacy_id": 7424,
+      "name": "Tree Resin Collector",
+      "source": "SixNodeRegistration.kt",
+      "line": 1583,
+      "native_id": "tree_resin_collector"
+    },
+    {
+      "family": "six",
+      "group": 125,
+      "sub_id": 0,
+      "legacy_id": 8000,
+      "name": "Portable NaN",
+      "source": "SixNodeRegistration.kt",
+      "line": 1595,
+      "native_id": null
+    },
+    {
+      "family": "transparent",
+      "group": 71,
+      "sub_id": 0,
+      "legacy_id": 4544,
+      "name": "Overhead Lines",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 186,
+      "native_id": "overhead_lines"
+    },
+    {
+      "family": "transparent",
+      "group": 68,
+      "sub_id": 0,
+      "legacy_id": 4352,
+      "name": "Basic Floodlight",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 226,
+      "native_id": "basic_floodlight"
+    },
+    {
+      "family": "transparent",
+      "group": 68,
+      "sub_id": 1,
+      "legacy_id": 4353,
+      "name": "Motorized Floodlight",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 233,
+      "native_id": "motorized_floodlight"
+    },
+    {
+      "family": "transparent",
+      "group": 96,
+      "sub_id": 39,
+      "legacy_id": 6183,
+      "name": "Large Rheostat",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 244,
+      "native_id": "large_rheostat"
+    },
+    {
+      "family": "transparent",
+      "group": 117,
+      "sub_id": 7,
+      "legacy_id": 7495,
+      "name": "Nixie Tube",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 262,
+      "native_id": "nixie_tube"
+    },
+    {
+      "family": "transparent",
+      "group": 2,
+      "sub_id": 1,
+      "legacy_id": 129,
+      "name": "Variable DC-DC Converter",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 284,
+      "native_id": "variable_dc_dc_converter"
+    },
+    {
+      "family": "transparent",
+      "group": 2,
+      "sub_id": 2,
+      "legacy_id": 130,
+      "name": "DC-DC Converter",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 294,
+      "native_id": "dc_dc_converter"
+    },
+    {
+      "family": "transparent",
+      "group": 3,
+      "sub_id": 0,
+      "legacy_id": 192,
+      "name": "Stone Heat Furnace",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 309,
+      "native_id": "stone_heat_furnace"
+    },
+    {
+      "family": "transparent",
+      "group": 3,
+      "sub_id": 1,
+      "legacy_id": 193,
+      "name": "Fuel Heat Furnace",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 324,
+      "native_id": "fuel_heat_furnace"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 1,
+      "legacy_id": 257,
+      "name": "50V Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 345,
+      "native_id": "50v_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 8,
+      "legacy_id": 264,
+      "name": "200V Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 362,
+      "native_id": "200v_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 9,
+      "legacy_id": 265,
+      "name": "Steam Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 380,
+      "native_id": "steam_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 10,
+      "legacy_id": 266,
+      "name": "Generator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 393,
+      "native_id": "generator"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 11,
+      "legacy_id": 267,
+      "name": "Gas Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 410,
+      "native_id": "gas_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 12,
+      "legacy_id": 268,
+      "name": "Joint",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 420,
+      "native_id": "joint"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 13,
+      "legacy_id": 269,
+      "name": "Joint hub",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 430,
+      "native_id": "joint_hub"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 14,
+      "legacy_id": 270,
+      "name": "Flywheel",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 440,
+      "native_id": "flywheel"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 15,
+      "legacy_id": 271,
+      "name": "Tachometer",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 449,
+      "native_id": "tachometer"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 16,
+      "legacy_id": 272,
+      "name": "Shaft Motor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 463,
+      "native_id": "shaft_motor"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 17,
+      "legacy_id": 273,
+      "name": "Clutch",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 473,
+      "native_id": "clutch"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 18,
+      "legacy_id": 274,
+      "name": "Fixed Shaft",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 482,
+      "native_id": "fixed_shaft"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 19,
+      "legacy_id": 275,
+      "name": "Radial Motor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 492,
+      "native_id": "radial_motor"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 20,
+      "legacy_id": 276,
+      "name": "Crank Shaft",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 515,
+      "native_id": "crank_shaft"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 21,
+      "legacy_id": 277,
+      "name": "Rolling Shaft ",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 523,
+      "native_id": "rolling_shaft"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 22,
+      "legacy_id": 278,
+      "name": "Large Steam Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 534,
+      "native_id": "large_steam_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 23,
+      "legacy_id": 279,
+      "name": "Large Gas Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 544,
+      "native_id": "large_gas_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 24,
+      "legacy_id": 280,
+      "name": "Large Generator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 558,
+      "native_id": "large_generator"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 25,
+      "legacy_id": 281,
+      "name": "Large Shaft Motor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 577,
+      "native_id": "large_shaft_motor"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 26,
+      "legacy_id": 282,
+      "name": "Polarized Shaft Generator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 596,
+      "native_id": "polarized_shaft_generator"
+    },
+    {
+      "family": "transparent",
+      "group": 4,
+      "sub_id": 27,
+      "legacy_id": 283,
+      "name": "Polarized Shaft Motor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 615,
+      "native_id": "polarized_shaft_motor"
+    },
+    {
+      "family": "transparent",
+      "group": 32,
+      "sub_id": 0,
+      "legacy_id": 2048,
+      "name": "Electrical Furnace",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 636,
+      "native_id": "electrical_furnace"
+    },
+    {
+      "family": "transparent",
+      "group": 33,
+      "sub_id": 0,
+      "legacy_id": 2112,
+      "name": "50V Macerator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 665,
+      "native_id": "48v_macerator"
+    },
+    {
+      "family": "transparent",
+      "group": 33,
+      "sub_id": 4,
+      "legacy_id": 2116,
+      "name": "200V Macerator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 676,
+      "native_id": "240v_macerator"
+    },
+    {
+      "family": "transparent",
+      "group": 34,
+      "sub_id": 0,
+      "legacy_id": 2176,
+      "name": "Old 800V Arc Furnace",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 692,
+      "native_id": "old_800v_arc_furnace"
+    },
+    {
+      "family": "transparent",
+      "group": 37,
+      "sub_id": 0,
+      "legacy_id": 2368,
+      "name": "50V Plate Machine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 724,
+      "native_id": "48v_plate_machine"
+    },
+    {
+      "family": "transparent",
+      "group": 37,
+      "sub_id": 4,
+      "legacy_id": 2372,
+      "name": "200V Plate Machine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 736,
+      "native_id": "240v_plate_machine"
+    },
+    {
+      "family": "transparent",
+      "group": 41,
+      "sub_id": 0,
+      "legacy_id": 2624,
+      "name": "50V Egg Incubator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 752,
+      "native_id": "50v_egg_incubator"
+    },
+    {
+      "family": "transparent",
+      "group": 35,
+      "sub_id": 0,
+      "legacy_id": 2240,
+      "name": "50V Compressor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 766,
+      "native_id": "48v_compressor"
+    },
+    {
+      "family": "transparent",
+      "group": 35,
+      "sub_id": 4,
+      "legacy_id": 2244,
+      "name": "200V Compressor",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 779,
+      "native_id": "240v_compressor"
+    },
+    {
+      "family": "transparent",
+      "group": 36,
+      "sub_id": 0,
+      "legacy_id": 2304,
+      "name": "50V Magnetizer",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 796,
+      "native_id": "50v_magnetizer"
+    },
+    {
+      "family": "transparent",
+      "group": 36,
+      "sub_id": 4,
+      "legacy_id": 2308,
+      "name": "200V Magnetizer",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 808,
+      "native_id": "200v_magnetizer"
+    },
+    {
+      "family": "transparent",
+      "group": 48,
+      "sub_id": 1,
+      "legacy_id": 3073,
+      "name": "Small Solar Panel",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 828,
+      "native_id": "small_solar_panel"
+    },
+    {
+      "family": "transparent",
+      "group": 48,
+      "sub_id": 2,
+      "legacy_id": 3074,
+      "name": "Small Rotating Solar Panel",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 849,
+      "native_id": "small_rotating_solar_panel"
+    },
+    {
+      "family": "transparent",
+      "group": 48,
+      "sub_id": 3,
+      "legacy_id": 3075,
+      "name": "2x3 Solar Panel",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 860,
+      "native_id": "2x3_solar_panel"
+    },
+    {
+      "family": "transparent",
+      "group": 48,
+      "sub_id": 4,
+      "legacy_id": 3076,
+      "name": "2x3 Rotating Solar Panel",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 874,
+      "native_id": "2x3_rotating_solar_panel"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 0,
+      "legacy_id": 448,
+      "name": "Low Power Transmitter Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 904,
+      "native_id": "low_power_transmitter_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 1,
+      "legacy_id": 449,
+      "name": "Low Power Receiver Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 915,
+      "native_id": "low_power_receiver_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 2,
+      "legacy_id": 450,
+      "name": "Medium Power Transmitter Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 927,
+      "native_id": "medium_power_transmitter_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 3,
+      "legacy_id": 451,
+      "name": "Medium Power Receiver Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 938,
+      "native_id": "medium_power_receiver_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 4,
+      "legacy_id": 452,
+      "name": "High Power Transmitter Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 950,
+      "native_id": "high_power_transmitter_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 7,
+      "sub_id": 5,
+      "legacy_id": 453,
+      "name": "High Power Receiver Antenna",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 961,
+      "native_id": "high_power_receiver_antenna"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 0,
+      "legacy_id": 1024,
+      "name": "Cost Oriented Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 988,
+      "native_id": "cost_oriented_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 1,
+      "legacy_id": 1025,
+      "name": "Capacity Oriented Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1000,
+      "native_id": "capacity_oriented_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 2,
+      "legacy_id": 1026,
+      "name": "Voltage Oriented Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1012,
+      "native_id": "voltage_oriented_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 3,
+      "legacy_id": 1027,
+      "name": "Current Oriented Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1025,
+      "native_id": "current_oriented_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 4,
+      "legacy_id": 1028,
+      "name": "Life Oriented Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1037,
+      "native_id": "life_oriented_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 5,
+      "legacy_id": 1029,
+      "name": "Single-use Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1050,
+      "native_id": "single_use_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 16,
+      "sub_id": 6,
+      "legacy_id": 1030,
+      "name": "Experimental Battery",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1061,
+      "native_id": "experimental_battery"
+    },
+    {
+      "family": "transparent",
+      "group": 42,
+      "sub_id": 0,
+      "legacy_id": 2688,
+      "name": "Auto Miner",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1078,
+      "native_id": "auto_miner"
+    },
+    {
+      "family": "transparent",
+      "group": 49,
+      "sub_id": 0,
+      "legacy_id": 3136,
+      "name": "Wind Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1109,
+      "native_id": "wind_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 49,
+      "sub_id": 16,
+      "legacy_id": 3152,
+      "name": "Water Turbine",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1170,
+      "native_id": "water_turbine"
+    },
+    {
+      "family": "transparent",
+      "group": 67,
+      "sub_id": 1,
+      "legacy_id": 4289,
+      "name": "50V Fuel Generator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1195,
+      "native_id": "48v_fuel_generator"
+    },
+    {
+      "family": "transparent",
+      "group": 67,
+      "sub_id": 2,
+      "legacy_id": 4290,
+      "name": "200V Fuel Generator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1207,
+      "native_id": "240v_fuel_generator"
+    },
+    {
+      "family": "transparent",
+      "group": 64,
+      "sub_id": 0,
+      "legacy_id": 4096,
+      "name": "Small Passive Thermal Dissipator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1222,
+      "native_id": "small_passive_thermal_dissipator"
+    },
+    {
+      "family": "transparent",
+      "group": 64,
+      "sub_id": 32,
+      "legacy_id": 4128,
+      "name": "Small Active Thermal Dissipator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1233,
+      "native_id": "small_active_thermal_dissipator"
+    },
+    {
+      "family": "transparent",
+      "group": 64,
+      "sub_id": 34,
+      "legacy_id": 4130,
+      "name": "200V Active Thermal Dissipator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1244,
+      "native_id": "200v_active_thermal_dissipator"
+    },
+    {
+      "family": "transparent",
+      "group": 65,
+      "sub_id": 0,
+      "legacy_id": 4160,
+      "name": "Experimental Transporter",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1260,
+      "native_id": "experimental_transporter"
+    },
+    {
+      "family": "transparent",
+      "group": 65,
+      "sub_id": 2,
+      "legacy_id": 4162,
+      "name": "Thermal Heat Exchanger",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1293,
+      "native_id": "thermal_heat_exchanger"
+    },
+    {
+      "family": "transparent",
+      "group": 66,
+      "sub_id": 0,
+      "legacy_id": 4224,
+      "name": "800V Defence Turret",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1305,
+      "native_id": "800v_defence_turret"
+    },
+    {
+      "family": "transparent",
+      "group": 69,
+      "sub_id": 0,
+      "legacy_id": 4416,
+      "name": "Christmas Tree",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1316,
+      "native_id": "christmas_tree"
+    },
+    {
+      "family": "transparent",
+      "group": 69,
+      "sub_id": 1,
+      "legacy_id": 4417,
+      "name": "Holiday Candle",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1326,
+      "native_id": "holiday_candle"
+    },
+    {
+      "family": "transparent",
+      "group": 69,
+      "sub_id": 2,
+      "legacy_id": 4418,
+      "name": "String Lights",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1336,
+      "native_id": "string_lights"
+    },
+    {
+      "family": "transparent",
+      "group": 70,
+      "sub_id": 0,
+      "legacy_id": 4480,
+      "name": "Fabricator",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1351,
+      "native_id": "fabricator"
+    },
+    {
+      "family": "transparent",
+      "group": 123,
+      "sub_id": 8,
+      "legacy_id": 7880,
+      "name": "Grid Switch",
+      "source": "TransparentNodeRegistration.kt",
+      "line": 1457,
+      "native_id": "grid_switch"
+    }
+  ]
+}

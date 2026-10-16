@@ -1,0 +1,847 @@
+{
+  "baseline": "1.24.6",
+  "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "note": "Literal TR_NAME calls in ItemRegistration.kt; exact name matching is a discovery aid, not proof of behavior or completed dynamic families. Includes inactive source functions and aliases.",
+  "entries": [
+    {
+      "name": "Small 50V Copper Heating Element",
+      "native_id": "small_50v_copper_heating_element",
+      "line": 133
+    },
+    {
+      "name": "50V Copper Heating Element",
+      "native_id": "50v_copper_heating_element",
+      "line": 145
+    },
+    {
+      "name": "Small 200V Copper Heating Element",
+      "native_id": "small_200v_copper_heating_element",
+      "line": 157
+    },
+    {
+      "name": "200V Copper Heating Element",
+      "native_id": "200v_copper_heating_element",
+      "line": 169
+    },
+    {
+      "name": "Small 50V Iron Heating Element",
+      "native_id": "small_50v_iron_heating_element",
+      "line": 181
+    },
+    {
+      "name": "50V Iron Heating Element",
+      "native_id": "50v_iron_heating_element",
+      "line": 193
+    },
+    {
+      "name": "Small 200V Iron Heating Element",
+      "native_id": "small_200v_iron_heating_element",
+      "line": 205
+    },
+    {
+      "name": "200V Iron Heating Element",
+      "native_id": "200v_iron_heating_element",
+      "line": 217
+    },
+    {
+      "name": "Small 50V Tungsten Heating Element",
+      "native_id": "small_50v_tungsten_heating_element",
+      "line": 229
+    },
+    {
+      "name": "50V Tungsten Heating Element",
+      "native_id": "50v_tungsten_heating_element",
+      "line": 241
+    },
+    {
+      "name": "Small 200V Tungsten Heating Element",
+      "native_id": "small_200v_tungsten_heating_element",
+      "line": 253
+    },
+    {
+      "name": "200V Tungsten Heating Element",
+      "native_id": "200v_tungsten_heating_element",
+      "line": 265
+    },
+    {
+      "name": "Small 800V Tungsten Heating Element",
+      "native_id": "small_800v_tungsten_heating_element",
+      "line": 277
+    },
+    {
+      "name": "800V Tungsten Heating Element",
+      "native_id": "800v_tungsten_heating_element",
+      "line": 289
+    },
+    {
+      "name": "Small 3.2kV Tungsten Heating Element",
+      "native_id": "small_3_2kv_tungsten_heating_element",
+      "line": 301
+    },
+    {
+      "name": "3.2kV Tungsten Heating Element",
+      "native_id": "3_2kv_tungsten_heating_element",
+      "line": 313
+    },
+    {
+      "name": "Electric Minecart",
+      "native_id": null,
+      "line": 327
+    },
+    {
+      "name": "On/OFF Regulator 1 Percent",
+      "native_id": "on_off_regulator_1_percent",
+      "line": 341
+    },
+    {
+      "name": "On/OFF Regulator 10 Percent",
+      "native_id": "on_off_regulator_10_percent",
+      "line": 350
+    },
+    {
+      "name": "Analogic Regulator",
+      "native_id": "analogic_regulator",
+      "line": 361
+    },
+    {
+      "name": "Small 50V Incandescent Light Bulb",
+      "native_id": "small_50v_incandescent_light_bulb",
+      "line": 386
+    },
+    {
+      "name": "50V Incandescent Light Bulb",
+      "native_id": "50v_incandescent_light_bulb",
+      "line": 403
+    },
+    {
+      "name": "200V Incandescent Light Bulb",
+      "native_id": "200v_incandescent_light_bulb",
+      "line": 420
+    },
+    {
+      "name": "Small 50V Carbon Incandescent Light Bulb",
+      "native_id": "small_50v_carbon_incandescent_light_bulb",
+      "line": 437
+    },
+    {
+      "name": "50V Carbon Incandescent Light Bulb",
+      "native_id": "50v_carbon_incandescent_light_bulb",
+      "line": 454
+    },
+    {
+      "name": "Small 50V Economic Light Bulb",
+      "native_id": "small_50v_economic_light_bulb",
+      "line": 471
+    },
+    {
+      "name": "50V Economic Light Bulb",
+      "native_id": "50v_economic_light_bulb",
+      "line": 488
+    },
+    {
+      "name": "200V Economic Light Bulb",
+      "native_id": "200v_economic_light_bulb",
+      "line": 499
+    },
+    {
+      "name": "50V Farming Lamp",
+      "native_id": "50v_farming_lamp",
+      "line": 510
+    },
+    {
+      "name": "200V Farming Lamp",
+      "native_id": "200v_farming_lamp",
+      "line": 527
+    },
+    {
+      "name": "50V LED Bulb",
+      "native_id": "50v_led_bulb",
+      "line": 544
+    },
+    {
+      "name": "200V LED Bulb",
+      "native_id": "200v_led_bulb",
+      "line": 561
+    },
+    {
+      "name": "50V Halogen Bulb",
+      "native_id": "50v_halogen_bulb",
+      "line": 578
+    },
+    {
+      "name": "200V Halogen Bulb",
+      "native_id": "200v_halogen_bulb",
+      "line": 595
+    },
+    {
+      "name": "Overheating Protection",
+      "native_id": "overheating_protection",
+      "line": 618
+    },
+    {
+      "name": "Overvoltage Protection",
+      "native_id": "overvoltage_protection",
+      "line": 629
+    },
+    {
+      "name": "Combustion Chamber",
+      "native_id": "combustion_chamber",
+      "line": 644
+    },
+    {
+      "name": "Thermal Insulation",
+      "native_id": "thermal_insulation",
+      "line": 651
+    },
+    {
+      "name": "Cheap Ferromagnetic Core",
+      "native_id": "cheap_ferromagnetic_core",
+      "line": 668
+    },
+    {
+      "name": "Average Ferromagnetic Core",
+      "native_id": "average_ferromagnetic_core",
+      "line": 678
+    },
+    {
+      "name": "Optimal Ferromagnetic Core",
+      "native_id": "optimal_ferromagnetic_core",
+      "line": 688
+    },
+    {
+      "name": "Copper Dust",
+      "native_id": "copper_dust",
+      "line": 712
+    },
+    {
+      "name": "Iron Dust",
+      "native_id": "iron_dust",
+      "line": 722
+    },
+    {
+      "name": "Lapis Dust",
+      "native_id": "lapis_dust",
+      "line": 732
+    },
+    {
+      "name": "Diamond Dust",
+      "native_id": "diamond_dust",
+      "line": 742
+    },
+    {
+      "name": "Lead Dust",
+      "native_id": "lead_dust",
+      "line": 752
+    },
+    {
+      "name": "Tungsten Dust",
+      "native_id": "tungsten_dust",
+      "line": 760
+    },
+    {
+      "name": "Gold Dust",
+      "native_id": "gold_dust",
+      "line": 769
+    },
+    {
+      "name": "Coal Dust",
+      "native_id": "coal_dust",
+      "line": 778
+    },
+    {
+      "name": "Alloy Dust",
+      "native_id": "alloy_dust",
+      "line": 786
+    },
+    {
+      "name": "Cinnabar Dust",
+      "native_id": "cinnabar_dust",
+      "line": 795
+    },
+    {
+      "name": "Copper Ingot",
+      "native_id": "copper_ingot",
+      "line": 813
+    },
+    {
+      "name": "Lead Ingot",
+      "native_id": "lead_ingot",
+      "line": 824
+    },
+    {
+      "name": "Tungsten Ingot",
+      "native_id": "tungsten_ingot",
+      "line": 835
+    },
+    {
+      "name": "Ferrite Ingot",
+      "native_id": "ferrite_ingot",
+      "line": 846
+    },
+    {
+      "name": "Alloy Ingot",
+      "native_id": "alloy_ingot",
+      "line": 859
+    },
+    {
+      "name": "Mercury",
+      "native_id": "mercury",
+      "line": 869
+    },
+    {
+      "name": "Silicon Wafer",
+      "native_id": "silicon_wafer",
+      "line": 883
+    },
+    {
+      "name": "Transistor",
+      "native_id": "transistor",
+      "line": 890
+    },
+    {
+      "name": "NTC Thermistor",
+      "native_id": "ntc_thermistor",
+      "line": 897
+    },
+    {
+      "name": "Nibble Memory Chip",
+      "native_id": "nibble_memory_chip",
+      "line": 904
+    },
+    {
+      "name": "Arithmetic Logic Unit",
+      "native_id": "arithmetic_logic_unit",
+      "line": 911
+    },
+    {
+      "name": "Electrical Motor",
+      "native_id": "electrical_motor",
+      "line": 927
+    },
+    {
+      "name": "Advanced Electrical Motor",
+      "native_id": "advanced_electrical_motor",
+      "line": 935
+    },
+    {
+      "name": "Solar Tracker",
+      "native_id": "solar_tracker",
+      "line": 950
+    },
+    {
+      "name": "MultiMeter",
+      "native_id": "multimeter",
+      "line": 965
+    },
+    {
+      "name": "Thermometer",
+      "native_id": "thermometer",
+      "line": 973
+    },
+    {
+      "name": "AllMeter",
+      "native_id": null,
+      "line": 985
+    },
+    {
+      "name": "Wireless Analyser",
+      "native_id": null,
+      "line": 993
+    },
+    {
+      "name": "Config Copy Tool",
+      "native_id": null,
+      "line": 1004
+    },
+    {
+      "name": "Tree Resin",
+      "native_id": "tree_resin",
+      "line": 1018
+    },
+    {
+      "name": "Rubber",
+      "native_id": "rubber",
+      "line": 1027
+    },
+    {
+      "name": "Cheap Electrical Drill",
+      "native_id": "cheap_electrical_drill",
+      "line": 1044
+    },
+    {
+      "name": "Average Electrical Drill",
+      "native_id": "average_electrical_drill",
+      "line": 1051
+    },
+    {
+      "name": "Fast Electrical Drill",
+      "native_id": "fast_electrical_drill",
+      "line": 1058
+    },
+    {
+      "name": "Turbo Electrical Drill",
+      "native_id": "turbo_electrical_drill",
+      "line": 1065
+    },
+    {
+      "name": "Irresponsible Electrical Drill",
+      "native_id": "irresponsible_electrical_drill",
+      "line": 1073
+    },
+    {
+      "name": "Ore Scanner",
+      "native_id": "ore_scanner",
+      "line": 1088
+    },
+    {
+      "name": "Mining Pipe",
+      "native_id": "mining_pipe",
+      "line": 1103
+    },
+    {
+      "name": "Copper Cable",
+      "native_id": "copper_cable",
+      "line": 1119
+    },
+    {
+      "name": "Iron Cable",
+      "native_id": "iron_cable",
+      "line": 1127
+    },
+    {
+      "name": "Tungsten Cable",
+      "native_id": "tungsten_cable",
+      "line": 1135
+    },
+    {
+      "name": "Graphite Rod",
+      "native_id": "graphite_rod",
+      "line": 1150
+    },
+    {
+      "name": "2x Graphite Rods",
+      "native_id": "2x_graphite_rods",
+      "line": 1158
+    },
+    {
+      "name": "3x Graphite Rods",
+      "native_id": "3x_graphite_rods",
+      "line": 1166
+    },
+    {
+      "name": "4x Graphite Rods",
+      "native_id": "4x_graphite_rods",
+      "line": 1174
+    },
+    {
+      "name": "Synthetic Diamond",
+      "native_id": "synthetic_diamond",
+      "line": 1182
+    },
+    {
+      "name": "unreleasedium",
+      "native_id": null,
+      "line": 1190
+    },
+    {
+      "name": "Arc Clay Ingot",
+      "native_id": "arc_clay_ingot",
+      "line": 1198
+    },
+    {
+      "name": "Arc Metal Ingot",
+      "native_id": "arc_metal_ingot",
+      "line": 1208
+    },
+    {
+      "name": "Inert Canister",
+      "native_id": null,
+      "line": 1217
+    },
+    {
+      "name": "Canister of Water",
+      "native_id": null,
+      "line": 1245
+    },
+    {
+      "name": "Canister of Arc Water",
+      "native_id": null,
+      "line": 1253
+    },
+    {
+      "name": "Small Flashlight",
+      "native_id": "small_flashlight",
+      "line": 1265
+    },
+    {
+      "name": "Improved Flashlight",
+      "native_id": "improved_flashlight",
+      "line": 1271
+    },
+    {
+      "name": "Portable Electrical Mining Drill",
+      "native_id": "portable_electrical_mining_drill",
+      "line": 1278
+    },
+    {
+      "name": "Portable Electrical Axe",
+      "native_id": "portable_electrical_axe",
+      "line": 1286
+    },
+    {
+      "name": "Portable Battery",
+      "native_id": "portable_battery",
+      "line": 1298
+    },
+    {
+      "name": "Portable Battery Pack",
+      "native_id": "portable_battery_pack",
+      "line": 1305
+    },
+    {
+      "name": "Portable Condensator",
+      "native_id": "portable_condensator",
+      "line": 1312
+    },
+    {
+      "name": "Portable Condensator Pack",
+      "native_id": "portable_condensator_pack",
+      "line": 1318
+    },
+    {
+      "name": "X-Ray Scanner",
+      "native_id": "x_ray_scanner",
+      "line": 1325
+    },
+    {
+      "name": "Small Fuel Burner",
+      "native_id": "small_fuel_burner",
+      "line": 1337
+    },
+    {
+      "name": "Medium Fuel Burner",
+      "native_id": "medium_fuel_burner",
+      "line": 1343
+    },
+    {
+      "name": "Big Fuel Burner",
+      "native_id": "big_fuel_burner",
+      "line": 1351
+    },
+    {
+      "name": "Cheap Chip",
+      "native_id": "cheap_chip",
+      "line": 1362
+    },
+    {
+      "name": "Advanced Chip",
+      "native_id": "advanced_chip",
+      "line": 1373
+    },
+    {
+      "name": "Machine Block",
+      "native_id": "machine_block",
+      "line": 1384
+    },
+    {
+      "name": "Electrical Probe Chip",
+      "native_id": "electrical_probe_chip",
+      "line": 1395
+    },
+    {
+      "name": "Thermal Probe Chip",
+      "native_id": "thermal_probe_chip",
+      "line": 1405
+    },
+    {
+      "name": "Copper Plate",
+      "native_id": "copper_plate",
+      "line": 1416
+    },
+    {
+      "name": "Iron Plate",
+      "native_id": "iron_plate",
+      "line": 1428
+    },
+    {
+      "name": "Gold Plate",
+      "native_id": "gold_plate",
+      "line": 1439
+    },
+    {
+      "name": "Lead Plate",
+      "native_id": "lead_plate",
+      "line": 1450
+    },
+    {
+      "name": "Silicon Plate",
+      "native_id": "silicon_plate",
+      "line": 1461
+    },
+    {
+      "name": "Alloy Plate",
+      "native_id": "alloy_plate",
+      "line": 1473
+    },
+    {
+      "name": "Coal Plate",
+      "native_id": "coal_plate",
+      "line": 1484
+    },
+    {
+      "name": "Silicon Dust",
+      "native_id": "silicon_dust",
+      "line": 1496
+    },
+    {
+      "name": "Silicon Ingot",
+      "native_id": "silicon_ingot",
+      "line": 1507
+    },
+    {
+      "name": "Machine Booster",
+      "native_id": "machine_booster",
+      "line": 1519
+    },
+    {
+      "name": "Advanced Machine Block",
+      "native_id": "advanced_machine_block",
+      "line": 1527
+    },
+    {
+      "name": "Basic Magnet",
+      "native_id": "basic_magnet",
+      "line": 1536
+    },
+    {
+      "name": "Advanced Magnet",
+      "native_id": "advanced_magnet",
+      "line": 1546
+    },
+    {
+      "name": "Data Logger Print",
+      "native_id": null,
+      "line": 1556
+    },
+    {
+      "name": "Signal Antenna",
+      "native_id": "signal_antenna",
+      "line": 1565
+    },
+    {
+      "name": "Player Filter",
+      "native_id": "player_filter",
+      "line": 1576
+    },
+    {
+      "name": "Monster Filter",
+      "native_id": "monster_filter",
+      "line": 1583
+    },
+    {
+      "name": "Animal Filter",
+      "native_id": "animal_filter",
+      "line": 1589
+    },
+    {
+      "name": "Wrench",
+      "native_id": "wrench",
+      "line": 1599
+    },
+    {
+      "name": "Dielectric",
+      "native_id": "dielectric",
+      "line": 1610
+    },
+    {
+      "name": "Casing",
+      "native_id": "casing",
+      "line": 1615
+    },
+    {
+      "name": "Motor Cowling",
+      "native_id": "motor_cowling",
+      "line": 1650
+    },
+    {
+      "name": "Heavy Winding",
+      "native_id": "heavy_winding",
+      "line": 1660
+    },
+    {
+      "name": "Reinforced Shaft",
+      "native_id": "reinforced_shaft",
+      "line": 1670
+    },
+    {
+      "name": "Turbine Blade Set",
+      "native_id": "turbine_blade_set",
+      "line": 1680
+    },
+    {
+      "name": "Black Brush",
+      "native_id": "black_brush",
+      "line": 1695
+    },
+    {
+      "name": "Red Brush",
+      "native_id": "red_brush",
+      "line": 1696
+    },
+    {
+      "name": "Green Brush",
+      "native_id": "green_brush",
+      "line": 1697
+    },
+    {
+      "name": "Brown Brush",
+      "native_id": "brown_brush",
+      "line": 1701
+    },
+    {
+      "name": "Blue Brush",
+      "native_id": "blue_brush",
+      "line": 1702
+    },
+    {
+      "name": "Purple Brush",
+      "native_id": "purple_brush",
+      "line": 1703
+    },
+    {
+      "name": "Cyan Brush",
+      "native_id": "cyan_brush",
+      "line": 1707
+    },
+    {
+      "name": "Silver Brush",
+      "native_id": "silver_brush",
+      "line": 1708
+    },
+    {
+      "name": "Gray Brush",
+      "native_id": "gray_brush",
+      "line": 1709
+    },
+    {
+      "name": "Pink Brush",
+      "native_id": "pink_brush",
+      "line": 1713
+    },
+    {
+      "name": "Lime Brush",
+      "native_id": "lime_brush",
+      "line": 1714
+    },
+    {
+      "name": "Yellow Brush",
+      "native_id": "yellow_brush",
+      "line": 1715
+    },
+    {
+      "name": "Light Blue Brush",
+      "native_id": "light_blue_brush",
+      "line": 1718
+    },
+    {
+      "name": "Magenta Brush",
+      "native_id": "magenta_brush",
+      "line": 1719
+    },
+    {
+      "name": "Orange Brush",
+      "native_id": "orange_brush",
+      "line": 1720
+    },
+    {
+      "name": "White Brush",
+      "native_id": "white_brush",
+      "line": 1724
+    },
+    {
+      "name": "Copper Ore",
+      "native_id": null,
+      "line": 1743
+    },
+    {
+      "name": "Lead Ore",
+      "native_id": null,
+      "line": 1753
+    },
+    {
+      "name": "Tungsten Ore",
+      "native_id": null,
+      "line": 1761
+    },
+    {
+      "name": "Cinnabar Ore",
+      "native_id": null,
+      "line": 1769
+    },
+    {
+      "name": "Copper Helmet",
+      "native_id": "copper_helmet",
+      "line": 1781
+    },
+    {
+      "name": "Copper Chestplate",
+      "native_id": "copper_chestplate",
+      "line": 1789
+    },
+    {
+      "name": "Copper Leggings",
+      "native_id": "copper_leggings",
+      "line": 1798
+    },
+    {
+      "name": "Copper Boots",
+      "native_id": "copper_boots",
+      "line": 1807
+    },
+    {
+      "name": "E-Coal Helmet",
+      "native_id": "e_coal_helmet",
+      "line": 1823
+    },
+    {
+      "name": "E-Coal Chestplate",
+      "native_id": "e_coal_chestplate",
+      "line": 1835
+    },
+    {
+      "name": "E-Coal Leggings",
+      "native_id": "e_coal_leggings",
+      "line": 1846
+    },
+    {
+      "name": "E-Coal Boots",
+      "native_id": "e_coal_boots",
+      "line": 1858
+    },
+    {
+      "name": "Copper Sword",
+      "native_id": "copper_sword",
+      "line": 1874
+    },
+    {
+      "name": "Copper Hoe",
+      "native_id": "copper_hoe",
+      "line": 1882
+    },
+    {
+      "name": "Copper Shovel",
+      "native_id": "copper_shovel",
+      "line": 1890
+    },
+    {
+      "name": "Copper Pickaxe",
+      "native_id": "copper_pickaxe",
+      "line": 1898
+    },
+    {
+      "name": "Copper Axe",
+      "native_id": "copper_axe",
+      "line": 1906
+    }
+  ]
+}

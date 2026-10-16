@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:black_dye"
+      },
+      {
+        "item": "minecraft:ink_sac"
+      }
+    ],
+    {
+      "item": "eln:white_brush"
+    }
+  ],
+  "result": {
+    "item": "eln:black_brush",
+    "count": 1
+  }
+}

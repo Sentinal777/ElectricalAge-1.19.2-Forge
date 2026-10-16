@@ -1,0 +1,17 @@
+{
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "particle": "eln:items/silverbrush"
+  },
+  "base": {
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "eln:items/silverbrush"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "builtin/entity"
+    }
+  }
+}

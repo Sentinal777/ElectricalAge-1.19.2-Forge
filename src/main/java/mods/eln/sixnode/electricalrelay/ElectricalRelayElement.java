@@ -1,0 +1,241 @@
+package mods.eln.sixnode.electricalrelay;
+
+import mods.eln.Eln;
+import mods.eln.i18n.I18N;
+import mods.eln.item.IConfigurable;
+import mods.eln.misc.Direction;
+import mods.eln.misc.ElectricalSafety;
+import mods.eln.misc.LRDU;
+import mods.eln.misc.Utils;
+import mods.eln.node.NodeBase;
+import mods.eln.node.six.SixNode;
+import mods.eln.node.six.SixNodeDescriptor;
+import mods.eln.node.six.SixNodeElement;
+import mods.eln.sim.ElectricalLoad;
+import mods.eln.sim.ThermalLoad;
+import mods.eln.sim.mna.component.Resistor;
+import mods.eln.sim.mna.component.ResistorSwitch;
+import mods.eln.sim.mna.misc.MnaConst;
+import mods.eln.sim.nbt.NbtElectricalGateInput;
+import mods.eln.sim.nbt.NbtElectricalLoad;
+import mods.eln.sim.process.destruct.CableMelt;
+import mods.eln.sim.process.destruct.ResistorCurrentWatchdog;
+import mods.eln.sim.process.destruct.VoltageStateWatchDog;
+import mods.eln.sim.process.destruct.WorldExplosion;
+import mods.eln.sixnode.electricalcable.ElectricalCableDescriptor;
+import mods.eln.sound.SoundCommand;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.nbt.NBTTagCompound;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ElectricalRelayElement extends SixNodeElement implements IConfigurable {
+
+    public ElectricalRelayDescriptor descriptor;
+    public NbtElectricalLoad aLoad = new NbtElectricalLoad("aLoad");
+    public NbtElectricalLoad bLoad = new NbtElectricalLoad("bLoad");
+    public ResistorSwitch switchResistor = new ResistorSwitch("switchRes", aLoad, bLoad);
+    public NbtElectricalGateInput gate = new NbtElectricalGateInput("gate");
+    public ElectricalRelayGateProcess gateProcess;
+    public ResistorCurrentWatchdog currentWatchdog;
+
+    VoltageStateWatchDog voltageWatchDogA = new VoltageStateWatchDog(aLoad);
+    VoltageStateWatchDog voltageWatchDogB = new VoltageStateWatchDog(bLoad);
+    //ResistorCurrentWatchdog currentWatchDog = new ResistorCurrentWatchdog();
+
+    boolean switchState = false, defaultOutput = false;
+
+    public ElectricalCableDescriptor cableDescriptor = null;
+
+    public static final byte toogleOutputDefaultId = 3;
+
+    public ElectricalRelayElement(SixNode sixNode, Direction side, SixNodeDescriptor descriptor) {
+        super(sixNode, side, descriptor);
+
+        this.descriptor = (ElectricalRelayDescriptor) descriptor;
+        gateProcess = new ElectricalRelayGateProcess(this, "GP", gate);
+        if (this.descriptor.signalWire) {
+            switchResistor.setOffResistance(MnaConst.ultraImpedance);
+        }
+
+        electricalLoadList.add(aLoad);
+        electricalLoadList.add(bLoad);
+        electricalComponentList.add(switchResistor);
+        electricalProcessList.add(gateProcess);
+        electricalLoadList.add(gate);
+
+        electricalComponentList.add(new Resistor(bLoad, null).pullDown());
+        electricalComponentList.add(new Resistor(aLoad, null).pullDown());
+
+        slowProcessList.add(voltageWatchDogA);
+        slowProcessList.add(voltageWatchDogB);
+
+        WorldExplosion exp = new WorldExplosion(this).cableExplosion();
+        if (this.descriptor.currentWatchdogEnabled) {
+            currentWatchdog = new ResistorCurrentWatchdog(switchResistor).setMaximumCurrent(
+                this.descriptor.damageCurrentLimit,
+                ElectricalSafety.SHORT_OVERLOAD_GRACE_SECONDS
+            );
+            slowProcessList.add(currentWatchdog);
+            currentWatchdog.setDestroys(new CableMelt(this));
+        }
+
+        //currentWatchDog.set(switchResistor).setIAbsMax(this.descriptor.cable.electricalMaximalCurrent).set(exp);
+        voltageWatchDogA.setNominalVoltage(this.descriptor.contactNominalVoltage).setDestroys(exp);
+        voltageWatchDogB.setNominalVoltage(this.descriptor.contactNominalVoltage).setDestroys(exp);
+    }
+
+    public static boolean canBePlacedOnSide(Direction side, int type) {
+        return true;
+    }
+
+    @Override
+    public void readFromNBT(@NotNull NBTTagCompound nbt) {
+        super.readFromNBT(nbt);
+        byte value = nbt.getByte("front");
+        front = LRDU.fromInt((value >> 0) & 0x3);
+        switchState = nbt.getBoolean("switchState");
+        defaultOutput = nbt.getBoolean("defaultOutput");
+    }
+
+    @Override
+    public void writeToNBT(NBTTagCompound nbt) {
+        super.writeToNBT(nbt);
+        nbt.setByte("front", (byte) (front.toInt() << 0));
+        nbt.setBoolean("switchState", switchState);
+        nbt.setBoolean("defaultOutput", defaultOutput);
+    }
+
+    @Override
+    public ElectricalLoad getElectricalLoad(LRDU lrdu, int mask) {
+        if (front.left() == lrdu) return aLoad;
+        if (front.right() == lrdu) return bLoad;
+        if (front == lrdu) return gate;
+        return null;
+    }
+
+    @Nullable
+    @Override
+    public ThermalLoad getThermalLoad(@NotNull LRDU lrdu, int mask) {
+        return null;
+    }
+
+    @Override
+    public int getConnectionMask(LRDU lrdu) {
+        if (front.left() == lrdu) return descriptor.getNodeMask();
+        if (front.right() == lrdu) return descriptor.getNodeMask();
+        if (front == lrdu) return NodeBase.maskElectricalInputGate;
+        return 0;
+    }
+
+    @Override
+    public String multiMeterString() {
+        return Utils.plotVolt("Ua:", aLoad.getVoltage()) + Utils.plotVolt("Ub:", bLoad.getVoltage()) + Utils.plotAmpere("I:", aLoad.getCurrent());
+    }
+
+    @NotNull
+    @Override
+    public Map<String, String> getWaila() {
+        Map<String, String> info = new HashMap<String, String>();
+        info.put(I18N.tr("Position"), switchState ? I18N.tr("Closed") : I18N.tr("Open"));
+        info.put(I18N.tr("Current"), Utils.plotAmpere("", aLoad.getCurrent()));
+        if (Eln.config.getBooleanOrElse("ui.waila.easyMode", false)) {
+            info.put(I18N.tr("Default position"), defaultOutput ? I18N.tr("Closed") : I18N.tr("Open"));
+            info.put(I18N.tr("Voltages"), Utils.plotVolt("", aLoad.getVoltage()) + Utils.plotVolt(" ", bLoad.getVoltage()));
+        }
+        info.put(I18N.tr("Subsystem Matrix Size"), Utils.renderSubSystemWaila(switchResistor.getSubSystem()));
+        return info;
+    }
+
+    @NotNull
+    @Override
+    public String thermoMeterString() {
+        return "";
+    }
+
+    @Override
+    public void networkSerialize(DataOutputStream stream) {
+        super.networkSerialize(stream);
+        try {
+            stream.writeBoolean(switchState);
+            stream.writeBoolean(defaultOutput);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void setSwitchState(boolean state) {
+        if (state == switchState) return;
+        switchState = state;
+        refreshSwitchResistor();
+        play(new SoundCommand("random.click").mulVolume(0.1F, 2.0F).smallRange());
+        needPublish();
+    }
+
+    public void refreshSwitchResistor() {
+        switchResistor.setState(switchState);
+    }
+
+    public boolean getSwitchState() {
+        return switchState;
+    }
+
+    @Override
+    public void initialize() {
+        computeElectricalLoad();
+
+        setSwitchState(switchState);
+        refreshSwitchResistor();
+    }
+
+    @Override
+    public void inventoryChanged() {
+        computeElectricalLoad();
+    }
+
+    public void computeElectricalLoad() {
+        descriptor.applyTo(aLoad);
+        descriptor.applyTo(bLoad);
+        descriptor.applyTo(switchResistor);
+        refreshSwitchResistor();
+    }
+
+    @Override
+    public void networkUnserialize(DataInputStream stream) {
+        super.networkUnserialize(stream);
+        try {
+            switch (stream.readByte()) {
+                case toogleOutputDefaultId:
+                    defaultOutput = !defaultOutput;
+                    needPublish();
+                    break;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public boolean hasGui() {
+        return true;
+    }
+
+    @Override
+    public void readConfigTool(NBTTagCompound compound, EntityPlayer invoker) {
+        if(compound.hasKey("nc")) {
+            defaultOutput = compound.getBoolean("nc");
+            needPublish();
+        }
+    }
+
+    @Override
+    public void writeConfigTool(NBTTagCompound compound, EntityPlayer invoker) {
+        compound.setBoolean("nc", defaultOutput);
+    }
+}

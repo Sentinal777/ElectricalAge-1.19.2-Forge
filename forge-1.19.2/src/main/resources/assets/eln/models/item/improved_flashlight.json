@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eln:items/improvedflashlightoff"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "eln:light_state": 1
+      },
+      "model": "eln:item/improved_flashlight_on"
+    },
+    {
+      "predicate": {
+        "eln:light_state": 2
+      },
+      "model": "eln:item/improved_flashlight_boosted"
+    }
+  ]
+}

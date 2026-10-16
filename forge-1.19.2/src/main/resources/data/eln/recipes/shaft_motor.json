@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "imi",
+    " ME"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "M": {
+      "item": "eln:advanced_machine_block"
+    },
+    "m": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "E": {
+      "item": "eln:very_high_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:shaft_motor",
+    "count": 1
+  }
+}

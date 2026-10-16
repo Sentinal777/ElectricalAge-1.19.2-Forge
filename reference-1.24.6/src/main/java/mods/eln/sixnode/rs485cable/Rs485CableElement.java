@@ -1,0 +1,60 @@
+package mods.eln.sixnode.rs485cable;
+
+import mods.eln.misc.Direction;
+import mods.eln.misc.LRDU;
+import mods.eln.node.NodeBase;
+import mods.eln.node.six.SixNode;
+import mods.eln.node.six.SixNodeDescriptor;
+import mods.eln.node.six.SixNodeElement;
+import mods.eln.sim.ElectricalLoad;
+import mods.eln.sim.ThermalLoad;
+import net.minecraft.entity.player.EntityPlayer;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public class Rs485CableElement extends SixNodeElement {
+
+    public Rs485CableDescriptor descriptor;
+
+    public Rs485CableElement(SixNode sixNode, Direction side, SixNodeDescriptor descriptor) {
+        super(sixNode, side, descriptor);
+        this.descriptor = (Rs485CableDescriptor) descriptor;
+    }
+
+    @Override
+    public ElectricalLoad getElectricalLoad(LRDU lrdu, int mask) {
+        return null;
+    }
+
+    @Nullable
+    @Override
+    public ThermalLoad getThermalLoad(@NotNull LRDU lrdu, int mask) {
+        return null;
+    }
+
+    @Override
+    public int getConnectionMask(LRDU lrdu) {
+        return NodeBase.maskRs485;
+    }
+
+    @Override
+    public String multiMeterString() {
+        return null;
+    }
+
+    @NotNull
+    @Override
+    public String thermoMeterString() {
+        return null;
+    }
+
+    @Override
+    public boolean onBlockActivated(EntityPlayer entityPlayer, Direction side, float vx, float vy, float vz) {
+        return false;
+    }
+
+    @Override
+    public void initialize() {
+
+    }
+}

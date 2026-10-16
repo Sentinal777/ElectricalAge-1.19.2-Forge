@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RSR",
+    " R "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:ingots/silicon"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:cheap_chip",
+    "count": 1
+  }
+}

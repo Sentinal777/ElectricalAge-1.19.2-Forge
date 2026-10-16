@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "minecraft:raw_gold"
+  },
+  "result": {
+    "item": "eln:gold_dust",
+    "count": 2
+  },
+  "joules": 12000
+}

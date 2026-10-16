@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " BA",
+    "CMC"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "eln:advanced_machine_block"
+    },
+    "A": {
+      "item": "eln:analogic_regulator"
+    },
+    "C": {
+      "item": "eln:medium_voltage_cable"
+    },
+    "M": {
+      "item": "eln:advanced_electrical_motor"
+    }
+  },
+  "result": {
+    "item": "eln:240v_fuel_generator",
+    "count": 1
+  }
+}

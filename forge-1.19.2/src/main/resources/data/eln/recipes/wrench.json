@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "cc ",
+    "  c"
+  ],
+  "key": {
+    "c": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:wrench",
+    "count": 1
+  }
+}

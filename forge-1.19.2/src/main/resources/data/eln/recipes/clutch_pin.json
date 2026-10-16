@@ -1,0 +1,56 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "s",
+          "s"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/steel"
+          }
+        },
+        "result": {
+          "item": "eln:clutch_pin",
+          "count": 4
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "s",
+          "s"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/alloy"
+          }
+        },
+        "result": {
+          "item": "eln:clutch_pin",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

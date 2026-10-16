@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " I ",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rubber"
+    },
+    "I": {
+      "item": "eln:copper_cable"
+    },
+    "C": {
+      "item": "eln:low_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:low_voltage_switch",
+    "count": 1
+  }
+}

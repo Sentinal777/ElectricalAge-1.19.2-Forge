@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "ARC_FURNACE",
+  "ingredient": {
+    "item": "eln:canister_of_water"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:canister_of_arc_water",
+    "count": 1
+  },
+  "joules": 7000000
+}

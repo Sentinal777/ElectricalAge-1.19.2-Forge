@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MAGNETIZER",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "input_count": 2,
+  "result": {
+    "item": "eln:basic_magnet",
+    "count": 1
+  },
+  "joules": 5000
+}

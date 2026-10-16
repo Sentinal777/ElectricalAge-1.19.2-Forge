@@ -1,0 +1,35 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "device": "Original Modbus RTU 7488. Four independent current-limited signal input/output gates, initially high impedance. Source LRDU slots are fixed relative to mounting face rather than housing rotation. Physical digital-input threshold is strictly >3 V; normalized input registers clamp 0..1. Modes and desired voltages persist across reload.",
+  "registers": "Original physical address slots 16/24/32/40 of length 8; coil +0 high impedance/+1 output boolean; discrete +1 actual input high; holding +1/+2 IEEE float and +3 uint16 desired output; input registers actual normalized input with original latched low words. Configurable TX/RX radio slots length 4, connected flags, float/uint16 values, max aggregation, real repeater graph and loaded-world range. RX remains read only.",
+  "protocol": "Original eight functions 01/02/03/04/05/06/0F/10. Complete strict MBAP framing across split/coalesced TCP reads, unsigned addresses/unit IDs, packed multi-coil support and bounded quantities. Corrected original 0F implementation, which incorrectly wrote holding registers. Validate full address range and byte counts before changing any state.",
+  "lifecycle": "At most eight socket workers and 256 pending requests; only Minecraft server thread reads/writes gates. Capture actual binding identity before enqueueing. Duplicate unit IDs do not displace an existing device. Removed/replaced/unloaded/unticking nodes reject queued commands. Server shutdown closes listener/workers and cancels pending work.",
+  "configuration": "integration.modbus.enabled=false, host=127.0.0.1, port=1502 by default; port 0 selects an available local port. Source optional creative visibility preserved. No network listener until explicitly enabled. Original housing, opening door, display, power/activity/error indicators and held model.",
+  "validation": {
+    "focused": "original-modbus-resource-focused-validation-02.log",
+    "newModbusMinecraftCases": 3,
+    "totalFocusedMinecraftCases": 9,
+    "units": 207,
+    "newActualProtocolSocketUnits": 4,
+    "client": "original-modbus-client-bcce-02.log",
+    "screenshotsReviewed": true,
+    "bcceActualSprites": 254
+  },
+  "fullRegression": {
+    "log": "original-modbus-resource-full-validation-01.log",
+    "minecraftTests": 268,
+    "bcceCases": 14,
+    "unitTests": 207,
+    "result": "All passed, including Modbus real TCP and independent physical/radio gates, Arc blocks, recycling and dynamic recipes. Computer Probe/Tutorial Sign were installed after this JVM started and are not covered by this result."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Focused Minecraft, actual TCP and actual client verified; full regression next."
+}

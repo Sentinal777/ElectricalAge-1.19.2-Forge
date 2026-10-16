@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "minecraft:charcoal"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:coal_dust",
+    "count": 1
+  },
+  "joules": 4000
+}

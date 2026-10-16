@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "III"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:copper_cable"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "eln:cheap_chip"
+    }
+  },
+  "result": {
+    "item": "eln:variable_dc_dc_converter",
+    "count": 1
+  }
+}

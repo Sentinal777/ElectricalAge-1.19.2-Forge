@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "i i",
+          "mtm",
+          "imi"
+        ],
+        "key": {
+          "i": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "t": {
+            "item": "eln:dc_dc_converter"
+          },
+          "m": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:grid_dc_dc_converter",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

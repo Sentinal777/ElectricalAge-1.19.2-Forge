@@ -1,0 +1,431 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/steel"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/steel"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/alloy"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/steel"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/alloy"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/alloy"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/steel"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/iron"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/alloy"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/alloy"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/steel"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/alloy"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/alloy"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/alloy"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/alloy"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/alloy"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/alloy"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/alloy"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/iron"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/alloy"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/iron"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/steel"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/alloy"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/alloy"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/iron"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/alloy"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/alloy"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/alloy"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " s ",
+          "sFs",
+          "AMA"
+        ],
+        "key": {
+          "s": {
+            "tag": "forge:ingots/iron"
+          },
+          "F": {
+            "item": "eln:fixed_shaft"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          },
+          "M": {
+            "tag": "forge:storage_blocks/iron"
+          }
+        },
+        "result": {
+          "item": "eln:reinforced_shaft",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

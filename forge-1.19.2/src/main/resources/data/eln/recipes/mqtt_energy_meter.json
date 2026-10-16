@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "RMR",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "M": {
+      "item": "eln:advanced_energy_meter"
+    }
+  },
+  "result": {
+    "item": "eln:mqtt_energy_meter",
+    "count": 1
+  }
+}

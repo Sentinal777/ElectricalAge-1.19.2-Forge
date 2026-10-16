@@ -1,0 +1,8 @@
+{
+  "recovery": "Actual ChatGPT Library download and local Downloads originals; historical remote paths were not treated as live files.",
+  "originals_sha256": {
+    "electrical-age-1.19.2-0.1.0-port-all.jar": "f47638382be2fa852254fdbe2e40e50a44d98f9ab0ad3029d603b36f1bad5109",
+    "electrical-age-1.19.2-0.2.0-port-all.jar": "7ee4f9312c29788d65bb4af375d38a14f9a1061e425d4c5cbde41b0101dcc316",
+    "ElectricalAge-1.19.2-source.zip": "83dbeaa62937ba63a729f134ccfa23719693540d5cfcd31d24234e62e1da619f"
+  }
+}

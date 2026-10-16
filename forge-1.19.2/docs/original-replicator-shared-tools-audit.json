@@ -1,0 +1,40 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "replicator": {
+    "entity": "Persistent 0.3 x 0.7 Monster, 8 HP / 3 damage / 8 follow range, original attack/retaliation/villager/cannibal/wander goals and silverfish sounds. ClientProxy actually used the vanilla silverfish model and original replicator texture; unused spider model intentionally not substituted.",
+    "food": "Original 20 random loaded-node probes / 15-block range / 2-block contact; private high-voltage Rs times ten, R=(V/50)^(-0.3)*V^2/50, >=30 V non-signal cable, real resistor work only. Each tick at most 6 J becomes nutrition; the rest dissipates. Original metabolism consumes 0.5 J/tick (10 W); reproduction requires net 10 kJ after metabolism. Saved hunger/work and pending contacts collect exactly once; entity identity guards stale callbacks.",
+    "protection": "Original five magic damage for a >20% sudden resistance mismatch. Starvation/healing and hunger-dependent cannibalism retained. Loaded-only path-region guard prevents cable navigation from loading absent chunks.",
+    "spawning": "Original opt-in thunder spawning, disabled by default; 1/120 per second, overworld, maximum 100; bounded height scan in loaded columns, no forced chunks. Original red/orange spawn egg and one of five resource drops; weather mobs have original 33% egg drop."
+  },
+  "tools": {
+    "allmeter": "Electrical and temperature readings together, plus existing electric-cart readout.",
+    "wireless": "Clicked adjacent spot; cycle-safe native repeater graph, grouped channels, weakest received strength and maximum normalized transmitter value; no forced loads.",
+    "copier": "Original sneak to copy / ordinary click to apply and original success/error beeps. Clipboard merges supported shared ranges/channels/gains/source values and hardware item types/counts. Survival transfers actual stacks, preserving bulb life and other NBT, returns previous hardware and never copies electrical/thermal/work state. Creative behavior matches original. Original logger ranges/period/units now integrate with the clipboard; four logger/source-unit cases and shared-tool regressions passed.",
+    "resources": "unreleasedium and inert/water/arc-water canisters restored as the original generic crafting/processing resources, with original icons and legacy IDs."
+  },
+  "verification": {
+    "focused": "Eight of nine passed in original-replicator-tools-focused-validation-02.log; only frozen NoAI navigation fixture failed. Normal native mob AI then passed original-replicator-ai-focused-validation-04.log. Corrected reproduction test accounts for original metabolism. All four tool cases passed, including real copy/apply gestures and actual used-bulb NBT.",
+    "live": "original-replicator-tools-client-bcce-01.log",
+    "screenshotReview": "Real source copy/apply interaction packets, AllMeter HUD, actual channel/strength/value chat, natural paid feeding and original silverfish texture/model reviewed.",
+    "unitTests": 200,
+    "bcceSprites": 254,
+    "full": "All nine new Replicator/tools cases passed within 244/245 overall; only an existing room-opening fixture failed. original-replicator-tools-full-validation-01.log"
+  },
+  "fullRegression": {
+    "log": "original-logger-full-validation-01.log",
+    "minecraftTests": 249,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed before the new inline energy-meter implementation. Includes actual Replicator AI/paid reproduction, all shared tools, all three restored loggers, printing and corrected explicit exterior-air room fixture."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Implemented, focused and live verified; expanded full regression pending."
+}

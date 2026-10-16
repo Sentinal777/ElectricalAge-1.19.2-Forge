@@ -1,0 +1,30 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "blocks": "Original Arc Clay and Arc Metal blocks, original six-face cube textures, source rock material/default hardness, self drops, aluminum/aluminium/steel item/block tags and exact nine-ingot reversible crafting.",
+  "recycling": "Original four E-Coal armor returns 16/12/24/24 coal dust at 40 kJ; five rechargeable battery types return six lead dust at 50 kJ and single-use battery returns three copper dust at 40 kJ. Actual powered maceration waits for whole output capacity and saved paid work; no unpowered output.",
+  "optionalProcessing": "Five original Certus Quartz/Nether Quartz/Fluix processing entries use real Forge input/output tags. First real tagged output only; absent optional dust disables matching instead of synthesizing an item. Original ore 12 kJ/crystal 6 kJ counts preserved.",
+  "crafting": "Original extractor now distinguishes 66 processing/helper calls from crafting. Dynamic Aluminum/Aluminium/Steel poles/grid recipes and both small-panel variants for 2x3 panels expanded with source conditions. Source iron pole fallback only when all three metal tags are absent. Original energy converter recipe restored. Obsolete primary dynamic recipe files removed precisely.",
+  "remainingCrafting": "Separate original Computer Probe recipe at source line 2471 remains unresolved until its device is restored. Two brush loops are accounted for in the reviewed custom brush generator.",
+  "validation": {
+    "focused": "original-modbus-resource-focused-validation-02.log",
+    "newResourceMinecraftCases": 3,
+    "units": 207
+  },
+  "fullRegression": {
+    "log": "original-modbus-resource-full-validation-01.log",
+    "minecraftTests": 268,
+    "bcceCases": 14,
+    "unitTests": 207,
+    "result": "All passed, including Modbus real TCP and independent physical/radio gates, Arc blocks, recycling and dynamic recipes. Computer Probe/Tutorial Sign were installed after this JVM started and are not covered by this result."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Focused Minecraft verified; full regression next."
+}

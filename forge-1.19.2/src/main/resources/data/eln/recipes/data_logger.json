@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RGR",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rubber"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "eln:data_logger",
+    "count": 1
+  }
+}

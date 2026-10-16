@@ -1,0 +1,17 @@
+# Executed verification for 1.19.2-0.4.0-port
+
+Java 17 / Minecraft 1.19.2 / Forge 43.5.0. 210 unit tests passed without failures, errors or skipped tests. The full published-BCCE/CC run passed 286 required Minecraft GameTests; the separate run without optional mods passed 271. These overlapping profiles are not added together as independent tests.
+
+Full log: release-bcce-cc-cover-full-validation-04.log. Native log: release-native-full-validation-03.log. The per-device JSON audits identify the focused and graphical runs, including actual models, GUI packets, audio, finite energy, inventories, chunk lifecycle and removal. Source processing verification independently compares 61 direct and 5 conditional operations; 349 crafting variants have no unresolved source crafting calls.
+
+Actual singleplayer checks include original MQTT/Modbus instruments, the nine-method CC probe, Tutorial Sign file/overlay, controls/sensors/diodes, C-key cover placement and cover-only mining, and the published BCCE quarry constructing its frame and excavating placed iron ore using only ELN-generated electrical/MJ input. Cover checks include transparent/tinted/emissive models, real light and exact survival item conservation. All 254 published BCCE sprite holders and actual atlas references resolved to real textures. The upstream BCCE 194-holder warning is retained; no BCCE patch is delivered.
+
+## Normal installable JAR
+
+Fresh standalone Forge servers loaded the normal reobfuscated Jar-in-Jar JAR, without development class substitution, QA agent or client-smoke classes. Separate profiles cover ELN alone, BCCE, and optional CC. Each executed an analytical circuit, actual disconnection, finite FE/battery behavior, save/stop/restart, exact covered-block state/item persistence and a 256-cable loaded mesh. Optional profiles additionally exercise a published engine, a lossy physical MJ round trip and actual Lua on the normally installed probe. Production results and real tick profiles are included in feature-coverage.json and the evidence bundle. These are measurements of this host, not a hardware-independent performance guarantee.
+
+The installed-JAR mesh initially exposed a 4.26 TPS bottleneck; a saved-world JVM recording confirmed 4.13 TPS and concentrated CPU in repeated MNA solves. The precision-preserving solver and exact cable-geometry caches raised the three production profiles to 18.30, 21.58, 20.79 TPS in their actual 15-second windows. Minecraft's nominal rate remains 20 Hz; short values above 20 include catch-up ticks. No physical subdivisions or controller iterations were reduced. Exact-decimal, original copper-reference, exceptional-value and analytical circuit checks validate the numerical changes. Disabled batteries retain a finite 1e12-ohm off branch, so the restart check exposes its minute ongoing charge drift and bounds it to 1e-10 charge fraction while requiring exact stopped FE restoration.
+
+Release packaging updates the bundled reports after those runs. Final-artifact.json records the delivered JAR hash and the SHA-256 of its sorted runtime entries, excluding documentation and ZIP metadata. Packaging verifies that this runtime payload matches each normally installed production JAR; the independent source-build report verifies it again against the delivered artifact.
+
+Client runs used the isolated integrated server and the excluded host pacing agent. Manual mouse/keyboard survival and broad multiplayer/modpack campaigns are not claimed. See PORT_STATUS.md and the component matrix for remaining verification limits.

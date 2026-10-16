@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "CCC",
+    "RRR"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:ingots/alloy"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:very_high_voltage_cable",
+    "count": 12
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " m ",
+    "HMH",
+    " E "
+  ],
+  "key": {
+    "M": {
+      "item": "eln:machine_block"
+    },
+    "E": {
+      "item": "eln:low_voltage_cable"
+    },
+    "H": {
+      "item": "eln:copper_thermal_cable"
+    },
+    "m": {
+      "item": "eln:electrical_motor"
+    }
+  },
+  "result": {
+    "item": "eln:50v_turbine",
+    "count": 1
+  }
+}

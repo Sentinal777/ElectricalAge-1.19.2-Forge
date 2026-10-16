@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:gems/fluix"
+  },
+  "result": {
+    "tag": "forge:dusts/fluix",
+    "count": 1
+  },
+  "joules": 6000
+}

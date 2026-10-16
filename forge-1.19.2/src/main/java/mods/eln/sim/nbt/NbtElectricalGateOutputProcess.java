@@ -1,0 +1,91 @@
+package mods.eln.sim.nbt;
+
+import mods.eln.Eln;
+import mods.eln.misc.INBTTReady;
+import mods.eln.sim.ElectricalLoad;
+import mods.eln.sim.SignalLoadSupport;
+import mods.eln.sim.mna.SubSystem;
+import mods.eln.sim.mna.component.Capacitor;
+import net.minecraft.nbt.CompoundTag;
+
+public class NbtElectricalGateOutputProcess extends Capacitor implements INBTTReady {
+
+    double voltage;
+    String name;
+
+    boolean highImpedance = false;
+
+    public NbtElectricalGateOutputProcess(String name, ElectricalLoad positiveLoad) {
+        super(positiveLoad, null);
+        this.name = name;
+        setHighImpedance(false);
+    }
+
+    public void setHighImpedance(boolean enable) {
+        this.highImpedance = enable;
+        double baseC = Eln.gateOutputCurrent / Eln.config.getDoubleOrElse("simulation.electrical.frequency", 20.0) / Eln.SVU;
+        if (enable) {
+            setCoulombs(baseC / 1000);
+        } else {
+            setCoulombs(baseC);
+        }
+    }
+
+    @Override
+    public void simProcessI(SubSystem s) {
+        if (!highImpedance)
+            aPin.state = voltage;
+        super.simProcessI(s);
+    }
+
+    public boolean isHighImpedance() {
+        return highImpedance;
+    }
+
+    @Override
+    public void readFromNBT(CompoundTag nbt, String str) {
+        setHighImpedance(nbt.getBoolean(str + name + "highImpedance"));
+        voltage = nbt.getDouble(str + name + "U");
+    }
+
+    @Override
+    public void writeToNBT(CompoundTag nbt, String str) {
+        nbt.putBoolean(str + name + "highImpedance", highImpedance);
+        nbt.putDouble(str + name + "U", voltage);
+    }
+
+    public void setOutputNormalized(double value) {
+        setOutputNormalizedSafe(value);
+    }
+
+    public void state(boolean value) {
+        if (value)
+            voltage = Eln.SVU;
+        else
+            voltage = 0.0;
+    }
+
+    public double getOutputNormalized() {
+        return voltage / Eln.SVU;
+    }
+
+    public boolean getOutputOnOff() {
+        return voltage >= Eln.SVU / 2;
+    }
+
+    public void setOutputNormalizedSafe(double value) {
+        voltage = SignalLoadSupport.toVoltage(value);
+    }
+
+    public void setVoltage(double U) {
+        this.voltage = U;
+    }
+
+    public void setVoltageSafe(double value) {
+        voltage = SignalLoadSupport.clampSignalVoltage(value);
+    }
+
+    public double getVoltage() {
+        return voltage;
+    }
+}

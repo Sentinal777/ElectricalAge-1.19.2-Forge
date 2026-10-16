@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " rr",
+    "rCr",
+    " rr"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:xor_chip",
+    "count": 1
+  }
+}

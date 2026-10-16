@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IPI",
+    "IPI"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:ingots/lead"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eln:portable_battery",
+    "count": 1
+  }
+}

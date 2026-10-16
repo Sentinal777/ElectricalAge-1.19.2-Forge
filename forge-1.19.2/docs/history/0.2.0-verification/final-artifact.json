@@ -1,0 +1,9 @@
+{
+  "installable_jar": "electrical-age-1.19.2-0.2.0-port-all.jar",
+  "sha256": "7ee4f9312c29788d65bb4af375d38a14f9a1061e425d4c5cbde41b0101dcc316",
+  "bytes": 8314805,
+  "runtime_payload_identical_to_production_test": true,
+  "non_documentation_payload_sha256": "2a88dbb3ac8701a18aa85e7549855e86ceaefd1a137dd314d2eace821e175163",
+  "unit_tests_passed": 168,
+  "minecraft_gametests_passed": 15
+}

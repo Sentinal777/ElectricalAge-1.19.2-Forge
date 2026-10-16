@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iIi",
+    " c "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "c": {
+      "item": "eln:machine_block"
+    }
+  },
+  "result": {
+    "item": "eln:clutch",
+    "count": 1
+  }
+}

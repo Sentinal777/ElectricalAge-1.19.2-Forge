@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "COMPRESSOR",
+  "ingredient": {
+    "item": "eln:coal_plate"
+  },
+  "input_count": 4,
+  "result": {
+    "item": "eln:graphite_rod",
+    "count": 1
+  },
+  "joules": 80000
+}

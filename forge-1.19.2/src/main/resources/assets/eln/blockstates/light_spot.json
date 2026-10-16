@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "eln:block/node"
+    },
+    "level=1": {
+      "model": "eln:block/node"
+    },
+    "level=2": {
+      "model": "eln:block/node"
+    },
+    "level=3": {
+      "model": "eln:block/node"
+    },
+    "level=4": {
+      "model": "eln:block/node"
+    },
+    "level=5": {
+      "model": "eln:block/node"
+    },
+    "level=6": {
+      "model": "eln:block/node"
+    },
+    "level=7": {
+      "model": "eln:block/node"
+    },
+    "level=8": {
+      "model": "eln:block/node"
+    },
+    "level=9": {
+      "model": "eln:block/node"
+    },
+    "level=10": {
+      "model": "eln:block/node"
+    },
+    "level=11": {
+      "model": "eln:block/node"
+    },
+    "level=12": {
+      "model": "eln:block/node"
+    },
+    "level=13": {
+      "model": "eln:block/node"
+    },
+    "level=14": {
+      "model": "eln:block/node"
+    },
+    "level=15": {
+      "model": "eln:block/node"
+    }
+  }
+}

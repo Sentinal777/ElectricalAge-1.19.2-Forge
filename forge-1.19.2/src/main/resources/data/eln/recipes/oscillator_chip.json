@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pdp",
+    "cCc",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "p": {
+      "item": "eln:copper_plate"
+    },
+    "c": {
+      "item": "eln:copper_cable"
+    },
+    "d": {
+      "item": "eln:dielectric"
+    }
+  },
+  "result": {
+    "item": "eln:oscillator_chip",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "WWW",
+          "IWI",
+          " W "
+        ],
+        "key": {
+          "W": {
+            "tag": "minecraft:logs"
+          },
+          "I": {
+            "tag": "forge:ingots/aluminium"
+          }
+        },
+        "result": {
+          "item": "eln:utility_pole",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

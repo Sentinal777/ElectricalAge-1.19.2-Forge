@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CdC",
+    "cDc",
+    " s "
+  ],
+  "key": {
+    "d": {
+      "item": "eln:dielectric"
+    },
+    "c": {
+      "item": "eln:copper_cable"
+    },
+    "C": {
+      "item": "eln:copper_plate"
+    },
+    "D": {
+      "item": "eln:coal_dust"
+    },
+    "s": {
+      "item": "eln:cheap_chip"
+    }
+  },
+  "result": {
+    "item": "eln:lowpass_filter",
+    "count": 1
+  }
+}

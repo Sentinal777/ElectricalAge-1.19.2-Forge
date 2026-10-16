@@ -1,0 +1,39 @@
+{
+  "baseline": "Electrical Age 1.24.6, transparentnode/autominer and original registration 42:0",
+  "legacy_id": 2688,
+  "electrical": "Original 800 V cable/load, two raised ghost-owned floor contacts as well as the original root contacts. Only actually ticking, correctly owned raised terminals participate. Source nominal drill watts determine resistor resistance; actual lower terminal voltage determines delivered work.",
+  "hardware": "Three original inventory indices: drill 0 (limit one), unused compatible scanner 1 (hidden original GUI slot), finite mining-pipe stack 2 (limit 64). Every side exposes the actual hardware inventory. Original survival recipe restored.",
+  "jobs": "Original five drill energy/time pairs, 50 J / 50 W pipe insertion and retraction, threefold power and sixfold work for silk touch. Missing drill retracts existing pipes; full pipe slot pauses retraction. Saves retain partial work, physical depth, job/target, pending loot and spent/discarded/idle work ledgers.",
+  "scanning": "Source square ore search starts below depth two, radius min(configured radius, depth plus one), source small central excavation radius, and stable x/z order. Search and raised-port/output participation use already loaded chunks only. Nonshaft ore removal beyond five blocks replaces the hole with cobblestone.",
+  "drops": "Actual Forge loot tables with a diamond-tier harvesting tool, optional silk touch, real rear-foot chest capability including combined chests, and persisted pending stacks if insertion becomes blocked. Actual Forge BreakEvent cancellation and world permissions prevent excavation. No duplicate item entities or free synthetic recipe drops.",
+  "geometry": "Nineteen original fixed reservations plus actual owned mining-pipe cells. Removing a pipe refunds the remaining column once without destroying the body. Breaking/picking up the body returns consumed installed pipes and pending drops exactly once. Raised terminals and cleanup validate owner identity.",
+  "visuals": "Original body, head, pipe, buttons, lamps and all available LEDs. The source OBJ intentionally lacks ledA3. Original 24 by 24 depth-relative scanner, raw 130-angle projection, half-second sampling, noise/color factors, green operating log, original autominer sound and sprite/held rendering routes. Deep pipe column included in the rendering bounds.",
+  "adaptations": [
+    "Use each dimension's minimum build height instead of the legacy absolute y=3 limit.",
+    "Persist paid work and pending items across saves; the old slow-process writer stored only depth and drill count.",
+    "Use Forge block-break protection and loaded-only access instead of unconditionally replacing arbitrary world blocks."
+  ],
+  "verification": {
+    "original_focused_and_classic_lamp": "5/5 passed, original-autominer-focused-validation-03.log",
+    "additional_lifecycle": "Original crafting, protected blocks and overvoltage passed in original-autominer-lifecycle-validation-01.log; actual removal/refund/stale-inventory case passed in original-autominer-lifecycle-validation-02.log after distinguishing previous fixture drops. Fixtures now clear prior item entities to prevent cross-run merging.",
+    "unit_tests": 200,
+    "live": "original-autominer-client-bcce-02.log",
+    "live_screenshots": "Reviewed actual paid GUI, real working body and 24x24 scanner/green log closeup, completed six-pipe retraction and original sprite/held routes. Final log labels shortened to original numbered messages after review.",
+    "full_regression": "Next full suite includes six Auto Miner cases and requires actual lamp readiness/expiry."
+  },
+  "fullRegression": {
+    "log": "original-turret-full-validation-01.log",
+    "minecraftTests": 236,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed. Includes Fabricator, Auto Miner, Transporter, Turret and bounded actual lighting/antenna/fuse readiness. Later Replicator/shared-tool additions require subsequent focused and full verification."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

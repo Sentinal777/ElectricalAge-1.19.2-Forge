@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "p p",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:casing",
+    "count": 1
+  }
+}

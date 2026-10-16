@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    " F ",
+    " D "
+  ],
+  "key": {
+    "F": {
+      "item": "eln:fast_electrical_drill"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "R": {
+      "item": "eln:graphite_rod"
+    },
+    "D": {
+      "item": "eln:synthetic_diamond"
+    }
+  },
+  "result": {
+    "item": "eln:turbo_electrical_drill",
+    "count": 1
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "baseline": "Electrical Age 1.24.6, 17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "status": "Implemented; full 115 Minecraft tests and 200 unit tests passed, and actual client operation/audio/held render checks passed",
+  "wind": {
+    "registration": "TransparentNodeRegistration.kt:1102",
+    "legacy_id": 3136,
+    "nominal_voltage": 50,
+    "maximum_voltage": 59,
+    "nominal_watts": 160,
+    "nominal_wind": 10,
+    "maximum_current": "160*5/59",
+    "power_table": [
+      0,
+      0.1,
+      0.3,
+      0.5,
+      0.8,
+      1,
+      1.1,
+      1.15,
+      1.2
+    ],
+    "table_x_max": 16,
+    "table_note": "Original FunctionTable extrapolates beyond its endpoints; do not silently clamp to 192 W",
+    "source_ghosts": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        -1
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        -1
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ]
+    ],
+    "ghost_note": "Upstream reserves seven unique cells but its descriptor counts the duplicate, yielding obstruction subtraction 11",
+    "scan": {
+      "off_y": 3,
+      "ray_x": 7,
+      "ray_y": 2,
+      "ray_z": 2,
+      "subtract_busy_count": 11,
+      "malus_per_block": 0.07,
+      "seconds": 10,
+      "interval_random_min": 0.75,
+      "interval_random_max": 1.25
+    },
+    "source_quirks": [
+      "WindProcess.getWind returns y.coerceIn(windHit*y/100,100), rather than windHit*y/100; preserve and explicitly document baseline behavior",
+      "WindTurbineSlowProcess integrates local noise then explicitly resets localWind to zero every callback",
+      "Missing neighboring scan chunks retain the previous environment factor; do not force chunk loading",
+      "Only the electrical cable orientation rotates with a wrench; the turbine body uses fixed Direction.XN"
+    ],
+    "weather": "max(0, wind*(1+rain*.2+weightedThunder*.2)+rain+weightedThunder*2)",
+    "render": {
+      "model": "windturbinemini",
+      "groups": [
+        "main",
+        "rot",
+        "halo"
+      ],
+      "rotation_axis": "X",
+      "rot_speed_degrees_per_second": 300,
+      "rot_origin": [
+        0.3125,
+        2.5,
+        0
+      ],
+      "power_filter_seconds": 2,
+      "halo_on_seconds": 0.5,
+      "halo_off_seconds": 2.5
+    },
+    "sound": "windturbine_big_sf, one event crossing blade angle 45 modulo120; source amplitude .007+sqrt(filtered power factor), pitch1+sqrt(filtered power factor)/1.3"
+  },
+  "water": {
+    "registration": "TransparentNodeRegistration.kt:1168",
+    "legacy_id": 3152,
+    "nominal_voltage": 50,
+    "maximum_voltage": 59,
+    "nominal_watts": 30,
+    "maximum_current": "30*5/59",
+    "source_water_coordinate": [
+      1,
+      -1,
+      0
+    ],
+    "native_local_water_coordinate": [
+      1,
+      -1,
+      0
+    ],
+    "geometry_note": "These models use the normal transparent-node raw-X frame; use original ghost coordinates directly. The mechanical shafts' extra ninety-degree model transform does not apply. Fixed native wind rotation3 matches source frontXN, and its default output is relative terminal3.",
+    "source_ghosts": "x=1,y=0..1,z=-1..1 (six cells)",
+    "flow": "Source water metadata zero produces zero target power; flowing/falling metadata is positive; non-water yields negative sentinel and decays retained output",
+    "power": "30*(1+.2*sin((world.dayTime/23999-.20)*2*pi))*(1+weather*2), weather=0/.5/1 for clear/rain/thunder",
+    "filter": "Original RcRcInterpolator(2,2); step(.05) only when the .2-second refresh counter expires; no-water multiplies retained filter value by .975 per refresh",
+    "render": {
+      "model": "smallwaterwheel",
+      "groups": [
+        "Support",
+        "Generator",
+        "Wheel"
+      ],
+      "rotation_axis": "X",
+      "speed_degrees_per_second": 60,
+      "direction_filter_seconds": 0.5,
+      "power_filter_seconds": 1
+    },
+    "sound": "water_turbine on crossing45-degree boundaries; volume .007+.2*filteredPowerFactor^2, pitch1.1",
+    "required_modern_boundary": "An unloaded intake must not generate new flow or force its chunk to load"
+  },
+  "source_files": [
+    "src/main/kotlin/mods/eln/registration/TransparentNodeRegistration.kt",
+    "src/main/kotlin/mods/eln/misc/WindProcess.kt",
+    "src/main/kotlin/mods/eln/misc/Utils.kt",
+    "src/main/java/mods/eln/transparentnode/windturbine/",
+    "src/main/java/mods/eln/transparentnode/waterturbine/"
+  ],
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

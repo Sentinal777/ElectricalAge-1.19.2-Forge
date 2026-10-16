@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:low_voltage_cable"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:medium_voltage_cable",
+    "count": 2
+  }
+}

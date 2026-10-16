@@ -1,0 +1,70 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " r ",
+          "rSr",
+          " rM"
+        ],
+        "key": {
+          "r": {
+            "tag": "forge:plates/alloy"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/steel"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:radial_motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " r ",
+          "rSr",
+          " rM"
+        ],
+        "key": {
+          "r": {
+            "tag": "forge:plates/alloy"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:radial_motor",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

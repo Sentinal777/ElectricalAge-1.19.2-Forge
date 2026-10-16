@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:ores/coal"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:coal",
+    "count": 3
+  },
+  "joules": 4000
+}

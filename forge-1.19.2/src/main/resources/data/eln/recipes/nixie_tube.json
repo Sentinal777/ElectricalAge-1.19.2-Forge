@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "grg",
+    "iii"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:glass_pane"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "i": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:nixie_tube",
+    "count": 1
+  }
+}

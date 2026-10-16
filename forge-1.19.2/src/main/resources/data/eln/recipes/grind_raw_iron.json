@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": {
+    "item": "eln:iron_dust",
+    "count": 2
+  },
+  "joules": 6000
+}

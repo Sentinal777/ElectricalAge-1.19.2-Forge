@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "MIM",
+    "CRC"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:advanced_magnet"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "eln:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:advanced_electrical_motor",
+    "count": 1
+  }
+}

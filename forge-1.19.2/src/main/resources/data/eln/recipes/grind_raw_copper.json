@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": {
+    "item": "eln:copper_dust",
+    "count": 2
+  },
+  "joules": 4000
+}

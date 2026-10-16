@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "ARC_FURNACE",
+  "ingredient": {
+    "item": "eln:alloy_dust"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "eln:alloy_ingot",
+    "count": 1
+  },
+  "joules": 5000
+}

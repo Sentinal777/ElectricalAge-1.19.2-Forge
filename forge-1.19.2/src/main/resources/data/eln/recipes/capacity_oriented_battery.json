@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "eln:cost_oriented_battery"
+    },
+    "P": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "result": {
+    "item": "eln:capacity_oriented_battery",
+    "count": 1
+  }
+}

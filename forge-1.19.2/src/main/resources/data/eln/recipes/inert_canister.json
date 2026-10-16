@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:diamond_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    },
+    {
+      "item": "eln:lapis_dust"
+    }
+  ],
+  "result": {
+    "item": "eln:inert_canister",
+    "count": 1
+  }
+}

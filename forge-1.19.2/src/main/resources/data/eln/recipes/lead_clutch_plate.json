@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t ",
+    "tLt",
+    " t "
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:plates/lead"
+    },
+    "t": {
+      "item": "eln:tungsten_dust"
+    }
+  },
+  "result": {
+    "item": "eln:lead_clutch_plate",
+    "count": 1
+  }
+}

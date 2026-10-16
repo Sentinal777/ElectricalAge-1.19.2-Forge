@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "MAGNETIZER",
+  "ingredient": {
+    "item": "eln:alloy_ingot"
+  },
+  "input_count": 2,
+  "result": {
+    "item": "eln:advanced_magnet",
+    "count": 1
+  },
+  "joules": 15000
+}

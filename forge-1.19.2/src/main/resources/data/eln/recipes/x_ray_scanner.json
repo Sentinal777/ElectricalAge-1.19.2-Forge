@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "eln:scanner_crafting_enabled"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "PGP",
+          "PCP",
+          "PBP"
+        ],
+        "key": {
+          "C": {
+            "item": "eln:advanced_chip"
+          },
+          "B": {
+            "item": "eln:portable_battery"
+          },
+          "P": {
+            "item": "eln:iron_cable"
+          },
+          "G": {
+            "item": "eln:ore_scanner"
+          }
+        },
+        "result": {
+          "item": "eln:x_ray_scanner",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

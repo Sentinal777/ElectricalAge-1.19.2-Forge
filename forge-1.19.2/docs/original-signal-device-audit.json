@@ -1,0 +1,31 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "processor": "Original initially empty equation, 100 parser-iteration budget, A/B/C plus daytime symbol, real 0\u201364 redstone hardware matching operator cost, only used independent inputs and a real current-limited 5 V output. Original equation state persists across rebuild/reload; changing the expression discards previous operator state. Invalid/empty or insufficient-redstone equations output zero and stop the original beep loop. Original copy tool moves real redstone and expression. All-sided bounded hardware inventory rejects removed-node callbacks.",
+  "vuMeters": "All three use one original 0.05 ohm signal terminal and actual gate voltage without shorting other edges. Original analog pointer physical inertia, red/green threshold LED and smoothly interpolated HSV multicolor LED/halo restored. Floor mesh orientation follows original front.right versus processor front.left. Original inventory sprites plus held meshes.",
+  "client": "Actual survival placement, real redstone quick-move, valid/invalid/beep expression packets, actual loaded output and sound loop passed. GUI spacing, original processor open housing/LEDs, selected held mesh, analog needle, green/red LED and RGB cyan/gray screenshots reviewed.",
+  "verification": {
+    "focused": "original-signal-devices-focused-validation-02.log",
+    "focusedMinecraftTests": 7,
+    "live": "original-signal-devices-client-bcce-02.log",
+    "unitTests": 200,
+    "bcceActualSprites": 254
+  },
+  "fixtureCorrection": "The previous full run passed 253/254 and 200 units. Only the heat-exchanger fixture asserted its signal at a fixed 20 ticks. It now holds output physically blocked while waiting at most 80 ticks for the actual signal, then preserves exact 1:10 fluid, heat conservation and reload assertions. Both exchanger cases passed with five new signal-device cases.",
+  "fullRegression": {
+    "log": "original-signal-devices-full-validation-01.log",
+    "minecraftTests": 259,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed, including both restored inline meters, original processor and three vuMeters, and actual exchanger readiness. This run preceded the new MQTT installation."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Restored and focused/client verified; full 259-case regression next."
+}

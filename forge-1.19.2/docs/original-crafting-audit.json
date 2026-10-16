@@ -1,0 +1,2101 @@
+{
+  "baseline": "1.24.6",
+  "emitted": [
+    {
+      "line": 199,
+      "target": "ground_cable",
+      "file": "ground_cable"
+    },
+    {
+      "line": 206,
+      "target": "signal_cable",
+      "file": "signal_cable"
+    },
+    {
+      "line": 216,
+      "target": "low_voltage_cable",
+      "file": "low_voltage_cable"
+    },
+    {
+      "line": 220,
+      "target": "low_current_cable",
+      "file": "low_current_cable"
+    },
+    {
+      "line": 224,
+      "target": "medium_voltage_cable",
+      "file": "medium_voltage_cable"
+    },
+    {
+      "line": 228,
+      "target": "medium_current_cable",
+      "file": "medium_current_cable"
+    },
+    {
+      "line": 234,
+      "target": "high_voltage_cable",
+      "file": "high_voltage_cable"
+    },
+    {
+      "line": 238,
+      "target": "high_current_cable",
+      "file": "high_current_cable"
+    },
+    {
+      "line": 242,
+      "target": "signal_cable",
+      "file": "signal_cable_original_242"
+    },
+    {
+      "line": 246,
+      "target": "signal_bus_cable",
+      "file": "signal_bus_cable"
+    },
+    {
+      "line": 250,
+      "target": "low_voltage_cable",
+      "file": "low_voltage_cable_original_250"
+    },
+    {
+      "line": 254,
+      "target": "very_high_voltage_cable",
+      "file": "very_high_voltage_cable"
+    },
+    {
+      "line": 261,
+      "target": "copper_thermal_cable",
+      "file": "copper_thermal_cable"
+    },
+    {
+      "line": 265,
+      "target": "copper_thermal_cable",
+      "file": "copper_thermal_cable_original_265"
+    },
+    {
+      "line": 272,
+      "target": "classic_lamp_socket",
+      "file": "classic_lamp_socket"
+    },
+    {
+      "line": 276,
+      "target": "lamp_socket_b_projector",
+      "file": "lamp_socket_b_projector"
+    },
+    {
+      "line": 280,
+      "target": "street_light",
+      "file": "street_light"
+    },
+    {
+      "line": 284,
+      "target": "robust_lamp_socket",
+      "file": "robust_lamp_socket"
+    },
+    {
+      "line": 288,
+      "target": "flat_lamp_socket",
+      "file": "flat_lamp_socket"
+    },
+    {
+      "line": 292,
+      "target": "simple_lamp_socket",
+      "file": "simple_lamp_socket"
+    },
+    {
+      "line": 296,
+      "target": "fluorescent_lamp_socket",
+      "file": "fluorescent_lamp_socket"
+    },
+    {
+      "line": 300,
+      "target": "suspended_lamp_socket",
+      "file": "suspended_lamp_socket"
+    },
+    {
+      "line": 304,
+      "target": "long_suspended_lamp_socket",
+      "file": "long_suspended_lamp_socket"
+    },
+    {
+      "line": 310,
+      "target": "suspended_lamp_socket_no_swing",
+      "file": "suspended_lamp_socket_no_swing"
+    },
+    {
+      "line": 316,
+      "target": "long_suspended_lamp_socket_no_swing",
+      "file": "long_suspended_lamp_socket_no_swing"
+    },
+    {
+      "line": 321,
+      "target": "sconce_lamp_socket",
+      "file": "sconce_lamp_socket"
+    },
+    {
+      "line": 325,
+      "target": "50v_emergency_lamp",
+      "file": "50v_emergency_lamp"
+    },
+    {
+      "line": 330,
+      "target": "200v_emergency_lamp",
+      "file": "200v_emergency_lamp"
+    },
+    {
+      "line": 338,
+      "target": "basic_floodlight",
+      "file": "basic_floodlight"
+    },
+    {
+      "line": 343,
+      "target": "motorized_floodlight",
+      "file": "motorized_floodlight"
+    },
+    {
+      "line": 351,
+      "target": "lamp_supply",
+      "file": "lamp_supply"
+    },
+    {
+      "line": 358,
+      "target": "type_j_socket",
+      "file": "type_j_socket"
+    },
+    {
+      "line": 364,
+      "target": "type_e_socket",
+      "file": "type_e_socket"
+    },
+    {
+      "line": 373,
+      "target": "signal_diode",
+      "file": "signal_diode"
+    },
+    {
+      "line": 377,
+      "target": "10a_diode",
+      "file": "10a_diode"
+    },
+    {
+      "line": 381,
+      "target": "25a_diode",
+      "file": "25a_diode"
+    },
+    {
+      "line": 382,
+      "target": "power_capacitor",
+      "file": "power_capacitor"
+    },
+    {
+      "line": 386,
+      "target": "power_inductor",
+      "file": "power_inductor"
+    },
+    {
+      "line": 390,
+      "target": "variable_inductor",
+      "file": "variable_inductor"
+    },
+    {
+      "line": 394,
+      "target": "power_resistor",
+      "file": "power_resistor"
+    },
+    {
+      "line": 398,
+      "target": "thermistor",
+      "file": "thermistor"
+    },
+    {
+      "line": 402,
+      "target": "rheostat",
+      "file": "rheostat"
+    },
+    {
+      "line": 407,
+      "target": "ntc_thermistor",
+      "file": "ntc_thermistor"
+    },
+    {
+      "line": 412,
+      "target": "large_rheostat",
+      "file": "large_rheostat"
+    },
+    {
+      "line": 419,
+      "target": "low_voltage_switch",
+      "file": "low_voltage_switch"
+    },
+    {
+      "line": 423,
+      "target": "medium_voltage_switch",
+      "file": "medium_voltage_switch"
+    },
+    {
+      "line": 427,
+      "target": "high_voltage_switch",
+      "file": "high_voltage_switch"
+    },
+    {
+      "line": 431,
+      "target": "very_high_voltage_switch",
+      "file": "very_high_voltage_switch"
+    },
+    {
+      "line": 438,
+      "target": "low_voltage_relay",
+      "file": "low_voltage_relay"
+    },
+    {
+      "line": 444,
+      "target": "medium_voltage_relay",
+      "file": "medium_voltage_relay"
+    },
+    {
+      "line": 450,
+      "target": "high_voltage_relay",
+      "file": "high_voltage_relay"
+    },
+    {
+      "line": 456,
+      "target": "very_high_voltage_relay",
+      "file": "very_high_voltage_relay"
+    },
+    {
+      "line": 461,
+      "target": "signal_relay",
+      "file": "signal_relay"
+    },
+    {
+      "line": 466,
+      "target": "low_current_relay",
+      "file": "low_current_relay"
+    },
+    {
+      "line": 472,
+      "target": "medium_current_relay",
+      "file": "medium_current_relay"
+    },
+    {
+      "line": 478,
+      "target": "high_current_relay",
+      "file": "high_current_relay"
+    },
+    {
+      "line": 487,
+      "target": "wireless_signal_transmitter",
+      "file": "wireless_signal_transmitter"
+    },
+    {
+      "line": 493,
+      "target": "wireless_signal_repeater",
+      "file": "wireless_signal_repeater"
+    },
+    {
+      "line": 497,
+      "target": "wireless_signal_receiver",
+      "file": "wireless_signal_receiver"
+    },
+    {
+      "line": 504,
+      "target": "not_chip",
+      "file": "not_chip"
+    },
+    {
+      "line": 508,
+      "target": "and_chip",
+      "file": "and_chip"
+    },
+    {
+      "line": 514,
+      "target": "nand_chip",
+      "file": "nand_chip"
+    },
+    {
+      "line": 518,
+      "target": "or_chip",
+      "file": "or_chip"
+    },
+    {
+      "line": 522,
+      "target": "nor_chip",
+      "file": "nor_chip"
+    },
+    {
+      "line": 526,
+      "target": "xor_chip",
+      "file": "xor_chip"
+    },
+    {
+      "line": 530,
+      "target": "xnor_chip",
+      "file": "xnor_chip"
+    },
+    {
+      "line": 534,
+      "target": "pal_chip",
+      "file": "pal_chip"
+    },
+    {
+      "line": 538,
+      "target": "schmitt_trigger_chip",
+      "file": "schmitt_trigger_chip"
+    },
+    {
+      "line": 542,
+      "target": "d_flip_flop_chip",
+      "file": "d_flip_flop_chip"
+    },
+    {
+      "line": 547,
+      "target": "oscillator_chip",
+      "file": "oscillator_chip"
+    },
+    {
+      "line": 552,
+      "target": "jk_flip_flop_chip",
+      "file": "jk_flip_flop_chip"
+    },
+    {
+      "line": 557,
+      "target": "amplifier",
+      "file": "amplifier"
+    },
+    {
+      "line": 561,
+      "target": "voltage_controlled_amplifier",
+      "file": "voltage_controlled_amplifier"
+    },
+    {
+      "line": 565,
+      "target": "opamp",
+      "file": "opamp"
+    },
+    {
+      "line": 569,
+      "target": "configurable_summing_unit",
+      "file": "configurable_summing_unit"
+    },
+    {
+      "line": 573,
+      "target": "sample_and_hold",
+      "file": "sample_and_hold"
+    },
+    {
+      "line": 577,
+      "target": "voltage_controlled_sine_oscillator",
+      "file": "voltage_controlled_sine_oscillator"
+    },
+    {
+      "line": 581,
+      "target": "voltage_controlled_sawtooth_oscillator",
+      "file": "voltage_controlled_sawtooth_oscillator"
+    },
+    {
+      "line": 585,
+      "target": "pid_regulator",
+      "file": "pid_regulator"
+    },
+    {
+      "line": 589,
+      "target": "lowpass_filter",
+      "file": "lowpass_filter"
+    },
+    {
+      "line": 597,
+      "target": "dc_dc_converter",
+      "file": "dc_dc_converter"
+    },
+    {
+      "line": 601,
+      "target": "variable_dc_dc_converter",
+      "file": "variable_dc_dc_converter"
+    },
+    {
+      "line": 608,
+      "target": "stone_heat_furnace",
+      "file": "stone_heat_furnace"
+    },
+    {
+      "line": 612,
+      "target": "fuel_heat_furnace",
+      "file": "fuel_heat_furnace"
+    },
+    {
+      "line": 620,
+      "target": "50v_turbine",
+      "file": "50v_turbine"
+    },
+    {
+      "line": 626,
+      "target": "200v_turbine",
+      "file": "200v_turbine"
+    },
+    {
+      "line": 633,
+      "target": "generator",
+      "file": "generator"
+    },
+    {
+      "line": 638,
+      "target": "shaft_motor",
+      "file": "shaft_motor"
+    },
+    {
+      "line": 644,
+      "target": "steam_turbine",
+      "file": "steam_turbine"
+    },
+    {
+      "line": 653,
+      "target": "gas_turbine",
+      "file": "gas_turbine"
+    },
+    {
+      "line": 658,
+      "target": "radial_motor",
+      "file": "radial_motor"
+    },
+    {
+      "line": 663,
+      "target": "large_shaft_motor",
+      "file": "large_shaft_motor"
+    },
+    {
+      "line": 674,
+      "target": "large_generator",
+      "file": "large_generator"
+    },
+    {
+      "line": 685,
+      "target": "large_gas_turbine",
+      "file": "large_gas_turbine"
+    },
+    {
+      "line": 697,
+      "target": "large_steam_turbine",
+      "file": "large_steam_turbine"
+    },
+    {
+      "line": 708,
+      "target": "joint",
+      "file": "joint"
+    },
+    {
+      "line": 709,
+      "target": "crank_shaft",
+      "file": "crank_shaft"
+    },
+    {
+      "line": 710,
+      "target": "joint_hub",
+      "file": "joint_hub"
+    },
+    {
+      "line": 716,
+      "target": "flywheel",
+      "file": "flywheel"
+    },
+    {
+      "line": 722,
+      "target": "tachometer",
+      "file": "tachometer"
+    },
+    {
+      "line": 728,
+      "target": "clutch",
+      "file": "clutch"
+    },
+    {
+      "line": 733,
+      "target": "fixed_shaft",
+      "file": "fixed_shaft"
+    },
+    {
+      "line": 738,
+      "target": "rolling_shaft",
+      "file": "rolling_shaft"
+    },
+    {
+      "line": 745,
+      "target": "cost_oriented_battery",
+      "file": "cost_oriented_battery"
+    },
+    {
+      "line": 749,
+      "target": "capacity_oriented_battery",
+      "file": "capacity_oriented_battery"
+    },
+    {
+      "line": 753,
+      "target": "voltage_oriented_battery",
+      "file": "voltage_oriented_battery"
+    },
+    {
+      "line": 757,
+      "target": "current_oriented_battery",
+      "file": "current_oriented_battery"
+    },
+    {
+      "line": 761,
+      "target": "life_oriented_battery",
+      "file": "life_oriented_battery"
+    },
+    {
+      "line": 765,
+      "target": "experimental_battery",
+      "file": "experimental_battery"
+    },
+    {
+      "line": 772,
+      "target": "single_use_battery",
+      "file": "single_use_battery"
+    },
+    {
+      "line": 776,
+      "target": "single_use_battery",
+      "file": "single_use_battery_original_776"
+    },
+    {
+      "line": 786,
+      "target": "utility_pole",
+      "file": "utility_pole_original_786_aluminum"
+    },
+    {
+      "line": 786,
+      "target": "utility_pole",
+      "file": "utility_pole_original_786_aluminium"
+    },
+    {
+      "line": 786,
+      "target": "utility_pole",
+      "file": "utility_pole_original_786_steel"
+    },
+    {
+      "line": 787,
+      "target": "direct_utility_pole",
+      "file": "direct_utility_pole_original_787_aluminum"
+    },
+    {
+      "line": 787,
+      "target": "direct_utility_pole",
+      "file": "direct_utility_pole_original_787_aluminium"
+    },
+    {
+      "line": 787,
+      "target": "direct_utility_pole",
+      "file": "direct_utility_pole_original_787_steel"
+    },
+    {
+      "line": 793,
+      "target": "utility_pole",
+      "file": "utility_pole_original_793"
+    },
+    {
+      "line": 795,
+      "target": "utility_pole_w_dc_dc_converter",
+      "file": "utility_pole_w_dc_dc_converter"
+    },
+    {
+      "line": 810,
+      "target": "transmission_tower",
+      "file": "transmission_tower_original_810_aluminum"
+    },
+    {
+      "line": 810,
+      "target": "transmission_tower",
+      "file": "transmission_tower_original_810_aluminium"
+    },
+    {
+      "line": 810,
+      "target": "transmission_tower",
+      "file": "transmission_tower_original_810_steel"
+    },
+    {
+      "line": 814,
+      "target": "grid_dc_dc_converter",
+      "file": "grid_dc_dc_converter_original_814_aluminum"
+    },
+    {
+      "line": 814,
+      "target": "grid_dc_dc_converter",
+      "file": "grid_dc_dc_converter_original_814_aluminium"
+    },
+    {
+      "line": 814,
+      "target": "grid_dc_dc_converter",
+      "file": "grid_dc_dc_converter_original_814_steel"
+    },
+    {
+      "line": 818,
+      "target": "grid_switch",
+      "file": "grid_switch_original_818_aluminum"
+    },
+    {
+      "line": 818,
+      "target": "grid_switch",
+      "file": "grid_switch_original_818_aluminium"
+    },
+    {
+      "line": 818,
+      "target": "grid_switch",
+      "file": "grid_switch_original_818_steel"
+    },
+    {
+      "line": 829,
+      "target": "electrical_furnace",
+      "file": "electrical_furnace"
+    },
+    {
+      "line": 833,
+      "target": "canister_of_water",
+      "file": "canister_of_water"
+    },
+    {
+      "line": 840,
+      "target": "analog_watch",
+      "file": "analog_watch"
+    },
+    {
+      "line": 844,
+      "target": "digital_watch",
+      "file": "digital_watch"
+    },
+    {
+      "line": 848,
+      "target": "hub",
+      "file": "hub"
+    },
+    {
+      "line": 853,
+      "target": "energy_meter",
+      "file": "energy_meter"
+    },
+    {
+      "line": 857,
+      "target": "advanced_energy_meter",
+      "file": "advanced_energy_meter"
+    },
+    {
+      "line": 861,
+      "target": "mqtt_energy_meter",
+      "file": "mqtt_energy_meter"
+    },
+    {
+      "line": 869,
+      "target": "auto_miner",
+      "file": "auto_miner"
+    },
+    {
+      "line": 879,
+      "target": "wind_turbine",
+      "file": "wind_turbine"
+    },
+    {
+      "line": 889,
+      "target": "water_turbine",
+      "file": "water_turbine"
+    },
+    {
+      "line": 898,
+      "target": "48v_fuel_generator",
+      "file": "48v_fuel_generator"
+    },
+    {
+      "line": 904,
+      "target": "240v_fuel_generator",
+      "file": "240v_fuel_generator"
+    },
+    {
+      "line": 915,
+      "target": "small_solar_panel",
+      "file": "small_solar_panel"
+    },
+    {
+      "line": 920,
+      "target": "small_rotating_solar_panel",
+      "file": "small_rotating_solar_panel"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blocksteel_fixed"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blocksteel_rotating"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blockaluminum_fixed"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blockaluminum_rotating"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blockaluminium_fixed"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_blockaluminium_rotating"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_casingmachineadvanced_fixed"
+    },
+    {
+      "line": 926,
+      "target": "2x3_solar_panel",
+      "file": "2x3_solar_panel_original_926_casingmachineadvanced_rotating"
+    },
+    {
+      "line": 929,
+      "target": "2x3_rotating_solar_panel",
+      "file": "2x3_rotating_solar_panel"
+    },
+    {
+      "line": 938,
+      "target": "small_passive_thermal_dissipator",
+      "file": "small_passive_thermal_dissipator"
+    },
+    {
+      "line": 942,
+      "target": "small_active_thermal_dissipator",
+      "file": "small_active_thermal_dissipator"
+    },
+    {
+      "line": 948,
+      "target": "200v_active_thermal_dissipator",
+      "file": "200v_active_thermal_dissipator"
+    },
+    {
+      "line": 954,
+      "target": "thermal_heat_exchanger",
+      "file": "thermal_heat_exchanger"
+    },
+    {
+      "line": 964,
+      "target": "small_50v_copper_heating_element",
+      "file": "small_50v_copper_heating_element"
+    },
+    {
+      "line": 970,
+      "target": "50v_copper_heating_element",
+      "file": "50v_copper_heating_element"
+    },
+    {
+      "line": 971,
+      "target": "small_200v_copper_heating_element",
+      "file": "small_200v_copper_heating_element"
+    },
+    {
+      "line": 972,
+      "target": "200v_copper_heating_element",
+      "file": "200v_copper_heating_element"
+    },
+    {
+      "line": 975,
+      "target": "small_50v_iron_heating_element",
+      "file": "small_50v_iron_heating_element"
+    },
+    {
+      "line": 976,
+      "target": "50v_iron_heating_element",
+      "file": "50v_iron_heating_element"
+    },
+    {
+      "line": 977,
+      "target": "small_200v_iron_heating_element",
+      "file": "small_200v_iron_heating_element"
+    },
+    {
+      "line": 978,
+      "target": "200v_iron_heating_element",
+      "file": "200v_iron_heating_element"
+    },
+    {
+      "line": 979,
+      "target": "small_50v_tungsten_heating_element",
+      "file": "small_50v_tungsten_heating_element"
+    },
+    {
+      "line": 985,
+      "target": "50v_tungsten_heating_element",
+      "file": "50v_tungsten_heating_element"
+    },
+    {
+      "line": 990,
+      "target": "small_200v_tungsten_heating_element",
+      "file": "small_200v_tungsten_heating_element"
+    },
+    {
+      "line": 995,
+      "target": "200v_tungsten_heating_element",
+      "file": "200v_tungsten_heating_element"
+    },
+    {
+      "line": 1000,
+      "target": "small_800v_tungsten_heating_element",
+      "file": "small_800v_tungsten_heating_element"
+    },
+    {
+      "line": 1005,
+      "target": "800v_tungsten_heating_element",
+      "file": "800v_tungsten_heating_element"
+    },
+    {
+      "line": 1010,
+      "target": "small_3_2kv_tungsten_heating_element",
+      "file": "small_3_2kv_tungsten_heating_element"
+    },
+    {
+      "line": 1015,
+      "target": "3_2kv_tungsten_heating_element",
+      "file": "3_2kv_tungsten_heating_element"
+    },
+    {
+      "line": 1024,
+      "target": "on_off_regulator_10_percent",
+      "file": "on_off_regulator_10_percent"
+    },
+    {
+      "line": 1028,
+      "target": "on_off_regulator_1_percent",
+      "file": "on_off_regulator_1_percent"
+    },
+    {
+      "line": 1032,
+      "target": "analogic_regulator",
+      "file": "analogic_regulator"
+    },
+    {
+      "line": 1040,
+      "target": "small_50v_incandescent_light_bulb",
+      "file": "small_50v_incandescent_light_bulb"
+    },
+    {
+      "line": 1044,
+      "target": "50v_incandescent_light_bulb",
+      "file": "50v_incandescent_light_bulb"
+    },
+    {
+      "line": 1048,
+      "target": "200v_incandescent_light_bulb",
+      "file": "200v_incandescent_light_bulb"
+    },
+    {
+      "line": 1053,
+      "target": "small_50v_carbon_incandescent_light_bulb",
+      "file": "small_50v_carbon_incandescent_light_bulb"
+    },
+    {
+      "line": 1057,
+      "target": "small_50v_carbon_incandescent_light_bulb",
+      "file": "small_50v_carbon_incandescent_light_bulb_original_1057"
+    },
+    {
+      "line": 1061,
+      "target": "50v_carbon_incandescent_light_bulb",
+      "file": "50v_carbon_incandescent_light_bulb"
+    },
+    {
+      "line": 1065,
+      "target": "50v_carbon_incandescent_light_bulb",
+      "file": "50v_carbon_incandescent_light_bulb_original_1065"
+    },
+    {
+      "line": 1072,
+      "target": "small_50v_economic_light_bulb",
+      "file": "small_50v_economic_light_bulb"
+    },
+    {
+      "line": 1079,
+      "target": "50v_economic_light_bulb",
+      "file": "50v_economic_light_bulb"
+    },
+    {
+      "line": 1086,
+      "target": "200v_economic_light_bulb",
+      "file": "200v_economic_light_bulb"
+    },
+    {
+      "line": 1093,
+      "target": "50v_farming_lamp",
+      "file": "50v_farming_lamp"
+    },
+    {
+      "line": 1097,
+      "target": "200v_farming_lamp",
+      "file": "200v_farming_lamp"
+    },
+    {
+      "line": 1101,
+      "target": "50v_led_bulb",
+      "file": "50v_led_bulb"
+    },
+    {
+      "line": 1105,
+      "target": "200v_led_bulb",
+      "file": "200v_led_bulb"
+    },
+    {
+      "line": 1110,
+      "target": "50v_halogen_bulb",
+      "file": "50v_halogen_bulb"
+    },
+    {
+      "line": 1114,
+      "target": "200v_halogen_bulb",
+      "file": "200v_halogen_bulb"
+    },
+    {
+      "line": 1121,
+      "target": "overvoltage_protection",
+      "file": "overvoltage_protection"
+    },
+    {
+      "line": 1125,
+      "target": "overheating_protection",
+      "file": "overheating_protection"
+    },
+    {
+      "line": 1132,
+      "target": "combustion_chamber",
+      "file": "combustion_chamber"
+    },
+    {
+      "line": 1133,
+      "target": "thermal_insulation",
+      "file": "thermal_insulation"
+    },
+    {
+      "line": 1140,
+      "target": "cheap_ferromagnetic_core",
+      "file": "cheap_ferromagnetic_core"
+    },
+    {
+      "line": 1141,
+      "target": "average_ferromagnetic_core",
+      "file": "average_ferromagnetic_core"
+    },
+    {
+      "line": 1145,
+      "target": "optimal_ferromagnetic_core",
+      "file": "optimal_ferromagnetic_core"
+    },
+    {
+      "line": 1158,
+      "target": "alloy_dust",
+      "file": "alloy_dust"
+    },
+    {
+      "line": 1162,
+      "target": "inert_canister",
+      "file": "inert_canister"
+    },
+    {
+      "line": 1179,
+      "target": "electrical_motor",
+      "file": "electrical_motor"
+    },
+    {
+      "line": 1184,
+      "target": "advanced_electrical_motor",
+      "file": "advanced_electrical_motor"
+    },
+    {
+      "line": 1195,
+      "target": "solar_tracker",
+      "file": "solar_tracker"
+    },
+    {
+      "line": 1209,
+      "target": "multimeter",
+      "file": "multimeter"
+    },
+    {
+      "line": 1213,
+      "target": "thermometer",
+      "file": "thermometer"
+    },
+    {
+      "line": 1217,
+      "target": "allmeter",
+      "file": "allmeter"
+    },
+    {
+      "line": 1218,
+      "target": "wireless_analyser",
+      "file": "wireless_analyser"
+    },
+    {
+      "line": 1222,
+      "target": "config_copy_tool",
+      "file": "config_copy_tool"
+    },
+    {
+      "line": 1229,
+      "target": "cheap_electrical_drill",
+      "file": "cheap_electrical_drill"
+    },
+    {
+      "line": 1233,
+      "target": "average_electrical_drill",
+      "file": "average_electrical_drill"
+    },
+    {
+      "line": 1237,
+      "target": "fast_electrical_drill",
+      "file": "fast_electrical_drill"
+    },
+    {
+      "line": 1241,
+      "target": "turbo_electrical_drill",
+      "file": "turbo_electrical_drill"
+    },
+    {
+      "line": 1247,
+      "target": "irresponsible_electrical_drill",
+      "file": "irresponsible_electrical_drill"
+    },
+    {
+      "line": 1256,
+      "target": "ore_scanner",
+      "file": "ore_scanner"
+    },
+    {
+      "line": 1263,
+      "target": "mining_pipe",
+      "file": "mining_pipe"
+    },
+    {
+      "line": 1267,
+      "target": "tree_resin_collector",
+      "file": "tree_resin_collector"
+    },
+    {
+      "line": 1268,
+      "target": "tree_resin_collector",
+      "file": "tree_resin_collector_original_1268"
+    },
+    {
+      "line": 1272,
+      "target": "copper_cable",
+      "file": "copper_cable"
+    },
+    {
+      "line": 1275,
+      "target": "iron_cable",
+      "file": "iron_cable"
+    },
+    {
+      "line": 1277,
+      "target": "iron_cable",
+      "file": "iron_cable_original_1277"
+    },
+    {
+      "line": 1280,
+      "target": "tungsten_cable",
+      "file": "tungsten_cable"
+    },
+    {
+      "line": 1291,
+      "target": "creative_cable",
+      "file": "creative_cable"
+    },
+    {
+      "line": 1295,
+      "target": "arc_clay_block",
+      "file": "arc_clay_block"
+    },
+    {
+      "line": 1296,
+      "target": "arc_clay_ingot",
+      "file": "arc_clay_ingot"
+    },
+    {
+      "line": 1297,
+      "target": "arc_metal_block",
+      "file": "arc_metal_block"
+    },
+    {
+      "line": 1298,
+      "target": "arc_metal_ingot",
+      "file": "arc_metal_ingot"
+    },
+    {
+      "line": 1299,
+      "target": "graphite_rod",
+      "file": "graphite_rod"
+    },
+    {
+      "line": 1300,
+      "target": "graphite_rod",
+      "file": "graphite_rod_original_1300"
+    },
+    {
+      "line": 1301,
+      "target": "graphite_rod",
+      "file": "graphite_rod_original_1301"
+    },
+    {
+      "line": 1302,
+      "target": "2x_graphite_rods",
+      "file": "2x_graphite_rods"
+    },
+    {
+      "line": 1308,
+      "target": "3x_graphite_rods",
+      "file": "3x_graphite_rods"
+    },
+    {
+      "line": 1314,
+      "target": "3x_graphite_rods",
+      "file": "3x_graphite_rods_original_1314"
+    },
+    {
+      "line": 1320,
+      "target": "4x_graphite_rods",
+      "file": "4x_graphite_rods"
+    },
+    {
+      "line": 1326,
+      "target": "4x_graphite_rods",
+      "file": "4x_graphite_rods_original_1326"
+    },
+    {
+      "line": 1331,
+      "target": "4x_graphite_rods",
+      "file": "4x_graphite_rods_original_1331"
+    },
+    {
+      "line": 1337,
+      "target": "4x_graphite_rods",
+      "file": "4x_graphite_rods_original_1337"
+    },
+    {
+      "line": 1342,
+      "target": "original_minecraft_diamond",
+      "file": "original_minecraft_diamond"
+    },
+    {
+      "line": 1346,
+      "target": "portable_battery",
+      "file": "portable_battery"
+    },
+    {
+      "line": 1350,
+      "target": "portable_battery_pack",
+      "file": "portable_battery_pack"
+    },
+    {
+      "line": 1358,
+      "target": "small_flashlight",
+      "file": "small_flashlight"
+    },
+    {
+      "line": 1365,
+      "target": "improved_flashlight",
+      "file": "improved_flashlight"
+    },
+    {
+      "line": 1370,
+      "target": "portable_electrical_mining_drill",
+      "file": "portable_electrical_mining_drill"
+    },
+    {
+      "line": 1376,
+      "target": "portable_electrical_axe",
+      "file": "portable_electrical_axe"
+    },
+    {
+      "line": 1382,
+      "target": "x_ray_scanner",
+      "file": "x_ray_scanner"
+    },
+    {
+      "line": 1391,
+      "target": "e_coal_helmet",
+      "file": "e_coal_helmet"
+    },
+    {
+      "line": 1397,
+      "target": "e_coal_boots",
+      "file": "e_coal_boots"
+    },
+    {
+      "line": 1403,
+      "target": "e_coal_chestplate",
+      "file": "e_coal_chestplate"
+    },
+    {
+      "line": 1408,
+      "target": "e_coal_leggings",
+      "file": "e_coal_leggings"
+    },
+    {
+      "line": 1416,
+      "target": "portable_condensator",
+      "file": "portable_condensator"
+    },
+    {
+      "line": 1420,
+      "target": "portable_condensator_pack",
+      "file": "portable_condensator_pack"
+    },
+    {
+      "line": 1430,
+      "target": "cheap_chip",
+      "file": "cheap_chip"
+    },
+    {
+      "line": 1434,
+      "target": "advanced_chip",
+      "file": "advanced_chip"
+    },
+    {
+      "line": 1438,
+      "target": "machine_block",
+      "file": "machine_block"
+    },
+    {
+      "line": 1442,
+      "target": "advanced_machine_block",
+      "file": "advanced_machine_block"
+    },
+    {
+      "line": 1446,
+      "target": "electrical_probe_chip",
+      "file": "electrical_probe_chip"
+    },
+    {
+      "line": 1452,
+      "target": "thermal_probe_chip",
+      "file": "thermal_probe_chip"
+    },
+    {
+      "line": 1456,
+      "target": "signal_antenna",
+      "file": "signal_antenna"
+    },
+    {
+      "line": 1457,
+      "target": "machine_booster",
+      "file": "machine_booster"
+    },
+    {
+      "line": 1461,
+      "target": "wrench",
+      "file": "wrench"
+    },
+    {
+      "line": 1462,
+      "target": "player_filter",
+      "file": "player_filter"
+    },
+    {
+      "line": 1466,
+      "target": "monster_filter",
+      "file": "monster_filter"
+    },
+    {
+      "line": 1470,
+      "target": "animal_filter",
+      "file": "animal_filter"
+    },
+    {
+      "line": 1474,
+      "target": "casing",
+      "file": "casing"
+    },
+    {
+      "line": 1475,
+      "target": "iron_clutch_plate",
+      "file": "iron_clutch_plate"
+    },
+    {
+      "line": 1476,
+      "target": "gold_clutch_plate",
+      "file": "gold_clutch_plate"
+    },
+    {
+      "line": 1477,
+      "target": "copper_clutch_plate",
+      "file": "copper_clutch_plate"
+    },
+    {
+      "line": 1487,
+      "target": "lead_clutch_plate",
+      "file": "lead_clutch_plate"
+    },
+    {
+      "line": 1488,
+      "target": "coal_clutch_plate",
+      "file": "coal_clutch_plate"
+    },
+    {
+      "line": 1489,
+      "target": "clutch_pin",
+      "file": "clutch_pin"
+    },
+    {
+      "line": 1490,
+      "target": "motor_cowling",
+      "file": "motor_cowling"
+    },
+    {
+      "line": 1504,
+      "target": "heavy_winding",
+      "file": "heavy_winding"
+    },
+    {
+      "line": 1516,
+      "target": "reinforced_shaft",
+      "file": "reinforced_shaft"
+    },
+    {
+      "line": 1530,
+      "target": "turbine_blade_set",
+      "file": "turbine_blade_set"
+    },
+    {
+      "line": 2079,
+      "target": "small_fuel_burner",
+      "file": "small_fuel_burner"
+    },
+    {
+      "line": 2083,
+      "target": "medium_fuel_burner",
+      "file": "medium_fuel_burner"
+    },
+    {
+      "line": 2087,
+      "target": "big_fuel_burner",
+      "file": "big_fuel_burner"
+    },
+    {
+      "line": 2122,
+      "target": "voltage_probe",
+      "file": "voltage_probe"
+    },
+    {
+      "line": 2126,
+      "target": "electrical_probe",
+      "file": "electrical_probe"
+    },
+    {
+      "line": 2133,
+      "target": "thermal_probe",
+      "file": "thermal_probe"
+    },
+    {
+      "line": 2137,
+      "target": "temperature_probe",
+      "file": "temperature_probe"
+    },
+    {
+      "line": 2144,
+      "target": "experimental_transporter",
+      "file": "experimental_transporter"
+    },
+    {
+      "line": 2153,
+      "target": "800v_defence_turret",
+      "file": "800v_defence_turret"
+    },
+    {
+      "line": 2163,
+      "target": "48v_macerator",
+      "file": "48v_macerator"
+    },
+    {
+      "line": 2168,
+      "target": "240v_macerator",
+      "file": "240v_macerator"
+    },
+    {
+      "line": 2175,
+      "target": "48v_compressor",
+      "file": "48v_compressor"
+    },
+    {
+      "line": 2180,
+      "target": "240v_compressor",
+      "file": "240v_compressor"
+    },
+    {
+      "line": 2187,
+      "target": "48v_plate_machine",
+      "file": "48v_plate_machine"
+    },
+    {
+      "line": 2191,
+      "target": "240v_plate_machine",
+      "file": "240v_plate_machine"
+    },
+    {
+      "line": 2198,
+      "target": "50v_magnetizer",
+      "file": "50v_magnetizer"
+    },
+    {
+      "line": 2202,
+      "target": "200v_magnetizer",
+      "file": "200v_magnetizer"
+    },
+    {
+      "line": 2208,
+      "target": "old_800v_arc_furnace",
+      "file": "old_800v_arc_furnace"
+    },
+    {
+      "line": 2218,
+      "target": "electrical_timer",
+      "file": "electrical_timer"
+    },
+    {
+      "line": 2219,
+      "target": "signal_processor",
+      "file": "signal_processor"
+    },
+    {
+      "line": 2226,
+      "target": "redstone_to_voltage_converter",
+      "file": "redstone_to_voltage_converter"
+    },
+    {
+      "line": 2230,
+      "target": "voltage_to_redstone_converter",
+      "file": "voltage_to_redstone_converter"
+    },
+    {
+      "line": 2237,
+      "target": "electrical_daylight_sensor",
+      "file": "electrical_daylight_sensor"
+    },
+    {
+      "line": 2241,
+      "target": "electrical_light_sensor",
+      "file": "electrical_light_sensor"
+    },
+    {
+      "line": 2245,
+      "target": "humidity_sensor",
+      "file": "humidity_sensor"
+    },
+    {
+      "line": 2249,
+      "target": "thermometer_sensor",
+      "file": "thermometer_sensor"
+    },
+    {
+      "line": 2253,
+      "target": "electrical_anemometer_sensor",
+      "file": "electrical_anemometer_sensor"
+    },
+    {
+      "line": 2257,
+      "target": "electrical_entity_sensor",
+      "file": "electrical_entity_sensor"
+    },
+    {
+      "line": 2261,
+      "target": "electrical_fire_detector",
+      "file": "electrical_fire_detector"
+    },
+    {
+      "line": 2265,
+      "target": "electrical_fire_buzzer",
+      "file": "electrical_fire_buzzer"
+    },
+    {
+      "line": 2269,
+      "target": "scanner",
+      "file": "scanner"
+    },
+    {
+      "line": 2273,
+      "target": "analog_vumeter",
+      "file": "analog_vumeter"
+    },
+    {
+      "line": 2280,
+      "target": "led_vumeter",
+      "file": "led_vumeter"
+    },
+    {
+      "line": 2284,
+      "target": "multicolor_led_vumeter",
+      "file": "multicolor_led_vumeter"
+    },
+    {
+      "line": 2291,
+      "target": "5a_electrical_breaker",
+      "file": "5a_electrical_breaker"
+    },
+    {
+      "line": 2298,
+      "target": "electrical_fuse_holder",
+      "file": "electrical_fuse_holder"
+    },
+    {
+      "line": 2299,
+      "target": "lead_fuse_for_low_voltage_cables",
+      "file": "lead_fuse_for_low_voltage_cables"
+    },
+    {
+      "line": 2303,
+      "target": "lead_fuse_for_medium_voltage_cables",
+      "file": "lead_fuse_for_medium_voltage_cables"
+    },
+    {
+      "line": 2307,
+      "target": "lead_fuse_for_high_voltage_cables",
+      "file": "lead_fuse_for_high_voltage_cables"
+    },
+    {
+      "line": 2311,
+      "target": "lead_fuse_for_very_high_voltage_cables",
+      "file": "lead_fuse_for_very_high_voltage_cables"
+    },
+    {
+      "line": 2318,
+      "target": "signal_trimmer",
+      "file": "signal_trimmer"
+    },
+    {
+      "line": 2323,
+      "target": "signal_switch",
+      "file": "signal_switch"
+    },
+    {
+      "line": 2328,
+      "target": "signal_button",
+      "file": "signal_button"
+    },
+    {
+      "line": 2333,
+      "target": "wireless_switch",
+      "file": "wireless_switch"
+    },
+    {
+      "line": 2353,
+      "target": "wireless_button",
+      "file": "wireless_button"
+    },
+    {
+      "line": 2376,
+      "target": "data_logger",
+      "file": "data_logger"
+    },
+    {
+      "line": 2380,
+      "target": "modern_data_logger",
+      "file": "modern_data_logger"
+    },
+    {
+      "line": 2384,
+      "target": "industrial_data_logger",
+      "file": "industrial_data_logger"
+    },
+    {
+      "line": 2394,
+      "target": "nuclear_alarm",
+      "file": "nuclear_alarm"
+    },
+    {
+      "line": 2398,
+      "target": "standard_alarm",
+      "file": "standard_alarm"
+    },
+    {
+      "line": 2405,
+      "target": "low_power_transmitter_antenna",
+      "file": "low_power_transmitter_antenna"
+    },
+    {
+      "line": 2409,
+      "target": "low_power_receiver_antenna",
+      "file": "low_power_receiver_antenna"
+    },
+    {
+      "line": 2413,
+      "target": "medium_power_transmitter_antenna",
+      "file": "medium_power_transmitter_antenna"
+    },
+    {
+      "line": 2417,
+      "target": "medium_power_receiver_antenna",
+      "file": "medium_power_receiver_antenna"
+    },
+    {
+      "line": 2422,
+      "target": "high_power_transmitter_antenna",
+      "file": "high_power_transmitter_antenna"
+    },
+    {
+      "line": 2426,
+      "target": "high_power_receiver_antenna",
+      "file": "high_power_receiver_antenna"
+    },
+    {
+      "line": 2433,
+      "target": "weak_50v_battery_charger",
+      "file": "weak_50v_battery_charger"
+    },
+    {
+      "line": 2439,
+      "target": "50v_battery_charger",
+      "file": "50v_battery_charger"
+    },
+    {
+      "line": 2444,
+      "target": "200v_battery_charger",
+      "file": "200v_battery_charger"
+    },
+    {
+      "line": 2451,
+      "target": "50v_egg_incubator",
+      "file": "50v_egg_incubator"
+    },
+    {
+      "line": 2461,
+      "target": "energy_converter",
+      "file": "energy_converter"
+    },
+    {
+      "line": 2471,
+      "target": "computer_probe",
+      "file": "computer_probe"
+    },
+    {
+      "line": 2482,
+      "target": "copper_helmet",
+      "file": "copper_helmet"
+    },
+    {
+      "line": 2483,
+      "target": "copper_chestplate",
+      "file": "copper_chestplate"
+    },
+    {
+      "line": 2484,
+      "target": "copper_leggings",
+      "file": "copper_leggings"
+    },
+    {
+      "line": 2485,
+      "target": "copper_boots",
+      "file": "copper_boots"
+    },
+    {
+      "line": 2493,
+      "target": "copper_shovel",
+      "file": "copper_shovel"
+    },
+    {
+      "line": 2494,
+      "target": "copper_axe",
+      "file": "copper_axe"
+    },
+    {
+      "line": 2495,
+      "target": "copper_hoe",
+      "file": "copper_hoe"
+    },
+    {
+      "line": 2496,
+      "target": "copper_pickaxe",
+      "file": "copper_pickaxe"
+    },
+    {
+      "line": 2500,
+      "target": "copper_sword",
+      "file": "copper_sword"
+    },
+    {
+      "line": 2504,
+      "target": "digital_display",
+      "file": "digital_display"
+    },
+    {
+      "line": 2509,
+      "target": "nixie_tube",
+      "file": "nixie_tube"
+    },
+    {
+      "line": 2544,
+      "target": "christmas_tree",
+      "file": "christmas_tree"
+    },
+    {
+      "line": 2545,
+      "target": "holiday_candle",
+      "file": "holiday_candle"
+    },
+    {
+      "line": 2549,
+      "target": "string_lights",
+      "file": "string_lights"
+    }
+  ],
+  "unresolved": [],
+  "nonCraftingCalls": [
+    {
+      "line": 1174,
+      "category": "helper_declaration",
+      "expression": "output: ItemStack"
+    },
+    {
+      "line": 1175,
+      "category": "helper_implementation",
+      "expression": "ShapelessOreRecipe(output, *params)"
+    },
+    {
+      "line": 1548,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.coal_ore, 1), ItemStack(Items.coal, 3, 0), 1.0 * f )"
+    },
+    {
+      "line": 1554,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Copper Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Dust\", 2 ) ), 1.0 * f )"
+    },
+    {
+      "line": 1564,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.iron_ore), arrayOf<ItemStack>( Eln.findItemStack( \"Iron \" + \"Dust\", 2 ) ), 1.5 * f )"
+    },
+    {
+      "line": 1574,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.gold_ore), arrayOf<ItemStack>( Eln.findItemStack( \"Gold \" + \"Dust\", 2 ) ), 3.0 * f )"
+    },
+    {
+      "line": 1584,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Lead Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 2 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1594,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Tungsten Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten \" + \"Dust\", 2 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1604,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.coal, 1, 0), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 1 ) ), 1.0 * f )"
+    },
+    {
+      "line": 1614,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.coal, 1, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 1 ) ), 1.0 * f )"
+    },
+    {
+      "line": 1624,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.sand, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Silicon \" + \"Dust\", 1 ) ), 3.0 * f )"
+    },
+    {
+      "line": 1634,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Cinnabar Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Cinnabar \" + \"Dust\", 1 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1644,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.dye, 1, 4), arrayOf<ItemStack>( Eln.findItemStack( \"Lapis \" + \"Dust\", 1 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1654,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.diamond, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Diamond\" + \" Dust\", 1 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1665,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Copper Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Dust\", 1 ) ), 0.5 * f )"
+    },
+    {
+      "line": 1675,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.iron_ingot), arrayOf<ItemStack>( Eln.findItemStack( \"Iron \" + \"Dust\", 1 ) ), 0.5 * f )"
+    },
+    {
+      "line": 1685,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.gold_ingot), arrayOf<ItemStack>( Eln.findItemStack( \"Gold \" + \"Dust\", 1 ) ), 0.5 * f )"
+    },
+    {
+      "line": 1695,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Lead Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 1 ) ), 0.5 * f )"
+    },
+    {
+      "line": 1705,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Tungsten Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten Dust\", 1 ) ), 0.5 * f )"
+    },
+    {
+      "line": 1715,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.cobblestone), arrayOf<ItemStack>(ItemStack(Blocks.gravel)), 1.0 * f )"
+    },
+    {
+      "line": 1721,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.gravel), arrayOf<ItemStack>(ItemStack(Items.flint)), 1.0 * f )"
+    },
+    {
+      "line": 1728,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.dirt), arrayOf<ItemStack>(ItemStack(Blocks.sand)), 1.0 * f )"
+    },
+    {
+      "line": 1735,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"E-Coal Helmet\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 16 ) ), 10.0 * f )"
+    },
+    {
+      "line": 1745,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"E-Coal Boots\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 12 ) ), 10.0 * f )"
+    },
+    {
+      "line": 1755,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"E-Coal Chestplate\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal\" + \" Dust\", 24 ) ), 10.0 * f )"
+    },
+    {
+      "line": 1765,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"E-Coal Leggings\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 24 ) ), 10.0 * f )"
+    },
+    {
+      "line": 1775,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Cost Oriented Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 6 ) ), 12.5 * f )"
+    },
+    {
+      "line": 1784,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Life Oriented Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 6 ) ), 12.5 * f )"
+    },
+    {
+      "line": 1793,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Current Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+    },
+    {
+      "line": 1799,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Voltage Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+    },
+    {
+      "line": 1805,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Capacity Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+    },
+    {
+      "line": 1811,
+      "category": "processing",
+      "expression": "Recipe( findItemStack(\"Single-use Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper Dust\", 3 ) ), 10.0 * f )"
+    },
+    {
+      "line": 1825,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.iron_ore, 1), arrayOf<ItemStack>(ItemStack(Items.iron_ingot, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1831,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.gold_ore, 1), arrayOf<ItemStack>(ItemStack(Items.gold_ingot, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1837,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.coal_ore, 1), arrayOf<ItemStack>(ItemStack(Items.coal, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1843,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.redstone_ore, 1), arrayOf<ItemStack>(ItemStack(Items.redstone, 6)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1849,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.lapis_ore, 1), arrayOf<ItemStack>(ItemStack(Blocks.lapis_block, 1)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1855,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.diamond_ore, 1), arrayOf<ItemStack>(ItemStack(Items.diamond, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1861,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.emerald_ore, 1), arrayOf<ItemStack>(ItemStack(Items.emerald, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1867,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Blocks.quartz_ore, 1), arrayOf<ItemStack>(ItemStack(Items.quartz, 2)), smeltf.toDouble() )"
+    },
+    {
+      "line": 1873,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Copper Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Ingot\", 2 ) ), smeltf.toDouble() )"
+    },
+    {
+      "line": 1883,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Lead Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Lead \" + \"Ingot\", 2 ) ), smeltf.toDouble() )"
+    },
+    {
+      "line": 1893,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Tungsten Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten Ingot\", 2 ) ), smeltf.toDouble() )"
+    },
+    {
+      "line": 1902,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Alloy Dust\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Alloy \" + \"Ingot\", 1 ) ), smeltf.toDouble() )"
+    },
+    {
+      "line": 1912,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.clay_ball, 2), arrayOf<ItemStack>( Eln.findItemStack( \"Arc \" + \"Clay Ingot\", 1 ) ), 2.0 * f )"
+    },
+    {
+      "line": 1922,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.iron_ingot, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Arc\" + \" Metal Ingot\", 1 ) ), 1.0 * f )"
+    },
+    {
+      "line": 1932,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Canister of Water\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Canister of Arc Water\", 1 ) ), 7000000.0 )"
+    },
+    {
+      "line": 1974,
+      "category": "processing",
+      "expression": "Recipe(input, output, f.toDouble())"
+    },
+    {
+      "line": 1980,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Copper Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Copper Plate\" ), 1.0 * f )"
+    },
+    {
+      "line": 1987,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Lead Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Lead Plate\" ), 1.0 * f )"
+    },
+    {
+      "line": 1994,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Silicon Ingot\", 4), findItemStack(\"Silicon Plate\"), 1.0 * f )"
+    },
+    {
+      "line": 2000,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Alloy Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Alloy Plate\" ), 1.0 * f )"
+    },
+    {
+      "line": 2007,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.iron_ingot, Eln.instance.plateConversionRatio, 0), findItemStack(\"Iron Plate\"), 1.0 * f )"
+    },
+    {
+      "line": 2013,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.gold_ingot, Eln.instance.plateConversionRatio, 0), findItemStack(\"Gold Plate\"), 1.0 * f )"
+    },
+    {
+      "line": 2022,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"4x Graphite Rods\", 1), findItemStack( \"Synthetic \" + \"Diamond\" ), 80000.0 )"
+    },
+    {
+      "line": 2030,
+      "category": "processing",
+      "expression": "Recipe(Eln.findItemStack(\"Coal Dust\", 4), findItemStack(\"Coal Plate\"), 40000.0)"
+    },
+    {
+      "line": 2031,
+      "category": "processing",
+      "expression": "Recipe(Eln.findItemStack(\"Coal Plate\", 4), findItemStack(\"Graphite Rod\"), 80000.0)"
+    },
+    {
+      "line": 2032,
+      "category": "processing",
+      "expression": "Recipe(ItemStack(Blocks.sand), findItemStack(\"Dielectric\"), 2000.0)"
+    },
+    {
+      "line": 2033,
+      "category": "processing",
+      "expression": "Recipe(ItemStack(Blocks.log), findItemStack(\"Tree Resin\"), 3000.0)"
+    },
+    {
+      "line": 2037,
+      "category": "processing",
+      "expression": "Recipe( ItemStack(Items.iron_ingot, 2), arrayOf<ItemStack>( findItemStack( \"Basic Magnet\" ) ), 5000.0 )"
+    },
+    {
+      "line": 2046,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Alloy Ingot\", 2), arrayOf<ItemStack>( findItemStack( \"Advanced Magnet\" ) ), 15000.0 )"
+    },
+    {
+      "line": 2055,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Copper Dust\", 1), arrayOf<ItemStack>(ItemStack(Items.redstone)), 5000.0 )"
+    },
+    {
+      "line": 2061,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Basic Magnet\", 3), arrayOf<ItemStack>( findItemStack( \"Optimal Ferromagnetic Core\" ) ), 5000.0 )"
+    },
+    {
+      "line": 2070,
+      "category": "processing",
+      "expression": "Recipe( Eln.findItemStack(\"Inert Canister\", 1), arrayOf<ItemStack>(ItemStack(Items.ender_pearl)), 150000.0 )"
+    },
+    {
+      "line": 2488,
+      "category": "helper_declaration",
+      "expression": "output: ItemStack"
+    },
+    {
+      "line": 2489,
+      "category": "helper_implementation",
+      "expression": "ShapedOreRecipe(output, *params)"
+    }
+  ],
+  "customDynamicCalls": [
+    {
+      "line": 190,
+      "implementation": "generate_content.py craftBrush wool-tag collapse and sixteen original dye variants, with life=0 empty brush"
+    },
+    {
+      "line": 194,
+      "implementation": "generate_content.py craftBrush wool-tag collapse and sixteen original dye variants, with life=0 empty brush"
+    }
+  ],
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

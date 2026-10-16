@@ -1,0 +1,15 @@
+{
+  "version": "1.19.2-0.4.0-port",
+  "minecraft": "1.19.2",
+  "forge": "43.5.0",
+  "java": 17,
+  "sha256": "0b56e357cd76cb3f665576a20cce4b8b356e574747175c0d7614bdb4606c6ac1",
+  "runtimePayloadSha256": "db4405a0e3b88c6e077a936f185a4d3c798437ba15be01ff0bb74831b52bbc0b",
+  "productionPayloadMatches": true,
+  "documentationMayDifferFromProductionTestJar": true,
+  "qaClassesExcluded": true,
+  "optionalModsNotEmbedded": true,
+  "upstreamCommit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "bcceFile": 9035804,
+  "ccFile": 5005332
+}

@@ -1,0 +1,21 @@
+{
+  "baseline": "1.24.6",
+  "status": "All61 direct and five conditional source operations verified against actual Minecraft loaded recipe/tag managers.",
+  "inventory": "tools/original_processing.json independently parsed from baseline CraftingRecipes.kt; runtime SourceProcessingGameTests checks exact machine/input count/every output count/joules for every original operation and all loaded original ore-tag variants. Five optional Certus/NetherQuartz/Fluix operations verify real tagged outputs or absence.",
+  "corrections": "ELN copper ingots now reenter the same macerator and plate recipes as vanilla copper through Forge ingot tags. Removed stale world-generation helper recipes that overrode source lead/tungsten/cinnabar costs and doubled cinnabar yield. Original ore/Arc rock material has no higher configured harvest tier; native pickaxe tags now allow the original base pickaxe tier and require a suitable tool. Actual GameTest checks all six rock blocks.",
+  "crafting": "349 source crafting variants, zero unresolved crafting calls, two separately accounted custom brush loops, 66 correctly classified processing/helper calls. This count does not by itself assert runtime feature completeness.",
+  "verification": {
+    "focused": "original-computer-probe-focused-validation-05.log",
+    "sourceDirectOperations": 61,
+    "sourceConditionalOperations": 5,
+    "unitTests": 207
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

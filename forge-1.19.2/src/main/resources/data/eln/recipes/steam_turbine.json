@@ -1,0 +1,157 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminum"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " a ",
+          "aAa",
+          " M "
+        ],
+        "key": {
+          "a": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "A": {
+            "tag": "forge:storage_blocks/aluminum"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:steam_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminum"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/aluminum"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " a ",
+          "aAa",
+          " M "
+        ],
+        "key": {
+          "a": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "A": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:steam_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " a ",
+          "aAa",
+          " M "
+        ],
+        "key": {
+          "a": {
+            "tag": "forge:ingots/iron"
+          },
+          "A": {
+            "tag": "forge:storage_blocks/aluminum"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:steam_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/aluminum"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " a ",
+          "aAa",
+          " M "
+        ],
+        "key": {
+          "a": {
+            "tag": "forge:ingots/iron"
+          },
+          "A": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:steam_turbine",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

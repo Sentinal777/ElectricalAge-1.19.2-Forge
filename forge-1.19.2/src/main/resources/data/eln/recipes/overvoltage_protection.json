@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCD"
+  ],
+  "key": {
+    "S": {
+      "item": "eln:electrical_probe_chip"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:overvoltage_protection",
+    "count": 4
+  }
+}

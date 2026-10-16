@@ -1,0 +1,38 @@
+{
+  "baseline": "1.24.6",
+  "status": "All seven actual battery variants passed independent source-curve, finite work and reload checks.",
+  "variants": [
+    "cost_oriented_battery",
+    "capacity_oriented_battery",
+    "voltage_oriented_battery",
+    "current_oriented_battery",
+    "life_oriented_battery",
+    "single_use_battery",
+    "experimental_battery"
+  ],
+  "sourceCurve": {
+    "values": [
+      0,
+      0.9,
+      1,
+      1.025,
+      1.04,
+      1.05,
+      2
+    ],
+    "range": 1.2,
+    "source": "TransparentNodeRegistration.kt:975"
+  },
+  "verification": "Each original battery powered a real independent50W-rated resistor, spent finite charge, followed its original nominal-scaled curve, stopped output on disable, preserved exact charge through actual node NBT load, stayed stopped without spending charge, and resumed discharge when re-enabled.",
+  "log": "original-battery-variants-focused-validation-01.log",
+  "minecraftCases": 1,
+  "unitTests": 207,
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

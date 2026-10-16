@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "eln:festive_season"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "eln:200v_led_bulb"
+          },
+          {
+            "item": "minecraft:string"
+          }
+        ],
+        "result": {
+          "item": "eln:string_lights",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "publishedBcce": "8.0.23 file9035804",
+  "status": "Actual client quarry excavation and reviewed pipe/gate/quarry models passed.",
+  "fixture": "Actual survival BlockItem placement initialized the published quarry. Native ELN50V source and energy converter supplied its MJ; no quarry energy, task state or frame work was injected. The quarry built its own frame and excavated original placed iron ore. Measured19 original iron blocks excavated by1200ticks, paid58363.088706636074J at that snapshot; final bounded excavation assertion passed.",
+  "artwork": "Actual published stone item pipe with a mounted gate, quarry frame/drill/housing, native converter and all254 sprite-holder/atlas references inspected; no BCCE modifications. Original diode world and held artwork also passed.",
+  "log": "original-diode-bcce-factory-validation-02.log",
+  "screenshotsReviewed": true,
+  "limits": "This is a controlled isolated singleplayer assembly. All BCCE machine/engine/gate combinations and a long survival campaign are not asserted.",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

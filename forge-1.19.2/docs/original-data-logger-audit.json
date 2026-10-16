@@ -1,0 +1,43 @@
+{
+  "baseline": "1.24.6",
+  "ids": {
+    "data_logger": 5952,
+    "modern_data_logger": 5953,
+    "industrial_data_logger": 5954,
+    "data_logger_print": 7712
+  },
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "sampling": "One original rear gate input, 0.05 ohm serial resistance and 100 kohm input resistance; signed-byte quantization of clamped 0\u20135 V, interval averaging and 256 newest-first samples. Default 0.5 s and minimum 0.05 s; partial accumulator and interval persist through reload/rebuild. Pause freezes sampling; reset clears history/partial average.",
+  "controls": "Real secure server packets for period, min/max, nine original units, zero line, pause/reset/print. Probe/logger clipboard uses original physical unit IDs instead of their different internal mode ordinals. Copy only configuration, never recorded history.",
+  "printing": "Original paper slot 0, one-print output slot 1; exactly one actual paper creates an immutable saved history/axis/period snapshot. Full inventory and blocked output cannot overwrite or duplicate it. All six automation sides accept only paper and extract only print; stale removed-node handlers are unusable.",
+  "rendering": "Three original monitor meshes/textures, original orange/green/blue world graphs placed through source model metadata, original flat inventory icons plus held housing. Original paper texture with actual saved red graph in GUI/hand/ground; held print fits screen and inventory trace remains visible. Native screen surface depth bias prevents modern depth testing from hiding traces. Held logger projection draws only housing as upstream.",
+  "corrections": [
+    "A paused, freshly reset logger cannot divide an empty accumulator by zero.",
+    "Modern finite input bounds reject NaN/zero intervals.",
+    "Configuration copying preserves physical shared unit meaning and actual hardware NBT."
+  ],
+  "verification": {
+    "focused": "All nine passed in original-logger-focused-validation-03.log: four logger cases, four shared-tool cases and explicit open-room fixture.",
+    "live": "original-logger-client-bcce-04.log",
+    "liveReview": "Actual survival placement including a wall-mounted industrial logger, real input on all three, paper quick-move, all nine unit packets, pause/print/unpause, immutable actual held print, GUI and front monitor plots passed; screenshots reviewed. A final small world-line-width adjustment and held-housing-only guard will be included in the final normal-client visual check.",
+    "unitTests": 200,
+    "bcceRealSprites": 254,
+    "full": "Previous expanded run was 244/245; only room fixture failed. Full 249-case run is next."
+  },
+  "fullRegression": {
+    "log": "original-logger-full-validation-01.log",
+    "minecraftTests": 249,
+    "bcceCases": 14,
+    "unitTests": 200,
+    "result": "All passed before the new inline energy-meter implementation. Includes actual Replicator AI/paid reproduction, all shared tools, all three restored loggers, printing and corrected explicit exterior-air room fixture."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Original logger core, controls, automation, printing, original world plots and focused/live verification implemented; full 249-case regression next."
+}

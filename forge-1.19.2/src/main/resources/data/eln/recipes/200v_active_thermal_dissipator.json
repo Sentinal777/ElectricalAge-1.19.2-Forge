@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RMR",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "eln:small_passive_thermal_dissipator"
+    },
+    "M": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:200v_active_thermal_dissipator",
+    "count": 1
+  }
+}

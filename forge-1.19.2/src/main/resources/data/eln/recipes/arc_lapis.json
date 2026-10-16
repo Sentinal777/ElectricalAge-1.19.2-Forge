@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "ARC_FURNACE",
+  "ingredient": {
+    "tag": "forge:ores/lapis"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:lapis_block",
+    "count": 1
+  },
+  "joules": 5000
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "cMc",
+    "III"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:advanced_machine_block"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "I": {
+      "tag": "forge:ingots/alloy"
+    }
+  },
+  "result": {
+    "item": "eln:200v_magnetizer",
+    "count": 1
+  }
+}

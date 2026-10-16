@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    " ",
+    "i"
+  ],
+  "key": {
+    "i": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:electrical_fuse_holder",
+    "count": 1
+  }
+}

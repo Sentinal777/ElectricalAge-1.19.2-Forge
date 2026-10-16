@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "FMF",
+    "IcI"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:machine_block"
+    },
+    "c": {
+      "item": "eln:electrical_motor"
+    },
+    "F": {
+      "tag": "forge:plates/iron"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:48v_compressor",
+    "count": 1
+  }
+}

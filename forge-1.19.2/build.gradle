@@ -1,0 +1,139 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.22'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'mods.eln'
+version = '1.19.2-0.4.0-port'
+base.archivesName = 'electrical-age'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+kotlin.jvmToolchain(17)
+java.withSourcesJar()
+jarJar.enable()
+minecraft {
+    mappings channel: 'official', version: '1.19.2'
+    copyIdeResources = true
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            property 'forge.enabledGameTestNamespaces', project.findProperty('qaNamespaces') ?: 'eln'
+            if(project.hasProperty('qaCases'))property 'eln.qaCases',project.property('qaCases')
+            mods { eln { source sourceSets.main } }
+        }
+        client {
+            if(project.hasProperty('clientSmoke')) {
+                property 'eln.clientSmoke','true'
+                if(project.hasProperty('probeOnly'))property 'eln.probeOnly','true'
+                if(project.hasProperty('thermalOnly'))property 'eln.thermalOnly','true'
+                if(project.hasProperty('steamOnly'))property 'eln.steamOnly','true'
+                if(project.hasProperty('equipmentOnly'))property 'eln.equipmentOnly','true'
+                if(project.hasProperty('dcDcOnly'))property 'eln.dcDcOnly','true'
+                if(project.hasProperty('lightingOnly'))property 'eln.lightingOnly','true'
+                if(project.hasProperty('floodlightOnly'))property 'eln.floodlightOnly','true'
+                if(project.hasProperty('clutchOnly'))property 'eln.clutchOnly','true'
+                if(project.hasProperty('bootstrapOnly'))property 'eln.bootstrapOnly','true'
+                if(project.hasProperty('turbineOnly'))property 'eln.turbineOnly','true'
+                if(project.hasProperty('shaftElectricalOnly'))property 'eln.shaftElectricalOnly','true'
+                if(project.hasProperty('rollingOnly'))property 'eln.rollingOnly','true'
+                if(project.hasProperty('largeShaftOnly'))property 'eln.largeShaftOnly','true'
+                if(project.hasProperty('fuelGeneratorOnly'))property 'eln.fuelGeneratorOnly','true'
+                if(project.hasProperty('renewableOnly'))property 'eln.renewableOnly','true'
+                if(project.hasProperty('chargerOnly'))property 'eln.chargerOnly','true'
+                if(project.hasProperty('portableLightOnly'))property 'eln.portableLightOnly','true'
+                if(project.hasProperty('portableToolOnly'))property 'eln.portableToolOnly','true'
+                if(project.hasProperty('armorOnly'))property 'eln.armorOnly','true'
+                if(project.hasProperty('scannerOnly'))property 'eln.scannerOnly','true'
+                if(project.hasProperty('environmentOnly'))property 'eln.environmentOnly','true'
+                if(project.hasProperty('watchOnly'))property 'eln.watchOnly','true'
+                if(project.hasProperty('timerAlarmOnly'))property 'eln.timerAlarmOnly','true'
+                if(project.hasProperty('hubOnly'))property 'eln.hubOnly','true'
+                if(project.hasProperty('contactOnly'))property 'eln.contactOnly','true'
+                if(project.hasProperty('passiveOnly'))property 'eln.passiveOnly','true'
+                if(project.hasProperty('rheostatNixieOnly'))property 'eln.rheostatNixieOnly','true'
+                if(project.hasProperty('wirelessOnly'))property 'eln.wirelessOnly','true'
+                if(project.hasProperty('protectionOnly'))property 'eln.protectionOnly','true'
+                if(project.hasProperty('paintedPowerOnly'))property 'eln.paintedPowerOnly','true'
+                if(project.hasProperty('powerAntennaOnly'))property 'eln.powerAntennaOnly','true'
+                if(project.hasProperty('railOnly'))property 'eln.railOnly','true'
+                if(project.hasProperty('festiveOnly'))property 'eln.festiveOnly','true'
+                if(project.hasProperty('fabricatorOnly'))property 'eln.fabricatorOnly','true'
+                if(project.hasProperty('autoMinerOnly'))property 'eln.autoMinerOnly','true'
+                if(project.hasProperty('transporterOnly'))property 'eln.transporterOnly','true'
+                if(project.hasProperty('turretOnly'))property 'eln.turretOnly','true'
+                if(project.hasProperty('replicatorToolsOnly'))property 'eln.replicatorToolsOnly','true'
+                if(project.hasProperty('loggerOnly'))property 'eln.loggerOnly','true'
+                if(project.hasProperty('energyMeterOnly'))property 'eln.energyMeterOnly','true'
+                if(project.hasProperty('signalDevicesOnly'))property 'eln.signalDevicesOnly','true'
+                if(project.hasProperty('mqttOnly'))property 'eln.mqttOnly','true'
+                if(project.hasProperty('modbusOnly'))property 'eln.modbusOnly','true'
+                if(project.hasProperty('probeTutorialOnly'))property 'eln.probeTutorialOnly','true'
+                if(project.hasProperty('simpleSignalOnly'))property 'eln.simpleSignalOnly','true'
+                if(project.hasProperty('bcceFactoryOnly'))property 'eln.bcceFactoryOnly','true'
+                if(project.hasProperty('nodeCoversOnly'))property 'eln.nodeCoversOnly','true'
+                def agent=file('qa/client-pacing-agent.jar')
+                if(agent.exists())jvmArgs '--add-exports=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED','-javaagent:'+agent.absolutePath
+            }
+        }
+        server { args '--nogui' }
+        gameTestServer {
+            workingDirectory project.file('run/'+(project.findProperty('qaWorld') ?: (project.hasProperty('bcceIntegration') ? 'gametest-bcce' : 'gametest-native')))
+        }
+    }
+}
+repositories { mavenCentral(); maven { url='https://cursemaven.com' } }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.2-43.5.0'
+    minecraftLibrary('org.jetbrains.kotlin:kotlin-stdlib:1.9.22') { transitive = false }
+    minecraftLibrary 'org.apache.commons:commons-numbers-core:1.2'
+    jarJar(group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: '1.9.22') {
+        jarJar.ranged(it, '[1.9.22,2.0)')
+        transitive = false
+    }
+    jarJar(group: 'org.apache.commons', name: 'commons-numbers-core', version: '1.2') {
+        jarJar.ranged(it, '[1.2,2.0)')
+        transitive = false
+    }
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit:1.9.22'
+    compileOnly fg.deobf('curse.maven:cc-tweaked-282001:5005332')
+    if(project.hasProperty('ccIntegration')) runtimeOnly fg.deobf('curse.maven:cc-tweaked-282001:5005332')
+    compileOnly fg.deobf('curse.maven:buildcraft-community-edition-1592400:9035804')
+    if(project.hasProperty('bcceIntegration')) runtimeOnly fg.deobf('curse.maven:buildcraft-community-edition-1592400:9035804')
+}
+if(project.hasProperty('ccIntegration')) sourceSets.main.kotlin.srcDir('src/ccTest/kotlin')
+if(project.hasProperty('bcceIntegration')) sourceSets.main.kotlin.srcDir('src/bcceTest/kotlin')
+if(project.hasProperty('clientSmoke')) sourceSets.main.kotlin.srcDir('src/qa/kotlin')
+if(project.hasProperty('lightDiagnostic')) {
+    sourceSets.main.kotlin.srcDir('src/diagnostic/kotlin')
+    sourceSets.main.resources.srcDir('src/diagnostic/resources')
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions.jvmTarget = '17'
+    kotlinOptions.freeCompilerArgs += ['-Xjvm-default=all']
+}
+jar {
+    from('../LICENSE.md')
+    from('docs') { into 'docs'; include '**/*.md', '**/*.json', '**/*.txt'; exclude '**/final-artifact.json' }
+    manifest { attributes 'Implementation-Version': project.version }
+    finalizedBy 'reobfJar'
+}
+tasks.named('jarJar') {
+    from('../LICENSE.md')
+    from('docs') { into 'docs'; include '**/*.md', '**/*.json', '**/*.txt'; exclude '**/final-artifact.json' }
+    manifest { attributes 'Implementation-Version': project.version }
+    finalizedBy 'reobfJarJar'
+}
+reobf { jarJar {} }
+tasks.named('build') { dependsOn 'jarJar' }
+tasks.register('generateLangFiles', Exec) {
+    group = 'generation'
+    description = 'Regenerate native content, translated names, item models and recipes.'
+    commandLine (project.findProperty('python') ?: 'python'), 'tools/generate_content.py'
+}
+test {
+    useJUnit()
+    systemProperty 'log4j2.disable.jmx', 'true'
+    testLogging { events 'failed', 'skipped' }
+}

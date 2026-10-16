@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    "is",
+    " s"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/copper"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "eln:copper_axe",
+    "count": 1
+  }
+}

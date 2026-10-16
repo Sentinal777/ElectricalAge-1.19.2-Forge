@@ -1,0 +1,30 @@
+{
+  "repaired": [
+    {
+      "material": "unused-models/batterychargerb/batterychargerb.mtl",
+      "old": "f_/minecraft/minecraftforge-src-1.6.2-9.10.0.789/forge/mcp/src/minecraft/assets/eln/model/batterychargera/batterychargera.png",
+      "new": "../../model/batterychargera/batterychargera.png"
+    },
+    {
+      "material": "model/batterybig/batterybighv.mtl",
+      "old": "c_/github/eln/eln/assets/eln/model/batterybig/batterybase.png",
+      "new": "batterybase.png"
+    },
+    {
+      "material": "model/batterybig/batterybighv.mtl",
+      "old": "c_/github/eln/eln/assets/eln/model/batterybig/batteryhivoltage.png",
+      "new": "batteryhivoltage.png"
+    },
+    {
+      "material": "model/sconcelamp/sconcelamp.mtl",
+      "old": "../textures/items/incandescentlampcarbon.png",
+      "new": "../../textures/items/incandescentcarbonlamp.png"
+    }
+  ],
+  "unresolved": [
+    {
+      "material": "model/distributionboard/distributionboard.mtl",
+      "texture": "reflection.png"
+    }
+  ]
+}

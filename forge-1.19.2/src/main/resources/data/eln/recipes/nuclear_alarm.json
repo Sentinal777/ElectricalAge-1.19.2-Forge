@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ITI",
+    "IMI",
+    "IcI"
+  ],
+  "key": {
+    "c": {
+      "item": "eln:signal_cable"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "M": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "eln:nuclear_alarm",
+    "count": 1
+  }
+}

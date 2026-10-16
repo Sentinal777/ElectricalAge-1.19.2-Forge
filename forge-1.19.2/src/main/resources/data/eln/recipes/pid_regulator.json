@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "cCc",
+    "rcr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "eln:copper_cable"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    }
+  },
+  "result": {
+    "item": "eln:pid_regulator",
+    "count": 1
+  }
+}

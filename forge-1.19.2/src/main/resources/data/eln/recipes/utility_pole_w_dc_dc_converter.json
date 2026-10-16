@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    " TC",
+    " PH"
+  ],
+  "key": {
+    "P": {
+      "item": "eln:utility_pole"
+    },
+    "H": {
+      "item": "eln:high_voltage_cable"
+    },
+    "C": {
+      "item": "eln:optimal_ferromagnetic_core"
+    },
+    "T": {
+      "item": "eln:dc_dc_converter"
+    }
+  },
+  "result": {
+    "item": "eln:utility_pole_w_dc_dc_converter",
+    "count": 1
+  }
+}

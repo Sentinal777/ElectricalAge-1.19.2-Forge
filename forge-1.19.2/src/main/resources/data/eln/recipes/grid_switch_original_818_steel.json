@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "AGA",
+          "MRM",
+          "AGA"
+        ],
+        "key": {
+          "A": {
+            "tag": "forge:ingots/steel"
+          },
+          "G": {
+            "item": "eln:gold_plate"
+          },
+          "M": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "R": {
+            "item": "eln:rubber"
+          }
+        },
+        "result": {
+          "item": "eln:grid_switch",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

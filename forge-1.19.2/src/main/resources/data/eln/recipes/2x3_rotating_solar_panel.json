@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "IMI",
+    "I I"
+  ],
+  "key": {
+    "S": {
+      "item": "eln:2x3_solar_panel"
+    },
+    "M": {
+      "item": "eln:electrical_motor"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eln:2x3_rotating_solar_panel",
+    "count": 1
+  }
+}

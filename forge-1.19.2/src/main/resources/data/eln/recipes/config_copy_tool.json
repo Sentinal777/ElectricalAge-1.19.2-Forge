@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wR",
+    "RC"
+  ],
+  "key": {
+    "w": {
+      "item": "eln:wrench"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    }
+  },
+  "result": {
+    "item": "eln:config_copy_tool",
+    "count": 1
+  }
+}

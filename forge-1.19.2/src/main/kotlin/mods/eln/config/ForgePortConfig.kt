@@ -1,0 +1,38 @@
+package mods.eln.config
+
+import net.minecraftforge.common.ForgeConfigSpec
+
+object ForgePortConfig {
+    private val builder=ForgeConfigSpec.Builder()
+    val fePerJoule=builder.comment("Conversion scale for the optional Forge Energy / BCCE bridge. Both directions use this scale.")
+        .defineInRange("integration.fePerJoule",1.0,0.001,10000.0)
+    val conversionEfficiency=builder.comment("Efficiency in each direction. Round trips lose energy.")
+        .defineInRange("integration.conversionEfficiency",0.95,0.01,1.0)
+    val feTransferPerTick=builder.defineInRange("integration.maxFeTransferPerTick",1000,1,1000000)
+    val mqttEnabled=builder.comment("Enable the original MQTT devices to connect to endpoints explicitly listed in config/eln-mqtt.json.").define("integration.mqtt.enabled",false)
+    val modbusEnabled=builder.comment("Enable the original Modbus TCP interface. Disabled by default.").define("integration.modbus.enabled",false)
+    val modbusHost=builder.comment("Interface address for Modbus TCP. Loopback by default; set explicitly for remote controllers.").define("integration.modbus.host","127.0.0.1")
+    val modbusPort=builder.comment("Original port 1502; zero selects an available port.").defineInRange("integration.modbus.port",1502,0,65535)
+    val shaftFailures=builder.define("simulation.shaftOverspeedProtection",true)
+    val machineExplosions=builder.comment("Original machine failure blast. When disabled, the failed machine is still removed.").define("simulation.machineExplosions",true)
+    val infinitePortableBattery=builder.comment("Original optional infinite-portable-energy setting; otherwise inventory transfers conserve energy.").define("balance.infinitePortableBattery",false)
+    val replicatorPop=builder.comment("Original optional thunder-spawned Replicators; spawn eggs remain available.").define("entity.replicatorPop",false)
+    val replicatorPopRate=builder.defineInRange("entity.replicatorPopWhenThunderPerSecond",1.0/120,0.0,20.0)
+    val maxReplicators=builder.defineInRange("entity.maxReplicators",100,0,10000)
+    val scannerRange=builder.comment("Original X-Ray Scanner range, in blocks.").defineInRange("tools.xrayScanner.range",5.0,4.0,10.0)
+    val enableFestiveItems=builder.comment("Show the original festive decorations and enable their December recipes.").define("general.enableFestiveItems",true)
+    val autoMinerRange=builder.comment("Original maximum Auto Miner ore-search radius; scanning never loads a chunk.").defineInRange("balancing.autominerRange",10,3,64)
+    val scannerCrafting=builder.define("tools.xrayScanner.craftable",true)
+    val wirelessRange=builder.comment("Original maximum transmitter, repeater and wireless lamp-control range; solid blocks add attenuation.").defineInRange("wireless.txRange",32,1,1024)
+    val cableThermalProtection=builder.define("simulation.cableThermalProtection",true)
+    val cableVoltageProtection=builder.define("simulation.cableVoltageProtection",true)
+    val thermalFailures=builder.define("simulation.thermalProtection",true)
+    val roomMaxSpan=builder.defineInRange("environment.roomMaxAxisSpan",24,4,96)
+    val roomMaxVolume=builder.defineInRange("environment.roomMaxVolume",4096,8,65536)
+    val simulationSteps=builder.comment("Electrical solver steps per 20 Hz server tick; default 10 gives 200 steps/second.")
+        .defineInRange("simulation.stepsPerTick",10,1,40)
+    val interSystemIterations=builder.comment("Original controller iterations before each physical electrical step; these do not advance simulation time.")
+        .defineInRange("simulation.interSystemIterations",50,1,100)
+    val syncInterval=builder.defineInRange("network.measurementSyncTicks",10,2,100)
+    val spec: ForgeConfigSpec=builder.build()
+}

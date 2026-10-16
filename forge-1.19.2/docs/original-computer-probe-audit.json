@@ -1,0 +1,25 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "implementation": "Original ElnProbe peripheral with nine methods: signalSetDir/GetDir/SetOut/GetOut/GetIn, wirelessSet/Remove/RemoveAll/Get. Six independent 0.05-ohm, current-limited gates fixed to world XN/XP/YN/YP/ZN/ZP, initially high impedance, saved modes/outputs. Added native computer_probe block namespace rather than colliding with the existing energy-converter single-block identity. Full solid cube, immutable 15-light blocking and six original fixed textures; world lighting samples each exposed neighbor rather than dark cube center.",
+  "integration": "Optional published Forge Minecraft1.19.2 CC: Tweaked1.101.4 file5005332, SHA25684962c691833ef6864cdde1e30609403ebb1448373a1863f1e980fb5d4028a2c. Source tag v1.19.2-1.101.4 commit c1954b40715d36f9727def99458c0038d4c79645. Compile-only API and optional test runtime; not embedded in production ELN. All calls use executeMainThreadTask, copy primitive arguments before deferral and reject stale node/part identities. Capability invalidated on reload/removal. Original max/min radio aggregation and 1\u20132s cached discovery; monotonic saved radio IDs avoid reusing a deleted transmitter identity.",
+  "actualLua": "Real CC computer booted the authored startup.lua. It discovered the actual Forge peripheral, called all nine methods, read real input voltage, drove a real resistor and wireless receiver, rejected NaN, checked real max/min transmitters, reattached after actual probe NBT reload, confirmed saved output, then removed radio channels and opened the real output. Independent native six-input fixture checks all physical sides without sharing source wires at outside corners.",
+  "scope": "Restored ComputerCraft API through CC: Tweaked on the requested Forge target. Legacy OpenComputers1.7-only API is not claimed as a tested modern runtime.",
+  "verification": {
+    "focused": "original-computer-probe-focused-validation-05.log",
+    "focusedMinecraftCases": 7,
+    "unitTests": 207,
+    "client": "original-probe-tutorial-client-bcce-02.log",
+    "bcceActualSprites": 254,
+    "screenshotsReviewed": true
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Focused actual Minecraft/Lua and actual singleplayer client verified; full regression next."
+}

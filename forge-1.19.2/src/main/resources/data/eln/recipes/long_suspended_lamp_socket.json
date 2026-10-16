@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "eln:robust_lamp_socket"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:long_suspended_lamp_socket",
+    "count": 2
+  }
+}

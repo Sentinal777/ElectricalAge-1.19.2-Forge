@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:signal_cable",
+    "count": 2
+  }
+}

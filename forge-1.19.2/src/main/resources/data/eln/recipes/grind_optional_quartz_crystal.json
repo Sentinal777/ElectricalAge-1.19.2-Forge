@@ -1,0 +1,12 @@
+{
+  "type": "eln:processing",
+  "machine": "MACERATOR",
+  "ingredient": {
+    "tag": "forge:gems/quartz"
+  },
+  "result": {
+    "tag": "forge:dusts/quartz",
+    "count": 1
+  },
+  "joules": 6000
+}

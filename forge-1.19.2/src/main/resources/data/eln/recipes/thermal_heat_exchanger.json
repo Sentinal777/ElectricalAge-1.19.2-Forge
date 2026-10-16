@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "CCC",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "eln:copper_thermal_cable"
+    },
+    "C": {
+      "item": "eln:copper_plate"
+    },
+    "A": {
+      "item": "eln:advanced_machine_block"
+    }
+  },
+  "result": {
+    "item": "eln:thermal_heat_exchanger",
+    "count": 1
+  }
+}

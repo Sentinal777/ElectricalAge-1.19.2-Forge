@@ -1,0 +1,76 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/aluminum"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SIS",
+          "BAB",
+          "SIS"
+        ],
+        "key": {
+          "S": {
+            "tag": "forge:ingots/aluminum"
+          },
+          "I": {
+            "item": "eln:iron_plate"
+          },
+          "B": {
+            "tag": "forge:plates/alloy"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:turbine_blade_set",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/aluminum"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "SIS",
+          "BAB",
+          "SIS"
+        ],
+        "key": {
+          "S": {
+            "tag": "forge:ingots/steel"
+          },
+          "I": {
+            "item": "eln:iron_plate"
+          },
+          "B": {
+            "tag": "forge:plates/alloy"
+          },
+          "A": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:turbine_blade_set",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

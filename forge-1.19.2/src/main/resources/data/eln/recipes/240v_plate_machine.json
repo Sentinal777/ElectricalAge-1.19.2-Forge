@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DCD",
+    "DMD",
+    "DcD"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:advanced_machine_block"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:advanced_electrical_motor"
+    },
+    "D": {
+      "tag": "forge:plates/alloy"
+    }
+  },
+  "result": {
+    "item": "eln:240v_plate_machine",
+    "count": 1
+  }
+}

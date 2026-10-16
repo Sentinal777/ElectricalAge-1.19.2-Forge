@@ -1,0 +1,842 @@
+{
+  "baseline": "Electrical Age 1.24.6",
+  "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "source": "mods/eln/craft/CraftingRecipes.kt",
+  "direct": [
+    {
+      "line": 1548,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/coal",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:coal",
+          "count": 3
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1554,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/copper",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:copper_dust",
+          "count": 2
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1564,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/iron",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:iron_dust",
+          "count": 2
+        }
+      ],
+      "joules": 6000.0
+    },
+    {
+      "line": 1574,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/gold",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:gold_dust",
+          "count": 2
+        }
+      ],
+      "joules": 12000.0
+    },
+    {
+      "line": 1584,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/lead",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 2
+        }
+      ],
+      "joules": 8000.0
+    },
+    {
+      "line": 1594,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/tungsten",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:tungsten_dust",
+          "count": 2
+        }
+      ],
+      "joules": 8000.0
+    },
+    {
+      "line": 1604,
+      "machine": "MACERATOR",
+      "input": "minecraft:coal",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 1
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1614,
+      "machine": "MACERATOR",
+      "input": "minecraft:charcoal",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 1
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1624,
+      "machine": "MACERATOR",
+      "input": "minecraft:sand",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:silicon_dust",
+          "count": 1
+        }
+      ],
+      "joules": 12000.0
+    },
+    {
+      "line": 1634,
+      "machine": "MACERATOR",
+      "input": "#forge:ores/cinnabar",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:cinnabar_dust",
+          "count": 1
+        }
+      ],
+      "joules": 8000.0
+    },
+    {
+      "line": 1644,
+      "machine": "MACERATOR",
+      "input": "minecraft:lapis_lazuli",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lapis_dust",
+          "count": 1
+        }
+      ],
+      "joules": 8000.0
+    },
+    {
+      "line": 1654,
+      "machine": "MACERATOR",
+      "input": "minecraft:diamond",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:diamond_dust",
+          "count": 1
+        }
+      ],
+      "joules": 8000.0
+    },
+    {
+      "line": 1665,
+      "machine": "MACERATOR",
+      "input": "eln:copper_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:copper_dust",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 1675,
+      "machine": "MACERATOR",
+      "input": "minecraft:iron_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:iron_dust",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 1685,
+      "machine": "MACERATOR",
+      "input": "minecraft:gold_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:gold_dust",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 1695,
+      "machine": "MACERATOR",
+      "input": "eln:lead_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 1705,
+      "machine": "MACERATOR",
+      "input": "eln:tungsten_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:tungsten_dust",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 1715,
+      "machine": "MACERATOR",
+      "input": "minecraft:cobblestone",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:gravel",
+          "count": 1
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1721,
+      "machine": "MACERATOR",
+      "input": "minecraft:gravel",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:flint",
+          "count": 1
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1728,
+      "machine": "MACERATOR",
+      "input": "minecraft:dirt",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:sand",
+          "count": 1
+        }
+      ],
+      "joules": 4000.0
+    },
+    {
+      "line": 1735,
+      "machine": "MACERATOR",
+      "input": "eln:e_coal_helmet",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 16
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 1745,
+      "machine": "MACERATOR",
+      "input": "eln:e_coal_boots",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 12
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 1755,
+      "machine": "MACERATOR",
+      "input": "eln:e_coal_chestplate",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 24
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 1765,
+      "machine": "MACERATOR",
+      "input": "eln:e_coal_leggings",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:coal_dust",
+          "count": 24
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 1775,
+      "machine": "MACERATOR",
+      "input": "eln:cost_oriented_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 6
+        }
+      ],
+      "joules": 50000.0
+    },
+    {
+      "line": 1784,
+      "machine": "MACERATOR",
+      "input": "eln:life_oriented_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 6
+        }
+      ],
+      "joules": 50000.0
+    },
+    {
+      "line": 1793,
+      "machine": "MACERATOR",
+      "input": "eln:current_oriented_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 6
+        }
+      ],
+      "joules": 50000.0
+    },
+    {
+      "line": 1799,
+      "machine": "MACERATOR",
+      "input": "eln:voltage_oriented_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 6
+        }
+      ],
+      "joules": 50000.0
+    },
+    {
+      "line": 1805,
+      "machine": "MACERATOR",
+      "input": "eln:capacity_oriented_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_dust",
+          "count": 6
+        }
+      ],
+      "joules": 50000.0
+    },
+    {
+      "line": 1811,
+      "machine": "MACERATOR",
+      "input": "eln:single_use_battery",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:copper_dust",
+          "count": 3
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 1825,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/iron",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1831,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/gold",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1837,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/coal",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:coal",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1843,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/redstone",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:redstone",
+          "count": 6
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1849,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/lapis",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:lapis_block",
+          "count": 1
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1855,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/diamond",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1861,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/emerald",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1867,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/quartz",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:quartz",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1873,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/copper",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:copper_ingot",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1883,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/lead",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_ingot",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1893,
+      "machine": "ARC_FURNACE",
+      "input": "#forge:ores/tungsten",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:tungsten_ingot",
+          "count": 2
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1902,
+      "machine": "ARC_FURNACE",
+      "input": "eln:alloy_dust",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:alloy_ingot",
+          "count": 1
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 1912,
+      "machine": "ARC_FURNACE",
+      "input": "minecraft:clay_ball",
+      "inputCount": 2,
+      "outputs": [
+        {
+          "item": "eln:arc_clay_ingot",
+          "count": 1
+        }
+      ],
+      "joules": 400000.0
+    },
+    {
+      "line": 1922,
+      "machine": "ARC_FURNACE",
+      "input": "minecraft:iron_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:arc_metal_ingot",
+          "count": 1
+        }
+      ],
+      "joules": 200000.0
+    },
+    {
+      "line": 1932,
+      "machine": "ARC_FURNACE",
+      "input": "eln:canister_of_water",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:canister_of_arc_water",
+          "count": 1
+        }
+      ],
+      "joules": 7000000.0
+    },
+    {
+      "line": 1980,
+      "machine": "PLATE_MACHINE",
+      "input": "eln:copper_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:copper_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 1987,
+      "machine": "PLATE_MACHINE",
+      "input": "eln:lead_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:lead_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 1994,
+      "machine": "PLATE_MACHINE",
+      "input": "eln:silicon_ingot",
+      "inputCount": 4,
+      "outputs": [
+        {
+          "item": "eln:silicon_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 2000,
+      "machine": "PLATE_MACHINE",
+      "input": "eln:alloy_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:alloy_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 2007,
+      "machine": "PLATE_MACHINE",
+      "input": "minecraft:iron_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:iron_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 2013,
+      "machine": "PLATE_MACHINE",
+      "input": "minecraft:gold_ingot",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:gold_plate",
+          "count": 1
+        }
+      ],
+      "joules": 10000.0
+    },
+    {
+      "line": 2022,
+      "machine": "COMPRESSOR",
+      "input": "eln:4x_graphite_rods",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:synthetic_diamond",
+          "count": 1
+        }
+      ],
+      "joules": 80000.0
+    },
+    {
+      "line": 2030,
+      "machine": "COMPRESSOR",
+      "input": "eln:coal_dust",
+      "inputCount": 4,
+      "outputs": [
+        {
+          "item": "eln:coal_plate",
+          "count": 1
+        }
+      ],
+      "joules": 40000.0
+    },
+    {
+      "line": 2031,
+      "machine": "COMPRESSOR",
+      "input": "eln:coal_plate",
+      "inputCount": 4,
+      "outputs": [
+        {
+          "item": "eln:graphite_rod",
+          "count": 1
+        }
+      ],
+      "joules": 80000.0
+    },
+    {
+      "line": 2032,
+      "machine": "COMPRESSOR",
+      "input": "minecraft:sand",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:dielectric",
+          "count": 1
+        }
+      ],
+      "joules": 2000.0
+    },
+    {
+      "line": 2033,
+      "machine": "COMPRESSOR",
+      "input": "minecraft:oak_log",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "eln:tree_resin",
+          "count": 1
+        }
+      ],
+      "joules": 3000.0
+    },
+    {
+      "line": 2037,
+      "machine": "MAGNETIZER",
+      "input": "minecraft:iron_ingot",
+      "inputCount": 2,
+      "outputs": [
+        {
+          "item": "eln:basic_magnet",
+          "count": 1
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 2046,
+      "machine": "MAGNETIZER",
+      "input": "eln:alloy_ingot",
+      "inputCount": 2,
+      "outputs": [
+        {
+          "item": "eln:advanced_magnet",
+          "count": 1
+        }
+      ],
+      "joules": 15000.0
+    },
+    {
+      "line": 2055,
+      "machine": "MAGNETIZER",
+      "input": "eln:copper_dust",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:redstone",
+          "count": 1
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 2061,
+      "machine": "MAGNETIZER",
+      "input": "eln:basic_magnet",
+      "inputCount": 3,
+      "outputs": [
+        {
+          "item": "eln:optimal_ferromagnetic_core",
+          "count": 1
+        }
+      ],
+      "joules": 5000.0
+    },
+    {
+      "line": 2070,
+      "machine": "MAGNETIZER",
+      "input": "eln:inert_canister",
+      "inputCount": 1,
+      "outputs": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1
+        }
+      ],
+      "joules": 150000.0
+    }
+  ],
+  "conditional": [
+    {
+      "sourceInput": "oreCertusQuartz",
+      "inputTag": "forge:ores/certus_quartz",
+      "outputTag": "forge:dusts/certus_quartz",
+      "count": 3,
+      "joules": 12000,
+      "recipe": "grind_optional_certus_ore"
+    },
+    {
+      "sourceInput": "crystalCertusQuartz",
+      "inputTag": "forge:gems/certus_quartz",
+      "outputTag": "forge:dusts/certus_quartz",
+      "count": 1,
+      "joules": 6000,
+      "recipe": "grind_optional_certus_crystal"
+    },
+    {
+      "sourceInput": "oreNetherQuartz",
+      "inputTag": "forge:ores/quartz",
+      "outputTag": "forge:dusts/quartz",
+      "count": 3,
+      "joules": 12000,
+      "recipe": "grind_optional_quartz_ore"
+    },
+    {
+      "sourceInput": "crystalNetherQuartz",
+      "inputTag": "forge:gems/quartz",
+      "outputTag": "forge:dusts/quartz",
+      "count": 1,
+      "joules": 6000,
+      "recipe": "grind_optional_quartz_crystal"
+    },
+    {
+      "sourceInput": "crystalFluix",
+      "inputTag": "forge:gems/fluix",
+      "outputTag": "forge:dusts/fluix",
+      "count": 1,
+      "joules": 6000,
+      "recipe": "grind_optional_fluix_crystal"
+    }
+  ]
+}

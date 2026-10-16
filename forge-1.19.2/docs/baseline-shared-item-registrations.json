@@ -1,0 +1,910 @@
+{
+  "baseline": "1.24.6",
+  "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e",
+  "note": "Literal-name discovery across the three registration classes, including shared items registered beside blocks. Dynamic names, overloaded registrations, inactive functions and aliases still require source review; presence does not establish behavior.",
+  "entries": [
+    {
+      "name": "Small 50V Copper Heating Element",
+      "native_id": "small_50v_copper_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 133,
+      "hidden": false
+    },
+    {
+      "name": "50V Copper Heating Element",
+      "native_id": "50v_copper_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 145,
+      "hidden": false
+    },
+    {
+      "name": "Small 200V Copper Heating Element",
+      "native_id": "small_200v_copper_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 157,
+      "hidden": false
+    },
+    {
+      "name": "200V Copper Heating Element",
+      "native_id": "200v_copper_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 169,
+      "hidden": false
+    },
+    {
+      "name": "Small 50V Iron Heating Element",
+      "native_id": "small_50v_iron_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 181,
+      "hidden": false
+    },
+    {
+      "name": "50V Iron Heating Element",
+      "native_id": "50v_iron_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 193,
+      "hidden": false
+    },
+    {
+      "name": "Small 200V Iron Heating Element",
+      "native_id": "small_200v_iron_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 205,
+      "hidden": false
+    },
+    {
+      "name": "200V Iron Heating Element",
+      "native_id": "200v_iron_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 217,
+      "hidden": false
+    },
+    {
+      "name": "Small 50V Tungsten Heating Element",
+      "native_id": "small_50v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 229,
+      "hidden": false
+    },
+    {
+      "name": "50V Tungsten Heating Element",
+      "native_id": "50v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 241,
+      "hidden": false
+    },
+    {
+      "name": "Small 200V Tungsten Heating Element",
+      "native_id": "small_200v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 253,
+      "hidden": false
+    },
+    {
+      "name": "200V Tungsten Heating Element",
+      "native_id": "200v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 265,
+      "hidden": false
+    },
+    {
+      "name": "Small 800V Tungsten Heating Element",
+      "native_id": "small_800v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 277,
+      "hidden": false
+    },
+    {
+      "name": "800V Tungsten Heating Element",
+      "native_id": "800v_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 289,
+      "hidden": false
+    },
+    {
+      "name": "Small 3.2kV Tungsten Heating Element",
+      "native_id": "small_3_2kv_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 301,
+      "hidden": false
+    },
+    {
+      "name": "3.2kV Tungsten Heating Element",
+      "native_id": "3_2kv_tungsten_heating_element",
+      "source": "ItemRegistration.kt",
+      "line": 313,
+      "hidden": false
+    },
+    {
+      "name": "Electric Minecart",
+      "native_id": "electric_minecart",
+      "source": "ItemRegistration.kt",
+      "line": 327,
+      "hidden": false
+    },
+    {
+      "name": "On/OFF Regulator 1 Percent",
+      "native_id": "on_off_regulator_1_percent",
+      "source": "ItemRegistration.kt",
+      "line": 341,
+      "hidden": false
+    },
+    {
+      "name": "On/OFF Regulator 10 Percent",
+      "native_id": "on_off_regulator_10_percent",
+      "source": "ItemRegistration.kt",
+      "line": 350,
+      "hidden": false
+    },
+    {
+      "name": "Analogic Regulator",
+      "native_id": "analogic_regulator",
+      "source": "ItemRegistration.kt",
+      "line": 361,
+      "hidden": false
+    },
+    {
+      "name": "Small 50V Incandescent Light Bulb",
+      "native_id": "small_50v_incandescent_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 386,
+      "hidden": false
+    },
+    {
+      "name": "50V Incandescent Light Bulb",
+      "native_id": "50v_incandescent_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 403,
+      "hidden": false
+    },
+    {
+      "name": "200V Incandescent Light Bulb",
+      "native_id": "200v_incandescent_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 420,
+      "hidden": false
+    },
+    {
+      "name": "Small 50V Carbon Incandescent Light Bulb",
+      "native_id": "small_50v_carbon_incandescent_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 437,
+      "hidden": false
+    },
+    {
+      "name": "50V Carbon Incandescent Light Bulb",
+      "native_id": "50v_carbon_incandescent_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 454,
+      "hidden": false
+    },
+    {
+      "name": "Small 50V Economic Light Bulb",
+      "native_id": "small_50v_economic_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 471,
+      "hidden": false
+    },
+    {
+      "name": "50V Economic Light Bulb",
+      "native_id": "50v_economic_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 488,
+      "hidden": false
+    },
+    {
+      "name": "200V Economic Light Bulb",
+      "native_id": "200v_economic_light_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 499,
+      "hidden": false
+    },
+    {
+      "name": "50V Farming Lamp",
+      "native_id": "50v_farming_lamp",
+      "source": "ItemRegistration.kt",
+      "line": 510,
+      "hidden": false
+    },
+    {
+      "name": "200V Farming Lamp",
+      "native_id": "200v_farming_lamp",
+      "source": "ItemRegistration.kt",
+      "line": 527,
+      "hidden": false
+    },
+    {
+      "name": "50V LED Bulb",
+      "native_id": "50v_led_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 544,
+      "hidden": false
+    },
+    {
+      "name": "200V LED Bulb",
+      "native_id": "200v_led_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 561,
+      "hidden": false
+    },
+    {
+      "name": "50V Halogen Bulb",
+      "native_id": "50v_halogen_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 578,
+      "hidden": false
+    },
+    {
+      "name": "200V Halogen Bulb",
+      "native_id": "200v_halogen_bulb",
+      "source": "ItemRegistration.kt",
+      "line": 595,
+      "hidden": false
+    },
+    {
+      "name": "Overheating Protection",
+      "native_id": "overheating_protection",
+      "source": "ItemRegistration.kt",
+      "line": 618,
+      "hidden": false
+    },
+    {
+      "name": "Overvoltage Protection",
+      "native_id": "overvoltage_protection",
+      "source": "ItemRegistration.kt",
+      "line": 629,
+      "hidden": false
+    },
+    {
+      "name": "Combustion Chamber",
+      "native_id": "combustion_chamber",
+      "source": "ItemRegistration.kt",
+      "line": 644,
+      "hidden": false
+    },
+    {
+      "name": "Thermal Insulation",
+      "native_id": "thermal_insulation",
+      "source": "ItemRegistration.kt",
+      "line": 651,
+      "hidden": false
+    },
+    {
+      "name": "Cheap Ferromagnetic Core",
+      "native_id": "cheap_ferromagnetic_core",
+      "source": "ItemRegistration.kt",
+      "line": 668,
+      "hidden": false
+    },
+    {
+      "name": "Average Ferromagnetic Core",
+      "native_id": "average_ferromagnetic_core",
+      "source": "ItemRegistration.kt",
+      "line": 678,
+      "hidden": false
+    },
+    {
+      "name": "Optimal Ferromagnetic Core",
+      "native_id": "optimal_ferromagnetic_core",
+      "source": "ItemRegistration.kt",
+      "line": 688,
+      "hidden": false
+    },
+    {
+      "name": "Copper Dust",
+      "native_id": "copper_dust",
+      "source": "ItemRegistration.kt",
+      "line": 712,
+      "hidden": false
+    },
+    {
+      "name": "Iron Dust",
+      "native_id": "iron_dust",
+      "source": "ItemRegistration.kt",
+      "line": 722,
+      "hidden": false
+    },
+    {
+      "name": "Lapis Dust",
+      "native_id": "lapis_dust",
+      "source": "ItemRegistration.kt",
+      "line": 732,
+      "hidden": false
+    },
+    {
+      "name": "Diamond Dust",
+      "native_id": "diamond_dust",
+      "source": "ItemRegistration.kt",
+      "line": 742,
+      "hidden": false
+    },
+    {
+      "name": "Lead Dust",
+      "native_id": "lead_dust",
+      "source": "ItemRegistration.kt",
+      "line": 752,
+      "hidden": false
+    },
+    {
+      "name": "Tungsten Dust",
+      "native_id": "tungsten_dust",
+      "source": "ItemRegistration.kt",
+      "line": 760,
+      "hidden": false
+    },
+    {
+      "name": "Gold Dust",
+      "native_id": "gold_dust",
+      "source": "ItemRegistration.kt",
+      "line": 769,
+      "hidden": false
+    },
+    {
+      "name": "Coal Dust",
+      "native_id": "coal_dust",
+      "source": "ItemRegistration.kt",
+      "line": 778,
+      "hidden": false
+    },
+    {
+      "name": "Alloy Dust",
+      "native_id": "alloy_dust",
+      "source": "ItemRegistration.kt",
+      "line": 786,
+      "hidden": false
+    },
+    {
+      "name": "Cinnabar Dust",
+      "native_id": "cinnabar_dust",
+      "source": "ItemRegistration.kt",
+      "line": 795,
+      "hidden": false
+    },
+    {
+      "name": "Copper Ingot",
+      "native_id": "copper_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 813,
+      "hidden": false
+    },
+    {
+      "name": "Lead Ingot",
+      "native_id": "lead_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 824,
+      "hidden": false
+    },
+    {
+      "name": "Tungsten Ingot",
+      "native_id": "tungsten_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 835,
+      "hidden": false
+    },
+    {
+      "name": "Ferrite Ingot",
+      "native_id": "ferrite_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 846,
+      "hidden": false
+    },
+    {
+      "name": "Alloy Ingot",
+      "native_id": "alloy_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 859,
+      "hidden": false
+    },
+    {
+      "name": "Mercury",
+      "native_id": "mercury",
+      "source": "ItemRegistration.kt",
+      "line": 869,
+      "hidden": false
+    },
+    {
+      "name": "Silicon Wafer",
+      "native_id": "silicon_wafer",
+      "source": "ItemRegistration.kt",
+      "line": 883,
+      "hidden": false
+    },
+    {
+      "name": "Transistor",
+      "native_id": "transistor",
+      "source": "ItemRegistration.kt",
+      "line": 890,
+      "hidden": false
+    },
+    {
+      "name": "NTC Thermistor",
+      "native_id": "ntc_thermistor",
+      "source": "ItemRegistration.kt",
+      "line": 897,
+      "hidden": false
+    },
+    {
+      "name": "Nibble Memory Chip",
+      "native_id": "nibble_memory_chip",
+      "source": "ItemRegistration.kt",
+      "line": 904,
+      "hidden": false
+    },
+    {
+      "name": "Arithmetic Logic Unit",
+      "native_id": "arithmetic_logic_unit",
+      "source": "ItemRegistration.kt",
+      "line": 911,
+      "hidden": false
+    },
+    {
+      "name": "Electrical Motor",
+      "native_id": "electrical_motor",
+      "source": "ItemRegistration.kt",
+      "line": 927,
+      "hidden": false
+    },
+    {
+      "name": "Advanced Electrical Motor",
+      "native_id": "advanced_electrical_motor",
+      "source": "ItemRegistration.kt",
+      "line": 935,
+      "hidden": false
+    },
+    {
+      "name": "Solar Tracker",
+      "native_id": "solar_tracker",
+      "source": "ItemRegistration.kt",
+      "line": 950,
+      "hidden": false
+    },
+    {
+      "name": "MultiMeter",
+      "native_id": "multimeter",
+      "source": "ItemRegistration.kt",
+      "line": 965,
+      "hidden": false
+    },
+    {
+      "name": "Thermometer",
+      "native_id": "thermometer",
+      "source": "ItemRegistration.kt",
+      "line": 973,
+      "hidden": false
+    },
+    {
+      "name": "AllMeter",
+      "native_id": "allmeter",
+      "source": "ItemRegistration.kt",
+      "line": 985,
+      "hidden": false
+    },
+    {
+      "name": "Wireless Analyser",
+      "native_id": "wireless_analyser",
+      "source": "ItemRegistration.kt",
+      "line": 993,
+      "hidden": false
+    },
+    {
+      "name": "Config Copy Tool",
+      "native_id": "config_copy_tool",
+      "source": "ItemRegistration.kt",
+      "line": 1004,
+      "hidden": false
+    },
+    {
+      "name": "Tree Resin",
+      "native_id": "tree_resin",
+      "source": "ItemRegistration.kt",
+      "line": 1018,
+      "hidden": false
+    },
+    {
+      "name": "Rubber",
+      "native_id": "rubber",
+      "source": "ItemRegistration.kt",
+      "line": 1027,
+      "hidden": false
+    },
+    {
+      "name": "Cheap Electrical Drill",
+      "native_id": "cheap_electrical_drill",
+      "source": "ItemRegistration.kt",
+      "line": 1044,
+      "hidden": false
+    },
+    {
+      "name": "Average Electrical Drill",
+      "native_id": "average_electrical_drill",
+      "source": "ItemRegistration.kt",
+      "line": 1051,
+      "hidden": false
+    },
+    {
+      "name": "Fast Electrical Drill",
+      "native_id": "fast_electrical_drill",
+      "source": "ItemRegistration.kt",
+      "line": 1058,
+      "hidden": false
+    },
+    {
+      "name": "Turbo Electrical Drill",
+      "native_id": "turbo_electrical_drill",
+      "source": "ItemRegistration.kt",
+      "line": 1065,
+      "hidden": false
+    },
+    {
+      "name": "Irresponsible Electrical Drill",
+      "native_id": "irresponsible_electrical_drill",
+      "source": "ItemRegistration.kt",
+      "line": 1073,
+      "hidden": false
+    },
+    {
+      "name": "Ore Scanner",
+      "native_id": "ore_scanner",
+      "source": "ItemRegistration.kt",
+      "line": 1088,
+      "hidden": false
+    },
+    {
+      "name": "Mining Pipe",
+      "native_id": "mining_pipe",
+      "source": "ItemRegistration.kt",
+      "line": 1103,
+      "hidden": false
+    },
+    {
+      "name": "Copper Cable",
+      "native_id": "copper_cable",
+      "source": "ItemRegistration.kt",
+      "line": 1119,
+      "hidden": false
+    },
+    {
+      "name": "Iron Cable",
+      "native_id": "iron_cable",
+      "source": "ItemRegistration.kt",
+      "line": 1127,
+      "hidden": false
+    },
+    {
+      "name": "Tungsten Cable",
+      "native_id": "tungsten_cable",
+      "source": "ItemRegistration.kt",
+      "line": 1135,
+      "hidden": false
+    },
+    {
+      "name": "Graphite Rod",
+      "native_id": "graphite_rod",
+      "source": "ItemRegistration.kt",
+      "line": 1150,
+      "hidden": false
+    },
+    {
+      "name": "2x Graphite Rods",
+      "native_id": "2x_graphite_rods",
+      "source": "ItemRegistration.kt",
+      "line": 1158,
+      "hidden": false
+    },
+    {
+      "name": "3x Graphite Rods",
+      "native_id": "3x_graphite_rods",
+      "source": "ItemRegistration.kt",
+      "line": 1166,
+      "hidden": false
+    },
+    {
+      "name": "4x Graphite Rods",
+      "native_id": "4x_graphite_rods",
+      "source": "ItemRegistration.kt",
+      "line": 1174,
+      "hidden": false
+    },
+    {
+      "name": "Synthetic Diamond",
+      "native_id": "synthetic_diamond",
+      "source": "ItemRegistration.kt",
+      "line": 1182,
+      "hidden": false
+    },
+    {
+      "name": "unreleasedium",
+      "native_id": "unreleasedium",
+      "source": "ItemRegistration.kt",
+      "line": 1190,
+      "hidden": false
+    },
+    {
+      "name": "Arc Clay Ingot",
+      "native_id": "arc_clay_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 1198,
+      "hidden": false
+    },
+    {
+      "name": "Arc Metal Ingot",
+      "native_id": "arc_metal_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 1208,
+      "hidden": false
+    },
+    {
+      "name": "Inert Canister",
+      "native_id": "inert_canister",
+      "source": "ItemRegistration.kt",
+      "line": 1217,
+      "hidden": false
+    },
+    {
+      "name": "Canister of Water",
+      "native_id": "canister_of_water",
+      "source": "ItemRegistration.kt",
+      "line": 1245,
+      "hidden": false
+    },
+    {
+      "name": "Canister of Arc Water",
+      "native_id": "canister_of_arc_water",
+      "source": "ItemRegistration.kt",
+      "line": 1253,
+      "hidden": false
+    },
+    {
+      "name": "Cheap Chip",
+      "native_id": "cheap_chip",
+      "source": "ItemRegistration.kt",
+      "line": 1362,
+      "hidden": false
+    },
+    {
+      "name": "Advanced Chip",
+      "native_id": "advanced_chip",
+      "source": "ItemRegistration.kt",
+      "line": 1373,
+      "hidden": false
+    },
+    {
+      "name": "Machine Block",
+      "native_id": "machine_block",
+      "source": "ItemRegistration.kt",
+      "line": 1384,
+      "hidden": false
+    },
+    {
+      "name": "Electrical Probe Chip",
+      "native_id": "electrical_probe_chip",
+      "source": "ItemRegistration.kt",
+      "line": 1395,
+      "hidden": false
+    },
+    {
+      "name": "Thermal Probe Chip",
+      "native_id": "thermal_probe_chip",
+      "source": "ItemRegistration.kt",
+      "line": 1405,
+      "hidden": false
+    },
+    {
+      "name": "Copper Plate",
+      "native_id": "copper_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1416,
+      "hidden": false
+    },
+    {
+      "name": "Iron Plate",
+      "native_id": "iron_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1428,
+      "hidden": false
+    },
+    {
+      "name": "Gold Plate",
+      "native_id": "gold_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1439,
+      "hidden": false
+    },
+    {
+      "name": "Lead Plate",
+      "native_id": "lead_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1450,
+      "hidden": false
+    },
+    {
+      "name": "Silicon Plate",
+      "native_id": "silicon_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1461,
+      "hidden": false
+    },
+    {
+      "name": "Alloy Plate",
+      "native_id": "alloy_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1473,
+      "hidden": false
+    },
+    {
+      "name": "Coal Plate",
+      "native_id": "coal_plate",
+      "source": "ItemRegistration.kt",
+      "line": 1484,
+      "hidden": false
+    },
+    {
+      "name": "Silicon Dust",
+      "native_id": "silicon_dust",
+      "source": "ItemRegistration.kt",
+      "line": 1496,
+      "hidden": false
+    },
+    {
+      "name": "Silicon Ingot",
+      "native_id": "silicon_ingot",
+      "source": "ItemRegistration.kt",
+      "line": 1507,
+      "hidden": false
+    },
+    {
+      "name": "Machine Booster",
+      "native_id": "machine_booster",
+      "source": "ItemRegistration.kt",
+      "line": 1519,
+      "hidden": false
+    },
+    {
+      "name": "Advanced Machine Block",
+      "native_id": "advanced_machine_block",
+      "source": "ItemRegistration.kt",
+      "line": 1527,
+      "hidden": false
+    },
+    {
+      "name": "Basic Magnet",
+      "native_id": "basic_magnet",
+      "source": "ItemRegistration.kt",
+      "line": 1536,
+      "hidden": false
+    },
+    {
+      "name": "Advanced Magnet",
+      "native_id": "advanced_magnet",
+      "source": "ItemRegistration.kt",
+      "line": 1546,
+      "hidden": false
+    },
+    {
+      "name": "Data Logger Print",
+      "native_id": "data_logger_print",
+      "source": "ItemRegistration.kt",
+      "line": 1556,
+      "hidden": true
+    },
+    {
+      "name": "Signal Antenna",
+      "native_id": "signal_antenna",
+      "source": "ItemRegistration.kt",
+      "line": 1565,
+      "hidden": false
+    },
+    {
+      "name": "Player Filter",
+      "native_id": "player_filter",
+      "source": "ItemRegistration.kt",
+      "line": 1576,
+      "hidden": false
+    },
+    {
+      "name": "Monster Filter",
+      "native_id": "monster_filter",
+      "source": "ItemRegistration.kt",
+      "line": 1583,
+      "hidden": false
+    },
+    {
+      "name": "Animal Filter",
+      "native_id": "animal_filter",
+      "source": "ItemRegistration.kt",
+      "line": 1589,
+      "hidden": false
+    },
+    {
+      "name": "Wrench",
+      "native_id": "wrench",
+      "source": "ItemRegistration.kt",
+      "line": 1599,
+      "hidden": false
+    },
+    {
+      "name": "Dielectric",
+      "native_id": "dielectric",
+      "source": "ItemRegistration.kt",
+      "line": 1610,
+      "hidden": false
+    },
+    {
+      "name": "Casing",
+      "native_id": "casing",
+      "source": "ItemRegistration.kt",
+      "line": 1615,
+      "hidden": false
+    },
+    {
+      "name": "Motor Cowling",
+      "native_id": "motor_cowling",
+      "source": "ItemRegistration.kt",
+      "line": 1650,
+      "hidden": false
+    },
+    {
+      "name": "Heavy Winding",
+      "native_id": "heavy_winding",
+      "source": "ItemRegistration.kt",
+      "line": 1660,
+      "hidden": false
+    },
+    {
+      "name": "Reinforced Shaft",
+      "native_id": "reinforced_shaft",
+      "source": "ItemRegistration.kt",
+      "line": 1670,
+      "hidden": false
+    },
+    {
+      "name": "Turbine Blade Set",
+      "native_id": "turbine_blade_set",
+      "source": "ItemRegistration.kt",
+      "line": 1680,
+      "hidden": false
+    },
+    {
+      "name": "White Brush",
+      "native_id": "white_brush",
+      "source": "ItemRegistration.kt",
+      "line": 1725,
+      "hidden": false
+    },
+    {
+      "name": "Lead Fuse for low voltage cables",
+      "native_id": "lead_fuse_for_low_voltage_cables",
+      "source": "SixNodeRegistration.kt",
+      "line": 965,
+      "hidden": false
+    },
+    {
+      "name": "Lead Fuse for medium voltage cables",
+      "native_id": "lead_fuse_for_medium_voltage_cables",
+      "source": "SixNodeRegistration.kt",
+      "line": 975,
+      "hidden": false
+    },
+    {
+      "name": "Lead Fuse for high voltage cables",
+      "native_id": "lead_fuse_for_high_voltage_cables",
+      "source": "SixNodeRegistration.kt",
+      "line": 984,
+      "hidden": false
+    },
+    {
+      "name": "Lead Fuse for very high voltage cables",
+      "native_id": "lead_fuse_for_very_high_voltage_cables",
+      "source": "SixNodeRegistration.kt",
+      "line": 993,
+      "hidden": false
+    },
+    {
+      "name": "Blown Lead Fuse",
+      "native_id": "blown_lead_fuse",
+      "source": "SixNodeRegistration.kt",
+      "line": 1002,
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "rrr",
+    "iii"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "i": {
+      "item": "eln:iron_cable"
+    }
+  },
+  "result": {
+    "item": "eln:digital_display",
+    "count": 1
+  }
+}

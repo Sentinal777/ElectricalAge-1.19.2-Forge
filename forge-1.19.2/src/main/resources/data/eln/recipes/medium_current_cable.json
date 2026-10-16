@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RC ",
+    "RC ",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "eln:copper_cable"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:medium_current_cable",
+    "count": 4
+  }
+}

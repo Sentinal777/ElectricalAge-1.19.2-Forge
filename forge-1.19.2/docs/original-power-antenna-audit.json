@@ -1,0 +1,81 @@
+{
+  "baseline": {
+    "tag": "1.24.6",
+    "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e"
+  },
+  "status": "Implemented and verified",
+  "source": [
+    "src/main/java/mods/eln/transparentnode/electricalantennatx",
+    "src/main/java/mods/eln/transparentnode/electricalantennarx",
+    "src/main/kotlin/mods/eln/registration/TransparentNodeRegistration.kt"
+  ],
+  "tiers": [
+    {
+      "ids": [
+        448,
+        449
+      ],
+      "name": "Low",
+      "volts": 50,
+      "watts": 250,
+      "range": 200,
+      "efficiency": [
+        0.9,
+        0.7
+      ]
+    },
+    {
+      "ids": [
+        450,
+        451
+      ],
+      "name": "Medium",
+      "volts": 200,
+      "watts": 1000,
+      "range": 250,
+      "efficiency": [
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "ids": [
+        452,
+        453
+      ],
+      "name": "High",
+      "volts": 800,
+      "watts": 2000,
+      "range": 300,
+      "efficiency": [
+        0.95,
+        0.8
+      ]
+    }
+  ],
+  "input": "Real resistor R=Vnom^2/Pnom/commandNormalized; zero command gives high impedance. Original voltage cable terminal resistance. Three independent rear ports: power, feedback output, command input. Original finite signal output process with 5 V/.1 A full-scale drive. No receiver produces a five-volt feedback signal; connected receiver relays its independent signal input.",
+  "receiver": "Original PowerSource with maximum voltage=2*1.3*Vnom and original maximum current=2*(1.3*Vnom)*(1.3*Pnom). Rear power output and independent signal input. Original reusable source math, not an ideal free voltage source.",
+  "beam": "Exact straight six-direction beam, inclusive tier range and original two-second scan. Air and fire are transparent; every other block, including glass, stops the beam. First receiver must face the transmitter. Active ticking receivers only, check chunk availability before every block read, never force chunks. Loss interpolates start/end efficiency, multiplied by .707 for rain and again for thunder. Actual receiver budget is max(0, consumed input-resistor watts*efficiency-2 W).",
+  "hazards": "Every scan ignites actual entities in the original inclusive block AABB. Powered (>50 W) blocked/missing beam creates fire at the preceding air block. Input power or positive voltage beyond 1.3 nominal destroys transmitter with strength 2; receiver delivered power or positive voltage beyond 1.3 nominal destroys receiver. Unregulated unloaded receivers retain their original voltage failure. Mismatched tiers retain physical overload failure rather than silently clipping input.",
+  "persistence": "Cable rotation uses face-plane rotation; beam direction remains the support face inverse. Rear defaults preserve original LRDU Down TX / Up RX on all six mounting faces. Scan timer, finite field budget, energy, beam/dissipation accounting and electrical states survive rebuild/reload and contained pickup. No chunk forcing.",
+  "rendering": "Original lowpowertransmitterantenna/lowpowerreceiverantenna main meshes, original electricalantennatx/rx inventory icons, original raw X reference and 270/90 degree default axial rotation; cable sizes/textures follow original power/signal port types. Original flat inventory plus held 3D artwork. Original six survival recipes.",
+  "intentional_physics_correction": "Original sets an unconstrained receiver power request from input measured in the previous electrical step. Native delivery keeps only a bounded one-numerical-step field budget credited from energy actually consumed, bills effective receiver work and dissipates unused overflow. Persisting that budget avoids creating energy across rebuilds and shutdowns. The limit permits incoming overload so original receiver failure remains active.",
+  "verification": {
+    "test": "PowerAntennaGameTests.kt",
+    "crafting": "OriginalCraftingGameTests.kt",
+    "live": "PowerAntennaClientSmoke.kt",
+    "first_run": "original-power-antennas-validation-01.log; original distance/weather fixture needed explicit Minecraft rain/thunder strength, production attenuation was correct; initial six-tier finite power/feedback and all-face physical port tests passed"
+  },
+  "validatedMinecraftTests": 203,
+  "validatedUnitTests": 200,
+  "nativeLog": "original-power-antennas-validation-02.log",
+  "clientLog": "original-power-antennas-client-bcce-01.log",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "original_assets_migrated": 1222,
+  "original_pngs_byte_identical": 780,
+  "obj_models_indexed": 163,
+  "assigned_model_names_resolve": true,
+  "selected_model_groups_contain_polygons": true,
+  "non_cable_variants_using_fallback_geometry": 0,
+  "procedurally_rendered_cable_variants": 10,
+  "original_texture_cube_variants": 1,
+  "original_component_icon_bindings": 111,
+  "source_upload_files_missing": 0,
+  "original_files_changed": [
+    "AGENTS.md"
+  ]
+}

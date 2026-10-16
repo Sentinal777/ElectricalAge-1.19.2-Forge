@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RUR",
+    "ACA"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rubber"
+    },
+    "U": {
+      "item": "eln:copper_plate"
+    },
+    "A": {
+      "item": "eln:alloy_plate"
+    },
+    "C": {
+      "item": "eln:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "eln:type_e_socket",
+    "count": 16
+  }
+}

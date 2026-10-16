@@ -1,0 +1,198 @@
+867 source files, 97 migrated; 197 literal registration candidates.
+six 128 Ground Cable GroundCableDescriptor groundcable
+six 136 Hub HubDescriptor hub
+six 192 Electrical Source ElectricalSourceDescriptor voltagesource
+six 193 Signal Source ElectricalSourceDescriptor signalsource
+six 194 Current Source CurrentSourceDescriptor currentsource
+six 2048 Signal Cable CableRenderDescriptor None
+six 2052 Low Voltage Cable CableRenderDescriptor None
+six 2056 Medium Voltage Cable CableRenderDescriptor None
+six 2060 High Voltage Cable CableRenderDescriptor None
+six 2064 Very High Voltage Cable CableRenderDescriptor None
+six 2072 Creative Cable CableRenderDescriptor None
+six 2068 Signal Bus Cable CableRenderDescriptor None
+six 2112 Low Current Cable CableRenderDescriptor None
+six 2113 Medium Current Cable CableRenderDescriptor None
+six 2114 High Current Cable CableRenderDescriptor None
+six 8064 Low Current Relay CurrentRelayDescriptor RelayBig
+six 8065 Medium Current Relay CurrentRelayDescriptor relay800
+six 8066 High Current Relay CurrentRelayDescriptor relay800
+six 8128 Conduit ConduitCableDescriptor None
+six 3073 Copper Thermal Cable ThermalCableDescriptor None
+six 4160 120V Lamp Supply LampSupplyDescriptor DistributionBoard
+six 4161 240V Lamp Supply LampSupplyDescriptor DistributionBoard
+six 4289 240V Type J Socket PowerSocketDescriptor PowerSocket
+six 4290 240V Type E Socket PowerSocketDescriptor PowerSocket
+six 6144 10A Diode DiodeDescriptor PowerElectricPrimitives
+six 6145 25A Diode DiodeDescriptor PowerElectricPrimitives
+six 6152 Signal Diode DiodeDescriptor PowerElectricPrimitives
+six 6176 Power Capacitor PowerCapacitorSixDescriptor None
+six 6178 Power Inductor PowerInductorSixDescriptor None
+six 6179 Variable inductor VariableInductorSixDescriptor PowerElectricPrimitives
+six 6180 Power Resistor ResistorDescriptor PowerElectricPrimitives
+six 6181 Rheostat ResistorDescriptor PowerElectricPrimitives
+six 6182 Thermistor ResistorDescriptor PowerElectricPrimitives
+six 6183 Creative Power Capacitor CreativePowerCapacitorDescriptor PowerElectricPrimitives
+six 6184 Creative Power Inductor CreativePowerInductorDescriptor PowerElectricPrimitives
+six 6185 Creative Power Resistor CreativePowerResistorDescriptor PowerElectricPrimitives
+six 6213 5A Switch ElectricalSwitchDescriptor LowVoltageSwitch
+six 6214 20A Switch ElectricalSwitchDescriptor LowVoltageSwitch
+six 6215 50A Switch ElectricalSwitchDescriptor HighVoltageSwitch
+six 6217 100A Switch ElectricalSwitchDescriptor HighVoltageSwitch
+six 6212 Very High Voltage Switch ElectricalSwitchDescriptor HighVoltageSwitch
+six 6208 High Voltage Switch ElectricalSwitchDescriptor HighVoltageSwitch
+six 6209 Low Voltage Switch ElectricalSwitchDescriptor LowVoltageSwitch
+six 6210 Medium Voltage Switch ElectricalSwitchDescriptor LowVoltageSwitch
+six 7488 Modbus RTU ModbusRtuDescriptor RTU
+six 7492 Analog Watch ElectricalWatchDescriptor WallClock
+six 7493 Digital Watch ElectricalWatchDescriptor DigitalWallClock
+six 7494 Digital Display ElectricalDigitalDisplayDescriptor None
+six 7496 Tutorial Sign TutorialSignDescriptor TutoPlate
+six 6272 5A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6273 10A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6274 15A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6275 20A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6279 30A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6280 40A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6281 50A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6282 60A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6283 100A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6285 125A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6286 200A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6287 400A Electrical Breaker ElectricalBreakerDescriptor ElectricalBreaker
+six 6276 Energy Meter EnergyMeterDescriptor EnergyMeter
+six 6277 Advanced Energy Meter EnergyMeterDescriptor AdvancedEnergyMeter
+six 6284 MQTT Energy Meter EnergyMeterDescriptor MqttEnergyMeter
+six 6278 Electrical Fuse Holder ElectricalFuseHolderDescriptor None
+six 6400 Electrical Probe ElectricalSensorDescriptor None
+six 6401 Voltage Probe ElectricalSensorDescriptor None
+six 6464 Thermal Probe ThermalSensorDescriptor thermalsensor
+six 6465 Temperature Probe ThermalSensorDescriptor temperaturesensor
+six 6528 Analog vuMeter ElectricalVuMeterDescriptor None
+six 6536 LED vuMeter ElectricalVuMeterDescriptor None
+six 6537 Multicolor LED vuMeter ElectricalVuMeterDescriptor None
+six 6592 Nuclear Alarm ElectricalAlarmDescriptor alarmmedium
+six 6593 Standard Alarm ElectricalAlarmDescriptor alarmmedium
+six 6656 Electrical Daylight Sensor ElectricalLightSensorDescriptor daylightsensor
+six 6657 Electrical Light Sensor ElectricalLightSensorDescriptor lightsensor
+six 6660 Electrical Weather Sensor ElectricalWeatherSensorDescriptor electricalweathersensor
+six 6661 Humidity Sensor ElectricalHumiditySensorDescriptor electricalweathersensor
+six 6662 Thermometer Sensor ThermometerSensorDescriptor electricalweathersensor
+six 6664 Electrical Anemometer Sensor ElectricalWindSensorDescriptor Anemometer
+six 6668 Electrical Entity Sensor ElectricalEntitySensorDescriptor ProximitySensor
+six 6669 Electrical Fire Detector ElectricalFireDetectorDescriptor FireDetector
+six 6670 Electrical Fire Buzzer ElectricalFireDetectorDescriptor FireDetector
+six 6671 Scanner ScannerDescriptor scanner
+six 6912 Redstone-to-Voltage Converter ElectricalRedstoneInputDescriptor redtoele
+six 6913 Voltage-to-Redstone Converter ElectricalRedstoneOutputDescriptor eletored
+six 6976 Electrical Timer ElectricalTimeoutDescriptor electricaltimer
+six 6980 Signal Processor ElectricalMathDescriptor PLC
+six 6981 MQTT Signal Controller MqttSignalControllerDescriptor MqttSignalController
+six 5888 Wireless Signal Receiver WirelessSignalRxDescriptor wirelesssignalrx
+six 5896 Wireless Signal Transmitter WirelessSignalTxDescriptor wirelesssignaltx
+six 5904 Wireless Signal Repeater WirelessSignalRepeaterDescriptor wirelesssignalrepeater
+six 5952 Data Logger ElectricalDataLoggerDescriptor None
+six 5953 Modern Data Logger ElectricalDataLoggerDescriptor None
+six 5954 Industrial Data Logger ElectricalDataLoggerDescriptor None
+six 6021 5V Control Relay 10A ElectricalRelayDescriptor RelaySmall
+six 6022 12V Control Relay 20A ElectricalRelayDescriptor RelayBig
+six 6023 12V Control Relay 50A ElectricalRelayDescriptor relay800
+six 6024 12V Control Relay 100A ElectricalRelayDescriptor relay800
+six 6016 Low Voltage Relay ElectricalRelayDescriptor RelayBig
+six 6017 Medium Voltage Relay ElectricalRelayDescriptor RelayBig
+six 6018 High Voltage Relay ElectricalRelayDescriptor relay800
+six 6019 Very High Voltage Relay ElectricalRelayDescriptor relay800
+six 6020 Signal Relay ElectricalRelayDescriptor RelaySmall
+six 6080 Signal Trimmer ElectricalGateSourceDescriptor None
+six 6081 Signal Switch ElectricalGateSourceDescriptor None
+six 6088 Signal Button ElectricalGateSourceDescriptor None
+six 6092 Wireless Button WirelessSignalSourceDescriptor None
+six 6096 Wireless Switch WirelessSignalSourceDescriptor None
+six 7424 Portable NaN CableRenderDescriptor None
+transparent 4544 Overhead Lines OverheadLinesDescriptor OverheadGantry
+transparent 4545 Under Track Power UnderTrackPowerDescriptor OverheadGantry
+transparent 4608 Wire Roller addDescriptor platemachinea
+transparent 4609 Wire Insulator addDescriptor fabricator
+transparent 4610 Wire Combiner addDescriptor magnetizera
+transparent 4391 Large Rheostat ThermalDissipatorPassiveDescriptor None
+transparent 4359 Nixie Tube NixieTubeDescriptor NixieTube
+transparent 129 Variable DC-DC Converter VariableDcDcDescriptor variabledcdc
+transparent 130 DC-DC Converter DcDcDescriptor dcdc
+transparent 131 One-way DC-DC Converter OneWayDcDcDescriptor onewaydcdc
+transparent 132 One-way Boost vDC/DC Converter OneWayDcDcDescriptor onewayboostvdcdc
+transparent 133 One-way Buck vDC/DC Converter OneWayDcDcDescriptor onewaybuckvdcdc
+transparent 134 One-way Boost/Buck vDC/DC Converter OneWayDcDcDescriptor onewayboostbuckvdcdc
+transparent 135 Isolation Transformer OneWayDcDcDescriptor isolationdcdc
+transparent 192 Stone Heat Furnace HeatFurnaceDescriptor None
+transparent 193 Fuel Heat Furnace FuelHeatFurnaceDescriptor FuelHeater
+transparent 257 48V Turbine TurbineDescriptor None
+transparent 264 240V Turbine TurbineDescriptor None
+transparent 265 Steam Turbine addDescriptor None
+transparent 266 Generator addDescriptor None
+transparent 267 Gas Turbine addDescriptor None
+transparent 268 Joint addDescriptor None
+transparent 269 Joint hub addDescriptor None
+transparent 270 Flywheel addDescriptor Flywheel
+transparent 271 Tachometer addDescriptor None
+transparent 272 Shaft Motor addDescriptor Motor
+transparent 273 Clutch addDescriptor Clutch
+transparent 274 Fixed Shaft addDescriptor None
+transparent 275 Radial Motor addDescriptor None
+transparent 276 Crank Shaft addDescriptor StraightJoint
+transparent 277 Rolling Shaft  addDescriptor platemachinea
+transparent 278 Large Steam Turbine addDescriptor Turbine
+transparent 279 Large Gas Turbine addDescriptor GasTurbine
+transparent 280 Large Generator addDescriptor Generator
+transparent 281 Large Shaft Motor addDescriptor Motor
+transparent 282 Polarized Shaft Generator addDescriptor PolarizedShaftGenerator
+transparent 283 Polarized Shaft Motor addDescriptor PolarizedShaftMotor
+transparent 284 Large Flywheel addDescriptor Flywheel
+transparent 2048 Electrical Furnace ElectricalFurnaceDescriptor None
+transparent 2112 48V Macerator MaceratorDescriptor None
+transparent 2116 240V Macerator MaceratorDescriptor None
+transparent 2176 Old 480V Arc Furnace OldArcFurnaceDescriptor arcfurnaceold
+transparent 2368 48V Plate Machine PlateMachineDescriptor platemachinea
+transparent 2372 240V Plate Machine PlateMachineDescriptor platemachineb
+transparent 2624 24V Egg Incubator EggIncubatorDescriptor eggincubator
+transparent 2240 48V Compressor CompressorDescriptor compressora
+transparent 2244 240V Compressor CompressorDescriptor compressorb
+transparent 2304 48V Magnetizer MagnetizerDescriptor magnetizera
+transparent 2308 240V Magnetizer MagnetizerDescriptor magnetizerb
+transparent 3073 Small Solar Panel SolarPanelDescriptor smallsolarpannel
+transparent 3074 Small Rotating Solar Panel SolarPanelDescriptor smallsolarpannelrot
+transparent 3075 2x3 Solar Panel SolarPanelDescriptor bigSolarPanel
+transparent 3076 2x3 Rotating Solar Panel SolarPanelDescriptor bigSolarPanelrot
+transparent 448 Low Power Transmitter Antenna ElectricalAntennaTxDescriptor lowpowertransmitterantenna
+transparent 449 Low Power Receiver Antenna ElectricalAntennaRxDescriptor lowpowerreceiverantenna
+transparent 450 Medium Power Transmitter Antenna ElectricalAntennaTxDescriptor lowpowertransmitterantenna
+transparent 451 Medium Power Receiver Antenna ElectricalAntennaRxDescriptor lowpowerreceiverantenna
+transparent 452 High Power Transmitter Antenna ElectricalAntennaTxDescriptor lowpowertransmitterantenna
+transparent 453 High Power Receiver Antenna ElectricalAntennaRxDescriptor lowpowerreceiverantenna
+transparent 1024 Cost Oriented Battery BatteryDescriptor None
+transparent 1025 Capacity Oriented Battery BatteryDescriptor None
+transparent 1026 Voltage Oriented Battery BatteryDescriptor None
+transparent 1027 Current Oriented Battery BatteryDescriptor None
+transparent 1028 Life Oriented Battery BatteryDescriptor None
+transparent 1029 Single-use Battery BatteryDescriptor None
+transparent 1030 Experimental Battery BatteryDescriptor None
+transparent 2688 Auto Miner AutoMinerDescriptor AutoMiner
+transparent 3136 Wind Turbine WindTurbineDescriptor WindTurbineMini
+transparent 3152 Water Turbine WaterTurbineDescriptor SmallWaterWheel
+transparent 4289 48V Fuel Generator addDescriptor FuelGenerator50V
+transparent 4290 240V Fuel Generator addDescriptor FuelGenerator200V
+transparent 4096 Small Passive Thermal Dissipator ThermalDissipatorPassiveDescriptor None
+transparent 4128 24V Small Active Thermal Dissipator ThermalDissipatorActiveDescriptor None
+transparent 4130 240V Active Thermal Dissipator ThermalDissipatorActiveDescriptor None
+transparent 4160 Experimental Transporter TeleporterDescriptor Transporter
+transparent 4162 Thermal Heat Exchanger ThermalHeatExchangerDescriptor None
+transparent 4224 480V Defence Turret TurretDescriptor None
+transparent 4416 Christmas Tree ChristmasTreeDescriptor Christmas_Tree
+transparent 4417 Holiday Candle HolidayCandleDescriptor Candle_Light
+transparent 4418 String Lights StringLightsDescriptor Christmas_Lights
+transparent 4480 Fabricator addDescriptor None
+transparent 7875 Grid DC-DC Converter addDescriptor None
+transparent 7876 Utility Pole addDescriptor None
+transparent 7877 Utility Pole w/DC-DC Converter addDescriptor UtilityPole
+transparent 7878 Transmission Tower addDescriptor None
+transparent 7879 Direct Utility Pole addDescriptor None
+transparent 7880 Grid Switch GridSwitchDescriptor None

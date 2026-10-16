@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "tag": "1.24.6",
+    "commit": "17f99f7e2dd6055527bb43578af66f1d62c6842e"
+  },
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "source": "src/main/kotlin/mods/eln/railroad",
+  "ids": {
+    "overhead_lines": 4544,
+    "electric_minecart_shared_item": 8128
+  },
+  "registration": "Both are registered original prototype entries. Original CraftingRecipes.kt registers the entity but contains no survival recipe for the minecart or Overhead Lines. Native preserves creative availability and does not invent recipes.",
+  "overhead": "Original common power load with low-voltage cable Rs=.0125 ohm and four floor edges; .95 px cable.png renderer and OverheadGantry mesh shown under the original neighboring opaque-block condition. Original flat overheadlines and electricminecart inventory icons; vanilla minecart renderer with original iron-block display.",
+  "charging": "Cart scans the same loaded X/Z column from its block through three blocks above, without forcing chunks. One private load (Rs=1e-9) and real resistor per contact, connected to the actual overhead MNA load. Charging requires >=700 V. Original R=(target/(abs(target-stored)*2))*200 ohm, target defaults to 10000 J. Only actual resistor work enters the paid cache. Contacts expire after missed updates; inactive entities cannot charge through still-ticking blocks.",
+  "motor": "Original rideable rail movement, rail speed cap increased by one, motor only starts when already moving by at least .0005 on an axis, acts while both horizontal components are below .5, consumes min(40 J, stored) per rail tick and adds .05*(spent/40) in the signs of motion. No thrust from empty storage. Paid storage/target and motor ledger saved in actual entity NBT.",
+  "lifecycle": "Uncollected paid work collected once at contact changes, saving and removal. Handles onRemovedFromWorld as chunk unload can bypass remove via final setRemoved. Contacts and callbacks check entity identity as well as UUID. Ordinary electric-cart drops and item re-placement preserve exact stored energy, target and name. Source only dropped a generic cart/lost that state; native fixes that loss. Chunk/paused-entity/stale-callback test uses real level-31/32 tickets and a full unload/reload without forced lookups.",
+  "physics_correction": "Charging resistance also limits each numerical step to remaining paid storage capacity; high-impedance leakage while full, inactive or below threshold is explicitly dissipated, not credited as phantom charge.",
+  "tests": {
+    "physical": "RailPowerGameTests.kt",
+    "unload": "RailChunkGameTests.kt",
+    "first_native": "original-electric-rail-validation-01.log",
+    "pending_unload": "original-electric-rail-validation-02.log",
+    "live": "original-electric-rail-client-bcce-01.log"
+  },
+  "live_result": {
+    "storedJ": 9736.106078554301,
+    "motorJ": 480.0,
+    "paidJ": 10216.106078554396,
+    "averageTickMs": 10.942969,
+    "confirmed": "Actual survival placement packet and held consumption, named spawn, charging, riding packet, mounted meter packet/readout, normal movement input and third-person movement, original cart renderer and wire art. Closer gantry photo prepared for a subsequent pass."
+  },
+  "remaining_global_visual_check": "BCCE 8.0.23 client intermittently reports 194 unregistered sprite holders; seen again in the rail client log. Requires standalone BCCE baseline comparison and actual pipe/gate visual verification before final release.",
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Implemented; 207 Minecraft / 200 unit suite and first live client passed; actual unload and stale-entity regression added and running"
+}

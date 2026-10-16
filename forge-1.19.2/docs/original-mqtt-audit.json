@@ -1,0 +1,35 @@
+{
+  "baseline": "1.24.6",
+  "status": "Implemented; recorded focused/client evidence retained and final full/native regressions passed. See the stated verification scope.",
+  "transport": "Original TCP MQTT 3.1.1 QoS0 topics and optional username/password. Disabled by default. Explicit config/eln-mqtt.json endpoints; /eln mqtt reload operator command. Bounded asynchronous packet/command queues, bounded payloads, partial-read handling and reconnect; I/O threads cannot access the Minecraft world. Credentials stay in endpoint file and are never synchronized to items or clients.",
+  "meter": "Original 0.0125-ohm switched shunt, voltage AND current cables, initially on, signed I*abs(input voltage), energy/time reset, original wheels/model and secure name/server/units controls. MQTT stat/energy preserves original wire value in kJ; original field name energyWh was misleading. Stat/time converts the original 72x meter time to elapsed seconds.",
+  "controller": "Four independent 0.05-ohm signal gates, initially disabled/high impedance, original A-right/B-back/C-left/D-front mapping, read versus write, normalized and volts commands, finite clamped outputs, real loaded voltages and saved modes. Six-digit unique device IDs persist across reload; duplicates reallocate IDs.",
+  "lifecycle": "Bound by actual node and part identity; removal, reload and unticking/unloaded chunks cannot retain valid callbacks. Actual socket broker test drives real loads, rejects NaN/Infinity, opens and closes the real meter, resets counters, rejects stale replacement callbacks and confirms reconnect subscriptions plus retained metadata.",
+  "verification": {
+    "focused": "original-mqtt-focused-validation-04.log",
+    "minecraftChecks": 8,
+    "newMqttChecks": 3,
+    "unitChecks": 203,
+    "newActualSocketUnitChecks": 3,
+    "client": "original-mqtt-client-bcce-01.log",
+    "actualBcceSprites": 254,
+    "screenshotsReviewed": true
+  },
+  "scope": "Source TCP transport only. Does not claim TLS/WebSocket or QoS1/2 support absent from original implementation.",
+  "fullRegression": {
+    "log": "original-mqtt-full-validation-01.log",
+    "minecraftTests": 262,
+    "bcceCases": 14,
+    "unitTests": 203,
+    "result": "All passed. Includes original MQTT meter, four-port controller, actual socket broker commands and reconnect. Modbus and resource/recipe completion were installed after this JVM started and are not covered by this result."
+  },
+  "finalRegression": {
+    "fullLog": "release-bcce-cc-cover-full-validation-04.log",
+    "withBcceAndCc": 286,
+    "nativeLog": "release-native-full-validation-03.log",
+    "withoutOptionalMods": 271,
+    "unit": 210,
+    "scope": "All required cases passed. Existing per-device focused/client evidence and its limits remain authoritative; this field does not claim every configuration was exercised."
+  },
+  "historicalCheckpointStatus": "Original meter/controller, actual loopback transport and broker, focused Minecraft and client verified. Full 262-case regression running."
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-13",
+  "version": "0.2.0",
+  "minecraft": "1.19.2",
+  "forge": "43.5.0",
+  "java": 17,
+  "mode": "Standalone dedicated server with the reobfuscated Jar-in-Jar artifact",
+  "non_documentation_payload_sha256": "2a88dbb3ac8701a18aa85e7549855e86ceaefd1a137dd314d2eace821e175163",
+  "payload_hash_method": "Sorted non-directory entries excluding docs/: UTF-8 name, NUL, uncompressed bytes, NUL",
+  "loaded_circuit_current_A": 0.49996899692249636,
+  "disconnected_current_A": 0.0,
+  "world_saved": true,
+  "exit_code": 0
+}

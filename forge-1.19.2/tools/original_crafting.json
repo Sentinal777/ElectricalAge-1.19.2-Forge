@@ -1,0 +1,9527 @@
+{
+  "baseline": "Electrical Age 1.24.6",
+  "source": "mods/eln/craft/CraftingRecipes.kt",
+  "recipes": [
+    {
+      "line": 190,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "expression": "emptyStack.copy()"
+      },
+      "ingredients": [
+        {
+          "expression": "ItemStack(Blocks.wool, 1, idx)"
+        },
+        {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 194,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "expression": "Eln.findItemStack(name, 1)"
+      },
+      "ingredients": [
+        {
+          "expression": "ItemStack(Items.dye, 1, idx)"
+        },
+        {
+          "expression": "emptyStack.copy()"
+        }
+      ]
+    },
+    {
+      "line": 199,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Ground Cable",
+        "count": 1
+      },
+      "pattern": [
+        " C ",
+        " C ",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 206,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.signalCableDescriptor.newItemStack(2)"
+      },
+      "pattern": [
+        "R",
+        "C",
+        "C"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 216,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.lowVoltageCableDescriptor.newItemStack(2)"
+      },
+      "pattern": [
+        "R",
+        "C",
+        "C"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 220,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.lowCurrentCableDescriptor.newItemStack(4)"
+      },
+      "pattern": [
+        "RC ",
+        "   ",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 224,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.meduimVoltageCableDescriptor.newItemStack(2)"
+      },
+      "pattern": [
+        "R",
+        "C"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.instance.lowVoltageCableDescriptor.newItemStack(1)"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 228,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.mediumCurrentCableDescriptor.newItemStack(4)"
+      },
+      "pattern": [
+        "RC ",
+        "RC ",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 234,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.highVoltageCableDescriptor.newItemStack(2)"
+      },
+      "pattern": [
+        "R",
+        "C"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.instance.meduimVoltageCableDescriptor.newItemStack(1)"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 238,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.highCurrentCableDescriptor.newItemStack(4)"
+      },
+      "pattern": [
+        "RC ",
+        "RC ",
+        "RC "
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 242,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.signalCableDescriptor.newItemStack(12)"
+      },
+      "pattern": [
+        "RRR",
+        "CCC",
+        "RRR"
+      ],
+      "key": {
+        "C": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 246,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.signalBusCableDescriptor.newItemStack(1)"
+      },
+      "pattern": [
+        "R",
+        "C"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.instance.signalCableDescriptor.newItemStack(1)"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 250,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.lowVoltageCableDescriptor.newItemStack(12)"
+      },
+      "pattern": [
+        "RRR",
+        "CCC",
+        "RRR"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 254,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "Eln.instance.veryHighVoltageCableDescriptor.newItemStack(12)"
+      },
+      "pattern": [
+        "RRR",
+        "CCC",
+        "RRR"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotAlloy"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 261,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Copper Thermal Cable",
+        "count": 12
+      },
+      "pattern": [
+        "SSS",
+        "CCC",
+        "SSS"
+      ],
+      "key": {
+        "S": {
+          "vanilla": "cobblestone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 265,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Copper Thermal Cable",
+        "count": 1
+      },
+      "pattern": [
+        "S",
+        "C"
+      ],
+      "key": {
+        "S": {
+          "vanilla": "cobblestone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 272,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lamp Socket A",
+        "count": 3
+      },
+      "pattern": [
+        "G ",
+        "IG",
+        "G "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 276,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lamp Socket B Projector",
+        "count": 3
+      },
+      "pattern": [
+        " G",
+        "GI",
+        " G"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 280,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Street Light",
+        "count": 1
+      },
+      "pattern": [
+        "G",
+        "I",
+        "I"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 284,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Robust Lamp Socket",
+        "count": 3
+      },
+      "pattern": [
+        "GIG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 288,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Flat Lamp Socket",
+        "count": 3
+      },
+      "pattern": [
+        "IGI"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 292,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Simple Lamp Socket",
+        "count": 3
+      },
+      "pattern": [
+        " I ",
+        "GGG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 296,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Fluorescent Lamp Socket",
+        "count": 3
+      },
+      "pattern": [
+        " I ",
+        "G G"
+      ],
+      "key": {
+        "G": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 300,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Suspended Lamp Socket",
+        "count": 2
+      },
+      "pattern": [
+        "I",
+        "G"
+      ],
+      "key": {
+        "G": {
+          "elnName": "Robust Lamp Socket",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 304,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Long Suspended Lamp Socket",
+        "count": 2
+      },
+      "pattern": [
+        "I",
+        "I",
+        "G"
+      ],
+      "key": {
+        "G": {
+          "elnName": "Robust Lamp Socket",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 310,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Suspended Lamp Socket (No Swing)",
+        "count": 4
+      },
+      "pattern": [
+        "I",
+        "G"
+      ],
+      "key": {
+        "G": {
+          "elnName": "Robust Lamp Socket",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 316,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Long Suspended Lamp Socket (No Swing)",
+        "count": 4
+      },
+      "pattern": [
+        "I",
+        "I",
+        "G"
+      ],
+      "key": {
+        "G": {
+          "elnName": "Robust Lamp Socket",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 321,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Sconce Lamp Socket",
+        "count": 2
+      },
+      "pattern": [
+        "GCG",
+        "GIG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "ore": "dustCoal"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 325,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Emergency Lamp",
+        "count": 1
+      },
+      "pattern": [
+        "cbc",
+        " l ",
+        " g "
+      ],
+      "key": {
+        "c": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "b": {
+          "elnName": "Portable Battery Pack",
+          "count": 1
+        },
+        "l": {
+          "elnName": "50V LED Bulb",
+          "count": 1
+        },
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 330,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Emergency Lamp",
+        "count": 1
+      },
+      "pattern": [
+        "cbc",
+        " l ",
+        " g "
+      ],
+      "key": {
+        "c": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        },
+        "b": {
+          "elnName": "Portable Battery Pack",
+          "count": 1
+        },
+        "l": {
+          "elnName": "200V LED Bulb",
+          "count": 1
+        },
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 338,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Basic Floodlight",
+        "count": 1
+      },
+      "pattern": [
+        " PG",
+        "MBP",
+        "ICI"
+      ],
+      "key": {
+        "P": {
+          "elnName": "Iron Plate",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 343,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Motorized Floodlight",
+        "count": 1
+      },
+      "pattern": [
+        " PG",
+        "MBP",
+        "ICI"
+      ],
+      "key": {
+        "P": {
+          "elnName": "Iron Plate",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 351,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lamp Supply",
+        "count": 1
+      },
+      "pattern": [
+        " I ",
+        "ICI",
+        " I "
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 358,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Type J Socket",
+        "count": 16
+      },
+      "pattern": [
+        "RUR",
+        "ACA"
+      ],
+      "key": {
+        "R": {
+          "ore": "itemRubber"
+        },
+        "U": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Alloy Plate",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 364,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Type E Socket",
+        "count": 16
+      },
+      "pattern": [
+        "RUR",
+        "ACA"
+      ],
+      "key": {
+        "R": {
+          "ore": "itemRubber"
+        },
+        "U": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Alloy Plate",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 373,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Diode",
+        "count": 4
+      },
+      "pattern": [
+        " RB",
+        " IR",
+        " RB"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "B": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 377,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "10A Diode",
+        "count": 3
+      },
+      "pattern": [
+        " RB",
+        "IIR",
+        " RB"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "B": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 381,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "25A Diode",
+        "count": 1
+      },
+      "pattern": [
+        "D",
+        "D",
+        "D"
+      ],
+      "key": {
+        "D": {
+          "elnName": "10A Diode",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 382,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Power Capacitor",
+        "count": 1
+      },
+      "pattern": [
+        "cPc",
+        "III"
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "P": {
+          "ore": "plateIron"
+        }
+      }
+    },
+    {
+      "line": 386,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Power Inductor",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cIc",
+        "   "
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 390,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Variable inductor",
+        "count": 1
+      },
+      "pattern": [
+        " S ",
+        "cIc",
+        " c "
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 394,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Power Resistor",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Coal Dust",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 398,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermistor",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Copper Ingot",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 402,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Rheostat",
+        "count": 1
+      },
+      "pattern": [
+        " R ",
+        " MS",
+        "cmc"
+      ],
+      "key": {
+        "R": {
+          "elnName": "Power Resistor",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 407,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "NTC Thermistor",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "csc",
+        "   "
+      ],
+      "key": {
+        "s": {
+          "ore": "dustSilicon"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 412,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Large Rheostat",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        " D ",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "elnName": "Rheostat",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "D": {
+          "elnName": "Small Passive Thermal Dissipator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 419,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Low Voltage Switch",
+        "count": 1
+      },
+      "pattern": [
+        "  I",
+        " I ",
+        "CAC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 423,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Voltage Switch",
+        "count": 1
+      },
+      "pattern": [
+        "  I",
+        "AIA",
+        "CAC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 427,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "High Voltage Switch",
+        "count": 1
+      },
+      "pattern": [
+        "AAI",
+        "AIA",
+        "CAC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 431,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Very High Voltage Switch",
+        "count": 1
+      },
+      "pattern": [
+        "AAI",
+        "AIA",
+        "CAC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Very High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 438,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Low Voltage Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 444,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Voltage Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 450,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "High Voltage Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 456,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Very High Voltage Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Very High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 461,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 466,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Low Current Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Current Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 472,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Current Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Current Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 478,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "High Current Relay",
+        "count": 1
+      },
+      "pattern": [
+        "GGG",
+        "OIO",
+        "CRC"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "O": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "A": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "High Current Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 487,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Signal Transmitter",
+        "count": 1
+      },
+      "pattern": [
+        " S ",
+        " R ",
+        "ICI"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "S": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 493,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Signal Repeater",
+        "count": 1
+      },
+      "pattern": [
+        "S S",
+        "R R",
+        "ICI"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "S": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 497,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Signal Receiver",
+        "count": 1
+      },
+      "pattern": [
+        " S ",
+        "ICI"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "S": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 504,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "NOT Chip",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCr",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 508,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "AND Chip",
+        "count": 1
+      },
+      "pattern": [
+        " c ",
+        "cCc",
+        " c "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 514,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "NAND Chip",
+        "count": 1
+      },
+      "pattern": [
+        " c ",
+        "cCr",
+        " c "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 518,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "OR Chip",
+        "count": 1
+      },
+      "pattern": [
+        " r ",
+        "rCr",
+        " r "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 522,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "NOR Chip",
+        "count": 1
+      },
+      "pattern": [
+        " r ",
+        "rCc",
+        " r "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 526,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "XOR Chip",
+        "count": 1
+      },
+      "pattern": [
+        " rr",
+        "rCr",
+        " rr"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 530,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "XNOR Chip",
+        "count": 1
+      },
+      "pattern": [
+        " rr",
+        "rCc",
+        " rr"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 534,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "PAL Chip",
+        "count": 1
+      },
+      "pattern": [
+        "rcr",
+        "cCc",
+        "rcr"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 538,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Schmitt Trigger Chip",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 542,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "D Flip Flop Chip",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCc",
+        " p "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "p": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 547,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Oscillator Chip",
+        "count": 1
+      },
+      "pattern": [
+        "pdp",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "p": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "d": {
+          "elnName": "Dielectric",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 552,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "JK Flip Flop Chip",
+        "count": 1
+      },
+      "pattern": [
+        " p ",
+        "cCc",
+        " p "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "p": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 557,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Amplifier",
+        "count": 1
+      },
+      "pattern": [
+        "  r",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 561,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage controlled amplifier",
+        "count": 1
+      },
+      "pattern": [
+        " sr",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "s": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 565,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "OpAmp",
+        "count": 1
+      },
+      "pattern": [
+        "  r",
+        "cCc",
+        " c "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 569,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Configurable summing unit",
+        "count": 1
+      },
+      "pattern": [
+        " cr",
+        "cCc",
+        " c "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 573,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Sample and hold",
+        "count": 1
+      },
+      "pattern": [
+        " rr",
+        "cCc",
+        " c "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 577,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage controlled sine oscillator",
+        "count": 1
+      },
+      "pattern": [
+        "rrr",
+        "cCc",
+        "   "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 581,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage controlled sawtooth oscillator",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "cCc",
+        "rrr"
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 585,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "PID Regulator",
+        "count": 1
+      },
+      "pattern": [
+        "rrr",
+        "cCc",
+        "rcr"
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 589,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lowpass filter",
+        "count": 1
+      },
+      "pattern": [
+        "CdC",
+        "cDc",
+        " s "
+      ],
+      "key": {
+        "d": {
+          "elnName": "Dielectric",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "D": {
+          "elnName": "Coal Dust",
+          "count": 1
+        },
+        "s": {
+          "expression": "Eln.dictCheapChip"
+        }
+      }
+    },
+    {
+      "line": 597,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "DC-DC Converter",
+        "count": 1
+      },
+      "pattern": [
+        "C C",
+        "III"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 601,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Variable DC-DC Converter",
+        "count": 1
+      },
+      "pattern": [
+        "CBC",
+        "III"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "B": {
+          "expression": "Eln.dictCheapChip"
+        }
+      }
+    },
+    {
+      "line": 608,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Stone Heat Furnace",
+        "count": 1
+      },
+      "pattern": [
+        "BBB",
+        "BIB",
+        "BiB"
+      ],
+      "key": {
+        "B": {
+          "vanilla": "stone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "i": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Combustion Chamber",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 612,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Fuel Heat Furnace",
+        "count": 1
+      },
+      "pattern": [
+        "IcI",
+        "mCI",
+        "IiI"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Cheap Chip",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "C": {
+          "vanilla": "cauldron",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "i": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 620,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Turbine",
+        "count": 1
+      },
+      "pattern": [
+        " m ",
+        "HMH",
+        " E "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "E": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "H": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 626,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Turbine",
+        "count": 1
+      },
+      "pattern": [
+        "ImI",
+        "HMH",
+        "IEI"
+      ],
+      "key": {
+        "I": {
+          "ore": "itemRubber"
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "E": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        },
+        "H": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 633,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Generator",
+        "count": 1
+      },
+      "pattern": [
+        "mmm",
+        "ama",
+        " ME"
+      ],
+      "key": {
+        "m": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "a": {
+          "expression": "firstExistingOre(\"ingotAluminum\", \"ingotIron\")"
+        },
+        "E": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 638,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Shaft Motor",
+        "count": 1
+      },
+      "pattern": [
+        "imi",
+        " ME"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "E": {
+          "elnName": "Very High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 644,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Steam Turbine",
+        "count": 1
+      },
+      "pattern": [
+        " a ",
+        "aAa",
+        " M "
+      ],
+      "key": {
+        "a": {
+          "expression": "firstExistingOre( \"ingotAluminum\", \"ingotIron\" )"
+        },
+        "A": {
+          "expression": "firstExistingOre(\"blockAluminum\", \"blockIron\")"
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 653,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Gas Turbine",
+        "count": 1
+      },
+      "pattern": [
+        "msH",
+        "sSs",
+        " M "
+      ],
+      "key": {
+        "m": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "H": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "s": {
+          "expression": "firstExistingOre(\"ingotSteel\", \"ingotIron\")"
+        },
+        "S": {
+          "expression": "firstExistingOre(\"blockSteel\", \"blockIron\")"
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 658,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Radial Motor",
+        "count": 1
+      },
+      "pattern": [
+        " r ",
+        "rSr",
+        " rM"
+      ],
+      "key": {
+        "r": {
+          "ore": "plateAlloy"
+        },
+        "S": {
+          "expression": "firstExistingOre( \"blockSteel\", \"blockIron\" )"
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 663,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Large Shaft Motor",
+        "count": 1
+      },
+      "pattern": [
+        "CHC",
+        "RWR",
+        "CMC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Motor Cowling",
+          "count": 1
+        },
+        "H": {
+          "elnName": "High Current Cable",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Reinforced Shaft",
+          "count": 1
+        },
+        "W": {
+          "elnName": "Heavy Winding",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 674,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Large Generator",
+        "count": 1
+      },
+      "pattern": [
+        "CMC",
+        "RWR",
+        "CHC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Motor Cowling",
+          "count": 1
+        },
+        "H": {
+          "elnName": "High Current Cable",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Reinforced Shaft",
+          "count": 1
+        },
+        "W": {
+          "elnName": "Heavy Winding",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 685,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Large Gas Turbine",
+        "count": 1
+      },
+      "pattern": [
+        "CTC",
+        "RHR",
+        "MAM"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Motor Cowling",
+          "count": 1
+        },
+        "T": {
+          "elnName": "Turbine Blade Set",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Reinforced Shaft",
+          "count": 1
+        },
+        "H": {
+          "elnName": "Heavy Winding",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 697,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Large Steam Turbine",
+        "count": 1
+      },
+      "pattern": [
+        "TTT",
+        "RMR",
+        "SAS"
+      ],
+      "key": {
+        "T": {
+          "elnName": "Turbine Blade Set",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Reinforced Shaft",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "S": {
+          "expression": "firstExistingOre(\"ingotAluminum\", \"ingotSteel\", \"ingotIron\")"
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 708,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Joint",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "iii",
+        " m "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 709,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Crank Shaft",
+        "count": 1
+      },
+      "pattern": [
+        "  i",
+        "iii",
+        " m "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 710,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Joint hub",
+        "count": 1
+      },
+      "pattern": [
+        " i ",
+        "iii",
+        " m "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 716,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Flywheel",
+        "count": 1
+      },
+      "pattern": [
+        "PPP",
+        "PmP",
+        "PPP"
+      ],
+      "key": {
+        "P": {
+          "ore": "ingotLead"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 722,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Tachometer",
+        "count": 1
+      },
+      "pattern": [
+        "p  ",
+        "iii",
+        "cm "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "p": {
+          "elnName": "Electrical Probe Chip",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 728,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Clutch",
+        "count": 1
+      },
+      "pattern": [
+        "iIi",
+        " c "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "c": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 733,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Fixed Shaft",
+        "count": 1
+      },
+      "pattern": [
+        "iBi",
+        " c "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "B": {
+          "ore": "blockIron"
+        },
+        "c": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 738,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Rolling Shaft Machine",
+        "count": 1
+      },
+      "pattern": [
+        "IiI",
+        "IcI",
+        "IiI"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotIron"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "c": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 745,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Cost Oriented Battery",
+        "count": 1
+      },
+      "pattern": [
+        "C C",
+        "PPP",
+        "PPP"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "P": {
+          "ore": "ingotLead"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 749,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Capacity Oriented Battery",
+        "count": 1
+      },
+      "pattern": [
+        "PBP"
+      ],
+      "key": {
+        "B": {
+          "elnName": "Cost Oriented Battery",
+          "count": 1
+        },
+        "P": {
+          "ore": "ingotLead"
+        }
+      }
+    },
+    {
+      "line": 753,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage Oriented Battery",
+        "count": 1
+      },
+      "pattern": [
+        "PBP"
+      ],
+      "key": {
+        "B": {
+          "elnName": "Cost Oriented Battery",
+          "count": 1
+        },
+        "P": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 757,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Current Oriented Battery",
+        "count": 1
+      },
+      "pattern": [
+        "PBP"
+      ],
+      "key": {
+        "B": {
+          "elnName": "Cost Oriented Battery",
+          "count": 1
+        },
+        "P": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 761,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Life Oriented Battery",
+        "count": 1
+      },
+      "pattern": [
+        "PBP"
+      ],
+      "key": {
+        "B": {
+          "elnName": "Cost Oriented Battery",
+          "count": 1
+        },
+        "P": {
+          "vanilla": "gold_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 765,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Experimental Battery",
+        "count": 1
+      },
+      "pattern": [
+        " S ",
+        "LDV",
+        " C "
+      ],
+      "key": {
+        "S": {
+          "elnName": "Capacity Oriented Battery",
+          "count": 1
+        },
+        "L": {
+          "elnName": "Life Oriented Battery",
+          "count": 1
+        },
+        "V": {
+          "elnName": "Voltage Oriented Battery",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Current Oriented Battery",
+          "count": 1
+        },
+        "D": {
+          "vanilla": "diamond",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 772,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Single-use Battery",
+        "count": 1
+      },
+      "pattern": [
+        "ppp",
+        "III",
+        "ppp"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "p": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 776,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Single-use Battery",
+        "count": 1
+      },
+      "pattern": [
+        "ppp",
+        "III",
+        "ppp"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "p": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "1"
+        },
+        "I": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 786,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Utility Pole",
+        "count": 1
+      },
+      "pattern": [
+        "WWW",
+        "IWI",
+        " W "
+      ],
+      "key": {
+        "W": {
+          "ore": "logWood"
+        },
+        "I": {
+          "expression": "oreName"
+        }
+      }
+    },
+    {
+      "line": 787,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Direct Utility Pole",
+        "count": 1
+      },
+      "pattern": [
+        "WWW",
+        "IWI",
+        " WI"
+      ],
+      "key": {
+        "W": {
+          "ore": "logWood"
+        },
+        "I": {
+          "expression": "oreName"
+        }
+      }
+    },
+    {
+      "line": 793,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Utility Pole",
+        "count": 1
+      },
+      "pattern": [
+        "WWW",
+        "IWI",
+        " W "
+      ],
+      "key": {
+        "I": {
+          "ore": "ingotIron"
+        },
+        "W": {
+          "ore": "logWood"
+        }
+      }
+    },
+    {
+      "line": 795,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Utility Pole w/DC-DC Converter",
+        "count": 1
+      },
+      "pattern": [
+        "HHH",
+        " TC",
+        " PH"
+      ],
+      "key": {
+        "P": {
+          "elnName": "Utility Pole",
+          "count": 1
+        },
+        "H": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Optimal Ferromagnetic Core",
+          "count": 1
+        },
+        "T": {
+          "elnName": "DC-DC Converter",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 810,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Transmission Tower",
+        "count": 1
+      },
+      "pattern": [
+        "ii ",
+        "mi ",
+        " B "
+      ],
+      "key": {
+        "i": {
+          "expression": "ingotType"
+        },
+        "B": {
+          "expression": "blockType"
+        },
+        "m": {
+          "elnName": "Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 814,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Grid DC-DC Converter",
+        "count": 1
+      },
+      "pattern": [
+        "i i",
+        "mtm",
+        "imi"
+      ],
+      "key": {
+        "i": {
+          "expression": "ingotType"
+        },
+        "t": {
+          "elnName": "DC-DC Converter",
+          "count": 1
+        },
+        "m": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 818,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Grid Switch",
+        "count": 1
+      },
+      "pattern": [
+        "AGA",
+        "MRM",
+        "AGA"
+      ],
+      "key": {
+        "A": {
+          "expression": "ingotType"
+        },
+        "G": {
+          "elnName": "Gold Plate",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Rubber",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 829,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Furnace",
+        "count": 1
+      },
+      "pattern": [
+        "III",
+        "IFI",
+        "ICI"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "F": {
+          "vanilla": "furnace",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 833,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Canister of Water",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Inert Canister",
+          "count": 1
+        },
+        {
+          "vanilla": "water_bucket",
+          "count": 1,
+          "metadata": "0"
+        }
+      ]
+    },
+    {
+      "line": 840,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Analog Watch",
+        "count": 1
+      },
+      "pattern": [
+        "crc",
+        "III"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 844,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Digital Watch",
+        "count": 1
+      },
+      "pattern": [
+        "rcr",
+        "III"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 848,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Hub",
+        "count": 1
+      },
+      "pattern": [
+        "I I",
+        " c ",
+        "I I"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 853,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Energy Meter",
+        "count": 1
+      },
+      "pattern": [
+        "IcI",
+        "IRI",
+        "IcI"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 857,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Advanced Energy Meter",
+        "count": 1
+      },
+      "pattern": [
+        " c ",
+        "PRP",
+        " c "
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "P": {
+          "elnName": "Iron Plate",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 861,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "MQTT Energy Meter",
+        "count": 1
+      },
+      "pattern": [
+        "ICI",
+        "RMR",
+        "ICI"
+      ],
+      "key": {
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "M": {
+          "elnName": "Advanced Energy Meter",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 869,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Auto Miner",
+        "count": 1
+      },
+      "pattern": [
+        "MCM",
+        "BOB",
+        " P "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "O": {
+          "elnName": "Ore Scanner",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "P": {
+          "elnName": "Mining Pipe",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 879,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wind Turbine",
+        "count": 1
+      },
+      "pattern": [
+        " I ",
+        "IMI",
+        " B "
+      ],
+      "key": {
+        "B": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 889,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Water Turbine",
+        "count": 1
+      },
+      "pattern": [
+        "  I",
+        "BMI",
+        "  I"
+      ],
+      "key": {
+        "I": {
+          "ore": "plateIron"
+        },
+        "B": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 898,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Fuel Generator",
+        "count": 1
+      },
+      "pattern": [
+        "III",
+        " BA",
+        "CMC"
+      ],
+      "key": {
+        "I": {
+          "ore": "plateIron"
+        },
+        "B": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Analogic Regulator",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 904,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Fuel Generator",
+        "count": 1
+      },
+      "pattern": [
+        "III",
+        " BA",
+        "CMC"
+      ],
+      "key": {
+        "I": {
+          "ore": "plateIron"
+        },
+        "B": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Analogic Regulator",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 915,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Solar Panel",
+        "count": 1
+      },
+      "pattern": [
+        "LLL",
+        "CSC",
+        "III"
+      ],
+      "key": {
+        "S": {
+          "ore": "plateSilicon"
+        },
+        "L": {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 920,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Rotating Solar Panel",
+        "count": 1
+      },
+      "pattern": [
+        "ISI",
+        "I I"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Small Solar Panel",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 926,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "2x3 Solar Panel",
+        "count": 1
+      },
+      "pattern": [
+        "PPP",
+        "PPP",
+        "I I"
+      ],
+      "key": {
+        "P": {
+          "expression": "findItemStack(panel)"
+        },
+        "I": {
+          "expression": "metal"
+        }
+      }
+    },
+    {
+      "line": 929,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "2x3 Rotating Solar Panel",
+        "count": 1
+      },
+      "pattern": [
+        "ISI",
+        "IMI",
+        "I I"
+      ],
+      "key": {
+        "S": {
+          "elnName": "2x3 Solar Panel",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 938,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Passive Thermal Dissipator",
+        "count": 1
+      },
+      "pattern": [
+        "I I",
+        "III",
+        "CIC"
+      ],
+      "key": {
+        "I": {
+          "ore": "ingotCopper"
+        },
+        "C": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 942,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Active Thermal Dissipator",
+        "count": 1
+      },
+      "pattern": [
+        "RMR",
+        " D "
+      ],
+      "key": {
+        "D": {
+          "elnName": "Small Passive Thermal Dissipator",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 948,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Active Thermal Dissipator",
+        "count": 1
+      },
+      "pattern": [
+        "RMR",
+        " D "
+      ],
+      "key": {
+        "D": {
+          "elnName": "Small Passive Thermal Dissipator",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 954,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermal Heat Exchanger",
+        "count": 1
+      },
+      "pattern": [
+        "STS",
+        "CCC",
+        "SAS"
+      ],
+      "key": {
+        "S": {
+          "expression": "Items.iron_ingot"
+        },
+        "T": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Copper Plate",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 964,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Copper Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "C C",
+        "CCC",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 970,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Copper Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 50V Copper Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 971,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 200V Copper Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "50V Copper Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 972,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Copper Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 200V Copper Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 975,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Iron Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "C C",
+        "CCC",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 976,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Iron Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 50V Iron Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 977,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 200V Iron Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "50V Iron Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 978,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Iron Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 200V Iron Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 979,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "C C",
+        "CCC",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Tungsten Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 985,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 50V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 990,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 200V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "50V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 995,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 200V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1000,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 800V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "200V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1005,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "800V Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 800V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1010,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 3.2kV Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "800V Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1015,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "3.2kV Tungsten Heating Element",
+        "count": 1
+      },
+      "pattern": [
+        "CC"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Small 3.2kV Tungsten Heating Element",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1024,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "On/OFF Regulator 10 Percent",
+        "count": 1
+      },
+      "pattern": [
+        "R R",
+        " R ",
+        " I "
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1028,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "On/OFF Regulator 1 Percent",
+        "count": 1
+      },
+      "pattern": [
+        "RRR",
+        " I "
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1032,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Analogic Regulator",
+        "count": 1
+      },
+      "pattern": [
+        "R R",
+        " C ",
+        " I "
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        }
+      }
+    },
+    {
+      "line": 1040,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "expression": "Eln.dictTungstenIngot"
+        },
+        "S": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1044,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "expression": "Eln.dictTungstenIngot"
+        },
+        "S": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1048,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "expression": "Eln.dictTungstenIngot"
+        },
+        "S": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1053,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Carbon Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1057,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Carbon Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "1"
+        },
+        "S": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1061,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Carbon Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1065,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Carbon Incandescent Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "coal",
+          "count": 1,
+          "metadata": "1"
+        },
+        "S": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1072,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small 50V Economic Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "glowstone_dust",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1079,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Economic Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "glowstone_dust",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1086,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Economic Light Bulb",
+        "count": 4
+      },
+      "pattern": [
+        " G ",
+        "GFG",
+        " S "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "vanilla": "glowstone_dust",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1093,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Farming Lamp",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "FFF",
+        "GSG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "expression": "Eln.dictTungstenIngot"
+        },
+        "S": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1097,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Farming Lamp",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "FFF",
+        "GSG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "F": {
+          "expression": "Eln.dictTungstenIngot"
+        },
+        "S": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1101,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V LED Bulb",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "SSS",
+        " C "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Silicon Ingot",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1105,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V LED Bulb",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "SSS",
+        " C "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Silicon Ingot",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1110,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Halogen Bulb",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "CTC",
+        "GGG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "T": {
+          "elnName": "Tungsten Ingot",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1114,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Halogen Bulb",
+        "count": 2
+      },
+      "pattern": [
+        "GGG",
+        "CTC",
+        "GGG"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        },
+        "T": {
+          "elnName": "Tungsten Ingot",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1121,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Overvoltage Protection",
+        "count": 4
+      },
+      "pattern": [
+        "SCD"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Electrical Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "D": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1125,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Overheating Protection",
+        "count": 4
+      },
+      "pattern": [
+        "SCD"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Thermal Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "D": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1132,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Combustion Chamber",
+        "count": 1
+      },
+      "pattern": [
+        " L ",
+        "L L",
+        " L "
+      ],
+      "key": {
+        "L": {
+          "vanilla": "stone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1133,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermal Insulation",
+        "count": 4
+      },
+      "pattern": [
+        "WSW",
+        "SWS",
+        "WSW"
+      ],
+      "key": {
+        "S": {
+          "vanilla": "stone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "W": {
+          "vanilla": "wool",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1140,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Cheap Ferromagnetic Core",
+        "count": 1
+      },
+      "pattern": [
+        "LLL",
+        "L  ",
+        "LLL"
+      ],
+      "key": {
+        "L": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1141,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Average Ferromagnetic Core",
+        "count": 1
+      },
+      "pattern": [
+        "PCP"
+      ],
+      "key": {
+        "C": {
+          "elnName": "Cheap Ferromagnetic Core",
+          "count": 1
+        },
+        "P": {
+          "ore": "plateIron"
+        }
+      }
+    },
+    {
+      "line": 1145,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Optimal Ferromagnetic Core",
+        "count": 1
+      },
+      "pattern": [
+        " P ",
+        "PCP",
+        " P "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Average Ferromagnetic Core",
+          "count": 1
+        },
+        "P": {
+          "ore": "plateIron"
+        }
+      }
+    },
+    {
+      "line": 1158,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Alloy Dust",
+        "count": 6
+      },
+      "ingredients": [
+        {
+          "ore": "dustIron"
+        },
+        {
+          "ore": "dustCoal"
+        },
+        {
+          "expression": "Eln.dictTungstenDust"
+        },
+        {
+          "expression": "Eln.dictTungstenDust"
+        },
+        {
+          "expression": "Eln.dictTungstenDust"
+        },
+        {
+          "expression": "Eln.dictTungstenDust"
+        }
+      ]
+    },
+    {
+      "line": 1162,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Inert Canister",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Diamond Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        },
+        {
+          "elnName": "Lapis Dust",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1174,
+      "category": "helper_declaration",
+      "type": "shapeless",
+      "result": {
+        "expression": "output: ItemStack"
+      },
+      "ingredients": [
+        {
+          "expression": "vararg params: Any"
+        }
+      ]
+    },
+    {
+      "line": 1175,
+      "category": "helper_implementation",
+      "type": "shaped",
+      "result": {
+        "expression": "ShapelessOreRecipe(output, *params)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1179,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Motor",
+        "count": 1
+      },
+      "pattern": [
+        " C ",
+        "III",
+        "C C"
+      ],
+      "key": {
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1184,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Advanced Electrical Motor",
+        "count": 1
+      },
+      "pattern": [
+        "RCR",
+        "MIM",
+        "CRC"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Magnet",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1195,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Solar Tracker",
+        "count": 4
+      },
+      "pattern": [
+        "VVV",
+        "RQR",
+        "III"
+      ],
+      "key": {
+        "Q": {
+          "vanilla": "quartz",
+          "count": 1,
+          "metadata": "0"
+        },
+        "V": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "G": {
+          "vanilla": "gold_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1209,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "MultiMeter",
+        "count": 1
+      },
+      "pattern": [
+        "RGR",
+        "RER",
+        "RCR"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Electrical Probe Chip",
+          "count": 1
+        },
+        "E": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 1213,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermometer",
+        "count": 1
+      },
+      "pattern": [
+        "RGR",
+        "RER",
+        "RCR"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "elnName": "Thermal Probe Chip",
+          "count": 1
+        },
+        "E": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 1217,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "AllMeter",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "MultiMeter",
+          "count": 1
+        },
+        {
+          "elnName": "Thermometer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1218,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Analyser",
+        "count": 1
+      },
+      "pattern": [
+        " S ",
+        "RGR",
+        "RER"
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        },
+        "E": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 1222,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Config Copy Tool",
+        "count": 1
+      },
+      "pattern": [
+        "wR",
+        "RC"
+      ],
+      "key": {
+        "w": {
+          "elnName": "Wrench",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 1229,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Cheap Electrical Drill",
+        "count": 1
+      },
+      "pattern": [
+        "CMC",
+        " T ",
+        " P "
+      ],
+      "key": {
+        "T": {
+          "elnName": "Mining Pipe",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "P": {
+          "vanilla": "iron_pickaxe",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1233,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Average Electrical Drill",
+        "count": 1
+      },
+      "pattern": [
+        "RCR",
+        " D ",
+        " d "
+      ],
+      "key": {
+        "R": {
+          "expression": "Items.redstone"
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "D": {
+          "elnName": "Cheap Electrical Drill",
+          "count": 1
+        },
+        "d": {
+          "vanilla": "diamond",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1237,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Fast Electrical Drill",
+        "count": 1
+      },
+      "pattern": [
+        "MCM",
+        " T ",
+        " P "
+      ],
+      "key": {
+        "T": {
+          "elnName": "Mining Pipe",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "M": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "P": {
+          "vanilla": "diamond_pickaxe",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1241,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Turbo Electrical Drill",
+        "count": 1
+      },
+      "pattern": [
+        "RCR",
+        " F ",
+        " D "
+      ],
+      "key": {
+        "F": {
+          "elnName": "Fast Electrical Drill",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "R": {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        "D": {
+          "elnName": "Synthetic Diamond",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1247,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Irresponsible Electrical Drill",
+        "count": 1
+      },
+      "pattern": [
+        "DDD",
+        "DFD",
+        "DDD"
+      ],
+      "key": {
+        "F": {
+          "elnName": "Turbo Electrical Drill",
+          "count": 1
+        },
+        "D": {
+          "elnName": "Synthetic Diamond",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1256,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Ore Scanner",
+        "count": 1
+      },
+      "pattern": [
+        "IGI",
+        "RCR",
+        "IGI"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "gold_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1263,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Mining Pipe",
+        "count": 12
+      },
+      "pattern": [
+        "A",
+        "A"
+      ],
+      "key": {
+        "A": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 1267,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Tree Resin Collector",
+        "count": 1
+      },
+      "pattern": [
+        "W W",
+        "WW "
+      ],
+      "key": {
+        "W": {
+          "ore": "plankWood"
+        }
+      }
+    },
+    {
+      "line": 1268,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Tree Resin Collector",
+        "count": 1
+      },
+      "pattern": [
+        "W W",
+        " WW"
+      ],
+      "key": {
+        "W": {
+          "ore": "plankWood"
+        }
+      }
+    },
+    {
+      "line": 1272,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Copper Cable",
+        "count": 12
+      },
+      "pattern": [
+        "III"
+      ],
+      "key": {
+        "I": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 1275,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Iron Cable",
+        "count": 12
+      },
+      "pattern": [
+        "I  ",
+        "I  ",
+        "I  "
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1277,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Iron Cable",
+        "count": 12
+      },
+      "pattern": [
+        "III"
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1280,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Tungsten Cable",
+        "count": 6
+      },
+      "pattern": [
+        "III"
+      ],
+      "key": {
+        "I": {
+          "expression": "Eln.dictTungstenIngot"
+        }
+      }
+    },
+    {
+      "line": 1291,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Creative Cable",
+        "count": 1
+      },
+      "pattern": [
+        "I",
+        "S"
+      ],
+      "key": {
+        "S": {
+          "elnName": "unreleasedium",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Synthetic Diamond",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1295,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.arcClayBlock)"
+      },
+      "pattern": [
+        "III",
+        "III",
+        "III"
+      ],
+      "key": {
+        "I": {
+          "elnName": "Arc Clay Ingot",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1296,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Arc Clay Ingot",
+        "count": 9
+      },
+      "pattern": [
+        "I"
+      ],
+      "key": {
+        "I": {
+          "expression": "ItemStack(Eln.arcClayBlock)"
+        }
+      }
+    },
+    {
+      "line": 1297,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.arcMetalBlock)"
+      },
+      "pattern": [
+        "III",
+        "III",
+        "III"
+      ],
+      "key": {
+        "I": {
+          "elnName": "Arc Metal Ingot",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1298,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Arc Metal Ingot",
+        "count": 9
+      },
+      "pattern": [
+        "I"
+      ],
+      "key": {
+        "I": {
+          "expression": "ItemStack(Eln.arcMetalBlock)"
+        }
+      }
+    },
+    {
+      "line": 1299,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Graphite Rod",
+        "count": 2
+      },
+      "pattern": [
+        "I"
+      ],
+      "key": {
+        "I": {
+          "elnName": "2x Graphite Rods",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1300,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Graphite Rod",
+        "count": 3
+      },
+      "pattern": [
+        "I"
+      ],
+      "key": {
+        "I": {
+          "elnName": "3x Graphite Rods",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1301,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Graphite Rod",
+        "count": 4
+      },
+      "pattern": [
+        "I"
+      ],
+      "key": {
+        "I": {
+          "elnName": "4x Graphite Rods",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1302,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "2x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1308,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "3x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1314,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "3x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "2x Graphite Rods",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1320,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "4x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1326,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "4x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "2x Graphite Rods",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1331,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "4x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "2x Graphite Rods",
+          "count": 1
+        },
+        {
+          "elnName": "2x Graphite Rods",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1337,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "4x Graphite Rods",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "3x Graphite Rods",
+          "count": 1
+        },
+        {
+          "elnName": "Graphite Rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1342,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "vanilla": "diamond",
+        "count": 2,
+        "metadata": "0"
+      },
+      "ingredients": [
+        {
+          "elnName": "Synthetic Diamond",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1346,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Portable Battery",
+        "count": 1
+      },
+      "pattern": [
+        " I ",
+        "IPI",
+        "IPI"
+      ],
+      "key": {
+        "P": {
+          "ore": "ingotLead"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1350,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Portable Battery Pack",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Battery",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1358,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Flashlight",
+        "count": 1
+      },
+      "pattern": [
+        "GLG",
+        "IBI",
+        " I "
+      ],
+      "key": {
+        "L": {
+          "elnName": "50V Incandescent Light Bulb",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1365,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Improved Flashlight",
+        "count": 1
+      },
+      "pattern": [
+        "GLG",
+        "IBI",
+        " I "
+      ],
+      "key": {
+        "L": {
+          "elnName": "50V LED Bulb",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Portable Battery Pack",
+          "count": 1
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1370,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Portable Electrical Mining Drill",
+        "count": 1
+      },
+      "pattern": [
+        " T ",
+        "IBI",
+        " I "
+      ],
+      "key": {
+        "T": {
+          "elnName": "Average Electrical Drill",
+          "count": 1
+        },
+        "B": {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1376,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Portable Electrical Axe",
+        "count": 1
+      },
+      "pattern": [
+        " T ",
+        "IMI",
+        "IBI"
+      ],
+      "key": {
+        "T": {
+          "vanilla": "iron_axe",
+          "count": 1,
+          "metadata": "0"
+        },
+        "B": {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        "M": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1382,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "X-Ray Scanner",
+        "count": 1
+      },
+      "pattern": [
+        "PGP",
+        "PCP",
+        "PBP"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "B": {
+          "elnName": "Portable Battery",
+          "count": 1
+        },
+        "P": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "G": {
+          "elnName": "Ore Scanner",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1391,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "E-Coal Helmet",
+        "count": 1
+      },
+      "pattern": [
+        "PPP",
+        "PCP"
+      ],
+      "key": {
+        "P": {
+          "ore": "plateCoal"
+        },
+        "C": {
+          "elnName": "Portable Condensator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1397,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "E-Coal Boots",
+        "count": 1
+      },
+      "pattern": [
+        " C ",
+        "P P",
+        "P P"
+      ],
+      "key": {
+        "P": {
+          "ore": "plateCoal"
+        },
+        "C": {
+          "elnName": "Portable Condensator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1403,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "E-Coal Chestplate",
+        "count": 1
+      },
+      "pattern": [
+        "P P",
+        "PCP",
+        "PPP"
+      ],
+      "key": {
+        "P": {
+          "ore": "plateCoal"
+        },
+        "C": {
+          "elnName": "Portable Condensator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1408,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "E-Coal Leggings",
+        "count": 1
+      },
+      "pattern": [
+        "PPP",
+        "PCP",
+        "P P"
+      ],
+      "key": {
+        "P": {
+          "ore": "plateCoal"
+        },
+        "C": {
+          "elnName": "Portable Condensator",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1416,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Portable Condensator",
+        "count": 1
+      },
+      "pattern": [
+        " r ",
+        "cDc",
+        " r "
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "D": {
+          "elnName": "Dielectric",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1420,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Portable Condensator Pack",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "Portable Condensator",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Condensator",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Condensator",
+          "count": 1
+        },
+        {
+          "elnName": "Portable Condensator",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 1430,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Cheap Chip",
+        "count": 1
+      },
+      "pattern": [
+        " R ",
+        "RSR",
+        " R "
+      ],
+      "key": {
+        "S": {
+          "ore": "ingotSilicon"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1434,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Advanced Chip",
+        "count": 1
+      },
+      "pattern": [
+        "LRL",
+        "RCR",
+        "LRL"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "L": {
+          "ore": "ingotSilicon"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1438,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Machine Block",
+        "count": 1
+      },
+      "pattern": [
+        "rLr",
+        "LcL",
+        "rLr"
+      ],
+      "key": {
+        "L": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "r": {
+          "elnName": "Tree Resin",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1442,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Advanced Machine Block",
+        "count": 1
+      },
+      "pattern": [
+        "rCr",
+        "CcC",
+        "rCr"
+      ],
+      "key": {
+        "C": {
+          "ore": "plateAlloy"
+        },
+        "r": {
+          "elnName": "Tree Resin",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1446,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Probe Chip",
+        "count": 1
+      },
+      "pattern": [
+        " R ",
+        "RCR",
+        " R "
+      ],
+      "key": {
+        "C": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1452,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermal Probe Chip",
+        "count": 1
+      },
+      "pattern": [
+        " C ",
+        "RIR",
+        " C "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "gold_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "C": {
+          "ore": "ingotCopper"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 1456,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "c",
+        "c"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1457,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Machine Booster",
+        "count": 1
+      },
+      "pattern": [
+        "m",
+        "c",
+        "m"
+      ],
+      "key": {
+        "m": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "c": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 1461,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wrench",
+        "count": 1
+      },
+      "pattern": [
+        " c ",
+        "cc ",
+        "  c"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1462,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Player Filter",
+        "count": 1
+      },
+      "pattern": [
+        " g",
+        "gc",
+        " g"
+      ],
+      "key": {
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "vanilla": "dye",
+          "count": 1,
+          "metadata": "2"
+        }
+      }
+    },
+    {
+      "line": 1466,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Monster Filter",
+        "count": 1
+      },
+      "pattern": [
+        " g",
+        "gc",
+        " g"
+      ],
+      "key": {
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "vanilla": "dye",
+          "count": 1,
+          "metadata": "1"
+        }
+      }
+    },
+    {
+      "line": 1470,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Animal Filter",
+        "count": 1
+      },
+      "pattern": [
+        " g",
+        "gc",
+        " g"
+      ],
+      "key": {
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "vanilla": "dye",
+          "count": 1,
+          "metadata": "4"
+        }
+      }
+    },
+    {
+      "line": 1474,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Casing",
+        "count": 1
+      },
+      "pattern": [
+        "ppp",
+        "p p",
+        "ppp"
+      ],
+      "key": {
+        "p": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1475,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Iron Clutch Plate",
+        "count": 1
+      },
+      "pattern": [
+        " t ",
+        "tIt",
+        " t "
+      ],
+      "key": {
+        "I": {
+          "ore": "plateIron"
+        },
+        "t": {
+          "expression": "Eln.dictTungstenDust"
+        }
+      }
+    },
+    {
+      "line": 1476,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Gold Clutch Plate",
+        "count": 1
+      },
+      "pattern": [
+        " t ",
+        "tGt",
+        " t "
+      ],
+      "key": {
+        "G": {
+          "ore": "plateGold"
+        },
+        "t": {
+          "expression": "Eln.dictTungstenDust"
+        }
+      }
+    },
+    {
+      "line": 1477,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Copper Clutch Plate",
+        "count": 1
+      },
+      "pattern": [
+        " t ",
+        "tCt",
+        " t "
+      ],
+      "key": {
+        "C": {
+          "ore": "plateCopper"
+        },
+        "t": {
+          "expression": "Eln.dictTungstenDust"
+        }
+      }
+    },
+    {
+      "line": 1487,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lead Clutch Plate",
+        "count": 1
+      },
+      "pattern": [
+        " t ",
+        "tLt",
+        " t "
+      ],
+      "key": {
+        "L": {
+          "ore": "plateLead"
+        },
+        "t": {
+          "expression": "Eln.dictTungstenDust"
+        }
+      }
+    },
+    {
+      "line": 1488,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Coal Clutch Plate",
+        "count": 1
+      },
+      "pattern": [
+        " t ",
+        "tCt",
+        " t "
+      ],
+      "key": {
+        "C": {
+          "ore": "plateCoal"
+        },
+        "t": {
+          "expression": "Eln.dictTungstenDust"
+        }
+      }
+    },
+    {
+      "line": 1489,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Clutch Pin",
+        "count": 4
+      },
+      "pattern": [
+        "s",
+        "s"
+      ],
+      "key": {
+        "s": {
+          "expression": "firstExistingOre(\"ingotSteel\", \"ingotAlloy\")"
+        }
+      }
+    },
+    {
+      "line": 1490,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Motor Cowling",
+        "count": 1
+      },
+      "pattern": [
+        "ISI",
+        "MAM",
+        "ISI"
+      ],
+      "key": {
+        "I": {
+          "elnName": "Iron Plate",
+          "count": 1
+        },
+        "S": {
+          "expression": "firstExistingOre(\"ingotSteel\", \"ingotAluminum\", \"ingotAlloy\")"
+        },
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1504,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Heavy Winding",
+        "count": 1
+      },
+      "pattern": [
+        "cRc",
+        "RTR",
+        "cRc"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Copper Cable",
+          "count": 1
+        },
+        "R": {
+          "elnName": "Tree Resin",
+          "count": 1
+        },
+        "T": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 1516,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Reinforced Shaft",
+        "count": 1
+      },
+      "pattern": [
+        " s ",
+        "sFs",
+        "AMA"
+      ],
+      "key": {
+        "s": {
+          "expression": "firstExistingOre(\"ingotSteel\", \"ingotAlloy\", \"ingotIron\")"
+        },
+        "F": {
+          "elnName": "Fixed Shaft",
+          "count": 1
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "M": {
+          "expression": "firstExistingOre(\"blockSteel\", \"blockAlloy\", \"blockIron\")"
+        }
+      }
+    },
+    {
+      "line": 1530,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Turbine Blade Set",
+        "count": 1
+      },
+      "pattern": [
+        "SIS",
+        "BAB",
+        "SIS"
+      ],
+      "key": {
+        "S": {
+          "expression": "firstExistingOre(\"ingotAluminum\", \"ingotSteel\")"
+        },
+        "I": {
+          "elnName": "Iron Plate",
+          "count": 1
+        },
+        "B": {
+          "ore": "plateAlloy"
+        },
+        "A": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 1548,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.coal_ore, 1), ItemStack(Items.coal, 3, 0), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1554,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Copper Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Dust\", 2 ) ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1564,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.iron_ore), arrayOf<ItemStack>( Eln.findItemStack( \"Iron \" + \"Dust\", 2 ) ), 1.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1574,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.gold_ore), arrayOf<ItemStack>( Eln.findItemStack( \"Gold \" + \"Dust\", 2 ) ), 3.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1584,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Lead Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 2 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1594,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Tungsten Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten \" + \"Dust\", 2 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1604,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.coal, 1, 0), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 1 ) ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1614,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.coal, 1, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 1 ) ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1624,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.sand, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Silicon \" + \"Dust\", 1 ) ), 3.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1634,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Cinnabar Ore\"), arrayOf<ItemStack>( Eln.findItemStack( \"Cinnabar \" + \"Dust\", 1 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1644,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.dye, 1, 4), arrayOf<ItemStack>( Eln.findItemStack( \"Lapis \" + \"Dust\", 1 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1654,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.diamond, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Diamond\" + \" Dust\", 1 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1665,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Copper Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Dust\", 1 ) ), 0.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1675,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.iron_ingot), arrayOf<ItemStack>( Eln.findItemStack( \"Iron \" + \"Dust\", 1 ) ), 0.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1685,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.gold_ingot), arrayOf<ItemStack>( Eln.findItemStack( \"Gold \" + \"Dust\", 1 ) ), 0.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1695,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Lead Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 1 ) ), 0.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1705,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Tungsten Ingot\"), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten Dust\", 1 ) ), 0.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1715,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.cobblestone), arrayOf<ItemStack>(ItemStack(Blocks.gravel)), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1721,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.gravel), arrayOf<ItemStack>(ItemStack(Items.flint)), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1728,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.dirt), arrayOf<ItemStack>(ItemStack(Blocks.sand)), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1735,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"E-Coal Helmet\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 16 ) ), 10.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1745,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"E-Coal Boots\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 12 ) ), 10.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1755,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"E-Coal Chestplate\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal\" + \" Dust\", 24 ) ), 10.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1765,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"E-Coal Leggings\"), arrayOf<ItemStack>( Eln.findItemStack( \"Coal \" + \"Dust\", 24 ) ), 10.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1775,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Cost Oriented Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 6 ) ), 12.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1784,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Life Oriented Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Lead Dust\", 6 ) ), 12.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1793,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Current Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1799,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Voltage Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1805,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Capacity Oriented Battery\"), arrayOf<ItemStack>(Eln.findItemStack(\"Lead Dust\", 6)), 12.5 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1811,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( findItemStack(\"Single-use Battery\"), arrayOf<ItemStack>( Eln.findItemStack( \"Copper Dust\", 3 ) ), 10.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1825,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.iron_ore, 1), arrayOf<ItemStack>(ItemStack(Items.iron_ingot, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1831,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.gold_ore, 1), arrayOf<ItemStack>(ItemStack(Items.gold_ingot, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1837,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.coal_ore, 1), arrayOf<ItemStack>(ItemStack(Items.coal, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1843,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.redstone_ore, 1), arrayOf<ItemStack>(ItemStack(Items.redstone, 6)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1849,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.lapis_ore, 1), arrayOf<ItemStack>(ItemStack(Blocks.lapis_block, 1)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1855,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.diamond_ore, 1), arrayOf<ItemStack>(ItemStack(Items.diamond, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1861,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.emerald_ore, 1), arrayOf<ItemStack>(ItemStack(Items.emerald, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1867,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Blocks.quartz_ore, 1), arrayOf<ItemStack>(ItemStack(Items.quartz, 2)), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1873,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Copper Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Copper \" + \"Ingot\", 2 ) ), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1883,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Lead Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Lead \" + \"Ingot\", 2 ) ), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1893,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Tungsten Ore\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Tungsten Ingot\", 2 ) ), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1902,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Alloy Dust\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Alloy \" + \"Ingot\", 1 ) ), smeltf.toDouble() )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1912,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.clay_ball, 2), arrayOf<ItemStack>( Eln.findItemStack( \"Arc \" + \"Clay Ingot\", 1 ) ), 2.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1922,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.iron_ingot, 1), arrayOf<ItemStack>( Eln.findItemStack( \"Arc\" + \" Metal Ingot\", 1 ) ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1932,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Canister of Water\", 1), arrayOf<ItemStack>( Eln.findItemStack( \"Canister of Arc Water\", 1 ) ), 7000000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1974,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe(input, output, f.toDouble())"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1980,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Copper Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Copper Plate\" ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1987,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Lead Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Lead Plate\" ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 1994,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Silicon Ingot\", 4), findItemStack(\"Silicon Plate\"), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2000,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Alloy Ingot\", Eln.instance.plateConversionRatio), findItemStack( \"Alloy Plate\" ), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2007,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.iron_ingot, Eln.instance.plateConversionRatio, 0), findItemStack(\"Iron Plate\"), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2013,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.gold_ingot, Eln.instance.plateConversionRatio, 0), findItemStack(\"Gold Plate\"), 1.0 * f )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2022,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"4x Graphite Rods\", 1), findItemStack( \"Synthetic \" + \"Diamond\" ), 80000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2030,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe(Eln.findItemStack(\"Coal Dust\", 4), findItemStack(\"Coal Plate\"), 40000.0)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2031,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe(Eln.findItemStack(\"Coal Plate\", 4), findItemStack(\"Graphite Rod\"), 80000.0)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2032,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe(ItemStack(Blocks.sand), findItemStack(\"Dielectric\"), 2000.0)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2033,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe(ItemStack(Blocks.log), findItemStack(\"Tree Resin\"), 3000.0)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2037,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( ItemStack(Items.iron_ingot, 2), arrayOf<ItemStack>( findItemStack( \"Basic Magnet\" ) ), 5000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2046,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Alloy Ingot\", 2), arrayOf<ItemStack>( findItemStack( \"Advanced Magnet\" ) ), 15000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2055,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Copper Dust\", 1), arrayOf<ItemStack>(ItemStack(Items.redstone)), 5000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2061,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Basic Magnet\", 3), arrayOf<ItemStack>( findItemStack( \"Optimal Ferromagnetic Core\" ) ), 5000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2070,
+      "category": "processing",
+      "type": "shaped",
+      "result": {
+        "expression": "Recipe( Eln.findItemStack(\"Inert Canister\", 1), arrayOf<ItemStack>(ItemStack(Items.ender_pearl)), 150000.0 )"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2079,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Small Fuel Burner",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        " Cc",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Combustion Chamber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2083,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Fuel Burner",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        " Cc",
+        " C "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Combustion Chamber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2087,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Big Fuel Burner",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "CCc",
+        "CC "
+      ],
+      "key": {
+        "C": {
+          "elnName": "Combustion Chamber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Copper Thermal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2122,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage Probe",
+        "count": 1
+      },
+      "pattern": [
+        "SC"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Electrical Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2126,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Probe",
+        "count": 1
+      },
+      "pattern": [
+        "SCS"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Electrical Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2133,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermal Probe",
+        "count": 1
+      },
+      "pattern": [
+        "SCS"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Thermal Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2137,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Temperature Probe",
+        "count": 1
+      },
+      "pattern": [
+        "SC"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Thermal Probe Chip",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2144,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Experimental Transporter",
+        "count": 1
+      },
+      "pattern": [
+        "RMR",
+        "RMR",
+        " R "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        },
+        "R": {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      }
+    },
+    {
+      "line": 2153,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "800V Defence Turret",
+        "count": 1
+      },
+      "pattern": [
+        " R ",
+        "CMC",
+        " c "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "expression": "Eln.instance.highVoltageCableDescriptor.newItemStack()"
+        },
+        "R": {
+          "vanilla": "redstone_block",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2163,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Macerator",
+        "count": 1
+      },
+      "pattern": [
+        "IRI",
+        "FMF",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "F": {
+          "vanilla": "flint",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2168,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Macerator",
+        "count": 1
+      },
+      "pattern": [
+        "ICI",
+        "DMD",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "D": {
+          "vanilla": "diamond",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 2175,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Compressor",
+        "count": 1
+      },
+      "pattern": [
+        "IRI",
+        "FMF",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "F": {
+          "ore": "plateIron"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2180,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Compressor",
+        "count": 1
+      },
+      "pattern": [
+        "ICI",
+        "DMD",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "D": {
+          "ore": "plateAlloy"
+        },
+        "I": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 2187,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Plate Machine",
+        "count": 1
+      },
+      "pattern": [
+        "IRI",
+        "IMI",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2191,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Plate Machine",
+        "count": 1
+      },
+      "pattern": [
+        "DCD",
+        "DMD",
+        "DcD"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "D": {
+          "ore": "plateAlloy"
+        },
+        "I": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 2198,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Magnetizer",
+        "count": 1
+      },
+      "pattern": [
+        "IRI",
+        "cMc",
+        "III"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2202,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Magnetizer",
+        "count": 1
+      },
+      "pattern": [
+        "ICI",
+        "cMc",
+        "III"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Advanced Electrical Motor",
+          "count": 1
+        },
+        "I": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 2208,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Old 800V Arc Furnace",
+        "count": 1
+      },
+      "pattern": [
+        "ICI",
+        "DMD",
+        "IcI"
+      ],
+      "key": {
+        "M": {
+          "elnName": "Advanced Machine Block",
+          "count": 1
+        },
+        "C": {
+          "elnName": "3x Graphite Rods",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Synthetic Diamond",
+          "count": 1
+        },
+        "D": {
+          "ore": "plateGold"
+        },
+        "I": {
+          "ore": "ingotAlloy"
+        }
+      }
+    },
+    {
+      "line": 2218,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Electrical Timer",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "vanilla": "repeater",
+          "count": 1,
+          "metadata": "0"
+        },
+        {
+          "expression": "Eln.dictCheapChip"
+        }
+      ]
+    },
+    {
+      "line": 2219,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Processor",
+        "count": 1
+      },
+      "pattern": [
+        "IcI",
+        "cCc",
+        "IcI"
+      ],
+      "key": {
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        }
+      }
+    },
+    {
+      "line": 2226,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Redstone-to-Voltage Converter",
+        "count": 1
+      },
+      "pattern": [
+        "TCS"
+      ],
+      "key": {
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "T": {
+          "vanilla": "redstone_torch",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2230,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Voltage-to-Redstone Converter",
+        "count": 1
+      },
+      "pattern": [
+        "CTR"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "T": {
+          "vanilla": "redstone_torch",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2237,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Electrical Daylight Sensor",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "vanilla": "daylight_detector",
+          "count": 1,
+          "metadata": "0"
+        },
+        {
+          "elnName": "Redstone-to-Voltage Converter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 2241,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Electrical Light Sensor",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "vanilla": "daylight_detector",
+          "count": 1,
+          "metadata": "0"
+        },
+        {
+          "vanilla": "quartz",
+          "count": 1,
+          "metadata": "0"
+        },
+        {
+          "elnName": "Redstone-to-Voltage Converter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 2245,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Humidity Sensor",
+        "count": 1
+      },
+      "pattern": [
+        " r ",
+        "rRr",
+        " r "
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "r": {
+          "ore": "itemRubber"
+        }
+      }
+    },
+    {
+      "line": 2249,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Thermometer Sensor",
+        "count": 1
+      },
+      "pattern": [
+        " q ",
+        "rRr",
+        " r "
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "q": {
+          "vanilla": "quartz",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2253,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Anemometer Sensor",
+        "count": 1
+      },
+      "pattern": [
+        " I ",
+        " R ",
+        "I I"
+      ],
+      "key": {
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2257,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Entity Sensor",
+        "count": 1
+      },
+      "pattern": [
+        " G ",
+        "GRG",
+        " G "
+      ],
+      "key": {
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2261,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Fire Detector",
+        "count": 1
+      },
+      "pattern": [
+        "cbr",
+        "p p",
+        "r r"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "b": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "p": {
+          "ore": "plateCopper"
+        }
+      }
+    },
+    {
+      "line": 2265,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Fire Buzzer",
+        "count": 1
+      },
+      "pattern": [
+        "rar",
+        "p p",
+        "r r"
+      ],
+      "key": {
+        "a": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "p": {
+          "ore": "plateCopper"
+        }
+      }
+    },
+    {
+      "line": 2269,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Scanner",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "vanilla": "comparator",
+          "count": 1,
+          "metadata": "0"
+        },
+        {
+          "expression": "Eln.dictAdvancedChip"
+        }
+      ]
+    },
+    {
+      "line": 2273,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Analog vuMeter",
+        "count": 1
+      },
+      "pattern": [
+        "WWW",
+        "RIr",
+        "WSW"
+      ],
+      "key": {
+        "W": {
+          "ore": "plankWood"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "r": {
+          "expression": "ItemStack( Items.dye, 1, 1 )"
+        },
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2280,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "LED vuMeter",
+        "count": 1
+      },
+      "pattern": [
+        " W ",
+        "WTW",
+        " S "
+      ],
+      "key": {
+        "W": {
+          "ore": "plankWood"
+        },
+        "T": {
+          "vanilla": "redstone_torch",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2284,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Multicolor LED vuMeter",
+        "count": 1
+      },
+      "pattern": [
+        " W ",
+        "WRW",
+        " S "
+      ],
+      "key": {
+        "W": {
+          "ore": "plankWood"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "S": {
+          "elnName": "Signal Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2291,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Breaker",
+        "count": 1
+      },
+      "pattern": [
+        "crC"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Overvoltage Protection",
+          "count": 1
+        },
+        "C": {
+          "elnName": "Overheating Protection",
+          "count": 1
+        },
+        "r": {
+          "elnName": "High Voltage Relay",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2298,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Electrical Fuse Holder",
+        "count": 1
+      },
+      "pattern": [
+        "i",
+        " ",
+        "i"
+      ],
+      "key": {
+        "i": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2299,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lead Fuse for low voltage cables",
+        "count": 4
+      },
+      "pattern": [
+        "rcr"
+      ],
+      "key": {
+        "r": {
+          "elnName": "itemRubber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2303,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lead Fuse for medium voltage cables",
+        "count": 4
+      },
+      "pattern": [
+        "rcr"
+      ],
+      "key": {
+        "r": {
+          "elnName": "itemRubber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2307,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lead Fuse for high voltage cables",
+        "count": 4
+      },
+      "pattern": [
+        "rcr"
+      ],
+      "key": {
+        "r": {
+          "elnName": "itemRubber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2311,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Lead Fuse for very high voltage cables",
+        "count": 4
+      },
+      "pattern": [
+        "rcr"
+      ],
+      "key": {
+        "r": {
+          "elnName": "itemRubber",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Very High Voltage Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2318,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Trimmer",
+        "count": 1
+      },
+      "pattern": [
+        "RsR",
+        "rRr",
+        " c "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2323,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Switch",
+        "count": 3
+      },
+      "pattern": [
+        " r ",
+        "rRr",
+        " c "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2328,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Signal Button",
+        "count": 3
+      },
+      "pattern": [
+        " R ",
+        "rRr",
+        " c "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2333,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Switch",
+        "count": 3
+      },
+      "pattern": [
+        " a ",
+        "rCr",
+        " r "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "a": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2353,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Wireless Button",
+        "count": 3
+      },
+      "pattern": [
+        " a ",
+        "rCr",
+        " R "
+      ],
+      "key": {
+        "M": {
+          "elnName": "Machine Block",
+          "count": 1
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "a": {
+          "elnName": "Signal Antenna",
+          "count": 1
+        },
+        "r": {
+          "ore": "itemRubber"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2376,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Data Logger",
+        "count": 1
+      },
+      "pattern": [
+        "RRR",
+        "RGR",
+        "RCR"
+      ],
+      "key": {
+        "R": {
+          "ore": "itemRubber"
+        },
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2380,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Modern Data Logger",
+        "count": 1
+      },
+      "pattern": [
+        "RRR",
+        "RGR",
+        "RCR"
+      ],
+      "key": {
+        "R": {
+          "ore": "itemRubber"
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2384,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Industrial Data Logger",
+        "count": 1
+      },
+      "pattern": [
+        "RRR",
+        "GGG",
+        "RCR"
+      ],
+      "key": {
+        "R": {
+          "ore": "itemRubber"
+        },
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2394,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Nuclear Alarm",
+        "count": 1
+      },
+      "pattern": [
+        "ITI",
+        "IMI",
+        "IcI"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "T": {
+          "vanilla": "redstone_torch",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "M": {
+          "vanilla": "noteblock",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2398,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Standard Alarm",
+        "count": 1
+      },
+      "pattern": [
+        "MTM",
+        "IcI",
+        "III"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "T": {
+          "vanilla": "redstone_torch",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "M": {
+          "vanilla": "noteblock",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2405,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Low Power Transmitter Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "R i",
+        "CI ",
+        "R i"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "i": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2409,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Low Power Receiver Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "i  ",
+        " IC",
+        "i  "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "i": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2413,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Power Transmitter Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "c I",
+        "CI ",
+        "c I"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2417,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Medium Power Receiver Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "I  ",
+        " IC",
+        "I  "
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2422,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "High Power Transmitter Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "C I",
+        "CI ",
+        "C I"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2426,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "High Power Receiver Antenna",
+        "count": 1
+      },
+      "pattern": [
+        "I D",
+        " IC",
+        "I D"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "I": {
+          "ore": "plateIron"
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "D": {
+          "vanilla": "diamond",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2433,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Weak 50V Battery Charger",
+        "count": 1
+      },
+      "pattern": [
+        "RIR",
+        "III",
+        "RcR"
+      ],
+      "key": {
+        "c": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2439,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Battery Charger",
+        "count": 1
+      },
+      "pattern": [
+        "RIR",
+        "ICI",
+        "RcR"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "c": {
+          "elnName": "Low Voltage Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2444,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "200V Battery Charger",
+        "count": 1
+      },
+      "pattern": [
+        "RIR",
+        "ICI",
+        "RcR"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Medium Voltage Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2451,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "50V Egg Incubator",
+        "count": 1
+      },
+      "pattern": [
+        "IGG",
+        "E G",
+        "CII"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictCheapChip"
+        },
+        "E": {
+          "elnName": "Small 50V Tungsten Heating Element",
+          "count": 1
+        },
+        "I": {
+          "vanilla": "iron_ingot",
+          "count": 1,
+          "metadata": "0"
+        },
+        "G": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2461,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.instance.elnToOtherBlockConverter)"
+      },
+      "pattern": [
+        "III",
+        "cCR",
+        "III"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "High Voltage Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "R": {
+          "vanilla": "gold_ingot",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2471,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.instance.computerProbeBlock)"
+      },
+      "pattern": [
+        "cIw",
+        "ICI",
+        "WIc"
+      ],
+      "key": {
+        "C": {
+          "expression": "Eln.dictAdvancedChip"
+        },
+        "c": {
+          "elnName": "Signal Cable",
+          "count": 1
+        },
+        "I": {
+          "elnName": "Iron Cable",
+          "count": 1
+        },
+        "w": {
+          "elnName": "Wireless Signal Receiver",
+          "count": 1
+        },
+        "W": {
+          "elnName": "Wireless Signal Transmitter",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2482,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.helmetCopper)"
+      },
+      "pattern": [
+        "CCC",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 2483,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.chestplateCopper)"
+      },
+      "pattern": [
+        "C C",
+        "CCC",
+        "CCC"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 2484,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.legsCopper)"
+      },
+      "pattern": [
+        "CCC",
+        "C C",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 2485,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.bootsCopper)"
+      },
+      "pattern": [
+        "C C",
+        "C C"
+      ],
+      "key": {
+        "C": {
+          "ore": "ingotCopper"
+        }
+      }
+    },
+    {
+      "line": 2488,
+      "category": "helper_declaration",
+      "type": "shaped",
+      "result": {
+        "expression": "output: ItemStack"
+      },
+      "unresolvedArguments": [
+        "vararg params: Any"
+      ]
+    },
+    {
+      "line": 2489,
+      "category": "helper_implementation",
+      "type": "shaped",
+      "result": {
+        "expression": "ShapedOreRecipe(output, *params)"
+      },
+      "unresolvedArguments": []
+    },
+    {
+      "line": 2493,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.shovelCopper)"
+      },
+      "pattern": [
+        "i",
+        "s",
+        "s"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotCopper"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2494,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.axeCopper)"
+      },
+      "pattern": [
+        "ii",
+        "is",
+        " s"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotCopper"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2495,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.hoeCopper)"
+      },
+      "pattern": [
+        "ii",
+        " s",
+        " s"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotCopper"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2496,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.pickaxeCopper)"
+      },
+      "pattern": [
+        "iii",
+        " s ",
+        " s "
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotCopper"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2500,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "expression": "ItemStack(Eln.swordCopper)"
+      },
+      "pattern": [
+        "i",
+        "i",
+        "s"
+      ],
+      "key": {
+        "i": {
+          "ore": "ingotCopper"
+        },
+        "s": {
+          "vanilla": "stick",
+          "count": 1,
+          "metadata": "0"
+        }
+      }
+    },
+    {
+      "line": 2504,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Digital Display",
+        "count": 1
+      },
+      "pattern": [
+        "   ",
+        "rrr",
+        "iii"
+      ],
+      "key": {
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "i": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2509,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Nixie Tube",
+        "count": 1
+      },
+      "pattern": [
+        " g ",
+        "grg",
+        "iii"
+      ],
+      "key": {
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "r": {
+          "vanilla": "redstone",
+          "count": 1,
+          "metadata": "0"
+        },
+        "i": {
+          "elnName": "Iron Cable",
+          "count": 1
+        }
+      }
+    },
+    {
+      "line": 2544,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "Christmas Tree",
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "elnName": "String Lights",
+          "count": 1
+        },
+        {
+          "vanilla": "sapling",
+          "count": 1,
+          "metadata": "1"
+        },
+        {
+          "elnName": "String Lights",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "line": 2545,
+      "category": "crafting",
+      "type": "shaped",
+      "result": {
+        "elnName": "Holiday Candle",
+        "count": 1
+      },
+      "pattern": [
+        " g ",
+        "gbg",
+        " i "
+      ],
+      "key": {
+        "g": {
+          "vanilla": "glass_pane",
+          "count": 1,
+          "metadata": "0"
+        },
+        "b": {
+          "elnName": "200V LED Bulb",
+          "count": 1
+        },
+        "i": {
+          "ore": "ingotIron"
+        }
+      }
+    },
+    {
+      "line": 2549,
+      "category": "crafting",
+      "type": "shapeless",
+      "result": {
+        "elnName": "String Lights",
+        "count": 2
+      },
+      "ingredients": [
+        {
+          "elnName": "200V LED Bulb",
+          "count": 1
+        },
+        {
+          "ore": "materialString"
+        }
+      ]
+    }
+  ]
+}

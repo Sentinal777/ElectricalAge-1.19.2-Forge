@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " D ",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "eln:rheostat"
+    },
+    "C": {
+      "item": "eln:copper_thermal_cable"
+    },
+    "D": {
+      "item": "eln:small_passive_thermal_dissipator"
+    }
+  },
+  "result": {
+    "item": "eln:large_rheostat",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "CMC",
+    " c "
+  ],
+  "key": {
+    "M": {
+      "item": "eln:advanced_machine_block"
+    },
+    "C": {
+      "item": "eln:advanced_chip"
+    },
+    "c": {
+      "item": "eln:high_voltage_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "eln:800v_defence_turret",
+    "count": 1
+  }
+}

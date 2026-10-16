@@ -1,0 +1,5 @@
+# Audited 0.4.0 release records
+
+These records describe the delivered 0.4.0 JAR and original source ZIP, not a hash guarantee for every later repository edit. `SHA256SUMS.txt` names GitHub release attachments. `SOURCE-MANIFEST-original-source-zip.json` contains paths rooted at `ElectricalAge-development/` inside that original source ZIP. The GitHub publication changes README/contribution material and archives the inherited legacy workflows; it does not modify native runtime sources, resources, wrappers, or build configuration.
+
+The independent source build verified all 7,855 manifest entries and all 210 unit tests, then compared sorted runtime JAR entries excluding documentation and ZIP metadata. See `Source-build-verification.json`. Complete logs and actual graphical evidence are in the separate `TestEvidence.zip` release asset. Original intermediate QA statuses in per-device audits remain historical evidence; the final regression fields identify the final passing runs and their scope.

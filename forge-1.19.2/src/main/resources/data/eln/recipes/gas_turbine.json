@@ -1,0 +1,181 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "msH",
+          "sSs",
+          " M "
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "H": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "s": {
+            "tag": "forge:ingots/steel"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/steel"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:gas_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "msH",
+          "sSs",
+          " M "
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "H": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "s": {
+            "tag": "forge:ingots/steel"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:gas_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "msH",
+          "sSs",
+          " M "
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "H": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "s": {
+            "tag": "forge:ingots/iron"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/steel"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:gas_turbine",
+          "count": 1
+        }
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:ingots/steel"
+        },
+        {
+          "type": "forge:tag_empty",
+          "tag": "forge:storage_blocks/steel"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "msH",
+          "sSs",
+          " M "
+        ],
+        "key": {
+          "m": {
+            "item": "eln:advanced_electrical_motor"
+          },
+          "H": {
+            "item": "eln:copper_thermal_cable"
+          },
+          "s": {
+            "tag": "forge:ingots/iron"
+          },
+          "S": {
+            "tag": "forge:storage_blocks/iron"
+          },
+          "M": {
+            "item": "eln:advanced_machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:gas_turbine",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

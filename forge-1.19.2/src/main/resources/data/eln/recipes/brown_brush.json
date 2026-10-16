@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:brown_dye"
+      },
+      {
+        "item": "minecraft:cocoa_beans"
+      }
+    ],
+    {
+      "item": "eln:white_brush"
+    }
+  ],
+  "result": {
+    "item": "eln:brown_brush",
+    "count": 1
+  }
+}

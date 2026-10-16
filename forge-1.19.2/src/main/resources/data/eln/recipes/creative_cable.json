@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "eln:unreleasedium"
+    },
+    "I": {
+      "item": "eln:synthetic_diamond"
+    }
+  },
+  "result": {
+    "item": "eln:creative_cable",
+    "count": 1
+  }
+}

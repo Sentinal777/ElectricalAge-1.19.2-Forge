@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RB",
+    " IR",
+    " RB"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "B": {
+      "tag": "forge:rubber"
+    }
+  },
+  "result": {
+    "item": "eln:signal_diode",
+    "count": 4
+  }
+}

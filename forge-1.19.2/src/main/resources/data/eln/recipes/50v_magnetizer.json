@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "cMc",
+    "III"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:machine_block"
+    },
+    "c": {
+      "item": "eln:electrical_motor"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:50v_magnetizer",
+    "count": 1
+  }
+}

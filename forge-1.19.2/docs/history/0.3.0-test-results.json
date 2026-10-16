@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-14",
+  "status": "experimental partial port",
+  "unit": {
+    "tests": 178,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "minecraftWithoutBCCE": {
+    "passed": 23,
+    "failed": 0
+  },
+  "minecraftWithBCCE": {
+    "passed": 29,
+    "failed": 0,
+    "additionalActualBCCEAssemblies": 6
+  },
+  "client": {
+    "actualIntegratedServer": true,
+    "renderedVariants": 122,
+    "converterAndDisplayServerMenuChanges": true,
+    "testOnlyEventLoopWorkaround": true,
+    "manualMouseKeyboardSession": false
+  },
+  "production": {
+    "forge": "43.5.0",
+    "minecraft": "1.19.2",
+    "java": 17,
+    "productionStartupWithoutBCCE": true,
+    "analyticalCircuit": true,
+    "disconnection": true,
+    "worldRestart": true,
+    "firstReadings": [
+      0.49984504303818456,
+      0.0,
+      1893.9345609325046,
+      0.4999676591909687,
+      6628.770963263693,
+      0.4999568787667536
+    ],
+    "restoredReadings": [
+      6628.770963263693,
+      0.4999568787667536,
+      0.0
+    ],
+    "artifactSha256": "11770e2e893e7b106e72fb529da0b0230c15df7806a93080809447435ae38165"
+  },
+  "productionBCCE": {
+    "productionCoLoad": true,
+    "nativeMjEnginePowersResistor": true,
+    "physicalConversionLoopWithoutDuplication": true,
+    "readings": [
+      "engineConverterFE",
+      "resistorCurrentA",
+      "resistorAccumulatedJ",
+      "loopInputFE",
+      "loopOutputFE",
+      "loopExportAccumulatedJ"
+    ],
+    "values": [
+      21713.70526747257,
+      0.499979995800367,
+      549.9559916411706,
+      9.0,
+      0.6774579871818043,
+      9654.726218976237
+    ],
+    "artifactSha256": "11770e2e893e7b106e72fb529da0b0230c15df7806a93080809447435ae38165",
+    "bcceSha256": "7698df0b2f7bd61f903dda6793ff927fd5ae41c9c224937188440541075a96eb"
+  },
+  "worldGeneration": {
+    "chunksScanned": 2025,
+    "naturallyGeneratedOreBlocks": {
+      "eln:lead_ore": 17553,
+      "eln:copper_ore": 85053,
+      "eln:tungsten_ore": 13380,
+      "eln:cinnabar_ore": 6659
+    },
+    "seed": 1246,
+    "note": "Counted from the newly generated production world. QA commands placed no ore blocks."
+  },
+  "notExecuted": [
+    "complete survival progression",
+    "large-network benchmark",
+    "broad modpack/multiplayer",
+    "full thermal system",
+    "all original GUI/audio",
+    "full quarry excavation",
+    "every engine/fuel/gate variant",
+    "complete chunk/dimension transition campaign",
+    "personal or legacy worlds"
+  ]
+}

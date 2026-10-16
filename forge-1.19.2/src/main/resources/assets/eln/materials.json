@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "electric_minecart",
+    "name": "Electric Minecart",
+    "legacyId": 8128,
+    "icon": "items/electricminecart",
+    "kind": "ELECTRIC_MINECART"
+  },
+  {
+    "id": "black_brush",
+    "name": "Black Brush",
+    "legacyId": 7616,
+    "icon": "items/blackbrush",
+    "kind": "BRUSH",
+    "variant": 0
+  },
+  {
+    "id": "red_brush",
+    "name": "Red Brush",
+    "legacyId": 7617,
+    "icon": "items/redbrush",
+    "kind": "BRUSH",
+    "variant": 1
+  },
+  {
+    "id": "green_brush",
+    "name": "Green Brush",
+    "legacyId": 7618,
+    "icon": "items/greenbrush",
+    "kind": "BRUSH",
+    "variant": 2
+  },
+  {
+    "id": "brown_brush",
+    "name": "Brown Brush",
+    "legacyId": 7619,
+    "icon": "items/brownbrush",
+    "kind": "BRUSH",
+    "variant": 3
+  },
+  {
+    "id": "blue_brush",
+    "name": "Blue Brush",
+    "legacyId": 7620,
+    "icon": "items/bluebrush",
+    "kind": "BRUSH",
+    "variant": 4
+  },
+  {
+    "id": "purple_brush",
+    "name": "Purple Brush",
+    "legacyId": 7621,
+    "icon": "items/purplebrush",
+    "kind": "BRUSH",
+    "variant": 5
+  },
+  {
+    "id": "cyan_brush",
+    "name": "Cyan Brush",
+    "legacyId": 7622,
+    "icon": "items/cyanbrush",
+    "kind": "BRUSH",
+    "variant": 6
+  },
+  {
+    "id": "silver_brush",
+    "name": "Silver Brush",
+    "legacyId": 7623,
+    "icon": "items/silverbrush",
+    "kind": "BRUSH",
+    "variant": 7
+  },
+  {
+    "id": "gray_brush",
+    "name": "Gray Brush",
+    "legacyId": 7624,
+    "icon": "items/graybrush",
+    "kind": "BRUSH",
+    "variant": 8
+  },
+  {
+    "id": "pink_brush",
+    "name": "Pink Brush",
+    "legacyId": 7625,
+    "icon": "items/pinkbrush",
+    "kind": "BRUSH",
+    "variant": 9
+  },
+  {
+    "id": "lime_brush",
+    "name": "Lime Brush",
+    "legacyId": 7626,
+    "icon": "items/limebrush",
+    "kind": "BRUSH",
+    "variant": 10
+  },
+  {
+    "id": "yellow_brush",
+    "name": "Yellow Brush",
+    "legacyId": 7627,
+    "icon": "items/yellowbrush",
+    "kind": "BRUSH",
+    "variant": 11
+  },
+  {
+    "id": "light_blue_brush",
+    "name": "Light Blue Brush",
+    "legacyId": 7628,
+    "icon": "items/lightbluebrush",
+    "kind": "BRUSH",
+    "variant": 12
+  },
+  {
+    "id": "magenta_brush",
+    "name": "Magenta Brush",
+    "legacyId": 7629,
+    "icon": "items/magentabrush",
+    "kind": "BRUSH",
+    "variant": 13
+  },
+  {
+    "id": "orange_brush",
+    "name": "Orange Brush",
+    "legacyId": 7630,
+    "icon": "items/orangebrush",
+    "kind": "BRUSH",
+    "variant": 14
+  },
+  {
+    "id": "white_brush",
+    "name": "White Brush",
+    "legacyId": 7631,
+    "icon": "items/whitebrush",
+    "kind": "BRUSH",
+    "variant": 15
+  },
+  {
+    "id": "lead_fuse_for_low_voltage_cables",
+    "name": "Lead Fuse for low voltage cables",
+    "legacyId": 6279,
+    "icon": "items/electricalfuse",
+    "kind": "FUSE",
+    "fuseCable": "low_voltage_cable",
+    "hidden": false,
+    "heldModel": true
+  },
+  {
+    "id": "lead_fuse_for_medium_voltage_cables",
+    "name": "Lead Fuse for medium voltage cables",
+    "legacyId": 6280,
+    "icon": "items/electricalfuse",
+    "kind": "FUSE",
+    "fuseCable": "medium_voltage_cable",
+    "hidden": false,
+    "heldModel": true
+  },
+  {
+    "id": "lead_fuse_for_high_voltage_cables",
+    "name": "Lead Fuse for high voltage cables",
+    "legacyId": 6281,
+    "icon": "items/electricalfuse",
+    "kind": "FUSE",
+    "fuseCable": "high_voltage_cable",
+    "hidden": false,
+    "heldModel": true
+  },
+  {
+    "id": "lead_fuse_for_very_high_voltage_cables",
+    "name": "Lead Fuse for very high voltage cables",
+    "legacyId": 6282,
+    "icon": "items/electricalfuse",
+    "kind": "FUSE",
+    "fuseCable": "very_high_voltage_cable",
+    "hidden": false,
+    "heldModel": true
+  },
+  {
+    "id": "blown_lead_fuse",
+    "name": "Blown Lead Fuse",
+    "legacyId": 6283,
+    "icon": "items/blownelectricalfuse",
+    "kind": "FUSE",
+    "fuseCable": null,
+    "hidden": true,
+    "heldModel": true
+  },
+  {
+    "id": "overheating_protection",
+    "name": "Overheating Protection",
+    "legacyId": 320,
+    "icon": "items/overheatingprotection",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "overvoltage_protection",
+    "name": "Overvoltage Protection",
+    "legacyId": 321,
+    "icon": "items/overvoltageprotection",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "signal_antenna",
+    "name": "Signal Antenna",
+    "legacyId": 7713,
+    "icon": "items/signalantenna",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "silicon_wafer",
+    "name": "Silicon Wafer",
+    "legacyId": 8064,
+    "icon": "items/siliconwafer",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "transistor",
+    "name": "Transistor",
+    "legacyId": 8065,
+    "icon": "items/transistor",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "ntc_thermistor",
+    "name": "NTC Thermistor",
+    "legacyId": 8066,
+    "icon": "items/ntcthermistor",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "nibble_memory_chip",
+    "name": "Nibble Memory Chip",
+    "legacyId": 8067,
+    "icon": "items/nibblememorychip",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "arithmetic_logic_unit",
+    "name": "Arithmetic Logic Unit",
+    "legacyId": 8068,
+    "icon": "items/arithmeticlogicunit",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "data_logger_print",
+    "name": "Data Logger Print",
+    "legacyId": 7712,
+    "icon": "items/empty-texture",
+    "kind": "DATA_LOG_PRINT",
+    "hidden": true
+  },
+  {
+    "id": "allmeter",
+    "name": "AllMeter",
+    "legacyId": 898,
+    "icon": "items/allmeter",
+    "kind": "ALLMETER"
+  },
+  {
+    "id": "wireless_analyser",
+    "name": "Wireless Analyser",
+    "legacyId": 904,
+    "icon": "items/wirelessanalyser",
+    "kind": "WIRELESS_ANALYSER"
+  },
+  {
+    "id": "config_copy_tool",
+    "name": "Config Copy Tool",
+    "legacyId": 912,
+    "icon": "items/configcopytool",
+    "kind": "CONFIG_COPY"
+  },
+  {
+    "id": "unreleasedium",
+    "name": "unreleasedium",
+    "legacyId": 4421,
+    "icon": "items/unreleasedium",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "inert_canister",
+    "name": "Inert Canister",
+    "legacyId": 4424,
+    "icon": "items/inertcanister",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "canister_of_water",
+    "name": "Canister of Water",
+    "legacyId": 4427,
+    "icon": "items/canisterofwater",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "canister_of_arc_water",
+    "name": "Canister of Arc Water",
+    "legacyId": 4428,
+    "icon": "items/canisterofarcwater",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "copper_dust",
+    "name": "Copper Dust",
+    "legacyId": 577,
+    "icon": "items/copperdust"
+  },
+  {
+    "id": "iron_dust",
+    "name": "Iron Dust",
+    "legacyId": 578,
+    "icon": "items/irondust"
+  },
+  {
+    "id": "lapis_dust",
+    "name": "Lapis Dust",
+    "legacyId": 579,
+    "icon": "items/lapisdust"
+  },
+  {
+    "id": "diamond_dust",
+    "name": "Diamond Dust",
+    "legacyId": 580,
+    "icon": "items/diamonddust"
+  },
+  {
+    "id": "lead_dust",
+    "name": "Lead Dust",
+    "legacyId": 5,
+    "icon": "items/leaddust"
+  },
+  {
+    "id": "tungsten_dust",
+    "name": "Tungsten Dust",
+    "legacyId": 6,
+    "icon": "items/tungstendust"
+  },
+  {
+    "id": "gold_dust",
+    "name": "Gold Dust",
+    "legacyId": 7,
+    "icon": "items/golddust"
+  },
+  {
+    "id": "coal_dust",
+    "name": "Coal Dust",
+    "legacyId": 8,
+    "icon": "items/coaldust"
+  },
+  {
+    "id": "alloy_dust",
+    "name": "Alloy Dust",
+    "legacyId": 9,
+    "icon": "items/alloydust"
+  },
+  {
+    "id": "cinnabar_dust",
+    "name": "Cinnabar Dust",
+    "legacyId": 10,
+    "icon": "items/cinnabardust"
+  },
+  {
+    "id": "copper_ingot",
+    "name": "Copper Ingot",
+    "legacyId": 513,
+    "icon": "items/copperingot"
+  },
+  {
+    "id": "lead_ingot",
+    "name": "Lead Ingot",
+    "legacyId": 516,
+    "icon": "items/leadingot"
+  },
+  {
+    "id": "tungsten_ingot",
+    "name": "Tungsten Ingot",
+    "legacyId": 517,
+    "icon": "items/tungsteningot"
+  },
+  {
+    "id": "ferrite_ingot",
+    "name": "Ferrite Ingot",
+    "legacyId": 518,
+    "icon": "items/ferriteingot"
+  },
+  {
+    "id": "alloy_ingot",
+    "name": "Alloy Ingot",
+    "legacyId": 519,
+    "icon": "items/alloyingot"
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "legacyId": 520,
+    "icon": "items/mercury"
+  },
+  {
+    "id": "copper_plate",
+    "name": "Copper Plate",
+    "legacyId": 7686,
+    "icon": "items/copperplate"
+  },
+  {
+    "id": "iron_plate",
+    "name": "Iron Plate",
+    "legacyId": 7687,
+    "icon": "items/ironplate"
+  },
+  {
+    "id": "gold_plate",
+    "name": "Gold Plate",
+    "legacyId": 7688,
+    "icon": "items/goldplate"
+  },
+  {
+    "id": "lead_plate",
+    "name": "Lead Plate",
+    "legacyId": 7689,
+    "icon": "items/leadplate"
+  },
+  {
+    "id": "silicon_plate",
+    "name": "Silicon Plate",
+    "legacyId": 7690,
+    "icon": "items/siliconplate"
+  },
+  {
+    "id": "alloy_plate",
+    "name": "Alloy Plate",
+    "legacyId": 7691,
+    "icon": "items/alloyplate"
+  },
+  {
+    "id": "coal_plate",
+    "name": "Coal Plate",
+    "legacyId": 7692,
+    "icon": "items/coalplate"
+  },
+  {
+    "id": "on_off_regulator_1_percent",
+    "name": "On/OFF Regulator 1 Percent",
+    "legacyId": 192,
+    "icon": "items/onoffregulator",
+    "kind": "ON_OFF_REGULATOR",
+    "value": 0.01,
+    "maximumTemperature": 0
+  },
+  {
+    "id": "on_off_regulator_10_percent",
+    "name": "On/OFF Regulator 10 Percent",
+    "legacyId": 193,
+    "icon": "items/onoffregulator",
+    "kind": "ON_OFF_REGULATOR",
+    "value": 0.1,
+    "maximumTemperature": 0
+  },
+  {
+    "id": "analogic_regulator",
+    "name": "Analogic Regulator",
+    "legacyId": 200,
+    "icon": "items/analogicregulator",
+    "kind": "ANALOG_REGULATOR",
+    "value": 0,
+    "maximumTemperature": 0
+  },
+  {
+    "id": "combustion_chamber",
+    "name": "Combustion Chamber",
+    "legacyId": 384,
+    "icon": "items/combustionchamber",
+    "kind": "COMBUSTION_CHAMBER",
+    "value": 500,
+    "maximumTemperature": 0
+  },
+  {
+    "id": "thermal_insulation",
+    "name": "Thermal Insulation",
+    "legacyId": 385,
+    "icon": "items/thermalinsulation",
+    "kind": "THERMAL_INSULATION",
+    "value": 0.5,
+    "maximumTemperature": 500
+  },
+  {
+    "id": "small_fuel_burner",
+    "name": "Small Fuel Burner",
+    "legacyId": 7936,
+    "icon": "items/smallfuelburner",
+    "kind": "FUEL_BURNER",
+    "value": 5000,
+    "variant": 2
+  },
+  {
+    "id": "medium_fuel_burner",
+    "name": "Medium Fuel Burner",
+    "legacyId": 7937,
+    "icon": "items/mediumfuelburner",
+    "kind": "FUEL_BURNER",
+    "value": 10000,
+    "variant": 1
+  },
+  {
+    "id": "big_fuel_burner",
+    "name": "Big Fuel Burner",
+    "legacyId": 7938,
+    "icon": "items/bigfuelburner",
+    "kind": "FUEL_BURNER",
+    "value": 25000,
+    "variant": 0
+  },
+  {
+    "id": "electrical_motor",
+    "name": "Electrical Motor",
+    "legacyId": 640,
+    "icon": "items/electricalmotor",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "advanced_electrical_motor",
+    "name": "Advanced Electrical Motor",
+    "legacyId": 641,
+    "icon": "items/advancedelectricalmotor",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "cheap_chip",
+    "name": "Cheap Chip",
+    "legacyId": 7680,
+    "icon": "items/cheapchip",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "advanced_chip",
+    "name": "Advanced Chip",
+    "legacyId": 7681,
+    "icon": "items/advancedchip",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "machine_block",
+    "name": "Machine Block",
+    "legacyId": 7682,
+    "icon": "items/machineblock",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "electrical_probe_chip",
+    "name": "Electrical Probe Chip",
+    "legacyId": 7683,
+    "icon": "items/electricalprobechip",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "thermal_probe_chip",
+    "name": "Thermal Probe Chip",
+    "legacyId": 7684,
+    "icon": "items/thermalprobechip",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "silicon_dust",
+    "name": "Silicon Dust",
+    "legacyId": 7696,
+    "icon": "items/silicondust",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "advanced_machine_block",
+    "name": "Advanced Machine Block",
+    "legacyId": 7703,
+    "icon": "items/advancedmachineblock",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "synthetic_diamond",
+    "name": "Synthetic Diamond",
+    "legacyId": 4420,
+    "icon": "items/syntheticdiamond",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "arc_clay_ingot",
+    "name": "Arc Clay Ingot",
+    "legacyId": 4422,
+    "icon": "items/arcclayingot",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "arc_metal_ingot",
+    "name": "Arc Metal Ingot",
+    "legacyId": 4423,
+    "icon": "items/arcmetalingot",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "motor_cowling",
+    "name": "Motor Cowling",
+    "legacyId": 7740,
+    "icon": "items/motorcowling",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "heavy_winding",
+    "name": "Heavy Winding",
+    "legacyId": 7741,
+    "icon": "items/heavywinding",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "reinforced_shaft",
+    "name": "Reinforced Shaft",
+    "legacyId": 7742,
+    "icon": "items/reinforcedshaft",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "turbine_blade_set",
+    "name": "Turbine Blade Set",
+    "legacyId": 7743,
+    "icon": "items/turbinebladeset",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "solar_tracker",
+    "name": "Solar Tracker",
+    "legacyId": 704,
+    "icon": "items/solartracker",
+    "kind": "SOLAR_TRACKER"
+  },
+  {
+    "id": "machine_booster",
+    "name": "Machine Booster",
+    "legacyId": 7702,
+    "icon": "items/machinebooster",
+    "kind": "MACHINE_BOOSTER"
+  },
+  {
+    "id": "silicon_ingot",
+    "name": "Silicon Ingot",
+    "legacyId": 7697,
+    "icon": "items/siliconingot",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "basic_magnet",
+    "name": "Basic Magnet",
+    "legacyId": 7708,
+    "icon": "items/basicmagnet",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "advanced_magnet",
+    "name": "Advanced Magnet",
+    "legacyId": 7709,
+    "icon": "items/advancedmagnet",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "dielectric",
+    "name": "Dielectric",
+    "legacyId": 7732,
+    "icon": "items/dielectric",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "tree_resin",
+    "name": "Tree Resin",
+    "legacyId": 4096,
+    "icon": "items/treeresin",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "rubber",
+    "name": "Rubber",
+    "legacyId": 4097,
+    "icon": "items/rubber",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "graphite_rod",
+    "name": "Graphite Rod",
+    "legacyId": 4416,
+    "icon": "items/graphiterod",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "2x_graphite_rods",
+    "name": "2x Graphite Rods",
+    "legacyId": 4417,
+    "icon": "items/2xgraphiterods",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "3x_graphite_rods",
+    "name": "3x Graphite Rods",
+    "legacyId": 4418,
+    "icon": "items/3xgraphiterods",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "4x_graphite_rods",
+    "name": "4x Graphite Rods",
+    "legacyId": 4419,
+    "icon": "items/4xgraphiterods",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "small_50v_copper_heating_element",
+    "name": "Small 50V Copper Heating Element",
+    "legacyId": 64,
+    "icon": "items/small50vcopperheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 150,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "50v_copper_heating_element",
+    "name": "50V Copper Heating Element",
+    "legacyId": 65,
+    "icon": "items/50vcopperheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 250,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "small_200v_copper_heating_element",
+    "name": "Small 200V Copper Heating Element",
+    "legacyId": 66,
+    "icon": "items/small200vcopperheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 400,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "200v_copper_heating_element",
+    "name": "200V Copper Heating Element",
+    "legacyId": 67,
+    "icon": "items/200vcopperheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 600,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "small_50v_iron_heating_element",
+    "name": "Small 50V Iron Heating Element",
+    "legacyId": 68,
+    "icon": "items/small50vironheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 180,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "50v_iron_heating_element",
+    "name": "50V Iron Heating Element",
+    "legacyId": 69,
+    "icon": "items/50vironheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 375,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "small_200v_iron_heating_element",
+    "name": "Small 200V Iron Heating Element",
+    "legacyId": 70,
+    "icon": "items/small200vironheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 600,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "200v_iron_heating_element",
+    "name": "200V Iron Heating Element",
+    "legacyId": 71,
+    "icon": "items/200vironheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 900,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "small_50v_tungsten_heating_element",
+    "name": "Small 50V Tungsten Heating Element",
+    "legacyId": 72,
+    "icon": "items/small50vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 240,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "50v_tungsten_heating_element",
+    "name": "50V Tungsten Heating Element",
+    "legacyId": 73,
+    "icon": "items/50vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 500,
+    "nominalVoltage": 50
+  },
+  {
+    "id": "small_200v_tungsten_heating_element",
+    "name": "Small 200V Tungsten Heating Element",
+    "legacyId": 74,
+    "icon": "items/small200vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 800,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "200v_tungsten_heating_element",
+    "name": "200V Tungsten Heating Element",
+    "legacyId": 75,
+    "icon": "items/200vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 1200,
+    "nominalVoltage": 200
+  },
+  {
+    "id": "small_800v_tungsten_heating_element",
+    "name": "Small 800V Tungsten Heating Element",
+    "legacyId": 76,
+    "icon": "items/small800vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 3600,
+    "nominalVoltage": 800
+  },
+  {
+    "id": "800v_tungsten_heating_element",
+    "name": "800V Tungsten Heating Element",
+    "legacyId": 77,
+    "icon": "items/800vtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 4812,
+    "nominalVoltage": 800
+  },
+  {
+    "id": "small_3_2kv_tungsten_heating_element",
+    "name": "Small 3.2kV Tungsten Heating Element",
+    "legacyId": 78,
+    "icon": "items/small3.2kvtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 4000,
+    "nominalVoltage": 3200
+  },
+  {
+    "id": "3_2kv_tungsten_heating_element",
+    "name": "3.2kV Tungsten Heating Element",
+    "legacyId": 79,
+    "icon": "items/3.2kvtungstenheatingelement",
+    "kind": "HEATING_ELEMENT",
+    "value": 12000,
+    "nominalVoltage": 3200
+  },
+  {
+    "id": "copper_cable",
+    "name": "Copper Cable",
+    "legacyId": 4160,
+    "icon": "items/coppercable",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "iron_cable",
+    "name": "Iron Cable",
+    "legacyId": 4161,
+    "icon": "items/ironcable",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "tungsten_cable",
+    "name": "Tungsten Cable",
+    "legacyId": 4162,
+    "icon": "items/tungstencable",
+    "kind": "RESOURCE"
+  },
+  {
+    "id": "cheap_ferromagnetic_core",
+    "name": "Cheap Ferromagnetic Core",
+    "legacyId": 448,
+    "icon": "items/cheapferromagneticcore",
+    "kind": "FERROMAGNETIC_CORE",
+    "value": 100
+  },
+  {
+    "id": "average_ferromagnetic_core",
+    "name": "Average Ferromagnetic Core",
+    "legacyId": 449,
+    "icon": "items/averageferromagneticcore",
+    "kind": "FERROMAGNETIC_CORE",
+    "value": 50
+  },
+  {
+    "id": "optimal_ferromagnetic_core",
+    "name": "Optimal Ferromagnetic Core",
+    "legacyId": 450,
+    "icon": "items/optimalferromagneticcore",
+    "kind": "FERROMAGNETIC_CORE",
+    "value": 1
+  },
+  {
+    "id": "iron_clutch_plate",
+    "name": "Iron Clutch Plate",
+    "legacyId": 7734,
+    "icon": "items/ironclutchplate",
+    "kind": "CLUTCH_PLATE",
+    "clutchPlate": {
+      "maximumStatic": 5120,
+      "minimumStatic": 640,
+      "maximumDynamic": 640,
+      "minimumDynamic": 160,
+      "wearSpeed": 0.0001,
+      "explodes": false
+    }
+  },
+  {
+    "id": "gold_clutch_plate",
+    "name": "Gold Clutch Plate",
+    "legacyId": 7736,
+    "icon": "items/goldclutchplate",
+    "kind": "CLUTCH_PLATE",
+    "clutchPlate": {
+      "maximumStatic": 10240,
+      "minimumStatic": 2048,
+      "maximumDynamic": 1024,
+      "minimumDynamic": 512,
+      "wearSpeed": 0.001,
+      "explodes": false
+    }
+  },
+  {
+    "id": "copper_clutch_plate",
+    "name": "Copper Clutch Plate",
+    "legacyId": 7737,
+    "icon": "items/copperclutchplate",
+    "kind": "CLUTCH_PLATE",
+    "clutchPlate": {
+      "maximumStatic": 8192,
+      "minimumStatic": 4096,
+      "maximumDynamic": 1024,
+      "minimumDynamic": 512,
+      "wearSpeed": 0.0003,
+      "explodes": false
+    }
+  },
+  {
+    "id": "lead_clutch_plate",
+    "name": "Lead Clutch Plate",
+    "legacyId": 7738,
+    "icon": "items/leadclutchplate",
+    "kind": "CLUTCH_PLATE",
+    "clutchPlate": {
+      "maximumStatic": 15360,
+      "minimumStatic": 1024,
+      "maximumDynamic": 1536,
+      "minimumDynamic": 768,
+      "wearSpeed": 0.0015,
+      "explodes": false
+    }
+  },
+  {
+    "id": "coal_clutch_plate",
+    "name": "Coal Clutch Plate",
+    "legacyId": 7739,
+    "icon": "items/coalclutchplate",
+    "kind": "CLUTCH_PLATE",
+    "clutchPlate": {
+      "maximumStatic": 1024,
+      "minimumStatic": 128,
+      "maximumDynamic": 128,
+      "minimumDynamic": 32,
+      "wearSpeed": 0.1,
+      "explodes": true
+    }
+  },
+  {
+    "id": "clutch_pin",
+    "name": "Clutch Pin",
+    "legacyId": 7735,
+    "icon": "items/clutchpin",
+    "kind": "CLUTCH_PIN"
+  },
+  {
+    "id": "casing",
+    "name": "Casing",
+    "legacyId": 7733,
+    "icon": "items/casing",
+    "kind": "CASING"
+  },
+  {
+    "id": "player_filter",
+    "name": "Player Filter",
+    "legacyId": 7720,
+    "icon": "items/playerfilter",
+    "kind": "ENTITY_FILTER",
+    "value": 65280
+  },
+  {
+    "id": "monster_filter",
+    "name": "Monster Filter",
+    "legacyId": 7721,
+    "icon": "items/monsterfilter",
+    "kind": "ENTITY_FILTER",
+    "value": 16711680
+  },
+  {
+    "id": "animal_filter",
+    "name": "Animal Filter",
+    "legacyId": 7722,
+    "icon": "items/animalfilter",
+    "kind": "ENTITY_FILTER",
+    "value": 5000447
+  },
+  {
+    "id": "portable_battery",
+    "name": "Portable Battery",
+    "legacyId": 7808,
+    "icon": "items/portablebattery",
+    "kind": "PORTABLE_BATTERY",
+    "electrical": {
+      "capacity": 40000,
+      "chargePower": 125,
+      "dischargePower": 250,
+      "priority": 2
+    }
+  },
+  {
+    "id": "portable_battery_pack",
+    "name": "Portable Battery Pack",
+    "legacyId": 7809,
+    "icon": "items/portablebatterypack",
+    "kind": "PORTABLE_BATTERY",
+    "electrical": {
+      "capacity": 160000,
+      "chargePower": 500,
+      "dischargePower": 1000,
+      "priority": 2
+    }
+  },
+  {
+    "id": "portable_condensator",
+    "name": "Portable Condensator",
+    "legacyId": 7824,
+    "icon": "items/portablecondensator",
+    "kind": "PORTABLE_BATTERY",
+    "electrical": {
+      "capacity": 4000,
+      "chargePower": 2000,
+      "dischargePower": 2000,
+      "priority": 1
+    }
+  },
+  {
+    "id": "portable_condensator_pack",
+    "name": "Portable Condensator Pack",
+    "legacyId": 7825,
+    "icon": "items/portablecondensatorpack",
+    "kind": "PORTABLE_BATTERY",
+    "electrical": {
+      "capacity": 16000,
+      "chargePower": 8000,
+      "dischargePower": 8000,
+      "priority": 1
+    }
+  },
+  {
+    "id": "small_flashlight",
+    "name": "Small Flashlight",
+    "legacyId": 7744,
+    "icon": "items/smallflashlightoff",
+    "kind": "ELECTRICAL_FLASHLIGHT",
+    "electrical": {
+      "capacity": 6000,
+      "chargePower": 100,
+      "dischargePower": 0,
+      "priority": 0,
+      "flashlight": {
+        "lightLow": 10,
+        "rangeLow": 6,
+        "wattsLow": 20,
+        "lightHigh": 12,
+        "rangeHigh": 9,
+        "wattsHigh": 50
+      }
+    }
+  },
+  {
+    "id": "improved_flashlight",
+    "name": "Improved Flashlight",
+    "legacyId": 7745,
+    "icon": "items/improvedflashlightoff",
+    "kind": "ELECTRICAL_FLASHLIGHT",
+    "electrical": {
+      "capacity": 24000,
+      "chargePower": 400,
+      "dischargePower": 0,
+      "priority": 0,
+      "flashlight": {
+        "lightLow": 15,
+        "rangeLow": 8,
+        "wattsLow": 20,
+        "lightHigh": 15,
+        "rangeHigh": 13,
+        "wattsHigh": 50
+      }
+    }
+  },
+  {
+    "id": "ore_scanner",
+    "name": "Ore Scanner",
+    "legacyId": 1024,
+    "icon": "items/orescanner",
+    "kind": "ORE_SCANNER_UPGRADE"
+  },
+  {
+    "id": "mining_pipe",
+    "name": "Mining Pipe",
+    "legacyId": 1088,
+    "icon": "items/miningpipe",
+    "kind": "MINING_PIPE"
+  },
+  {
+    "id": "x_ray_scanner",
+    "name": "X-Ray Scanner",
+    "legacyId": 7840,
+    "icon": "items/x-rayscanner",
+    "kind": "ELECTRICAL_SCANNER",
+    "heldModel": true,
+    "electrical": {
+      "capacity": 100000,
+      "chargePower": 400,
+      "dischargePower": 300,
+      "priority": 0,
+      "scanner": {
+        "watts": 300,
+        "width": 32,
+        "height": 20,
+        "fieldOfView": 1.5707963267948966
+      }
+    }
+  },
+  {
+    "id": "copper_sword",
+    "name": "Copper Sword",
+    "legacyId": -1,
+    "icon": "items/copper_sword",
+    "kind": "COPPER_TOOL"
+  },
+  {
+    "id": "copper_pickaxe",
+    "name": "Copper Pickaxe",
+    "legacyId": -1,
+    "icon": "items/copper_pickaxe",
+    "kind": "COPPER_TOOL"
+  },
+  {
+    "id": "copper_axe",
+    "name": "Copper Axe",
+    "legacyId": -1,
+    "icon": "items/copper_axe",
+    "kind": "COPPER_TOOL"
+  },
+  {
+    "id": "copper_shovel",
+    "name": "Copper Shovel",
+    "legacyId": -1,
+    "icon": "items/copper_shovel",
+    "kind": "COPPER_TOOL"
+  },
+  {
+    "id": "copper_hoe",
+    "name": "Copper Hoe",
+    "legacyId": -1,
+    "icon": "items/copper_hoe",
+    "kind": "COPPER_TOOL"
+  },
+  {
+    "id": "copper_helmet",
+    "name": "Copper Helmet",
+    "legacyId": -1,
+    "icon": "items/copper_helmet",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "HEAD",
+      "protection": 2
+    }
+  },
+  {
+    "id": "copper_chestplate",
+    "name": "Copper Chestplate",
+    "legacyId": -1,
+    "icon": "items/copper_chestplate",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "CHEST",
+      "protection": 6
+    }
+  },
+  {
+    "id": "copper_leggings",
+    "name": "Copper Leggings",
+    "legacyId": -1,
+    "icon": "items/copper_leggings",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "LEGS",
+      "protection": 5
+    }
+  },
+  {
+    "id": "copper_boots",
+    "name": "Copper Boots",
+    "legacyId": -1,
+    "icon": "items/copper_boots",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "FEET",
+      "protection": 2
+    }
+  },
+  {
+    "id": "e_coal_helmet",
+    "name": "E-Coal Helmet",
+    "legacyId": -1,
+    "icon": "items/ecoal_helmet",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "HEAD",
+      "protection": 3
+    },
+    "electrical": {
+      "capacity": 8000,
+      "chargePower": 2000,
+      "dischargePower": 0,
+      "priority": 0
+    }
+  },
+  {
+    "id": "e_coal_chestplate",
+    "name": "E-Coal Chestplate",
+    "legacyId": -1,
+    "icon": "items/ecoal_chestplate",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "CHEST",
+      "protection": 8
+    },
+    "electrical": {
+      "capacity": 8000,
+      "chargePower": 2000,
+      "dischargePower": 0,
+      "priority": 0
+    }
+  },
+  {
+    "id": "e_coal_leggings",
+    "name": "E-Coal Leggings",
+    "legacyId": -1,
+    "icon": "items/ecoal_leggings",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "LEGS",
+      "protection": 6
+    },
+    "electrical": {
+      "capacity": 8000,
+      "chargePower": 2000,
+      "dischargePower": 0,
+      "priority": 0
+    }
+  },
+  {
+    "id": "e_coal_boots",
+    "name": "E-Coal Boots",
+    "legacyId": -1,
+    "icon": "items/ecoal_boots",
+    "kind": "ARMOR",
+    "armor": {
+      "slot": "FEET",
+      "protection": 3
+    },
+    "electrical": {
+      "capacity": 8000,
+      "chargePower": 2000,
+      "dischargePower": 0,
+      "priority": 0
+    }
+  },
+  {
+    "id": "cheap_electrical_drill",
+    "name": "Cheap Electrical Drill",
+    "legacyId": 960,
+    "icon": "items/cheapelectricaldrill",
+    "kind": "ELECTRICAL_DRILL",
+    "drill": {
+      "operationTime": 8,
+      "operationEnergy": 4000
+    }
+  },
+  {
+    "id": "average_electrical_drill",
+    "name": "Average Electrical Drill",
+    "legacyId": 961,
+    "icon": "items/averageelectricaldrill",
+    "kind": "ELECTRICAL_DRILL",
+    "drill": {
+      "operationTime": 5,
+      "operationEnergy": 5000
+    }
+  },
+  {
+    "id": "fast_electrical_drill",
+    "name": "Fast Electrical Drill",
+    "legacyId": 962,
+    "icon": "items/fastelectricaldrill",
+    "kind": "ELECTRICAL_DRILL",
+    "drill": {
+      "operationTime": 3,
+      "operationEnergy": 6000
+    }
+  },
+  {
+    "id": "turbo_electrical_drill",
+    "name": "Turbo Electrical Drill",
+    "legacyId": 963,
+    "icon": "items/turboelectricaldrill",
+    "kind": "ELECTRICAL_DRILL",
+    "drill": {
+      "operationTime": 1,
+      "operationEnergy": 10000
+    }
+  },
+  {
+    "id": "irresponsible_electrical_drill",
+    "name": "Irresponsible Electrical Drill",
+    "legacyId": 964,
+    "icon": "items/irresponsibleelectricaldrill",
+    "kind": "ELECTRICAL_DRILL",
+    "drill": {
+      "operationTime": 0.1,
+      "operationEnergy": 20000
+    }
+  },
+  {
+    "id": "portable_electrical_mining_drill",
+    "name": "Portable Electrical Mining Drill",
+    "legacyId": 7752,
+    "icon": "items/portableelectricalminingdrill",
+    "kind": "ELECTRICAL_TOOL",
+    "electrical": {
+      "capacity": 120000,
+      "chargePower": 10000,
+      "dischargePower": 0,
+      "priority": 0,
+      "tool": {
+        "type": "DRILL",
+        "strengthOn": 22,
+        "strengthOff": 1,
+        "energyPerBlock": 200
+      }
+    }
+  },
+  {
+    "id": "portable_electrical_axe",
+    "name": "Portable Electrical Axe",
+    "legacyId": 7756,
+    "icon": "items/portableelectricalaxe",
+    "kind": "ELECTRICAL_TOOL",
+    "electrical": {
+      "capacity": 40000,
+      "chargePower": 10000,
+      "dischargePower": 0,
+      "priority": 0,
+      "tool": {
+        "type": "AXE",
+        "strengthOn": 22,
+        "strengthOff": 1,
+        "energyPerBlock": 200
+      }
+    }
+  },
+  {
+    "id": "small_50v_incandescent_light_bulb",
+    "name": "Small 50V Incandescent Light Bulb",
+    "legacyId": 256,
+    "icon": "items/incandescentironlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 20,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 0.8326666666666667,
+      "hours": 16,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_incandescent_light_bulb",
+    "name": "50V Incandescent Light Bulb",
+    "legacyId": 257,
+    "icon": "items/incandescentironlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 30,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 16,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "200v_incandescent_light_bulb",
+    "name": "200V Incandescent Light Bulb",
+    "legacyId": 258,
+    "icon": "items/incandescentironlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 200,
+    "value": 30,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 16,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "small_50v_carbon_incandescent_light_bulb",
+    "name": "Small 50V Carbon Incandescent Light Bulb",
+    "legacyId": 260,
+    "icon": "items/incandescentcarbonlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 15,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 0.766,
+      "hours": 6,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_carbon_incandescent_light_bulb",
+    "name": "50V Carbon Incandescent Light Bulb",
+    "legacyId": 261,
+    "icon": "items/incandescentcarbonlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 25,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 0.8993333333333333,
+      "hours": 6,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "small_50v_economic_light_bulb",
+    "name": "Small 50V Economic Light Bulb",
+    "legacyId": 272,
+    "icon": "items/fluorescentlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 10,
+    "bulb": {
+      "type": "ECO",
+      "socket": "DOUILLE",
+      "nominalLight": 0.8326666666666667,
+      "hours": 64,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_economic_light_bulb",
+    "name": "50V Economic Light Bulb",
+    "legacyId": 273,
+    "icon": "items/fluorescentlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 15,
+    "bulb": {
+      "type": "ECO",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 64,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "200v_economic_light_bulb",
+    "name": "200V Economic Light Bulb",
+    "legacyId": 274,
+    "icon": "items/fluorescentlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 200,
+    "value": 15,
+    "bulb": {
+      "type": "ECO",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 64,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_farming_lamp",
+    "name": "50V Farming Lamp",
+    "legacyId": 288,
+    "icon": "items/farminglamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 120,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 1.0326666666666666,
+      "hours": 16,
+      "growRate": 0.5,
+      "range": 0
+    }
+  },
+  {
+    "id": "200v_farming_lamp",
+    "name": "200V Farming Lamp",
+    "legacyId": 292,
+    "icon": "items/farminglamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 200,
+    "value": 120,
+    "bulb": {
+      "type": "INCANDESCENT",
+      "socket": "DOUILLE",
+      "nominalLight": 1.0326666666666666,
+      "hours": 16,
+      "growRate": 0.5,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_led_bulb",
+    "name": "50V LED Bulb",
+    "legacyId": 293,
+    "icon": "items/ledlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 15,
+    "bulb": {
+      "type": "LED",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 512,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "200v_led_bulb",
+    "name": "200V LED Bulb",
+    "legacyId": 294,
+    "icon": "items/ledlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 200,
+    "value": 15,
+    "bulb": {
+      "type": "LED",
+      "socket": "DOUILLE",
+      "nominalLight": 0.966,
+      "hours": 512,
+      "growRate": 0,
+      "range": 0
+    }
+  },
+  {
+    "id": "50v_halogen_bulb",
+    "name": "50V Halogen Bulb",
+    "legacyId": 300,
+    "icon": "items/halogenlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 50,
+    "value": 250,
+    "bulb": {
+      "type": "HALOGEN",
+      "socket": "TUBE",
+      "nominalLight": 1.0326666666666666,
+      "hours": 128,
+      "growRate": 0,
+      "range": 8
+    }
+  },
+  {
+    "id": "200v_halogen_bulb",
+    "name": "200V Halogen Bulb",
+    "legacyId": 301,
+    "icon": "items/halogenlamp",
+    "kind": "LIGHT_BULB",
+    "nominalVoltage": 200,
+    "value": 500,
+    "bulb": {
+      "type": "HALOGEN",
+      "socket": "TUBE",
+      "nominalLight": 1.0326666666666666,
+      "hours": 128,
+      "growRate": 0,
+      "range": 16
+    }
+  }
+]

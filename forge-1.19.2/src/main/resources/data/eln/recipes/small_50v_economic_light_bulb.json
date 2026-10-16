@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GFG",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "item": "eln:copper_cable"
+    }
+  },
+  "result": {
+    "item": "eln:small_50v_economic_light_bulb",
+    "count": 4
+  }
+}

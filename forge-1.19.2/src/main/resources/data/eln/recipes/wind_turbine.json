@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IMI",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "eln:machine_block"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "M": {
+      "item": "eln:electrical_motor"
+    }
+  },
+  "result": {
+    "item": "eln:wind_turbine",
+    "count": 1
+  }
+}

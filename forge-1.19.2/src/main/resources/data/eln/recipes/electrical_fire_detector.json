@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbr",
+    "p p",
+    "r r"
+  ],
+  "key": {
+    "c": {
+      "item": "eln:signal_cable"
+    },
+    "b": {
+      "item": "eln:cheap_chip"
+    },
+    "r": {
+      "tag": "forge:rubber"
+    },
+    "p": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "eln:electrical_fire_detector",
+    "count": 1
+  }
+}

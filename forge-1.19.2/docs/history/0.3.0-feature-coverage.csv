@@ -1,0 +1,195 @@
+original_name,family,legacy_id,registration_source,registration_line,native_id,status,verification
+Ground Cable,six,128,SixNodeRegistration.kt,175,ground_cable,partially functional,See named executed tests; registration alone is not verification.
+Hub,six,136,SixNodeRegistration.kt,181,,missing,not executed
+Electrical Source,six,192,SixNodeRegistration.kt,192,electrical_source,partially functional,See named executed tests; registration alone is not verification.
+Signal Source,six,193,SixNodeRegistration.kt,199,signal_source,partially functional,See named executed tests; registration alone is not verification.
+Current Source,six,194,SixNodeRegistration.kt,206,current_source,partially functional,See named executed tests; registration alone is not verification.
+Signal Cable,six,2048,SixNodeRegistration.kt,219,signal_cable,partially functional,See named executed tests; registration alone is not verification.
+Low Voltage Cable,six,2052,SixNodeRegistration.kt,233,low_voltage_cable,partially functional,See named executed tests; registration alone is not verification.
+Medium Voltage Cable,six,2056,SixNodeRegistration.kt,252,medium_voltage_cable,partially functional,See named executed tests; registration alone is not verification.
+High Voltage Cable,six,2060,SixNodeRegistration.kt,265,high_voltage_cable,partially functional,See named executed tests; registration alone is not verification.
+Very High Voltage Cable,six,2064,SixNodeRegistration.kt,280,very_high_voltage_cable,partially functional,See named executed tests; registration alone is not verification.
+Creative Cable,six,2072,SixNodeRegistration.kt,294,creative_cable,partially functional,See named executed tests; registration alone is not verification.
+Signal Bus Cable,six,2068,SixNodeRegistration.kt,312,,missing,not executed
+Low Current Cable,six,2112,SixNodeRegistration.kt,332,low_current_cable,partially functional,See named executed tests; registration alone is not verification.
+Medium Current Cable,six,2113,SixNodeRegistration.kt,342,medium_current_cable,partially functional,See named executed tests; registration alone is not verification.
+High Current Cable,six,2114,SixNodeRegistration.kt,352,high_current_cable,partially functional,See named executed tests; registration alone is not verification.
+Low Current Relay,six,8064,SixNodeRegistration.kt,753,,missing,not executed
+Medium Current Relay,six,8065,SixNodeRegistration.kt,761,,missing,not executed
+High Current Relay,six,8066,SixNodeRegistration.kt,769,,missing,not executed
+Conduit,six,8128,SixNodeRegistration.kt,779,,missing,not executed
+Copper Thermal Cable,six,3073,SixNodeRegistration.kt,803,copper_thermal_cable,partially functional,See named executed tests; registration alone is not verification.
+120V Lamp Supply,six,4160,SixNodeRegistration.kt,1092,,missing,not executed
+240V Lamp Supply,six,4161,SixNodeRegistration.kt,1098,,missing,not executed
+240V Type J Socket,six,4289,SixNodeRegistration.kt,1109,,missing,not executed
+240V Type E Socket,six,4290,SixNodeRegistration.kt,1123,,missing,not executed
+10A Diode,six,6144,SixNodeRegistration.kt,1150,10a_diode,partially functional,See named executed tests; registration alone is not verification.
+25A Diode,six,6145,SixNodeRegistration.kt,1167,25a_diode,partially functional,See named executed tests; registration alone is not verification.
+Signal Diode,six,6152,SixNodeRegistration.kt,1187,signal_diode,partially functional,See named executed tests; registration alone is not verification.
+Power Capacitor,six,6176,SixNodeRegistration.kt,1212,power_capacitor,partially functional,See named executed tests; registration alone is not verification.
+Power Inductor,six,6178,SixNodeRegistration.kt,1223,power_inductor,partially functional,See named executed tests; registration alone is not verification.
+Variable inductor,six,6179,SixNodeRegistration.kt,1234,variable_inductor,partially functional,See named executed tests; registration alone is not verification.
+Power Resistor,six,6180,SixNodeRegistration.kt,1246,power_resistor,partially functional,See named executed tests; registration alone is not verification.
+Rheostat,six,6181,SixNodeRegistration.kt,1256,rheostat,partially functional,See named executed tests; registration alone is not verification.
+Thermistor,six,6182,SixNodeRegistration.kt,1266,,missing,not executed
+Creative Power Capacitor,six,6183,SixNodeRegistration.kt,1276,creative_power_capacitor,partially functional,See named executed tests; registration alone is not verification.
+Creative Power Inductor,six,6184,SixNodeRegistration.kt,1284,creative_power_inductor,partially functional,See named executed tests; registration alone is not verification.
+Creative Power Resistor,six,6185,SixNodeRegistration.kt,1292,creative_power_resistor,partially functional,See named executed tests; registration alone is not verification.
+5A Switch,six,6213,SixNodeRegistration.kt,1308,5a_switch,partially functional,See named executed tests; registration alone is not verification.
+20A Switch,six,6214,SixNodeRegistration.kt,1318,20a_switch,partially functional,See named executed tests; registration alone is not verification.
+50A Switch,six,6215,SixNodeRegistration.kt,1328,50a_switch,partially functional,See named executed tests; registration alone is not verification.
+100A Switch,six,6217,SixNodeRegistration.kt,1338,100a_switch,partially functional,See named executed tests; registration alone is not verification.
+Very High Voltage Switch,six,6212,SixNodeRegistration.kt,1349,,missing,not executed
+High Voltage Switch,six,6208,SixNodeRegistration.kt,1361,,missing,not executed
+Low Voltage Switch,six,6209,SixNodeRegistration.kt,1372,,missing,not executed
+Medium Voltage Switch,six,6210,SixNodeRegistration.kt,1390,,missing,not executed
+Modbus RTU,six,7488,SixNodeRegistration.kt,1427,,missing,not executed
+Analog Watch,six,7492,SixNodeRegistration.kt,1441,,missing,not executed
+Digital Watch,six,7493,SixNodeRegistration.kt,1451,,missing,not executed
+Digital Display,six,7494,SixNodeRegistration.kt,1461,digital_display,partially functional,See named executed tests; registration alone is not verification.
+Tutorial Sign,six,7496,SixNodeRegistration.kt,1474,,missing,not executed
+5A Electrical Breaker,six,6272,SixNodeRegistration.kt,1487,5a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+10A Electrical Breaker,six,6273,SixNodeRegistration.kt,1494,10a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+15A Electrical Breaker,six,6274,SixNodeRegistration.kt,1501,15a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+20A Electrical Breaker,six,6275,SixNodeRegistration.kt,1508,20a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+30A Electrical Breaker,six,6279,SixNodeRegistration.kt,1515,30a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+40A Electrical Breaker,six,6280,SixNodeRegistration.kt,1522,40a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+50A Electrical Breaker,six,6281,SixNodeRegistration.kt,1529,50a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+60A Electrical Breaker,six,6282,SixNodeRegistration.kt,1536,60a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+100A Electrical Breaker,six,6283,SixNodeRegistration.kt,1543,100a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+125A Electrical Breaker,six,6285,SixNodeRegistration.kt,1550,125a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+200A Electrical Breaker,six,6286,SixNodeRegistration.kt,1557,200a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+400A Electrical Breaker,six,6287,SixNodeRegistration.kt,1564,400a_electrical_breaker,partially functional,See named executed tests; registration alone is not verification.
+Energy Meter,six,6276,SixNodeRegistration.kt,1571,energy_meter,partially functional,See named executed tests; registration alone is not verification.
+Advanced Energy Meter,six,6277,SixNodeRegistration.kt,1577,advanced_energy_meter,partially functional,See named executed tests; registration alone is not verification.
+MQTT Energy Meter,six,6284,SixNodeRegistration.kt,1583,,missing,not executed
+Electrical Fuse Holder,six,6278,SixNodeRegistration.kt,1596,,missing,not executed
+Electrical Probe,six,6400,SixNodeRegistration.kt,1703,electrical_probe,partially functional,See named executed tests; registration alone is not verification.
+Voltage Probe,six,6401,SixNodeRegistration.kt,1709,voltage_probe,partially functional,See named executed tests; registration alone is not verification.
+Thermal Probe,six,6464,SixNodeRegistration.kt,1722,thermal_probe,partially functional,See named executed tests; registration alone is not verification.
+Temperature Probe,six,6465,SixNodeRegistration.kt,1728,temperature_probe,partially functional,See named executed tests; registration alone is not verification.
+Analog vuMeter,six,6528,SixNodeRegistration.kt,1740,analog_vumeter,partially functional,See named executed tests; registration alone is not verification.
+LED vuMeter,six,6536,SixNodeRegistration.kt,1746,led_vumeter,partially functional,See named executed tests; registration alone is not verification.
+Multicolor LED vuMeter,six,6537,SixNodeRegistration.kt,1752,multicolor_led_vumeter,partially functional,See named executed tests; registration alone is not verification.
+Nuclear Alarm,six,6592,SixNodeRegistration.kt,1764,,missing,not executed
+Standard Alarm,six,6593,SixNodeRegistration.kt,1770,,missing,not executed
+Electrical Daylight Sensor,six,6656,SixNodeRegistration.kt,1786,electrical_daylight_sensor,partially functional,See named executed tests; registration alone is not verification.
+Electrical Light Sensor,six,6657,SixNodeRegistration.kt,1792,electrical_light_sensor,partially functional,See named executed tests; registration alone is not verification.
+Electrical Weather Sensor,six,6660,SixNodeRegistration.kt,1801,electrical_weather_sensor,partially functional,See named executed tests; registration alone is not verification.
+Humidity Sensor,six,6661,SixNodeRegistration.kt,1810,,missing,not executed
+Thermometer Sensor,six,6662,SixNodeRegistration.kt,1819,thermometer_sensor,partially functional,See named executed tests; registration alone is not verification.
+Electrical Anemometer Sensor,six,6664,SixNodeRegistration.kt,1828,,missing,not executed
+Electrical Entity Sensor,six,6668,SixNodeRegistration.kt,1837,,missing,not executed
+Electrical Fire Detector,six,6669,SixNodeRegistration.kt,1846,,missing,not executed
+Electrical Fire Buzzer,six,6670,SixNodeRegistration.kt,1855,,missing,not executed
+Scanner,six,6671,SixNodeRegistration.kt,1864,,missing,not executed
+Redstone-to-Voltage Converter,six,6912,SixNodeRegistration.kt,1876,redstone_to_voltage_converter,partially functional,See named executed tests; registration alone is not verification.
+Voltage-to-Redstone Converter,six,6913,SixNodeRegistration.kt,1883,voltage_to_redstone_converter,partially functional,See named executed tests; registration alone is not verification.
+Electrical Timer,six,6976,SixNodeRegistration.kt,1894,,missing,not executed
+Signal Processor,six,6980,SixNodeRegistration.kt,1901,signal_processor,partially functional,See named executed tests; registration alone is not verification.
+MQTT Signal Controller,six,6981,SixNodeRegistration.kt,1907,,missing,not executed
+Wireless Signal Receiver,six,5888,SixNodeRegistration.kt,1919,wireless_signal_receiver,partially functional,See named executed tests; registration alone is not verification.
+Wireless Signal Transmitter,six,5896,SixNodeRegistration.kt,1926,wireless_signal_transmitter,partially functional,See named executed tests; registration alone is not verification.
+Wireless Signal Repeater,six,5904,SixNodeRegistration.kt,1934,,missing,not executed
+Data Logger,six,5952,SixNodeRegistration.kt,1946,data_logger,partially functional,See named executed tests; registration alone is not verification.
+Modern Data Logger,six,5953,SixNodeRegistration.kt,1954,modern_data_logger,partially functional,See named executed tests; registration alone is not verification.
+Industrial Data Logger,six,5954,SixNodeRegistration.kt,1962,industrial_data_logger,partially functional,See named executed tests; registration alone is not verification.
+5V Control Relay 10A,six,6021,SixNodeRegistration.kt,1976,5v_control_relay_10a,partially functional,See named executed tests; registration alone is not verification.
+12V Control Relay 20A,six,6022,SixNodeRegistration.kt,1983,12v_control_relay_20a,partially functional,See named executed tests; registration alone is not verification.
+12V Control Relay 50A,six,6023,SixNodeRegistration.kt,1990,12v_control_relay_50a,partially functional,See named executed tests; registration alone is not verification.
+12V Control Relay 100A,six,6024,SixNodeRegistration.kt,1997,12v_control_relay_100a,partially functional,See named executed tests; registration alone is not verification.
+Low Voltage Relay,six,6016,SixNodeRegistration.kt,2005,,missing,not executed
+Medium Voltage Relay,six,6017,SixNodeRegistration.kt,2012,,missing,not executed
+High Voltage Relay,six,6018,SixNodeRegistration.kt,2019,,missing,not executed
+Very High Voltage Relay,six,6019,SixNodeRegistration.kt,2026,,missing,not executed
+Signal Relay,six,6020,SixNodeRegistration.kt,2034,,missing,not executed
+Signal Trimmer,six,6080,SixNodeRegistration.kt,2054,signal_trimmer,partially functional,See named executed tests; registration alone is not verification.
+Signal Switch,six,6081,SixNodeRegistration.kt,2063,signal_switch,partially functional,See named executed tests; registration alone is not verification.
+Signal Button,six,6088,SixNodeRegistration.kt,2072,signal_button,partially functional,See named executed tests; registration alone is not verification.
+Wireless Button,six,6092,SixNodeRegistration.kt,2079,,missing,not executed
+Wireless Switch,six,6096,SixNodeRegistration.kt,2088,,missing,not executed
+Overhead Lines,transparent,4544,TransparentNodeRegistration.kt,194,,missing,not executed
+Under Track Power,transparent,4545,TransparentNodeRegistration.kt,201,,missing,not executed
+Wire Roller,transparent,4608,TransparentNodeRegistration.kt,212,,missing,not executed
+Wire Insulator,transparent,4609,TransparentNodeRegistration.kt,222,,missing,not executed
+Wire Combiner,transparent,4610,TransparentNodeRegistration.kt,232,,missing,not executed
+Variable DC-DC Converter,transparent,129,TransparentNodeRegistration.kt,313,variable_dc_dc_converter,partially functional,See named executed tests; registration alone is not verification.
+DC-DC Converter,transparent,130,TransparentNodeRegistration.kt,324,dc_dc_converter,partially functional,See named executed tests; registration alone is not verification.
+One-way DC-DC Converter,transparent,131,TransparentNodeRegistration.kt,335,,missing,not executed
+One-way Boost vDC/DC Converter,transparent,132,TransparentNodeRegistration.kt,347,,missing,not executed
+One-way Buck vDC/DC Converter,transparent,133,TransparentNodeRegistration.kt,359,,missing,not executed
+One-way Boost/Buck vDC/DC Converter,transparent,134,TransparentNodeRegistration.kt,371,,missing,not executed
+Isolation Transformer,transparent,135,TransparentNodeRegistration.kt,384,,missing,not executed
+Stone Heat Furnace,transparent,192,TransparentNodeRegistration.kt,402,,missing,not executed
+Fuel Heat Furnace,transparent,193,TransparentNodeRegistration.kt,417,,missing,not executed
+48V Turbine,transparent,257,TransparentNodeRegistration.kt,439,,missing,not executed
+240V Turbine,transparent,264,TransparentNodeRegistration.kt,457,,missing,not executed
+Steam Turbine,transparent,265,TransparentNodeRegistration.kt,476,steam_turbine,partially functional,See named executed tests; registration alone is not verification.
+Generator,transparent,266,TransparentNodeRegistration.kt,489,generator,partially functional,See named executed tests; registration alone is not verification.
+Gas Turbine,transparent,267,TransparentNodeRegistration.kt,506,gas_turbine,partially functional,See named executed tests; registration alone is not verification.
+Joint,transparent,268,TransparentNodeRegistration.kt,516,joint,partially functional,See named executed tests; registration alone is not verification.
+Joint hub,transparent,269,TransparentNodeRegistration.kt,526,joint_hub,partially functional,See named executed tests; registration alone is not verification.
+Flywheel,transparent,270,TransparentNodeRegistration.kt,536,flywheel,partially functional,See named executed tests; registration alone is not verification.
+Tachometer,transparent,271,TransparentNodeRegistration.kt,545,,missing,not executed
+Shaft Motor,transparent,272,TransparentNodeRegistration.kt,559,shaft_motor,partially functional,See named executed tests; registration alone is not verification.
+Clutch,transparent,273,TransparentNodeRegistration.kt,569,clutch,partially functional,See named executed tests; registration alone is not verification.
+Fixed Shaft,transparent,274,TransparentNodeRegistration.kt,578,,missing,not executed
+Radial Motor,transparent,275,TransparentNodeRegistration.kt,588,,missing,not executed
+Crank Shaft,transparent,276,TransparentNodeRegistration.kt,611,,missing,not executed
+Rolling Shaft ,transparent,277,TransparentNodeRegistration.kt,619,rolling_shaft,partially functional,See named executed tests; registration alone is not verification.
+Large Steam Turbine,transparent,278,TransparentNodeRegistration.kt,630,,missing,not executed
+Large Gas Turbine,transparent,279,TransparentNodeRegistration.kt,640,,missing,not executed
+Large Generator,transparent,280,TransparentNodeRegistration.kt,654,,missing,not executed
+Large Shaft Motor,transparent,281,TransparentNodeRegistration.kt,673,,missing,not executed
+Polarized Shaft Generator,transparent,282,TransparentNodeRegistration.kt,692,,missing,not executed
+Polarized Shaft Motor,transparent,283,TransparentNodeRegistration.kt,711,,missing,not executed
+Large Flywheel,transparent,284,TransparentNodeRegistration.kt,728,,missing,not executed
+Electrical Furnace,transparent,2048,TransparentNodeRegistration.kt,742,electrical_furnace,partially functional,See named executed tests; registration alone is not verification.
+48V Macerator,transparent,2112,TransparentNodeRegistration.kt,771,48v_macerator,partially functional,See named executed tests; registration alone is not verification.
+240V Macerator,transparent,2116,TransparentNodeRegistration.kt,783,240v_macerator,partially functional,See named executed tests; registration alone is not verification.
+Old 480V Arc Furnace,transparent,2176,TransparentNodeRegistration.kt,800,,missing,not executed
+48V Plate Machine,transparent,2368,TransparentNodeRegistration.kt,833,48v_plate_machine,partially functional,See named executed tests; registration alone is not verification.
+240V Plate Machine,transparent,2372,TransparentNodeRegistration.kt,846,240v_plate_machine,partially functional,See named executed tests; registration alone is not verification.
+24V Egg Incubator,transparent,2624,TransparentNodeRegistration.kt,863,,missing,not executed
+48V Compressor,transparent,2240,TransparentNodeRegistration.kt,878,48v_compressor,partially functional,See named executed tests; registration alone is not verification.
+240V Compressor,transparent,2244,TransparentNodeRegistration.kt,892,240v_compressor,partially functional,See named executed tests; registration alone is not verification.
+48V Magnetizer,transparent,2304,TransparentNodeRegistration.kt,910,,missing,not executed
+240V Magnetizer,transparent,2308,TransparentNodeRegistration.kt,923,,missing,not executed
+Small Solar Panel,transparent,3073,TransparentNodeRegistration.kt,957,small_solar_panel,partially functional,See named executed tests; registration alone is not verification.
+Small Rotating Solar Panel,transparent,3074,TransparentNodeRegistration.kt,980,small_rotating_solar_panel,partially functional,See named executed tests; registration alone is not verification.
+2x3 Solar Panel,transparent,3075,TransparentNodeRegistration.kt,991,,missing,not executed
+2x3 Rotating Solar Panel,transparent,3076,TransparentNodeRegistration.kt,1005,,missing,not executed
+Low Power Transmitter Antenna,transparent,448,TransparentNodeRegistration.kt,1037,,missing,not executed
+Low Power Receiver Antenna,transparent,449,TransparentNodeRegistration.kt,1048,,missing,not executed
+Medium Power Transmitter Antenna,transparent,450,TransparentNodeRegistration.kt,1060,,missing,not executed
+Medium Power Receiver Antenna,transparent,451,TransparentNodeRegistration.kt,1071,,missing,not executed
+High Power Transmitter Antenna,transparent,452,TransparentNodeRegistration.kt,1083,,missing,not executed
+High Power Receiver Antenna,transparent,453,TransparentNodeRegistration.kt,1094,,missing,not executed
+Cost Oriented Battery,transparent,1024,TransparentNodeRegistration.kt,1123,cost_oriented_battery,partially functional,See named executed tests; registration alone is not verification.
+Capacity Oriented Battery,transparent,1025,TransparentNodeRegistration.kt,1135,capacity_oriented_battery,partially functional,See named executed tests; registration alone is not verification.
+Voltage Oriented Battery,transparent,1026,TransparentNodeRegistration.kt,1147,voltage_oriented_battery,partially functional,See named executed tests; registration alone is not verification.
+Current Oriented Battery,transparent,1027,TransparentNodeRegistration.kt,1160,current_oriented_battery,partially functional,See named executed tests; registration alone is not verification.
+Life Oriented Battery,transparent,1028,TransparentNodeRegistration.kt,1172,life_oriented_battery,partially functional,See named executed tests; registration alone is not verification.
+Single-use Battery,transparent,1029,TransparentNodeRegistration.kt,1185,single_use_battery,partially functional,See named executed tests; registration alone is not verification.
+Experimental Battery,transparent,1030,TransparentNodeRegistration.kt,1196,experimental_battery,partially functional,See named executed tests; registration alone is not verification.
+Auto Miner,transparent,2688,TransparentNodeRegistration.kt,1213,,missing,not executed
+Wind Turbine,transparent,3136,TransparentNodeRegistration.kt,1246,,missing,not executed
+Water Turbine,transparent,3152,TransparentNodeRegistration.kt,1307,,missing,not executed
+48V Fuel Generator,transparent,4289,TransparentNodeRegistration.kt,1334,48v_fuel_generator,partially functional,See named executed tests; registration alone is not verification.
+240V Fuel Generator,transparent,4290,TransparentNodeRegistration.kt,1347,240v_fuel_generator,partially functional,See named executed tests; registration alone is not verification.
+Small Passive Thermal Dissipator,transparent,4096,TransparentNodeRegistration.kt,1363,,missing,not executed
+24V Small Active Thermal Dissipator,transparent,4128,TransparentNodeRegistration.kt,1375,,missing,not executed
+240V Active Thermal Dissipator,transparent,4130,TransparentNodeRegistration.kt,1387,,missing,not executed
+Experimental Transporter,transparent,4160,TransparentNodeRegistration.kt,1404,,missing,not executed
+Thermal Heat Exchanger,transparent,4162,TransparentNodeRegistration.kt,1437,,missing,not executed
+480V Defence Turret,transparent,4224,TransparentNodeRegistration.kt,1449,,missing,not executed
+Christmas Tree,transparent,4416,TransparentNodeRegistration.kt,1461,,missing,not executed
+Holiday Candle,transparent,4417,TransparentNodeRegistration.kt,1471,,missing,not executed
+String Lights,transparent,4418,TransparentNodeRegistration.kt,1481,,missing,not executed
+Fabricator,transparent,4480,TransparentNodeRegistration.kt,1496,,missing,not executed
+Grid DC-DC Converter,transparent,7875,TransparentNodeRegistration.kt,1507,,missing,not executed
+Utility Pole,transparent,7876,TransparentNodeRegistration.kt,1525,,missing,not executed
+Utility Pole w/DC-DC Converter,transparent,7877,TransparentNodeRegistration.kt,1546,,missing,not executed
+Transmission Tower,transparent,7878,TransparentNodeRegistration.kt,1564,,missing,not executed
+Direct Utility Pole,transparent,7879,TransparentNodeRegistration.kt,1584,,missing,not executed
+Grid Switch,transparent,7880,TransparentNodeRegistration.kt,1603,,missing,not executed

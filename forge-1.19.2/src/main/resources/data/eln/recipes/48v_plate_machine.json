@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "IMI",
+    "IcI"
+  ],
+  "key": {
+    "M": {
+      "item": "eln:machine_block"
+    },
+    "c": {
+      "item": "eln:electrical_motor"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eln:48v_plate_machine",
+    "count": 1
+  }
+}

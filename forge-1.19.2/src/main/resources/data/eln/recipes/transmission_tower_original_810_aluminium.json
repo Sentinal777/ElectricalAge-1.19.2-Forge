@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/aluminium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "ii ",
+          "mi ",
+          " B "
+        ],
+        "key": {
+          "i": {
+            "tag": "forge:ingots/aluminium"
+          },
+          "B": {
+            "tag": "forge:storage_blocks/aluminium"
+          },
+          "m": {
+            "item": "eln:machine_block"
+          }
+        },
+        "result": {
+          "item": "eln:transmission_tower",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

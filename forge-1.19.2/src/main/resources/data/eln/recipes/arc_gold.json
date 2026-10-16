@@ -1,0 +1,13 @@
+{
+  "type": "eln:processing",
+  "machine": "ARC_FURNACE",
+  "ingredient": {
+    "tag": "forge:ores/gold"
+  },
+  "input_count": 1,
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+  },
+  "joules": 5000
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "src/main/java/mods/eln/transparentnode/solarpanel/SolarPanelPowerProcess.java",
+    "destination": "src/main/java/mods/eln/transparentnode/solarpanel/SolarPanelPowerProcess.java",
+    "source_sha256": "6cd6c69275474fa856ab47e604260c59f71832b2622b334a942aa8e59b7a2d61",
+    "adaptation": "Entire original class; CompoundTag and putDouble replace the 1.7 NBT API."
+  },
+  {
+    "source": "src/main/kotlin/mods/eln/sixnode/LogicGate.kt",
+    "destination": "src/main/kotlin/mods/eln/sixnode/logicgate/LogicFunctions.kt",
+    "source_sha256": "541b9da2f0758fb78f72ccffac331ed7204c3717d91b8d0fabde03cf7b537496",
+    "adaptation": "Extract LogicFunction through JKFlipFlop, plus Pal. Original Boolean/analog/state/NBT logic. Replace legacy tooltip colors and translation boundary; supply the native solver timestep to oscillator phase."
+  },
+  {
+    "source": "src/main/kotlin/mods/eln/sixnode/AnalogChips.kt",
+    "destination": "src/main/kotlin/mods/eln/sixnode/AnalogFunctions.kt",
+    "source_sha256": "08e6f6eb99ff848b3cc7143b389fdae062954a4b4cdc6bcd190be4e18d1a5192",
+    "adaptation": "Extract all nine analog functions and their original state/NBT behavior. Translation and NBT API adapters; use supplied native timestep for oscillator phase. Original GUI classes are replaced by the native device menu."
+  },
+  {
+    "source": "src/test/kotlin/mods/eln/transparentnode/solarpanel/SolarPanelPowerProcessTest.kt",
+    "destination": "src/test/kotlin/mods/eln/transparentnode/solarpanel/SolarPanelPowerProcessTest.kt",
+    "source_sha256": "41b5df2fa925a6c4beab293c1bec438bdb53c9383344b95d0c9e46384d161972",
+    "adaptation": "First six original tests, unchanged assertions. Seventh requires the old world adapter; replaced by native floating-panel GameTest."
+  },
+  {
+    "source": "src/test/kotlin/mods/eln/sim/BatterySlowProcessTest.kt",
+    "destination": "src/test/kotlin/mods/eln/sim/BatterySlowProcessTest.kt",
+    "source_sha256": "9f6b875228942d79d6f50f4d5033a37ac7ccfe66ab828a0a73417a339cb4851d",
+    "adaptation": "Entire original test; NBT API names modernized where needed."
+  },
+  {
+    "source": "src/test/kotlin/mods/eln/sim/nbt/NbtBatteryProcessTest.kt",
+    "destination": "src/test/kotlin/mods/eln/sim/nbt/NbtBatteryProcessTest.kt",
+    "source_sha256": "5dbcbac507f54dcdf70bfa18382916fb8a8023c6a99bef9ce8e99321042103d3",
+    "adaptation": "Entire original test; NBT API names modernized where needed."
+  }
+]

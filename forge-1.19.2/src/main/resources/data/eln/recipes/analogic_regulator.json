@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    " C ",
+    " I "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "C": {
+      "item": "eln:cheap_chip"
+    }
+  },
+  "result": {
+    "item": "eln:analogic_regulator",
+    "count": 1
+  }
+}

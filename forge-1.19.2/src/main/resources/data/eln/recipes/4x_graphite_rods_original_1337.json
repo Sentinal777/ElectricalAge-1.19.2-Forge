@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eln:3x_graphite_rods"
+    },
+    {
+      "item": "eln:graphite_rod"
+    }
+  ],
+  "result": {
+    "item": "eln:4x_graphite_rods",
+    "count": 1
+  }
+}

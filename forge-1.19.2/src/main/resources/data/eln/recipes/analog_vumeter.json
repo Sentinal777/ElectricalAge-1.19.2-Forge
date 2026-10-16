@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "RIr",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "eln:iron_cable"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    },
+    "S": {
+      "item": "eln:signal_cable"
+    }
+  },
+  "result": {
+    "item": "eln:analog_vumeter",
+    "count": 1
+  }
+}
